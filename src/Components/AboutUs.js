@@ -1,6 +1,6 @@
 import React from "react";
 import TeamPic from "../Assets/images/resource/nessco-team.webp";
-import NesscoTeamPic from "../Assets/images/resource/nessco-team-pic1.webp";
+// import NesscoTeamPic from "../Assets/images/resource/nessco-team-pic1.webp";
 import Signature from "../Assets/images/resource/signature.webp";
 
 import { FaPlay } from "react-icons/fa";
@@ -11,9 +11,9 @@ const AboutUs = () => {
       <section className="homeaboutus">
         <div className="sectionContainer">
           <div className="leftabout">
-            <img className="leftaboutpic" src={TeamPic} />
+            <img className="leftaboutpic" alt="123" src={TeamPic} />
             <div className="leftaboutpic2">
-              <a className="playbtn">
+              <a className="playbtn" href="/">
                 <FaPlay />
               </a>
             </div>
@@ -42,7 +42,7 @@ const AboutUs = () => {
               <button className="getaquotebtn">
                 Get a Quote <MdArrowRightAlt style={{ fontSize: "3rem" }} />
               </button>
-              <img className="signatureimg" src={Signature} />
+              <img className="signatureimg" alt="123" src={Signature} />
             </div>
           </div>
         </div>

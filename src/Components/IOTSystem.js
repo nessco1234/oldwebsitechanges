@@ -19,35 +19,35 @@ const IOTSystem = () => {
             </p>
             <ul className="iotlist">
               <li>
-                <FaRegCircle /> Monitor Production Reports
+                  Monitor Production Reports
               </li>
               <li>
-                <FaRegCircle /> Monitor Production Reports
+                  Monitor Production Reports
               </li>
               <li>
-                <FaRegCircle /> Monitor Production Reports
+                  Monitor Production Reports
               </li>
               <li>
-                <FaRegCircle /> Monitor Production Reports
+                  Monitor Production Reports
               </li>
               <li>
-                <FaRegCircle /> Monitor Production Reports
+                  Monitor Production Reports
               </li>
               <li>
-                <FaRegCircle /> Monitor Production Reports
+                  Monitor Production Reports
               </li>
               <li>
-                <FaRegCircle /> Monitor Production Reports
+                  Monitor Production Reports
               </li>
               <li>
-                <FaRegCircle /> Monitor Production Reports
+                  Monitor Production Reports
               </li>
             </ul>
             <button className="getaquotebtn">
                 Get Details <MdArrowRightAlt style={{ fontSize: "3rem" }} /></button>
           </div>
           <div className="rightiot">
-            <img src={iot}/>
+            <img src={iot} alt="123"/>
           </div>
         </div>
       </section>

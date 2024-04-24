@@ -10,6 +10,7 @@
     height: 40px;
     color: white;
     padding: 1rem;
+    z-index: 10000000;
 }
 .staticicons{
     position: fixed;
