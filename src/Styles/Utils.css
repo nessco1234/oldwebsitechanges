@@ -1,0 +1,30 @@
+.staticSocial1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: white;
+    background-color: #25d366;
+    
+    width: 40px;
+    height: 40px;
+    color: white;
+    padding: 1rem;
+}
+.staticicons{
+    position: fixed;
+    bottom: 21.5%;
+    left: 0;
+}
+.staticSocial2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    background-color: #483d73;
+    width: 40px;
+    height: 40px;
+    color: white;
+    padding: 1rem;
+}
