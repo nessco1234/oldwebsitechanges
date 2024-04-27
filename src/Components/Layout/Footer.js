@@ -2,9 +2,11 @@ import React from 'react'
 import '../../Styles/Layout.css'
 import { Link } from 'react-router-dom'
 import { FaFacebookF, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
+import Subscribe from '../Home/Subscribe'
 const Footer = () => {
     return (
         <>
+        <Subscribe/>
             <footer className="footer">
                 <div className="footercontainer">
                     <div className="footerlinks">
@@ -80,7 +82,6 @@ const Footer = () => {
             </footer>
             <div className="footerrights">
                 <div className="footercontainerx">
-
                     <p className='footerright'>Nessco &copy; 2022 All Right Reserved</p>
                     <a className='footerright' href="/">Privacy Policy</a>
                 </div>

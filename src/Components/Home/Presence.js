@@ -1,7 +1,7 @@
 import React from 'react'
-import Shape from '../Assets/images/shape/shape-209.png'
-import Shape2 from '../Assets/images/shape/shape-210.png'
-import Map from '../Assets/images/resource/Nessco-Reaches-World-Map.webp'
+import Shape from '../../Assets/images/shape/shape-209.png'
+import Shape2 from '../../Assets/images/shape/shape-210.png'
+import Map from '../../Assets/images/resource/Nessco-Reaches-World-Map.webp'
 import { MdArrowRightAlt } from 'react-icons/md'
 const Presence = () => {
   return (

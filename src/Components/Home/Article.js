@@ -1,20 +1,21 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import news1 from '../Assets/images/news/news-1.webp'
-import news2 from '../Assets/images/news/news-2.webp'
-import news3 from '../Assets/images/news/news-3.webp'
+import news1 from '../../Assets/images/news/news-1.webp'
+import news2 from '../../Assets/images/news/news-2.webp'
+import news3 from '../../Assets/images/news/news-3.webp'
 const Article = () => {
     return (
         <>
             <section className="article">
                 <div className="articlecontainer">
-                    <h1 className="aboutusbtn " style={{marginLeft:"2.5rem"}}>ARTICLE</h1>
-                    <h1 className="articleheading" style={{marginLeft:"2.5rem"}}>
+                    <h1 className="aboutusbtn mm " style={{ marginLeft: "2.5rem" }}>ARTICLE</h1>
+                    <h1 className="articleheadings" style={{ marginLeft: "2.5rem" }}>
                         Latest <span>Articles</span>
                     </h1>
                     <div className="articlecards">
                         <div className="articlecard">
                             <Link className="uppersection">
+                                <div className="uppersectionoverlaylayer"></div>
                                 <img src={news1} alt="" />
                             </Link>
                             <div className="lowersection">
@@ -25,6 +26,8 @@ const Article = () => {
                         </div>
                         <div className="articlecard">
                             <Link className="uppersection">
+                                <div className="uppersectionoverlaylayer"></div>
+
                                 <img src={news2} alt="" />
                             </Link>
                             <div className="lowersection">
@@ -33,8 +36,10 @@ const Article = () => {
                                 <Link className='articlelink' to={'/'}>Read more</Link>
                             </div>
                         </div>
-                        <div className="articlecard">
+                        <div className="articlecard condition2">
                             <Link className="uppersection">
+                                <div className="uppersectionoverlaylayer"></div>
+
                                 <img src={news3} alt="" />
                             </Link>
                             <div className="lowersection">

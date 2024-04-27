@@ -1,7 +1,7 @@
 import React from "react";
-import TeamPic from "../Assets/images/resource/nessco-team.webp";
+import TeamPic from "../../Assets/images/resource/nessco-team.webp";
 // import NesscoTeamPic from "../Assets/images/resource/nessco-team-pic1.webp";
-import Signature from "../Assets/images/resource/signature.webp";
+import Signature from "../../Assets/images/resource/signature.webp";
 
 import { FaPlay } from "react-icons/fa";
 import { MdArrowRightAlt } from "react-icons/md";
@@ -19,7 +19,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="rightabout">
-            <h1 className="aboutusbtn">ABOUT US</h1>
+            <h1 className="aboutusbtn  KK">ABOUT US</h1>
             <h1 className="aboutheading">
               Paper cup machine <span> Manufacturer & Exporter</span>
             </h1>

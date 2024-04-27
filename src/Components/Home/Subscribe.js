@@ -1,5 +1,5 @@
 import React from 'react'
-import icon1 from '../Assets/images/icons/icon-1.png'
+import icon1 from '../../Assets/images/icons/icon-1.png'
 const Subscribe = () => {
   return (
     <>
