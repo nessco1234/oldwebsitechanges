@@ -13,7 +13,7 @@
   height: 100%;
   /* background-image: url("your-background-image.jpg"); */
   background: #f0f0f0;
-  opacity: 0.6;
+  opacity: 0.3;
   z-index: -1;
 }
 .footer::before {
@@ -21,11 +21,11 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 70%;
   height: 100%;
   /* background-image: url("your-background-image.jpg"); */
   background: url("../Assets/images/shape/wmap.webp") repeat-x;
-  animation: movingBackground 40s linear infinite;
+  animation: movingBackground 30s linear infinite;
 }
 
 @keyframes movingBackground {
@@ -37,7 +37,7 @@
   }
 }
 .footercontainer {
-  width: 90%;
+  width: 82%;
   margin: auto;
   position: relative;
 }

@@ -19,7 +19,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="rightabout">
-            <h1 className="aboutusbtn  KK">ABOUT US</h1>
+            <h1 className="aboutusbtn  mm">ABOUT US</h1>
             <h1 className="aboutheading">
               Paper cup machine <span> Manufacturer & Exporter</span>
             </h1>

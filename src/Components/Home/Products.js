@@ -1,129 +1,94 @@
-import React from 'react'
-import { useState, useEffect } from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-
-import { BiRightArrowAlt } from 'react-icons/bi'
-import product from '../../Assets/images/resource/disposable-paper-cup-making-machine.webp'
-const Products = () => {
-    const items = ['Item 1', 'Item 2', 'Item 3', 'Item 4'];
-    const [currentSlide, setCurrentSlide] = useState(0);
-    const [size,setsize]=useState(4)
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentSlide(currentSlide => (currentSlide + 1) % items.length);
-        }, 2000); // Change slide every 3 seconds
-
-        return () => clearInterval(interval);
-    }, []);
-    // if(window.innerWidth<=1099  ){
-    //     setsize(3)
-    // }
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import ProductCard from "../Product/ProductCard";
+import img1 from '../../Assets/images/resource/paper-bag-machine.webp'
+import { BiSolidRightArrowAlt } from "react-icons/bi";
+import { Link } from "react-router-dom";
+function App() {
     const settings = {
         // dots: true,
-        className:"productbox",
         infinite: true,
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 1,
-        initialSlide: 0,
-        
-        autoplay: true, // Autoplay handled manually
-        autoplaySpeed: 3000,
-        beforeChange: (oldIndex, newIndex) => {
-            setCurrentSlide(newIndex);
-        },
+        autoplay: true,
+        autoplaySpeed: 2000
+        // speed: 100,
     };
     return (
-        <>
-            <div className="products">
-                <div className="productcontainer">
-                    <h1 className="aboutusbtn mar">Our Machines</h1>
-                    <p className="productdesc">
-                        We are known for manufacturing and globally exporting various paper packaging machines including
-                        Cups, Glass, Straws and Plate Machines.
-                    </p>
-                    <Slider {...settings}  >
-                        <div className="slick-slide" >
-                            <div className="productupper">
-                                <img src={product} alt="" />
+        <div className='product'>
+        .pro
+            <div className="productcontainer">
+                <h1 className="aboutusbtn align">OUR MACHINES</h1>
+                <h1 className="productssstitle">Our Products</h1>
+                <p className="productsssdesc">We are known for manufacturing and globally exporting various paper packaging machines including
+                    Cups, Glass, Straws and Plate Machines.</p>
+                <Slider {...settings} className="productbox">
+                    {data.map((d) => (
+                        <>
+                            <Link className="productssscard">
+                                <div className="productsssupper">
+                                    <img src={img1} alt="" />
+                                </div>
+                                <div className="productssslower">
+                                    {/* <img src={img1} alt="" /> */}
+                                    <h1 className="productsssheading">Paper Container Bowl Making Machine</h1>
+                                    <h1 className="productssslink">View Machine <BiSolidRightArrowAlt /></h1>
+                                </div>
+                            </Link>
+                        </>
+                    ))}
+                </Slider>
+                <Slider {...settings} className="productbox">
+                    {data.map((d) => (
+                        <>
+                            <div className="productssscard">
+                                <div className="productsssupper">
+                                    <img src={img1} alt="" />
+                                </div>
+                                <div className="productssslower">
+                                    {/* <img src={img1} alt="" /> */}
+                                    <h1 className="productsssheading">Paper Container Bowl Making Machine</h1>
+                                    <h1 className="productssslink">View Machine <BiSolidRightArrowAlt /></h1>
+                                </div>
                             </div>
-                            <div className="productlower">
-                                <h1 className="productheading">Paper Food Bag Making Machine</h1>
-                                <a href="/" className='productlink' >View Machine <BiRightArrowAlt /> </a>
-                            </div>
-                        </div>
-                        <div className="product">
-                            <div className="productupper">
-                                <img src={product} alt="" />
-                            </div>
-                            <div className="productlower">
-                                <h1 className="productheading">Paper Food Bag Making Machine</h1>
-                                <a href="/" className='productlink' >View Machine <BiRightArrowAlt /> </a>
-                            </div>
-                        </div>
-                        <div className="product">
-                            <div className="productupper">
-                                <img src={product} alt="" />
-                            </div>
-                            <div className="productlower">
-                                <h1 className="productheading">Paper Food Bag Making Machine</h1>
-                                <a href="/" className='productlink' >View Machine <BiRightArrowAlt /> </a>
-                            </div>
-                        </div>
-                        <div className="product">
-                            <div className="productupper">
-                                <img src={product} alt="" />
-                            </div>
-                            <div className="productlower">
-                                <h1 className="productheading">Paper Food Bag Making Machine</h1>
-                                <a href="/" className='productlink' >View Machine <BiRightArrowAlt /> </a>
-                            </div>
-                        </div>
-                    </Slider>
-                    <div className="productbox mmm">
-                        <div className="product">
-                            <div className="productupper">
-                                <img src={product} alt="" />
-                            </div>
-                            <div className="productlower">
-                                <h1 className="productheading">Paper Food Bag Making Machine</h1>
-                                <a href="/" className='productlink' >View Machine <BiRightArrowAlt /> </a>
-                            </div>
-                        </div>
-                        <div className="product">
-                            <div className="productupper">
-                                <img src={product} alt="" />
-                            </div>
-                            <div className="productlower">
-                                <h1 className="productheading">Paper Food Bag Making Machine</h1>
-                                <a href="/" className='productlink' >View Machine <BiRightArrowAlt /> </a>
-                            </div>
-                        </div>
-                        <div className="product">
-                            <div className="productupper">
-                                <img src={product} alt="" />
-                            </div>
-                            <div className="productlower">
-                                <h1 className="productheading">Paper Food Bag Making Machine</h1>
-                                <a href="/" className='productlink' >View Machine <BiRightArrowAlt /> </a>
-                            </div>
-                        </div>
-                        <div className="product">
-                            <div className="productupper">
-                                <img src={product} alt="" />
-                            </div>
-                            <div className="productlower">
-                                <h1 className="productheading">Paper Food Bag Making Machine</h1>
-                                <a href="/" className='productlink' >View Machine <BiRightArrowAlt /> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                        </>
+                    ))}
+                </Slider>
             </div>
-        </>
-    )
+
+        </div>
+    );
 }
 
-export default Products
+const data = [
+    {
+        name: `John Morgan`,
+        img: `/students/John_Morgan.jpg`,
+        review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+    },
+    {
+        name: `Ellie Anderson`,
+        img: `/students/Ellie_Anderson.jpg`,
+        review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+    },
+    {
+        name: `Nia Adebayo`,
+        img: `/students/Nia_Adebayo.jpg`,
+        review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+    },
+    {
+        name: `Rigo Louie`,
+        img: `/students/Rigo_Louie.jpg`,
+        review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+    },
+    {
+        name: `Mia Williams`,
+        img: `/students/Mia_Williams.jpg`,
+        review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+    },
+
+];
+
+export default App;
