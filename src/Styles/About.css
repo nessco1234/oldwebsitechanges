@@ -37,3 +37,240 @@
     margin-top: 1rem;
     color: grey;
 }
+.aboutnessco{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+.aboutnesscocontainer{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.aboutnesscoleft,.aboutnesscoright{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.aboutusheading{
+    color: var(--redcolor);
+    font-size: 3.8rem;
+}
+.aboutussubheading{
+    margin-top: 2rem;
+    color: var(--bluecolor);
+    font-size: 2.3rem;
+}
+.aboutusdescription{
+    line-height: 2.2rem;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.699);
+    font-weight: 100;
+    /* text-align: center/; */
+}
+.aboutdescription{
+    width: 100%;
+    height: 500px;
+}
+.aboutdescriptioncontainer{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.aboutdescheading{
+    color: var(--bluecolor);
+    font-size: 3rem;
+    text-align: center;
+}
+.aboutdescheading>span{
+    color: var(--redcolor);
+}
+.aboutdescpara{
+    color: rgba(0, 0, 0, 0.71);
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.aboutvision{
+    width: 100%;
+    height: 100vh;
+}
+.aboutvisioncontainer{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutvisionleft{
+    width: 45%;
+}
+.aboutvisionright{
+    width: 45%;
+}
+.aboutvisionimg{
+    width: 100%;
+    border-radius: 5px;
+}
+.aboutvisionheading{
+    font-size: 3rem;
+    color: var(--bluecolor);
+    margin-bottom: 4rem;
+}
+.aboutvisionheading>span{
+    color: var(--redcolor);
+}
+.aboutvisiondesc{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.707);
+    margin: 4rem 0;
+    line-height: 2.1rem;
+}
+.aboutskills{
+    width: 100%;
+    height: 600px;
+    background-color: #f7f7f7;
+}
+.aboutskillscontainer{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutskillsleft{
+    width: 50%;
+}
+.aboutskillsheading{
+    color: var(--bluecolor);
+    font-size: 3.5rem;
+}
+.aboutskillsheading>span{
+    color: var(--redcolor);
+}
+.aboutskillspara{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    margin-top: 2rem;
+}
+.aboutskillright{
+    /* width: 100%; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    /* height: 100%; */
+}
+.aboutskillcontentbox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem auto;
+}
+.aboutskillcontentleft{
+    width: 16%;
+}
+.aboutskillcontentleft>img{
+    width: 100%;
+}
+.aboutskillcontentright{
+    width: 70%;
+    margin-left: 1rem;
+}
+.aboutskillcontentheading{
+    font-size: 1.9rem;
+    color: var(--bluecolor);
+}
+.aboutskillcontentdesc{
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+.aboutexperts{
+    width: 100%;
+    min-height: 100vh;
+}
+.aboutexpertcontainer{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aboutexpertsheading{
+    font-size: 3.4rem ;
+    color: var(--bluecolor);
+    text-align: center;
+}
+.aboutexpertsheading>span{
+    color: var(--redcolor);
+}
+.aboutexpertspics{
+    width: 100%;
+    margin: 7rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutexpertcontent{
+    width: 30%;
+}
+.aboutexpertspic{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+}
+.aboutexpertspic::after{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgb(0, 0, 0); */
+    content: '';
+    transition: all .5s ease-in-out;
+}
+.aboutexpertcontent:hover .aboutexpertspic::after{
+    background-color: black;
+    opacity: .6;
+}
+.aboutexpertspic>img{
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease-in-out;
+}
+.aboutexpertcontent:hover img{
+    transform: scale(1.1);
+}
+.aboutexpertsname{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--bluecolor);
+    margin-top: 2rem;
+}
+.aboutexpertspost{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    color: rgba(0, 0, 0, 0.699);
+}

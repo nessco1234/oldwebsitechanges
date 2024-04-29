@@ -36,25 +36,39 @@
   display: inline-block;
   max-width: 100%;
   height: auto;
-  transition-delay: .1s;
+  transition-delay: 0.1s;
   transition-timing-function: ease-in-out;
-  transition-duration: .7s;
+  transition-duration: 0.7s;
   transition-property: all;
 }
-.leftabout::before{
+.leftabout::before {
   position: absolute;
-    top: 0;
-    left: -75%;
-    display: block;
-    content: '';
-    width: 50%;
-    height: 100%;
-    background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
-    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, .3)));
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
-    -webkit-transform: skewX(-25deg);
-    -ms-transform: skewX(-25deg);
-    transform: skewX(-25deg);
+  top: 0;
+  left: -75%;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+  background: -o-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(255, 255, 255, 0)),
+    to(rgba(255, 255, 255, 0.3))
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  -webkit-transform: skewX(-25deg);
+  -ms-transform: skewX(-25deg);
+  transform: skewX(-25deg);
 }
 
 .leftaboutpic2 {
@@ -79,8 +93,6 @@
   background-color: white;
   /* position: relative; */
 }
-
-
 
 .aboutusbtn {
   background-color: red;
@@ -217,7 +229,7 @@
 .rightiot > img {
   width: 100%;
 }
-.aboutusbtn{
+.aboutusbtn {
   font-weight: 500;
   font-size: 1.3rem;
 }
@@ -391,7 +403,7 @@
   overflow: hidden;
   position: relative;
 }
-.uppersectionoverlaylayer{
+.uppersectionoverlaylayer {
   position: absolute;
   top: 0;
   left: 0;
@@ -413,7 +425,7 @@
   overflow: hidden;
 }
 .articlecard:hover .uppersection .uppersectionoverlaylayer {
-  opacity: .7;
+  opacity: 0.7;
 }
 /* .articlecard:hover .uppersection>img::before{
   top: 0;
@@ -708,23 +720,26 @@
 /* BANNER  */
 .mySwiper {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  position: relative;
+  z-index: -1;
 }
 .bannerslide {
   width: 100%;
   height: 100vh;
-  background: url("../Assets/images/banner/banner-image-nessco-2.webp") no-repeat
-    center center/cover;
+  background: url("../Assets/images/banner/banner-image-nessco-2.webp")
+    no-repeat center center/cover;
   /* transform: translate3d(-4047px, 0px, 0px); */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   animation: anima 5s linear infinite;
+  z-index: -2;
 }
 .bannerslide::after {
   position: absolute;
@@ -737,17 +752,58 @@
   opacity: 0.2;
   z-index: -1;
 }
+.imglayer2 {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: url("../Assets/images/shape/shape-2.png");
+  width: 425px;
+  height: 576px;
+  background-repeat: no-repeat;
+}
+.imglayer1 {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: url("../Assets/images/shape/shape-3.png");
+  width: 425px;
+  height: 576px;
+  background-repeat: no-repeat;
+}
+.imglayer3 {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background: url("../Assets/images/shape/shape-4.png");
+  width: 442px;
+  height: 273px;
+  background-repeat: no-repeat;
+}
+.imglayer4 {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  background: url("../Assets/images/shape/shape-5.png");
+  width: 382px;
+    height: 291px;
+    background-repeat: no-repeat;
+}
 @keyframes anima {
-  0%{
+  0% {
     /* width: 70%; */
     transform: scale(1);
   }
-  100%{
+  100% {
     /* width: 100%; */
     transform: scale(1.3);
   }
 }
-
 
 .wenessco {
   width: 100%;
@@ -987,7 +1043,7 @@
 
 /* ////////////////////////////////// */
 /* MEDIA QUERY FOR TABLET */
-@media screen and (min-width: 768px) and (max-width: 1100px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .wenesscobuttons {
     display: none;
   }
@@ -1220,7 +1276,7 @@
   .creationcontent {
     width: 100%;
   }
-  .creationheading{
+  .creationheading {
     font-size: 3.5rem;
   }
   .youtubebtn {
@@ -1279,14 +1335,14 @@
   .homestatcontentbox {
     min-width: 45%;
   }
-  .article{
+  .article {
     z-index: -1;
   }
   .articlecards {
     flex-wrap: wrap;
     justify-content: flex-start;
   }
-  .articlecards{
+  .articlecards {
     margin-bottom: 3rem;
   }
   .articlecard {
@@ -1295,10 +1351,10 @@
     margin: 1rem auto;
     /* z-index: -1; */
   }
-  .lowersection{
+  .lowersection {
     padding: 2rem;
   }
-  .articleheading{
+  .articleheading {
     font-size: 1.9rem;
   }
   .condition2 {
@@ -1327,56 +1383,56 @@
     min-width: 28%;
     margin: auto 2rem;
   }
-  .subscribe{
+  .subscribe {
     height: 300px;
   }
-  .leftsubscribe{
+  .leftsubscribe {
     width: 100%;
   }
-  .rightsubscribe{
+  .rightsubscribe {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
   }
-  .mm{
+  .mm {
     margin-top: 3rem;
     /* margin-right: 2rem ; */
   }
-  .testimonialsec{
+  .testimonialsec {
     width: 100%;
     z-index: -1;
   }
-  .iotlist{
+  .iotlist {
     flex-direction: column;
   }
-  .iotlist >li {
+  .iotlist > li {
     width: 80%;
   }
-  .iotpara{
+  .iotpara {
     word-spacing: 2px;
     font-size: 1.5rem;
   }
-  .creation{
+  .creation {
     background-size: cover;
   }
-  .creationheading{
+  .creationheading {
     font-size: 3rem;
   }
-  .leftaboutpic{
+  .leftaboutpic {
     display: none;
   }
-  .leftaboutpic2{
+  .leftaboutpic2 {
     width: 100%;
     left: 0%;
     top: 0;
     z-index: -1;
   }
-  .KK{
+  .KK {
     margin-top: 10rem;
   }
-  .rightsubscribe{
+  .rightsubscribe {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1384,26 +1440,27 @@
     align-items: center;
     /* margin-top: 1rem ; */
   }
-  .subscribebtn{
+  .subscribebtn {
     width: 100%;
     margin-top: 1rem;
   }
-  .signatureimg{
+  .signatureimg {
     width: 30%;
   }
-  .aboutpara{
+  .aboutpara {
     font-weight: 500;
   }
-  .iotheading{
+  .iotheading {
     font-size: 3rem;
   }
-  .iotpara{
+  .iotpara {
     font-weight: 500;
   }
-  .presencepara{
+  .presencepara {
     font-weight: 500;
   }
-  .staticimage1,.staticimage2{
+  .staticimage1,
+  .staticimage2 {
     display: none;
   }
 }

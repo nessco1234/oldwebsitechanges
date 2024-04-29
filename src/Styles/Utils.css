@@ -82,7 +82,7 @@
   
   .navbar{
     width: 100%;
-    height: 14vh;
+    height: 12vh;
     position: sticky;
     top: 0;
     left: 0;
@@ -92,7 +92,7 @@
     /* border: 2px solid black; */
   }
   .navbarcontainer{
-    padding: 1rem 0;
+    /* padding: 1rem 0; */
     width: 85%;
     height: 100%;
     margin: auto;
@@ -105,10 +105,12 @@
   }
   .navlink{
     margin: 0 1.3rem;
+    padding-top: 4rem;
     color: black;
     font-size: 1.6rem;
     font-weight: 600;
     transition: all .5s ease;
+    height: 100%;
   }
   .navlink:hover{
     color: var(--redcolor);
@@ -117,6 +119,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
   }
   .headerbtn{
     padding: 2rem;
@@ -186,4 +189,58 @@
   .navlist{
     display:none;
   }
+}
+
+.nav-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-title {
+  cursor: pointer;
+}
+
+.menu-list {
+  width: 80%;
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  background-color: white;
+  padding: 4rem 2rem;
+  /* border: 1px solid #ccc; */
+  list-style-type: none;
+  display: flex;
+  box-shadow: 0 0 40px 0 rgba(128, 128, 128, 0.166);
+}
+.menulistitems{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 20%;
+  margin: auto;
+  justify-content: center;
+}
+.menulistheading{
+  font-size: 1.7rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.249);
+  padding: 1rem 0;
+  color: black;
+  width: 100%;
+}
+.menulistlinks{
+  font-size: 1.5rem;
+  color: grey;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.249);
+  margin-top: 1rem;
+  width: 100%;
+  transition: all .3s ease-in-out;
+}
+.menulistlinks:hover{
+  color: var(--redcolor);
+  border-color: var(--redcolor);
+}
+.nav-menu:hover .menu-list {
+  display: block;
 }
