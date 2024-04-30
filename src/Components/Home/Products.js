@@ -13,21 +13,31 @@ function App() {
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000
+        pauseOnHover: false,
+        autoplaySpeed: 2000,
         // speed: 100,
     };
+    // const settings2 = {
+    //     // dots: true,
+    //     infinite: true,
+    //     speed: 500,
+    //     slidesToShow: 4,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     autoplaySpeed: 1000
+    //     // speed: 100,
+    // };
     return (
         <div className='product'>
-        .pro
             <div className="productcontainer">
                 <h1 className="aboutusbtn align">OUR MACHINES</h1>
                 <h1 className="productssstitle">Our Products</h1>
                 <p className="productsssdesc">We are known for manufacturing and globally exporting various paper packaging machines including
                     Cups, Glass, Straws and Plate Machines.</p>
-                <Slider {...settings} className="productbox">
+                <Slider {...settings}  className="productbox" >
                     {data.map((d) => (
                         <>
-                            <Link className="productssscard">
+                            <Link className="productssscard" >
                                 <div className="productsssupper">
                                     <img src={img1} alt="" />
                                 </div>
@@ -40,7 +50,7 @@ function App() {
                         </>
                     ))}
                 </Slider>
-                <Slider {...settings} className="productbox">
+                <Slider {...settings}  className="productbox" >
                     {data.map((d) => (
                         <>
                             <div className="productssscard">

@@ -47,3 +47,12 @@ function App() {
 }
 
 export default App;
+// import React from 'react'
+// import './Styles/Home.css'
+// const App = () => {
+//   return (
+//     <button class="myBtn theme-btn theme-btn-three" id="myBtn"><span data-text="Inquire Now!">Inquire Now!</span></button>
+//   )
+// }
+
+// export default App

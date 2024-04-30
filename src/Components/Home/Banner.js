@@ -1,5 +1,8 @@
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa6';
+import BannerContent from './BannerContent';
+import { BiRightArrowAlt } from 'react-icons/bi';
+import { Link } from 'react-router-dom';
 export default function App() {
   return (
     <>
@@ -14,11 +17,13 @@ export default function App() {
           <div className="imglayer4"></div>
         </div>
         <div className='bannerslide'>
-          <div className="bannerslidecontainer">
+          {/* <div className="bannerslidecontainer">
             <h1 className='bannerslideheading'>Envision Sucess Through  Innovation <span></span></h1>
             <p className="bannerslidepara">High Speed Machines that are Enginnered for you <span></span></p>
             <button className="bannerbtn">Get a Quote <FaArrowRight /></button>
-          </div>
+          </div> */}
+          <BannerContent/>
+          <Link to={'/'} className='bannerbtn'>Get a Quote <BiRightArrowAlt/></Link>
         </div>
       </div>
     </>

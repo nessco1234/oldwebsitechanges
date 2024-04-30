@@ -13,11 +13,13 @@ import HomeStats from "../Components/Home/HomeStats";
 import WeAreNessco from "../Components/Home/WeAreNessco";
 import Testimonials from "../Components/Home/Testimonials";
 import Products from "../Components/Home/Products";
+import BannerContent from "../Components/Home/BannerContent";
 const Home = () => {
   
   return (
     <>
       <Banner/>
+      {/* <BannerContent/> */}
       <WeAreNessco/>
       <AboutUs />
       <Products/>
@@ -28,6 +30,7 @@ const Home = () => {
       <InfinteCompany/>
       <HomeStats/>
       <Article/>
+      
     </>
   );
 };
