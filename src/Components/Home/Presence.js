@@ -3,6 +3,7 @@ import Shape from '../../Assets/images/shape/shape-209.png'
 import Shape2 from '../../Assets/images/shape/shape-210.png'
 import Map from '../../Assets/images/resource/Nessco-Reaches-World-Map.webp'
 import { MdArrowRightAlt } from 'react-icons/md'
+import { FaArrowRightLong } from 'react-icons/fa6'
 const Presence = () => {
   return (
     <section className='presenceSection'>
@@ -25,9 +26,9 @@ const Presence = () => {
             <input  className='presenceinpfields' type="text" placeholder='Full Name*' />
             <input className='presenceinpfields' type="text" placeholder='Email' />
             <input  className='presenceinpfields' type="text" placeholder='Phone Number' />
-            <textarea className='presenceinpfields'  name="" id="" cols="20" rows="10" placeholder='Message' />
-            <button className="getaquotebtn">
-              Send Message <MdArrowRightAlt style={{ fontSize: "3rem" }} /></button>
+            <textarea className='presenceinpfields'  name="" id="" cols="10" rows="10" placeholder='Message' />
+            <button className="headerbtn" style={{padding:"2rem 3rem"}}>
+                <p className='headerbtncon'>Send Message !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ import Subscribe from '../Home/Subscribe'
 const Footer = () => {
     return (
         <>
-        <Subscribe/>
+            <Subscribe />
             <footer className="footer">
                 <div className="footercontainer">
                     <div className="footerlinks">

@@ -5,6 +5,7 @@ import Signature from "../../Assets/images/resource/signature.webp";
 
 import { FaPlay } from "react-icons/fa";
 import { MdArrowRightAlt } from "react-icons/md";
+import { FaArrowRightLong } from "react-icons/fa6";
 const AboutUs = () => {
   return (
     <>
@@ -39,9 +40,8 @@ const AboutUs = () => {
               improvisation for sustainable development.
             </p>
             <div className="aboutbtnsection">
-              <button className="getaquotebtn">
-                Get a Quote <MdArrowRightAlt style={{ fontSize: "3rem" }} />
-              </button>
+              <button className="headerbtn" style={{padding:"2rem 3rem"}}>
+                <p className='headerbtncon'>Get a Quote !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
               <img className="signatureimg" alt="123" src={Signature} />
             </div>
           </div>

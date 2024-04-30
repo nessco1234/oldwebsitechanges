@@ -2,6 +2,7 @@ import React from "react";
 import { FaRegCircle } from "react-icons/fa";
 import { MdArrowRightAlt } from "react-icons/md";
 import iot from '../../Assets/images/resource/iot.webp'
+import { FaArrowRightLong } from "react-icons/fa6";
 const IOTSystem = () => {
   return (
     <>
@@ -43,8 +44,8 @@ const IOTSystem = () => {
                   Monitor Production Reports
               </li>
             </ul>
-            <button className="getaquotebtn">
-                Get Details <MdArrowRightAlt style={{ fontSize: "3rem" }} /></button>
+            <button className="headerbtn" style={{padding:"2rem 3rem"}}>
+                <p className='headerbtncon'>Get Details !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
           </div>
           <div className="rightiot">
             <img src={iot} alt="123"/>

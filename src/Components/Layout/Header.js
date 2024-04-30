@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { MdArrowRightAlt } from 'react-icons/md'
 import { Link } from 'react-router-dom'
 import logo from '../../Assets/images/logo.webp'
+import { FaArrowRightLong } from 'react-icons/fa6'
 const Header = () => {
     const [isHovered, setIsHovered] = useState(false);
     return (
@@ -56,7 +57,7 @@ const Header = () => {
                         <Link className='navlink' to={'/contact'}>CONTACT US</Link>
                     </ul>
                     <button className="headerbtn">
-                        Inquire Now ! <MdArrowRightAlt style={{ fontSize: "3rem" }} /></button>
+                        <p className='headerbtncon'>Inquire Now !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
                 </div>
             </nav>
         </>

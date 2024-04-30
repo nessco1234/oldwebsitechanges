@@ -134,7 +134,31 @@
     color: white;
     font-weight: 600;
     font-size: 1.3rem;
+    text-shadow: -0px 0px 0 #ffffff; /* Horizontal offset, vertical offset, blur radius, color */
+    transition: all 0.5s ease; /* Optional: Add transition effect */
+    overflow: hidden;
+    /* opacity: 0; */
+    z-index: 199;
   }
+  .headerbtn:hover .headerbtncon{
+    /* opacity: 0; */
+    transform: translateX(-5px);
+  }
+  .headerbtncon{
+    transform: translateX();
+  }
+  .headerbtn:hover {
+    text-shadow: -300px 0px 0 #ffffff; /* Move shadow to the left on hover */
+    background-color: var(--redcolor);
+    transform: scale(1.05);
+  }
+  .headerbtnarrow{
+    transition: all 0.5s ease; /* Optional: Add transition effect */
+  }
+  .headerbtnarrow {
+    transform: translateX(5px);
+  }
+
   /* . */
   /* BREADCRUM */
   .breadcrum{
@@ -237,6 +261,8 @@
   margin-top: 1rem;
   width: 100%;
   transition: all .3s ease-in-out;
+  font-family: 'Inter';
+
 }
 .menulistlinks:hover{
   color: var(--redcolor);
