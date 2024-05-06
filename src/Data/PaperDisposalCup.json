@@ -1,0 +1,108 @@
+{
+    "Route": "disposable-paper-cup-making-machine",
+    "Heading": "Disposable Cup making Machine",
+    "Description": "NS-200 Disposable Cup making Machine is manufactured using latest technology and high tech equipment which are reliable as well as durable. This is the best Disposable cup making machine which has two-layer system for movement of Paper fans which is formed by a kind of arm arrangement for cup cone tracker. Robotic Arm plays a vital role in transferring cup cone to Moulds for further process of Bottom heating, knurling and Top curling. Moreover, this machine has certain additional features like photoelectric sensors for paper feeding and cup counting.",
+    "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
+    "Imgdesc": [
+        "All operations in our disposable cup machine is carried through Single Motor Power Supply which eventually results in less Power consumption. The whole process of cup formation is performed using Open Cam technology which ensures proper lubrication passed on by its oil bath arrangement which helps in reducing friction among various mechanical parts of the machine."
+    ],
+    "Suggestions": [
+        {
+            "id": "1",
+            "name": "Paper Bowl Machine",
+            "suggestionlink": "/product/paper-container-bowl-making-machine/"
+        },
+        {
+            "id": "2",
+            "name": "Paper Bag Machine",
+            "suggestionlink": "/product/paper-bag-making-machine/"
+        },
+        {
+            "id": "3",
+            "name": "Paper Cultery Machine",
+            "suggestionlink": "/product/paper-cutlery-machine/"
+        },
+        {
+            "id": "4",
+            "name": "Die Cutting Machine",
+            "suggestionlink": "/product/roll-die-cutting-machine/"
+        },
+        {
+            "id": "5",
+            "name": "Flexo Printing Machine",
+            "suggestionlink": "/product/flexo-printing-machine/"
+        }
+    ],
+    "ImageComponent": false,
+    "PointsComponent": true,
+    "MultipleImageComp":false,
+    "MultipleTable":false,
+    
+    "PointsHeading": [
+        "Disposable Cup",
+        "Making Machine"
+    ],
+    "PointsHeadingDesc":"This machine has two-layer system for movement of Paper fans which is formed by a kind of arm arrangement for cup cone tracker. Robotic Arm plays a vital role in transferring cup cone to Molds for further process of Bottom heating, knurling and Top curling. This model is highly automated with photoelectric sensors for detecting any kind of breakage in the system. This model is designed in compact structure with an additional PLC controlled Screen (Human Machine Interface) for better User Interface and Safety doors for safety purpose.",
+    "PointsDescription": [
+        "Gear Driven System",
+        "Centralized Rotating System",
+        "Rail Bearing System",
+        "Automatic Lubrication"
+    ],
+    "MachineSpecsLabels":["FEATURE","SPECIFICATION"],
+    "MachineSpecs": [
+        {
+            "feature": "Production Speed",
+            "specs": "110 Pcs/Min"
+        },
+        {
+            "feature": "Cup Size Range",
+            "specs": "35-450 ml (1.5 Oz -16 Oz)"
+        },
+        {
+            "feature": "Paper Specification",
+            "specs": "130-350 gsm"
+        },
+        {
+            "feature": "General Power",
+            "specs": "4.5 Kw"
+        },
+        {
+            "feature": "Power Supply",
+            "specs": "380V 3 Phases"
+        },
+        {
+            "feature": "Weight",
+            "specs": "2900 kg"
+        },
+        {
+            "feature": "Machine Dimensions",
+            "specs": "(2300*1200*1700) mm"
+        },
+        {
+            "feature": "Raw Material",
+            "specs": "Single/Double PE Coated Paper"
+        },
+        {
+            "feature": "Applications",
+            "specs": "Tea Cup, Coffee Cup, Cold Drink Cup, Ice-Cream Cup, Soup Cup & Yoghurt Cup etc."
+        }
+    ],
+    "RelatedProducts": [
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "High Speed Paper Cup Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Fully Automatic Paper Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Flexo Printing Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        }
+    ]
+}

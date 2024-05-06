@@ -1,0 +1,103 @@
+{
+    "Route": "ripple-wall-cup-machine",
+    "Heading": "Ripple Wall Cup Making Machine",
+    "Description": "Ripple Wall Cup Making Machine is a single station machine. This machine has various technologies including open cam technology, gear transmission, and longitudinal axis structure. The automatic lubrication technique reduces the friction among various parts of machine. This machine performs a series of functions starting from multi-row automatic paper feeding.",
+    "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
+    "Imgdesc": [
+        "This machine performs a series of functions including ultrasonic welding, robotic paper tube transfer, oil filling, glue feeding, two-stage blanking, pressing, and cup collection (optional). Moreover, this model has photoelectric sensors that detects any fault in the system and stops production right over there that improves the stability and life of the machine. One can make both Double Wall and Ripple Wall Cups from the same model."
+    ],
+    "Suggestions": [
+        {
+            "id": "1",
+            "name": "Paper Bowl Machine",
+            "suggestionlink": "/product/paper-container-bowl-making-machine/"
+        },
+        {
+            "id": "2",
+            "name": "Paper Bag Machine",
+            "suggestionlink": "/product/paper-bag-making-machine/"
+        },
+        {
+            "id": "3",
+            "name": "Paper Cultery Machine",
+            "suggestionlink": "/product/paper-cutlery-machine/"
+        },
+        {
+            "id": "4",
+            "name": "Die Cutting Machine",
+            "suggestionlink": "/product/roll-die-cutting-machine/"
+        },
+        {
+            "id": "5",
+            "name": "Flexo Printing Machine",
+            "suggestionlink": "/product/flexo-printing-machine/"
+        }
+    ],
+    "ImageComponent": true,
+    "PointsComponent": true,
+    "MultipleImageComp":false,
+    "MultipleTable":false,
+    
+    "PointsHeading": [
+        "Ripple Wall",
+        "Cup Machine"
+    ],
+    "PointsHeadingDesc":"Ripple wall cup machine is perfect choice for manufacturing cups for hot beverages to have a firm grip. We are providing eco-friendly solutions to HORECA industry. where they can manufacture aesthetic cups/bowls with their own logo or customized designs. This machine can manufacture premium quality cups at a speed of 80 pcs/min.",
+    "PointsDescription": [
+        "Photoelectric Sensors",
+        "Automatic Lubrication",
+        "Rail Bearing System",
+        "Centralized Rotating System"
+    ],
+    "ImageHeading": ["Products","Introduction"],
+    "ImageDescription":"Nessco India’s Ripple Double Wall Cup Machine is designed with patented Open Cam Technology. It is capable of producing 80 cups of 4-16 oz every minute. Moreover its single-turn plate technology and its heavy structure ensures lesser noise and vibration. This model comprises of PLC control system and sensor failure detection, which stops machine’s working after detecting a problem. And that helps in reducing maintenance cost and increasing safety measures.",
+    "Imagelinkimg":"https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
+    "MachineSpecsLabels":["FEATURE","SPECIFICATION"],
+    "MachineSpecs": [
+        {
+            "feature": "Production Speed",
+            "specs": "80 Pcs/Min"
+        },
+        {
+            "feature": "Cup Size Range",
+            "specs": "4-16 oz (Molds Changeable)"
+        },
+        {
+            "feature": "Paper Specification",
+            "specs": "200-350 GSM"
+        },
+        {
+            "feature": "General Power",
+            "specs": "2.5 Kw"
+        },
+        {
+            "feature": "Weight",
+            "specs": "2500 kg"
+        },
+        {
+            "feature": "Machine Dimensions",
+            "specs": "(2500*1200*1500) mm"
+        },
+        {
+            "feature": "Applications",
+            "specs": "Paper cups for hot beverages like tea, coffee, etc"
+        }
+    ],
+    "RelatedProducts": [
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Disposable Cup Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "High Speed Paper Cup Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Fully Automatic Paper Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        }
+    ]
+}

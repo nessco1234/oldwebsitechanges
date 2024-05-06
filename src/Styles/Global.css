@@ -19,6 +19,9 @@
 button, p{
     font-family:"Inter",sans-serif;
 }
+button:hover{
+    cursor: pointer;
+}
 html {
     scroll-behavior: smooth;
     font-size: 11px;

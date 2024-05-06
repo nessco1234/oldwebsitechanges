@@ -226,34 +226,36 @@
 }
 
 .menu-list {
-  width: 80%;
+  width: 100%;
   position: absolute;
   top: 100%;
-  left: 10%;
+  left: 0%;
   background-color: white;
   padding: 4rem 2rem;
   /* border: 1px solid #ccc; */
   list-style-type: none;
   display: flex;
   box-shadow: 0 0 40px 0 rgba(128, 128, 128, 0.166);
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 .menulistitems{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 20%;
-  margin: auto;
+  width: 18%;
+  margin: 0 auto;
   justify-content: center;
 }
 .menulistheading{
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   border-bottom: 1px solid rgba(128, 128, 128, 0.249);
   padding: 1rem 0;
   color: black;
   width: 100%;
 }
 .menulistlinks{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: grey;
   font-weight: 500;
   padding-bottom: 1rem;
