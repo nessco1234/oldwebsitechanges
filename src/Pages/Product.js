@@ -50,17 +50,25 @@ function ProductFilter({ products }) {
 }
 
 const products = [
-    { id: 1, name: 'Paper Cultery Machine', type: 'papercup' },
-    { id: 1, name: 'Paper Cultery Machine', type: 'papercup' },
-    { id: 1, name: 'Paper Cultery Machine', type: 'papercup' },
-    { id: 1, name: 'Paper Cultery Machine', type: 'papercup' },
-    { id: 1, name: 'Paper Cultery Machine', type: 'papercup' },
-    { id: 1, name: 'Paper Cultery Machine', type: 'papercup' },
-    { id: 2, name: 'Product 2', type: 'paperbag' },
-    { id: 3, name: 'Product 3', type: 'paperbowl' },
-    { id: 4, name: 'Product 4', type: 'paperstraw' },
-    { id: 5, name: 'Product 5', type: 'paperrelated' },
-    { id: 6, name: 'Product 6', type: 'other' },
+    { id: 1, name: 'Disposable Cup Making Machine', type: 'papercup',url:'/' },
+    { id: 2, name: 'High Speed Paper Cup Machine', type: 'papercup',url:'/' },
+    { id: 3, name: 'Fully Automatic Cup Making Machine', type: 'papercup',url:'/' },
+    { id: 4, name: 'Paper Bag Making Machine', type: 'papercup',url:'/' },
+    { id: 5, name: 'Flexo Printing Machine', type: 'papercup',url:'/' },
+    { id: 6, name: 'Paper Cultery Machine', type: 'papercup',url:'/' },
+    { id: 7, name: 'Paper Container Bowl Machine', type: 'paperbag' ,url:'/' },
+    { id: 8, name: 'Paper Food Bag Making Machine', type: 'paperbowl' ,url:'/' },
+    { id: 9, name: 'Paper Handle Cup Making Machine', type: 'paperstraw' ,url:'/' },
+    { id: 10, name: 'Paper Glass Making Machine', type: 'paperrelated' ,url:'/' },
+    { id: 11, name: 'Paper Lid Making Machine', type: 'other' ,url:'/' },
+    { id: 12, name: 'Paper Plate Making Machine', type: 'other' ,url:'/' },
+    { id: 13, name: 'Paper Straw Making Machine', type: 'other' ,url:'/' },
+    { id: 14, name: 'PE Coating Machine', type: 'other' ,url:'/' },
+    { id: 15, name: 'Ripple Wall Cup Machine', type: 'other' ,url:'/' },
+    { id: 16, name: 'Pop Corn Tub Making Machine', type: 'other' ,url:'/' },
+    { id: 17, name: 'Paper Shopping Bag Making Machine', type: 'other' ,url:'/' },
+    { id: 18, name: 'Paper Salad Bowl Making Machine', type: 'other' ,url:'/' },
+    { id: 19, name: 'Roll Die Cutting Machine', type: 'other' ,url:'/' },
 ];
 
 function App() {

@@ -32,7 +32,14 @@ import PaperStraw from './Data/PaperStraw.json'
 import RippleWallCup from './Data/RippleWallCup.json'
 import RollDieCutting from './Data/RollDieCutting.json'
 import SquareBottom from './Data/SquareBottom.json'
-
+import AutomaticOctagonalBox from './Data/AutomaticOctagonalBox.json'
+import CartonErecting from './Data/CartonErecting.json'
+import LunchBoxForming from './Data/LunchBoxForming.json'
+import PaperDomeLid from './Data/PaperDomeLid.json'
+import PaperSleeveGluing from './Data/PaperSleeveGluing.json'
+import RectangularFlatBottom from './Data/RectangularFlatBottom.json'
+import RippleWallCupSleeve from './Data/RippleWallCupSleeve.json'
+import ServeDrivenPaperCup from './Data/ServeDrivenPaperCup.json'
 function ScrollToTopOnRouteChange() {
   const { pathname } = useLocation();
 
@@ -74,6 +81,14 @@ function App() {
           <Route element={<MachineComponent data={RippleWallCup}/>} exact path="/product/ripple-wall-cup-machine/" />
           <Route element={<MachineComponent data={RollDieCutting}/>} exact path="/product/roll-die-cutting-machine/" />
           <Route element={<MachineComponent data={SquareBottom}/>} exact path="/product/paper-food-bag-making-machine/" />
+          <Route element={<MachineComponent data={AutomaticOctagonalBox}/>} exact path="/product/automatic-octagonal-box-forming-machine/" />
+          <Route element={<MachineComponent data={CartonErecting}/>} exact path="/product/carton-erecting-machine/" />
+          <Route element={<MachineComponent data={LunchBoxForming}/>} exact path="/product/lunch-box-forming-machine/" />
+          <Route element={<MachineComponent data={PaperDomeLid}/>} exact path="/product/paper-dome-lid-machine/" />
+          <Route element={<MachineComponent data={PaperSleeveGluing}/>} exact path="/product/paper-sleeve-gluing-folding-machine/" />
+          <Route element={<MachineComponent data={RectangularFlatBottom}/>} exact path="/product/rectangle-flat-bottom-bowl-machine/" />
+          <Route element={<MachineComponent data={RippleWallCupSleeve}/>} exact path="/product/ripple-wall-cup-sleeve-glueing-machine/" />
+          <Route element={<MachineComponent data={ServeDrivenPaperCup}/>} exact path="/product/Servo-driven-paper-cup-machine/" />
         </Routes>
         <Footer />
       </Router>

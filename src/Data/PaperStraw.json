@@ -1,3 +1,138 @@
 {
-    
+    "Route": "paper-straw-making-machine",
+    "Heading": "Paper Straw Making Machine",
+    "Description": " Nessco India is offering you a complete range of disposable products making machines which include disposable Paper Straw Making Machine. This Machine is suitable for manufacturing different sizes of paper straws, such as 5 mm; 6 mm; 8 mm; 10 mm, 12 mm etc. With the upgraded technology for cutting device, the speed is 5 meters per minute higher than the previous one and the stable working speed now is 45 m/min.",
+    "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
+    "Imgdesc": [
+        
+    ],
+    "Suggestions": [
+        {
+            "id": "1",
+            "name": "Paper Bowl Machine",
+            "suggestionlink": "/product/paper-container-bowl-making-machine/"
+        },
+        {
+            "id": "2",
+            "name": "Paper Bag Machine",
+            "suggestionlink": "/product/paper-bag-making-machine/"
+        },
+        {
+            "id": "3",
+            "name": "Paper Cultery Machine",
+            "suggestionlink": "/product/paper-cutlery-machine/"
+        },
+        {
+            "id": "4",
+            "name": "Die Cutting Machine",
+            "suggestionlink": "/product/roll-die-cutting-machine/"
+        },
+        {
+            "id": "5",
+            "name": "Flexo Printing Machine",
+            "suggestionlink": "/product/flexo-printing-machine/"
+        }
+    ],
+    "ImageComponent": true,
+    "PointsComponent": true,
+    "NotPoints":true,
+    "MultipleImageComp": false,
+    "MultipleTable": false,
+
+    "PointsHeading": [
+        "Paper Straw",
+        "Machine"
+    ],
+    "PointsHeadingDesc": "This machine is the most suitable and perfect alternate to the PP/PE plastic straws machines. These Paper straws are environment friendly as they are formed with bio degradable and food grade paper. This machine can make paper straws from 45 meters of paper in a minute.",
+    "PointsDescription": [
+    ],
+    "ImageHeading": [
+        "Products",
+        "Introduction"
+    ],
+    "ImageDescription": "Nessco high speed paper straw making machine performs a chain of functions including raw material feeding, gluing, winding and cutting at one time. This Machine is suitable for producing different sizes of paper straws ranging from 5mm to 12mm. Paper Straws are an eco-friendly option for HORECA industry and one can add an automatic packaging unit with this machine (it’s completely optional). And these straws can be packed individually as well as in groups, i.e. as a bundle.",
+    "Imagelinkimg": "https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
+    "MachineSpecsLabels": [
+        "FEATURE",
+        "SPECIFICATION"
+    ],
+    "MachineSpecs": [
+        {
+            "feature": "Production Capacity",
+            "specs": "45 m/min"
+        },
+        {
+            "feature": "Paper Layer",
+            "specs": "3 Layers"
+        },
+        
+        {
+            "feature": "Inner Diameter",
+            "specs": "5-12 mm"
+        },
+        {
+            "feature": "Wall Thickness",
+            "specs": "0.3-2mm"
+        },
+        {
+            "feature": "Weight",
+            "specs": "1400 kg"
+        },
+        {
+            "feature": "Cutting System",
+            "specs": "Multiblades"
+        },
+        {
+            "feature": "General Power",
+            "specs": "6 KW"
+        },
+        {
+            "feature": "Machine dimensions",
+            "specs": "(3500x1500x1200) mm"
+        },
+        {
+            "feature": "Air Pressure",
+            "specs": "0.6 MPA"
+        },
+        {
+            "feature": "Working Space",
+            "specs": "(7000x5000)mm"
+        },
+        {
+            "feature": "Applications",
+            "specs": "Bio-degradable paper straws for cold drinks, juices, etc"
+        }
+    ],
+    "RelatedProducts": [
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Paper Straw Bending Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Sharp Bevel Cutting Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Single Straw Packing Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Paper Straw Tetra Packing Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Multi Paper Straw Packing Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Paper Straw Slitting Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        }
+    ]
 }

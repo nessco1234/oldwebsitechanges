@@ -1,3 +1,123 @@
 {
-    
+    "Route": "flexo-printing-machine",
+    "Heading": "Flexo Printing Machine",
+    "Description": " This machine has an accurate color printing process as it uses rolling materials. It has meter counter that can set printing quantity and color usability as per utility. This machine is equipped with hydraulic systems which assists independent unwinding and rewinding of paper roll. One can complete whole roll to roll printing process in one machine including unwinding (feeding paper roll), printing in various colors, infrared drying and rewinding (assorting printed paper in one roll) as well. Nessco flexographic machine supports multi-colour printing and is equipped with ultraviolet infrared drying devices which are fixed at each print unit.",
+    "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
+    "Imgdesc": [
+        ""
+    ],
+    "Suggestions": [
+        {
+            "id": "1",
+            "name": "Paper Bowl Machine",
+            "suggestionlink": "/product/paper-container-bowl-making-machine/"
+        },
+        {
+            "id": "2",
+            "name": "Paper Bag Machine",
+            "suggestionlink": "/product/paper-bag-making-machine/"
+        },
+        {
+            "id": "3",
+            "name": "Paper Cultery Machine",
+            "suggestionlink": "/product/paper-cutlery-machine/"
+        },
+        {
+            "id": "4",
+            "name": "Die Cutting Machine",
+            "suggestionlink": "/product/roll-die-cutting-machine/"
+        },
+        {
+            "id": "5",
+            "name": "Flexo Printing Machine",
+            "suggestionlink": "/product/flexo-printing-machine/"
+        }
+    ],
+    "ImageComponent": true,
+    "PointsComponent": true,
+    "NotPoints":false,
+    "MultipleImageComp": false,
+    "MultipleTable": false,
+
+    "PointsHeading": [
+        "Flexographic",
+        "Printing"
+    ],
+    "PointsHeadingDesc": "High Speed Flexo Printing machine is fully automated and self-sufficient. It performs various functions including feeding paper webs, printing, automatic infrared (UV) drying all by itself. The flexographic machine supports multi-colored printing and is operated by one side winding and the other rewinding. It increases the overall accuracy and speed of printing which gives users an additive advantage.",
+    "PointsDescription": [
+        "Automatic Feeding System",
+        "IR Drying System",
+        "Lifting with Guide Rail",
+        "Customised Print"
+    ],
+    "ImageHeading": [
+        "Products",
+        "Introduction"
+    ],
+    "ImageDescription": "This self-sufficient machine is capable of controlling the entire printing process. It can print up to 120 meters per minute of width up to 930 mm. The heavy frame of the machine ensures that there are minimal noise and vibration during operation. It increases the accuracy of printing and also increases the overall production capacity. It supports multi-colour printing and is equipped with ultraviolet infrared drying devices which are fixed at each print unit.",
+    "Imagelinkimg": "https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
+    "MachineSpecsLabels": [
+        "FEATURE",
+        "SPECIFICATION"
+    ],
+    "MachineSpecs": [
+        {
+            "feature": "Printing Capacity",
+            "specs": "120 M/Min"
+        },
+        {
+            "feature": "Maximum Web Width",
+            "specs": "950 mm"
+        },
+        
+        {
+            "feature": "Maximum Printing Width",
+            "specs": "930 mm"
+        },
+        {
+            "feature": "Total Power",
+            "specs": "22 KW"
+        },
+        {
+            "feature": "Machine dimensions",
+            "specs": "(4800x2150x2550)mm"
+        },
+        {
+            "feature": "Weight",
+            "specs": "5000 kg"
+        },
+        {
+            "feature": "Thickness of Paper",
+            "specs": "60-300gsm"
+        },
+        {
+            "feature": "Registering Accuracy",
+            "specs": "±0.15 mm"
+        },
+        {
+            "feature": "Rewinding Roll Diameter",
+            "specs": "1300 mm"
+        },
+        {
+            "feature": "Unwinding Roll Diameter",
+            "specs": "1300 mm"
+        }
+    ],
+    "RelatedProducts": [
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Paper Cutlery Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Fully Automatic Paper Cup Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Roll Die Cutting Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        }
+    ]
 }

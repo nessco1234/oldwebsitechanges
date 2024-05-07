@@ -1,0 +1,127 @@
+{
+    "Route": "paper-dome-lid-machine",
+    "Heading": "PAPER DOME LID MACHINE",
+    "Description": "Elevate your beverage service with our cutting-edge Paper Dome Lid Machine, designed to accommodate a wide range of disposable paper cups from 4oz to 26oz. This versatile machine is perfect for various applications including coffee, juice, cold drinks, water, and more. Engineered with advanced technology, it ensures the production of high-quality, unibody dome lids that are both sipper and straw-friendly.",
+    "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
+    "Imgdesc": [
+        "The machine features an automatic lubrication system to keep operations smooth, optional hot air technology from brands like Leister for effective sealing, and an auto phase detection system to prevent malfunctions. It also includes a waste management conveyer to handle scrap paper, an auto collection station that stacks finished lids, and integrates seamlessly with ancillary equipment for optional packaging solutions. User-friendly advanced HMI controls allow for easy operation and customization of performance settings. Built with components from renowned brands such as Schneider Electric, Delta, Fotek, Leister, SMC, Airtac, and Panasonic, our Paper Dome Lid Machine is designed for efficiency and built to last, making it an ideal addition to any business looking to streamline operations and elevate product quality.","Enhance your production line with our Paper Dome Lid Machine, designed for efficiency and built to last. Ideal for businesses looking to streamline operations and elevate product quality."
+    ],
+    "Suggestions": [
+        {
+            "id": "1",
+            "name": "Paper Bowl Machine",
+            "suggestionlink": "/product/paper-container-bowl-making-machine/"
+        },
+        {
+            "id": "2",
+            "name": "Paper Bag Machine",
+            "suggestionlink": "/product/paper-bag-making-machine/"
+        },
+        {
+            "id": "3",
+            "name": "Paper Cultery Machine",
+            "suggestionlink": "/product/paper-cutlery-machine/"
+        },
+        {
+            "id": "4",
+            "name": "Die Cutting Machine",
+            "suggestionlink": "/product/roll-die-cutting-machine/"
+        },
+        {
+            "id": "5",
+            "name": "Flexo Printing Machine",
+            "suggestionlink": "/product/flexo-printing-machine/"
+        }
+    ],
+    "ImageComponent": false,
+    "PointsComponent": true,
+    "NotPoints":false,
+    "MultipleImageComp": false,
+    "MultipleTable": false,
+
+    "PointsHeading": [
+        "Process of Paper",
+        "Dome Lid Formation"
+    ],
+    "PointsHeadingDesc": "The machine utilizes state-of-the-art technology to automatically take a paper reel and precisely form, curl, and knurl it to create dome lids that match the cup’s top diameter. This process includes cutting the paper to size, curling the edges to form the dome shape, and knurling to add texture and rigidity, ensuring a snug fit on the cup and enhancing the lid's structural integrity.",
+    "PointsDescription": [
+        "Unibody Snug Fit Lid Design",
+        "Hot air sealing",
+        "Advanced engineering",
+        "Auto Lubrication"
+    ],
+    "ImageHeading": [
+        "Products",
+        "Introduction"
+    ],
+    "ImageDescription": "This machine performs various functions including Die cutting, Creasing, Embossing, and full-stripping of various PE coated paper, standard paper, corrugating paper, and foam material. It is equipped with the latest modern technologies like micro-computer positioning, alternating current frequency converter, automatic counting, photoelectric rectifying, Pneumatic-lock cutting plate, electromagnetic clutch, centralized oil lubrication, overload protection, and distinctive gearing.",
+    "Imagelinkimg": "https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
+    "MachineSpecsLabels": [
+        "FEATURE",
+        "SPECIFICATION"
+    ],
+    "MachineSpecs": [
+        {
+            "feature": "Production Speed",
+            "specs": "60 Pcs / min"
+        },
+        {
+            "feature": "Top Dia Size Range",
+            "specs": "60-90 mm"
+        },
+        
+        {
+            "feature": "Lid Height",
+            "specs": "20-25 mm"
+        },
+        {
+            "feature": "Paper GSM",
+            "specs": "200-350 gsm"
+        },
+        {
+            "feature": "Paper Specifications",
+            "specs": "One & two side pe coated paper, glossy coated paper"
+        },
+        {
+            "feature": "Voltage",
+            "specs": "380v - 400v (AC) ,3 phase 50Hz"
+        },
+        {
+            "feature": "Air Pressure",
+            "specs": "0.6 Mpa"
+        },
+        {
+            "feature": "Air Flow Rate",
+            "specs": "22 cfm"
+        },
+        {
+            "feature": "Power",
+            "specs": "Starting Load 12 kW, Running Load 8 kW"
+        },
+        {
+            "feature": "Weight",
+            "specs": "2500 Kg"
+        },
+        {
+            "feature": "Dimensions",
+            "specs": "2800x1650x2100 mm"
+        }
+    ],
+    "RelatedProducts": [
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Fully Automatic Paper Cup Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Disposable Paper cup Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Flexo Printing Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        }
+    ]
+}

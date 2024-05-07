@@ -1,3 +1,114 @@
 {
-    
+    "Route": "paper-lid-making-machine",
+    "Heading": "Paper Lid Making Machine",
+    "Description": " This fully automated and self-sufficient machine includes the latest modern technologies to increase efficiency and accuracy. This model is a single station machine that completes the entire procedure including paper feeding, oil & silicon lubrication, bottom punching, heating, rolling, rimming, rounding, and discharging as well. It also covers auto feeding, creasing, molding, heating, folding and knurling. This machine has compact structure and has a PLC Controlled Screen over top to operate and control the production process.",
+    "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
+    "Imgdesc": [
+        "This fully automated and self-sufficient machine includes the latest modern technologies to increase efficiency and accuracy. This model is a single station machine that completes the entire procedure including paper feeding, oil & silicon lubrication, bottom punching, heating, rolling, rimming, rounding, and discharging as well. It also covers auto feeding, creasing, molding, heating, folding and knurling. This machine has compact structure and has a PLC Controlled Screen over top to operate and control the production process."
+    ],
+    "Suggestions": [
+        {
+            "id": "1",
+            "name": "Paper Bowl Machine",
+            "suggestionlink": "/product/paper-container-bowl-making-machine/"
+        },
+        {
+            "id": "2",
+            "name": "Paper Bag Machine",
+            "suggestionlink": "/product/paper-bag-making-machine/"
+        },
+        {
+            "id": "3",
+            "name": "Paper Cultery Machine",
+            "suggestionlink": "/product/paper-cutlery-machine/"
+        },
+        {
+            "id": "4",
+            "name": "Die Cutting Machine",
+            "suggestionlink": "/product/roll-die-cutting-machine/"
+        },
+        {
+            "id": "5",
+            "name": "Flexo Printing Machine",
+            "suggestionlink": "/product/flexo-printing-machine/"
+        }
+    ],
+    "ImageComponent": true,
+    "PointsComponent": true,
+    "NotPoints":true,
+    "MultipleImageComp": false,
+    "MultipleTable": false,
+
+    "PointsHeading": [
+        "Paper Lid",
+        "Manufacturing"
+    ],
+    "PointsHeadingDesc": "Nessco Paper Lid Machine is equipped with paper cover molding technology that makes this device easy to operate. It also includes various other modern technologies for better efficiency and production speed. The automatic lubrication system keeps the machine durable and ensures its smooth run. Paper Cup Lid Machine is more stable due to its heavy and well built structural frame.",
+    "PointsDescription": [
+    ],
+    "ImageHeading": [
+        "Products",
+        "Introduction"
+    ],
+    "ImageDescription": "Paper Lid forming machine is used to produce paper lid and paper cover for paper cups, paper cans and round paper packaging containers. It is an automatic machine with the functions such as automatic blank paper feed, creasing, embossing, auto feed disc to mold, heating, folding, knurling with conveyer and counter for collection. These lids are completely eco-friendly as they are made from food-grade paper which is biodegradable.",
+    "Imagelinkimg": "https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
+    "MachineSpecsLabels": [
+        "FEATURE",
+        "SPECIFICATION"
+    ],
+    "MachineSpecs": [
+        {
+            "feature": "Production Speed",
+            "specs": "60 Pcs/Min"
+        },
+        {
+            "feature": "Lid Size Range",
+            "specs": "65-125 mm"
+        },
+        {
+            "feature": "Lid height",
+            "specs": "8~15 mm"
+        },
+        {
+            "feature": "Paper Specification",
+            "specs": "250~400 gsm"
+        },
+        {
+            "feature": "Power Supply",
+            "specs": "AC 380V 3-phase, 50Hz,"
+        },
+        {
+            "feature": "Weight",
+            "specs": "3000 kg"
+        },
+        {
+            "feature": "Machine Dimensions",
+            "specs": "(2300*1200*1700) mm"
+        },
+        {
+            "feature": "Total power",
+            "specs": "7 KW, 380V 3 Phase"
+        },
+        {
+            "feature": "Applications",
+            "specs": "Lids to cover paper packaging containers"
+        }
+    ],
+    "RelatedProducts": [
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Paper Plate Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Paper Straw Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "PE Coating Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        }
+    ]
 }

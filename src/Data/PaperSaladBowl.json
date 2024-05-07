@@ -1,3 +1,112 @@
 {
-    
+    "Route": "salad-bowl-making-machine",
+    "Heading": "Paper Salad Bowl Making Machine",
+    "Description": " Paper Salad Bowl Making Machine is equipped with latest technology that performs auto paper feeding and has paper anti-reverse device, ultrasonic welding heaters, automatic lubrication system, robotic arm, paper tube that helps in punching and folding bottom, pre-heating, knurling, curling, and collecting bowls. Machine can make various size of bowls by changing moulds. This model has been designed specifically to manufacture salad bowls in customised sizes.",
+    "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
+    "Imgdesc": [
+        ""
+    ],
+    "Suggestions": [
+        {
+            "id": "1",
+            "name": "Paper Bowl Machine",
+            "suggestionlink": "/product/paper-container-bowl-making-machine/"
+        },
+        {
+            "id": "2",
+            "name": "Paper Bag Machine",
+            "suggestionlink": "/product/paper-bag-making-machine/"
+        },
+        {
+            "id": "3",
+            "name": "Paper Cultery Machine",
+            "suggestionlink": "/product/paper-cutlery-machine/"
+        },
+        {
+            "id": "4",
+            "name": "Die Cutting Machine",
+            "suggestionlink": "/product/roll-die-cutting-machine/"
+        },
+        {
+            "id": "5",
+            "name": "Flexo Printing Machine",
+            "suggestionlink": "/product/flexo-printing-machine/"
+        }
+    ],
+    "ImageComponent": true,
+    "PointsComponent": true,
+    "MultipleImageComp": false,
+    "MultipleTable": false,
+    "PointsHeading": [
+        "Paper Salad Bowls",
+        "Forming Machine"
+    ],
+    "PointsHeadingDesc": "Paper Salad Bowl Making Machine can produce both Single and Double PE Coated Paper Bowls of size ranging from 500 ml to 1100 ml. Due to high gsm of paper, premium quality bowls are formed that has less chances of leakage. These bowls can be used for serving meals or can be used as take-away meal boxes.",
+    "PointsDescription": [
+        "Photoelectric Sensors",
+        "Open Cam Technology",
+        "Gear Transmission system",
+        "Automatic Lubrication"
+    ],
+    "ImageHeading": [
+        "Products",
+        "Introduction"
+    ],
+    "ImageDescription": "This Paper food container-making machine can make containers up to 1500 ml. This machine can use both single and double-coated PE paper and has a production capacity of 75 pcs per minute. This model is most suitable for making soup bowls, noodles bowls, etc. It adopts an open cam system and a helical gear transmission system to function smoothly.",
+    "Imagelinkimg": "https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
+    "MachineSpecsLabels": [
+        "FEATURE",
+        "SPECIFICATION"
+    ],
+    "MachineSpecs": [
+        {
+            "feature": "Production Speed",
+            "specs": "75 Pcs/Min"
+        },
+        {
+            "feature": "Paper Bowl Size Range",
+            "specs": "Top Diameter Upto 150mm"
+        },
+        {
+            "feature": "Paper Specification",
+            "specs": "150-350 GSM"
+        },
+        {
+            "feature": "General Power",
+            "specs": "4.8 Kw"
+        },
+        {
+            "feature": "Power Supply",
+            "specs": "380V 50Hz"
+        },
+        {
+            "feature": "Weight",
+            "specs": "3000 kg"
+        },
+        {
+            "feature": "Machine Dimensions",
+            "specs": "(2600*1300*1600) mm"
+        },
+        {
+            "feature": "Applications",
+            "specs": "Paper containers for salad, soup, noodles, etc"
+        }
+    ],
+    "RelatedProducts": [
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Paper Container Bowl Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Paper Food Bag Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Paper Handle Cup Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        }
+    ]
 }

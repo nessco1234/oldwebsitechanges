@@ -1,0 +1,115 @@
+{
+    "Route": "lunch-box-forming-machine",
+    "Heading": "Lunch Box Forming Machine",
+    "Description": " In today’s fast-paced world, the demand for conveniently packed food is ever-increasing, making sustainable solutions a top priority for the quick-service restaurant (QSR) industry. Our Lunch Box Forming Machine is designed to meet these needs by producing high-quality disposable paper lunch boxes. These boxes not only offer high structural stability but are also environmentally friendly, aligning with the growing demand for sustainable packaging solutions.",
+    "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
+    "Imgdesc": [
+        "Our Lunch Box Forming Machine is a fully automated solution designed for high-speed and convenient operation in paper forming. Equipped with a self-contained hot air generator, this machine is specifically configured to handle single PE coated paper, ideal for producing single-color disposable paper lunch boxes. It integrates automatic feeding, heating, hot press forming, and automatic point collection, all controlled by an advanced microcomputer for precise operation. The Lunch Box Forming Machine boasts a PLC control panel with a user-friendly touch screen, enhancing ease of use and operational precision. The mechanical paper-feeding technology offers more stability than traditional methods, significantly reducing the rejection rate. Additionally, the machine features an automatic counting and collection system, designed to reduce labor costs significantly compared to traditional machines. Its sturdy construction ensures low noise levels and high efficiency, embodying the perfect blend of speed, energy saving, and stability."
+    ],
+    "Suggestions": [
+        {
+            "id": "1",
+            "name": "Paper Bowl Machine",
+            "suggestionlink": "/product/paper-container-bowl-making-machine/"
+        },
+        {
+            "id": "2",
+            "name": "Paper Bag Machine",
+            "suggestionlink": "/product/paper-bag-making-machine/"
+        },
+        {
+            "id": "3",
+            "name": "Paper Cultery Machine",
+            "suggestionlink": "/product/paper-cutlery-machine/"
+        },
+        {
+            "id": "4",
+            "name": "Die Cutting Machine",
+            "suggestionlink": "/product/roll-die-cutting-machine/"
+        },
+        {
+            "id": "5",
+            "name": "Flexo Printing Machine",
+            "suggestionlink": "/product/flexo-printing-machine/"
+        }
+    ],
+    "ImageComponent": false,
+    "PointsComponent": true,
+    "NotPoints":false,
+    "MultipleImageComp": false,
+    "MultipleTable": false,
+
+    "PointsHeading": [
+        "Choose the Best Lunch",
+        "Box forming machine"
+    ],
+    "PointsHeadingDesc": "Technical aspects of the machine include a production speed of 30-50 boxes per minute, depending on the product size, with a maximum material size capacity of 480 x 480 mm and suitability for 200-400 gsm PE coated paper. High-quality components from Schneider Electric are used throughout, including the PLC controller, touch screen, photoelectric switch, main motor, AC contactor, breaker, switch, frequency converter, and servo motor, ensuring the machine's longevity and reliability. This makes the Lunch Box Forming Machine an essential asset for businesses aiming to optimize their food packaging operations.",
+    "PointsDescription": [
+        "Comprehensive Control System with PLC + HMI",
+        "Servo controlled motion",
+        "High-Quality Components",
+        "High-Speed Automation"
+    ],
+    "ImageHeading": [
+        "Products",
+        "Introduction"
+    ],
+    "ImageDescription": "This machine performs various functions including Die cutting, Creasing, Embossing, and full-stripping of various PE coated paper, standard paper, corrugating paper, and foam material. It is equipped with the latest modern technologies like micro-computer positioning, alternating current frequency converter, automatic counting, photoelectric rectifying, Pneumatic-lock cutting plate, electromagnetic clutch, centralized oil lubrication, overload protection, and distinctive gearing.",
+    "Imagelinkimg": "https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
+    "MachineSpecsLabels": [
+        "FEATURE",
+        "SPECIFICATION"
+    ],
+    "MachineSpecs": [
+        {
+            "feature": "Speed",
+            "specs": "30-50 pcs /min (according to product size)"
+        },
+        {
+            "feature": "Maximum size",
+            "specs": "480 x480mm"
+        },
+        
+        {
+            "feature": "Paper GSM",
+            "specs": "200-400 GSM"
+        },
+        {
+            "feature": "Paper Specifications",
+            "specs": "PE Coated Paper"
+        },
+        {
+            "feature": "Voltage",
+            "specs": "3 Phase | 380 V; 50 Hz"
+        },
+        {
+            "feature": "Total Power",
+            "specs": "3 kW"
+        },
+        {
+            "feature": "Weight",
+            "specs": "1000 Kg"
+        },
+        {
+            "feature": "Dimensions",
+            "specs": "1550 * 1350 * 1800 mm"
+        }
+    ],
+    "RelatedProducts": [
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Fully Automatic Paper Cup Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Disposable Paper Cup Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Flexo Printing Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        }
+    ]
+}

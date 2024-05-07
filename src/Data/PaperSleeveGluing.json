@@ -1,10 +1,10 @@
 {
-    "Route": "paper-plate-making-machine",
-    "Heading": "Paper Plate Making Machine",
-    "Description": "We are a leading manufacturer and global supplier of fully automatic Paper Plate machines. Our Paper plate making machine is designed with advance technologies, which gives this model a compact structure and stable performance. This machine can produce up to 120 disposable paper plates every minute. This machine is self-sufficient with the capacity of performing a chain of functions.",
+    "Route": "paper-sleeve-gluing-folding-machine",
+    "Heading": "Paper Sleeve Gluing & Folding Machine",
+    "Description": "The Paper Cup Sleeve Forming Machine is designed to form paper/cardboard sleeves, essential for providing insulation to paper cups commonly used in the beverage industry. This machine executes a series of automated functions including paper feeding, pre-folding, alignment adjustments, and folding, culminating in the conveying of the final product. Utilizing insulated, generally corrugated fluted paper, this machine enhances the functionality of paper cups by adding a layer of insulation that protects users from the heat of the beverage.",
     "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
     "Imgdesc": [
-        "We are a leading manufacturer and global supplier of fully automatic Paper Plate machines. Our Paper plate making machine is designed with advance technologies, which gives this model a compact structure and stable performance. This machine can produce up to 120 disposable paper plates every minute. This machine is self-sufficient with the capacity of performing a chain of functions.","This series includes automatic paper feeding, heating, temperature controlling, automatic counting, and collection as well. It has integrated the pneumatic and mechanic technologies, which ensures faster working speed, higher safety-performance, safer operation, and easier maintenance than the conventional one"
+        "This robust machine integrates an auto-controlled conveyor system that efficiently feeds and transports the paper. The pre-folding knife assists in the initial folds, followed by the application of water-based cold glue and subsequent folding to create a secure snap-in sleeve. These sleeves are versatile and compatible with a wide range of paper cups and glasses, varying in size and volume. The resulting product significantly improves comfort and safety for users, ensuring the paper cup can hold hot beverages without discomfort.","In the fast-paced Quick Service Restaurant (QSR) industry, the Paper Cup Sleeve Forming Machine has proven to be highly effective. Its ability to produce at a speed of 300m/min and handle paper GSM ranging from 200 to 600 makes it a vital tool in the operations of large brands like Starbucks. This machine not only boosts production efficiency but also supports environmental sustainability with its use of water-based, cold glue systems."
     ],
     "Suggestions": [
         {
@@ -33,22 +33,22 @@
             "suggestionlink": "/product/flexo-printing-machine/"
         }
     ],
-    "ImageComponent": true,
+    "ImageComponent": false,
     "PointsComponent": true,
-    "NotPoints":true,
+    "NotPoints":false,
     "MultipleImageComp": false,
     "MultipleTable": false,
 
     "PointsHeading": [
-        "Automatic Paper",
-        "Plate Machine"
+        "",
+        ""
     ],
-    "PointsHeadingDesc": "Paper Plate Making Machine has been designed using advanced technologies which gives this model a compact structure and stable performance. This machine performs embossing, pasting and drying to create final product. It has integrated the pneumatic and mechanic technologies, which ensures faster working speed, higher safety-performance, safer operation, and easier maintenance than the conventional one..",
+    "PointsHeadingDesc": "",
     "PointsDescription": [
-        "Comprehensive Control System with PLC + HMI",
-        "Servo controlled motion",
-        "High-Quality Components",
-        "High-Speed Automation"
+        "Conveyor Based High Speed Feeder",
+        "Inline Auto Glueing Mechanism",
+        "Inline Auto Drying Section",
+        "Easy Controlling via HMI"
     ],
     "ImageHeading": [
         "Products",
@@ -62,37 +62,41 @@
     ],
     "MachineSpecs": [
         {
-            "feature": "Production Speed",
-            "specs": "120 Pcs/Min"
+            "feature": "Speed",
+            "specs": "300 m/min"
         },
         {
-            "feature": "Plate Size",
-            "specs": "5-12 mm"
+            "feature": "Paper GSM",
+            "specs": "200-600 GSM"
         },
         
         {
-            "feature": "Material Thickness",
-            "specs": "120-600 GSM"
+            "feature": "Glue Specifications",
+            "specs": "Water Base Cold Glue"
+        },
+        {
+            "feature": "Voltage",
+            "specs": "3 Phase | 380 V; 50 Hz"
+        },
+        {
+            "feature": " Power",
+            "specs": "15 kW"
+        },
+        {
+            "feature": "Feeding Way",
+            "specs": "Automatically & Continuously Feeding"
+        },
+        {
+            "feature": "Paper Blank Size",
+            "specs": "A – 120-500 mm || B – 70-200 mm || C – 90-290 mm"
         },
         {
             "feature": "Weight",
-            "specs": "1300 Kg"
+            "specs": "1900 Kg"
         },
         {
-            "feature": "General Power",
-            "specs": "8.5 Kw"
-        },
-        {
-            "feature": "Power",
-            "specs": "380V, 50 Hz"
-        },
-        {
-            "feature": "Machine dimensions",
-            "specs": "(2600x1100x1880) mm"
-        },
-        {
-            "feature": "Applications",
-            "specs": "Paper plates for serving snacks and meals"
+            "feature": "Dimensions",
+            "specs": "8300 * 1200 * 1450 mm"
         }
     ],
     "RelatedProducts": [

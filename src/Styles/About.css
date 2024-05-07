@@ -71,7 +71,7 @@
     line-height: 2.2rem;
     font-size: 1.5rem;
     color: rgba(0, 0, 0, 0.699);
-    font-weight: 100;
+    font-weight: 400;
     /* text-align: center/; */
 }
 .aboutdescription{
@@ -101,6 +101,7 @@
     margin-top: 3rem;
     font-size: 1.5rem;
     line-height: 2rem;
+    text-align: center;
 }
 .aboutvision{
     width: 100%;
@@ -133,7 +134,7 @@
     color: var(--redcolor);
 }
 .aboutvisiondesc{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: rgba(0, 0, 0, 0.707);
     margin: 4rem 0;
     line-height: 2.1rem;
@@ -224,13 +225,13 @@
 }
 .aboutexpertspics{
     width: 100%;
-    margin: 7rem 0;
+    margin: 3rem 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 .aboutexpertcontent{
-    width: 30%;
+    width: 22%;
 }
 .aboutexpertspic{
     width: 100%;
@@ -271,6 +272,6 @@
 .aboutexpertspost{
     text-align: center;
     font-size: 1.4rem;
-    margin-top: 1rem;
+    margin-top: .5rem;
     color: rgba(0, 0, 0, 0.699);
 }

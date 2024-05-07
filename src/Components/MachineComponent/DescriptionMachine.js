@@ -19,31 +19,43 @@ const DescriptionMachine = (props) => {
                         ))
                     }
                     {
-
-                    }
-                    {
                         data.PointsComponent &&
                         <>
 
-                            <h1 className="descriptionmachineleft">{data.PointsHeading[0]} <span>{data.PointsHeading[1]}</span></h1>
+                            <h1 className="descriptionmachineleftdata">{data.PointsHeading[0]} <span>{data.PointsHeading[1]}</span></h1>
                             <p className="descriptionmachineleftcontent">{data.PointsHeadingDesc}</p>
-                            <div className="descriptionmachineleftcontentlist">
-                                <li className="descriptionpoints">{data.PointsDescription[0]}</li>
-                                <li className="descriptionpoints">{data.PointsDescription[1]}</li>
-                                <li className="descriptionpoints">{data.PointsDescription[2]}</li>
-                                <li className="descriptionpoints">{data.PointsDescription[3]}</li>
-                            </div>
+                            {
+                                !data.NotPoints &&
+                                <div className="descriptionmachineleftcontentlist">
+                                    <li className="descriptionpoints">{data.PointsDescription[0]}</li>
+                                    <li className="descriptionpoints">{data.PointsDescription[1]}</li>
+                                    <li className="descriptionpoints">{data.PointsDescription[2]}</li>
+                                    <li className="descriptionpoints">{data.PointsDescription[3]}</li>
+                                </div>
+                            }
                         </>
                     }
                     {
                         data.ImageComponent &&
                         <div className="descriptionmachineleftimage">
                             <div className="descriptionmachineimageleft">
-                                <h1 className="descriptionmachineleft">{data.ImageHeading[0]} <span>{data.ImageHeading[1]}</span></h1>
+                                <h1 className="descriptionmachineleftdata">{data.ImageHeading[0]} <span>{data.ImageHeading[1]}</span></h1>
                                 <p className="descriptionmachineleftcontent">{data.ImageDescription}</p>
                             </div>
                             <div className="descriptionmachineimageright">
                                 <img src={data.Imagelinkimg} alt="" />
+                            </div>
+                        </div>
+                    }
+                    {
+                        data.MultipleImageComp &&
+                        <div className="descriptionmachineleftimage">
+                            <div className="descriptionmachineimageleft">
+                                <h1 className="descriptionmachineleft">{data.MultipleImageHeading} </h1>
+                                <p className="descriptionmachineleftcontent">{data.MultipleImageDescription}</p>
+                            </div>
+                            <div className="descriptionmachineimageright">
+                                <img src={data.MultipleImageLink} alt="" />
                             </div>
                         </div>
                     }

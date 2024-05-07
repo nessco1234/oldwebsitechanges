@@ -31,7 +31,6 @@ const Testimonials = () => {
                     <div className="testimonialsright">
                         <Slider {...settings} className="testimonialscards">
                             <>
-
                                 <div className="testimonialsec">
                                     <div className="testimonialcard">
                                         <ReactStars

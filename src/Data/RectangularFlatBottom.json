@@ -1,10 +1,10 @@
 {
-    "Route": "roll-die-cutting-machine",
-    "Heading": "Roll Die Cutting Machine",
-    "Description": " Nessco Roll Die Cutting Machine is based on the principle of Pressure Control. Whole procedure of Cutting and Punching is carried using advanced technology which ensures high stability and high precision in cut-outs. The managed coordination between stepping motor and photoelectric eye can identify colours which then assures the perfect position of the roll die cutting position and figures.",
+    "Route": "rectangle-flat-bottom-bowl-machine",
+    "Heading": "Paper Rectangular Bowl Machine",
+    "Description": " Explore the advanced capabilities of our Paper Rectangular Bowl Machine - Flat Bottom Two Compartments, designed with a sophisticated combination of mechanical, electronic, hydraulic, and pneumatic systems. This machine seamlessly produces high-quality Paper Rectangular Bowl Machine - Flat Bottom Two Compartments, ideal for a variety of uses in the quick service industry. Perfect for Diverse Foods: The Paper Paper Rectangular Bowl Machine - Flat Bottom Two Compartments is designed to handle both solid and liquid foods effectively, making it suitable for everything from hot soups and fried rice to cold desserts and salads.",
     "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
     "Imgdesc": [
-        "One can simply set the feed length through the micro-computer controller to die-cut the products without words and figures. All these equipment assists the machine to operate with steady pressure, safety and reliability. This machine can work with a capacity of 220 punches every minute and is widely used in cutting shapes for paper cups, paper boxes, burger boxes and many more containers."
+        "The Paper Rectangular Bowl Machine - Flat Bottom Two Compartments includes high-grade machining that forms precise rectangular shapes with a flat bottom, ensuring each bowl is strong and durable for hassle-free enjoyment of meals. It employs servo-driven ball screw technology for accurate placement and motion, along with high-finish quality dies for shaping. The hydraulic system adds a perfect curl to the edges of the bowls, enhancing their functionality and appeal. Operated via a simplistic human-machine interface, the Paper Rectangular Bowl Machine - Flat Bottom Two Compartments is designed for easy use, requiring minimal training to operate effectively, which makes it accessible to a wide range of users. Built with top-tier electronics, pneumatics, and hydraulic equipment, the Paper Rectangular Bowl Machine - Flat Bottom Two Compartments is engineered to last for generations, ensuring a long-term return on investment.","Whether it’s serving up quick, enjoyable meals in a fast-paced environment or offering delicacies in a more relaxed setting, the Paper Rectangular Bowl Machine - Flat Bottom Two Compartments is the ideal solution for producing versatile and dependable food containers."
     ],
     "Suggestions": [
         {
@@ -62,37 +62,41 @@
     ],
     "MachineSpecs": [
         {
-            "feature": "Max Working Speed",
-            "specs": "220 Punch/Min"
+            "feature": "Speed",
+            "specs": "13-18 pcs / min"
         },
         {
-            "feature": "Max Paper Width",
-            "specs": "950 mm"
+            "feature": "Paper Specifications",
+            "specs": "200-300 GSM"
         },
         
         {
-            "feature": "Thickness of Coating Film",
-            "specs": "0.01-0.11 mm"
+            "feature": "Max. Paper Size",
+            "specs": "300 x 250 mm"
         },
         {
-            "feature": "Maximum Cutting Size",
-            "specs": "950x550 mm"
+            "feature": "Raw Materials",
+            "specs": "PE Coated Paper, Grease Proof Paper, Silicon Coated Paper"
         },
         {
-            "feature": "Machine dimensions",
-            "specs": "(4300x2300x2350) mm"
+            "feature": "Working Pressure",
+            "specs": "0.2-0.3 m3/min"
+        },
+        {
+            "feature": "Total Power",
+            "specs": "6 kW"
         },
         {
             "feature": "Weight",
-            "specs": "7000 kg"
+            "specs": "750 Kg"
         },
         {
-            "feature": "General Power",
-            "specs": "21 KW"
+            "feature": "Dimensions",
+            "specs": "(1750 x 700 x 1830) mm"
         },
         {
-            "feature": "Maximum Pressure",
-            "specs": "300 T"
+            "feature": "Air Requirement",
+            "specs": "0.5 Mpa"
         },
         {
             "feature": "Suitable Material",
@@ -110,17 +114,17 @@
     "RelatedProducts": [
         {
             "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Fully Automatic Paper Cup Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Disposable Paper Cup Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
             "heading": "Flexo Printing Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
-        },
-        {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Flexo Cultery Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
-        },
-        {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Paper Container Bowl Making Machine",
             "productlink": "/product/disposable-paper-cup-making-machine/"
         }
     ]

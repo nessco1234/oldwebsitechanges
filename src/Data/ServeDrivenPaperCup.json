@@ -1,0 +1,135 @@
+{
+    "Route": "servo-driven-paper-cup-machine",
+    "Heading": "Servo Driven Paper Cup Machine",
+    "Description": "Experience unparalleled efficiency with our Servo Driven Paper Cup Machine, a marvel of engineering that integrates advanced mechanical, electronic, pneumatic, and electrical technologies. This high-precision machine is equipped with 13 servos that work in perfect sync via PLC, enabling the production of up to 180 high-quality paper cups per minute, equivalent to 3 cups per second. The machine features a two-step curling process, which ensures the rim of each cup is curled twice to provide extra rigidity and durability & High-quality sealing is guaranteed through the use of ultrasonic and hot air mechanisms, minimizing the risk of leakage, making it ideal for both hot and cold beverages.",
+    "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
+    "Imgdesc": [
+        "The Servo Driven Paper Cup Machine can accommodate a wide range of cup sizes from 4 oz to 26 oz. It includes innovative features such as a conveyor blank feeder with rotary feeding system, element hot air blower, ultrasonic unit, aluminium mould cone, and a waste bottom reel cutter. Additional components include a waste bottom conveyor out, auto bottom feeder with stepper, pre-bottom feeder with a gear motor, and a bottom reel pneumatic loader. The machine also boasts a pre-fold paraffin dispenser (2PE), a 2PE cooling kit, a curling heater, and a full safety frame to ensure operational safety. Control and efficiency are further enhanced by PLC + HMI integration, which manages both the machine’s operations and the auto collection of finished cups. Optional features such as a Leister heater for the hot air blower and a transfer table for integration with double or ripple wall machines are available to customize the machine to specific production needs.   "
+    ],
+    "Suggestions": [
+        {
+            "id": "1",
+            "name": "Paper Bowl Machine",
+            "suggestionlink": "/product/paper-container-bowl-making-machine/"
+        },
+        {
+            "id": "2",
+            "name": "Paper Bag Machine",
+            "suggestionlink": "/product/paper-bag-making-machine/"
+        },
+        {
+            "id": "3",
+            "name": "Paper Cultery Machine",
+            "suggestionlink": "/product/paper-cutlery-machine/"
+        },
+        {
+            "id": "4",
+            "name": "Die Cutting Machine",
+            "suggestionlink": "/product/roll-die-cutting-machine/"
+        },
+        {
+            "id": "5",
+            "name": "Flexo Printing Machine",
+            "suggestionlink": "/product/flexo-printing-machine/"
+        }
+    ],
+    "ImageComponent": false,
+    "PointsComponent": true,
+    "NotPoints":false,
+    "MultipleImageComp": false,
+    "MultipleTable": false,
+
+    "PointsHeading": [
+        "Servo Driven",
+        "Paper Cup Machine"
+    ],
+    "PointsHeadingDesc": "Whether it's for tea, coffee, water, or any other beverage, the Best Servo Driven Paper Cup Machine delivers reliable, fast, and high-quality cup production, meeting the demands of any fast-paced service environment.",
+    "PointsDescription": [
+        "High-Speed Synchronized Servos",
+        "Two-Step Curling Process",
+        "Advanced Sealing Technology",
+        "Comprehensive Control System with PLC + HMI"
+    ],
+    "ImageHeading": [
+        "Products",
+        "Introduction"
+    ],
+    "ImageDescription": "This machine performs various functions including Die cutting, Creasing, Embossing, and full-stripping of various PE coated paper, standard paper, corrugating paper, and foam material. It is equipped with the latest modern technologies like micro-computer positioning, alternating current frequency converter, automatic counting, photoelectric rectifying, Pneumatic-lock cutting plate, electromagnetic clutch, centralized oil lubrication, overload protection, and distinctive gearing.",
+    "Imagelinkimg": "https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
+    "MachineSpecsLabels": [
+        "FEATURE",
+        "SPECIFICATION"
+    ],
+    "MachineSpecs": [
+        {
+            "feature": "Speed",
+            "specs": "180 Cups / min"
+        },
+        {
+            "feature": "Paper Specifications",
+            "specs": "170 - 380 GSM"
+        },
+        
+        {
+            "feature": "Raw Materials",
+            "specs": "Single or Double PE/PLA Coated Paper"
+        },
+        {
+            "feature": "Cup Size",
+            "specs": "2.5 - 26 oz"
+        },
+        {
+            "feature": "Cup Top Dia",
+            "specs": "60 - 95 mm"
+        },
+        {
+            "feature": "Cup Height",
+            "specs": "50-135 mm"
+        },
+        {
+            "feature": "Cup Bottom Dia",
+            "specs": "40-75 mm"
+        },
+        {
+            "feature": "Voltage",
+            "specs": "3 Phase | 380 V; 50 Hz"
+        },
+        {
+            "feature": "Total Power",
+            "specs": "35 kW"
+        },
+        {
+            "feature": "Weight",
+            "specs": "3500 Kg"
+        },
+        {
+            "feature": "Dimensions",
+            "specs": "3700 x 1520 x 1940 mm"
+        },
+        {
+            "feature": "Air Pressure",
+            "specs": "0.6 - 0.8 Mpa"
+        },
+        {
+            "feature": "Air Flow Rate",
+            "specs": "30 CFM"
+        }
+    ],
+    "RelatedProducts": [
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Fully Automatic Paper Cup Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Disposable Paper cup Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Flexo Printing Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        }
+    ]
+}

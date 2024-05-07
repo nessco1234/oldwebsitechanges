@@ -1,0 +1,135 @@
+{
+    "Route": "ripple-wall-cup-sleeve-glueing-machine/",
+    "Heading": "Ripple Wall Cup Sleeve Glueing Machinee",
+    "Description": "Our Folder Gluer Machine is a critical component in the production of insulated paper sleeves, specifically designed to work with craft, embossed or corrugated pre die cut sleeves that serve as raw materials for ripple wall machines. These machines are essential in the creation of sleeves that effectively insulate cups for hot beverages. The process starts at the blank feeder station where the pre die cut sleeves are fed into the system. An auto controlled conveyor system then transports these sleeves to the gluing station, where a precise application of glue is administered using a glue applicator wheel.",
+    "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
+    "Imgdesc": [
+        "After the application of glue, the sleeves are moved through an oven dryer unit within the machine, where the glue is quickly dried to prepare the sleeves for further processing. This step is crucial as it ensures the sleeves are ready to be used by ripple wall machines to create high-quality, insulated cups. The consistent handling and processing of the materials through the machine guarantee that each sleeve is prepared with uniformity and precision.","The Folder Gluer Machine is built to handle high volumes efficiently, with a maximum feeding rate of 220 meters per minute and accommodating paper GSM ranging from 210 to 600. The dimensions of the blanks it can process extend up to 450mm in length and 250mm in width. This machine uses water-based cold glue, which is environmentally friendly and effective for bonding purposes. Additionally, it features a high-quality conveyor system ensuring the machine’s longevity with minimal maintenance required. This makes the Folder Gluer Machine a reliable and sustainable choice for businesses looking to enhance their production capabilities for ripple wall cups.",""
+    ],
+    "Suggestions": [
+        {
+            "id": "1",
+            "name": "Paper Bowl Machine",
+            "suggestionlink": "/product/paper-container-bowl-making-machine/"
+        },
+        {
+            "id": "2",
+            "name": "Paper Bag Machine",
+            "suggestionlink": "/product/paper-bag-making-machine/"
+        },
+        {
+            "id": "3",
+            "name": "Paper Cultery Machine",
+            "suggestionlink": "/product/paper-cutlery-machine/"
+        },
+        {
+            "id": "4",
+            "name": "Die Cutting Machine",
+            "suggestionlink": "/product/roll-die-cutting-machine/"
+        },
+        {
+            "id": "5",
+            "name": "Flexo Printing Machine",
+            "suggestionlink": "/product/flexo-printing-machine/"
+        }
+    ],
+    "ImageComponent": false,
+    "PointsComponent": true,
+    "NotPoints":false,
+    "MultipleImageComp": false,
+    "MultipleTable": false,
+
+    "PointsHeading": [
+        "",
+        ""
+    ],
+    "PointsHeadingDesc": "",
+    "PointsDescription": [
+        "Conveyor Based High Speed Feeder",
+        "Inline Auto Glueing Mechanism",
+        "Auto Drying Section",
+        "Easy Controlling via HMI"
+    ],
+    "ImageHeading": [
+        "Products",
+        "Introduction"
+    ],
+    "ImageDescription": "Discover the versatility of our Carton Erecting Machine, an automatic solution specialized in crafting a wide array of paper boxes essential for the food service industry. This machine is ideal for producing various types of cartons including hamburger boxes, children's lunch boxes, French fries boxes, fried chicken boxes, triangular pizza boxes, and more, tailored for the quick-service sector. Equipped with a PLC intelligent control system, the machine ensures precise operations and efficiency, bolstered by a sturdy structure that delivers low noise levels and high operational speed.",
+    "Imagelinkimg": "https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
+    "MachineSpecsLabels": [
+        "FEATURE",
+        "SPECIFICATION"
+    ],
+    "MachineSpecs": [
+        {
+            "feature": "Speed",
+            "specs": "220 mtr / min"
+        },
+        {
+            "feature": "Paper GSM",
+            "specs": "210-600 GSM"
+        },
+        
+        {
+            "feature": "Glue Specifications",
+            "specs": "Water Base Cold Glue"
+        },
+        {
+            "feature": "Voltage",
+            "specs": "3 Phase | 380 V; 50 Hz"
+        },
+        {
+            "feature": " Power",
+            "specs": "15 kW"
+        },
+        {
+            "feature": "Feeding Mechanism",
+            "specs": "Automatically & Continuously Feeding"
+        },
+        {
+            "feature": "Weight",
+            "specs": "1100 kg"
+        },
+        {
+            "feature": "Feeder Dimension",
+            "specs": "2800 x 1150 x 1350 mm"
+        },
+        {
+            "feature": "Dryer Dimension",
+            "specs": "4700 x 620 x 1120 mm"
+        },
+        {
+            "feature": "Paper Max Top Length",
+            "specs": "450 mm"
+        },
+        {
+            "feature": "Paper Min Top Length",
+            "specs": "100 mm"
+        },
+        {
+            "feature": "Paper Max Height",
+            "specs": "80 mm"
+        },
+        {
+            "feature": "Paper Min Height",
+            "specs": "250 mm"
+        }
+    ],
+    "RelatedProducts": [
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Fully Automatic Paper Cup Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Disposable Paper Cup Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Flexo Printing Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        }
+    ]
+}

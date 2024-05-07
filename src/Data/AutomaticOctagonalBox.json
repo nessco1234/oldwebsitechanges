@@ -1,0 +1,119 @@
+{
+    "Route": "automatic-octagonal-box-forming-machine",
+    "Heading": "Automatic Octagonal Box Forming Machine",
+    "Description": " Introducing the Automatic Octagonal Box Forming Machine, a fully automated solution designed to streamline the production of disposable paper lunch boxes. This Octagonal Paper box forming machine excels in high-speed operations, making it ideal for the fast-paced demands of the food service industry. Equipped with a self-contained hot air generator, it precisely handles single PE coated paper, ensuring that each box is formed with exactness and strength.",
+    "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
+    "Imgdesc": [
+        ""
+    ],
+    "Suggestions": [
+        {
+            "id": "1",
+            "name": "Paper Bowl Machine",
+            "suggestionlink": "/product/paper-container-bowl-making-machine/"
+        },
+        {
+            "id": "2",
+            "name": "Paper Bag Machine",
+            "suggestionlink": "/product/paper-bag-making-machine/"
+        },
+        {
+            "id": "3",
+            "name": "Paper Cultery Machine",
+            "suggestionlink": "/product/paper-cutlery-machine/"
+        },
+        {
+            "id": "4",
+            "name": "Die Cutting Machine",
+            "suggestionlink": "/product/roll-die-cutting-machine/"
+        },
+        {
+            "id": "5",
+            "name": "Flexo Printing Machine",
+            "suggestionlink": "/product/flexo-printing-machine/"
+        }
+    ],
+    "ImageComponent": false,
+    "PointsComponent": true,
+    "NotPoints":false,
+    "MultipleImageComp": false,
+    "MultipleTable": false,
+
+    "PointsHeading": [
+        "Choose The Best Octagonal",
+        "Paper Box Forming Machine"
+    ],
+    "PointsHeadingDesc": "The versatility of the Automatic Octagonal Paper Box Forming Machine is one of its standout features, enabling the production of not only paper lunch boxes but also cake trays and various types of food packaging boxes. The Automatic Octagonal Paper Box Forming Machine Equipped with an advanced Programmable Logic Control and Human Machine Interface (PLC + HMI), this machine offers exceptional control over every aspect of the production process. From paper feeding to heating, hot press forming, and automatic point collection, each step is finely tuned for optimal performance and consistency. Built for stability and energy efficiency, the Automatic Octagonal Paper Box Forming Machine's mechanical transmission system ensures reliable performance and reduced operating costs. This machine represents the pinnacle of paper product manufacturing technology, making it an essential addition for any business seeking to improve its production capability with the best and most reliable equipment available.",
+    "PointsDescription": [
+        "Self-Contained Hot Air Generator",
+        "Programmable Logic Control and Human Machine Interface (PLC + HMI)",
+        "Versatile Production Capabilities",
+        "Energy-Efficient Mechanical Transmission"
+    ],
+    "ImageHeading": [
+        "Products",
+        "Introduction"
+    ],
+    "ImageDescription": "This machine performs various functions including Die cutting, Creasing, Embossing, and full-stripping of various PE coated paper, standard paper, corrugating paper, and foam material. It is equipped with the latest modern technologies like micro-computer positioning, alternating current frequency converter, automatic counting, photoelectric rectifying, Pneumatic-lock cutting plate, electromagnetic clutch, centralized oil lubrication, overload protection, and distinctive gearing.",
+    "Imagelinkimg": "https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
+    "MachineSpecsLabels": [
+        "FEATURE",
+        "SPECIFICATION"
+    ],
+    "MachineSpecs": [
+        {
+            "feature": "Speed",
+            "specs": "13-18 pcs / min"
+        },
+        {
+            "feature": "Paper Specifications",
+            "specs": "200-300 GSM"
+        },
+        
+        {
+            "feature": "Max. Paper Size",
+            "specs": "300 x 250 mm"
+        },
+        {
+            "feature": "Raw Materials",
+            "specs": "PE Coated Paper, Grease Proof Paper, Silicon Coated Paper"
+        },
+        {
+            "feature": "Working Pressure",
+            "specs": "0.2-0.3 m3/min"
+        },
+        {
+            "feature": "Total Power",
+            "specs": "6 kW"
+        },
+        {
+            "feature": "Weight",
+            "specs": "750 Kg"
+        },
+        {
+            "feature": "Dimensions",
+            "specs": "(1750 x 700 x 1830) mm"
+        },
+        {
+            "feature": "Air Requirement",
+            "specs": "0.5 Mpa"
+        }
+    ],
+    "RelatedProducts": [
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Fully Automatic Paper Cup Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Disposable Paper Cup Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Flexo Printing Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        }
+    ]
+}

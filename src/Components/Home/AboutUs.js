@@ -14,7 +14,7 @@ const AboutUs = () => {
           <div className="leftabout">
             <img className="leftaboutpic" alt="123" src={TeamPic} />
             <div className="leftaboutpic2">
-              <a className="playbtn" href="/">
+              <a className="playbtn" href="https://www.youtube.com/embed/e-rwkwTE8P4" data-caption>
                 <FaPlay />
               </a>
             </div>

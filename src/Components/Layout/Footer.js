@@ -10,11 +10,11 @@ const Footer = () => {
             <footer className="footer">
                 <div className="footercontainer">
                     <div className="footerlinks">
-                        <Link className='footerlink' to={'/'}>Our Gallery</Link>
-                        <Link className='footerlink' to={'/'}>Company</Link>
-                        <Link className='footerlink' to={'/'}>Machines</Link>
-                        <Link className='footerlink' to={'/'}>Blog</Link>
-                        <Link className='footerlink' to={'/'}>Contact</Link>
+                        <Link className='footerlink' to={'/our-gallery'}>Our Gallery</Link>
+                        <Link className='footerlink' to={'/about-us/'}>Company</Link>
+                        <Link className='footerlink' to={'/product'}>Machines</Link>
+                        <Link className='footerlink' to={'/blog'}>Blog</Link>
+                        <Link className='footerlink' to={'/contact'}>Contact</Link>
                     </div>
                     <hr className='horizontaldiv' />
                     <div className="footercontent">
@@ -47,23 +47,23 @@ const Footer = () => {
                             <h1 className="footerlistheading">Links</h1>
                             <div className="footerlistslink">
                                 <Link className='footeratags' to={'/'}>Home</Link>
-                                <Link className='footeratags' to={'/'}>About us</Link>
-                                <Link className='footeratags' to={'/'}>Machines</Link>
-                                <Link className='footeratags' to={'/'}>Video</Link>
-                                <Link className='footeratags' to={'/'}>Contact</Link>
-                                <Link className='footeratags' to={'/'}>MarketArea</Link>
+                                <Link className='footeratags' to={'/about-us'}>About us</Link>
+                                <Link className='footeratags' to={'/product/'}>Machines</Link>
+                                <Link className='footeratags' to={'/video'}>Video</Link>
+                                <Link className='footeratags' to={'/contact'}>Contact</Link>
+                                <Link className='footeratags' to={'/market-area'}>MarketArea</Link>
                             </div>
 
                         </div>
                         <div className="footerlist">
                             <h1 className="footerlistheading">Services</h1>
                             <div className="footerlistslink">
-                                <Link className='footeratags' to={'/'}>Paper Cup Machine</Link>
-                                <Link className='footeratags' to={'/'}>Paper Bag Machine</Link>
-                                <Link className='footeratags' to={'/'}>Paper Bowl Machine</Link>
-                                <Link className='footeratags' to={'/'}>PE Coating Machine</Link>
-                                <Link className='footeratags' to={'/'}>Paper Straw Machine</Link>
-                                <Link className='footeratags' to={'/'}>Flexo Printing Machine</Link>
+                                <Link className='footeratags' to={'/product/high-speed-paper-cup-making-machine/'}>Paper Cup Machine</Link>
+                                <Link className='footeratags' to={'/product/paper-bag-making-machine/'}>Paper Bag Machine</Link>
+                                <Link className='footeratags' to={'/product/paper-container-bowl-making-machine/'}>Paper Bowl Machine</Link>
+                                <Link className='footeratags' to={'/product/pe-coating-machine/'}>PE Coating Machine</Link>
+                                <Link className='footeratags' to={'/product/paper-straw-making-machine/'}>Paper Straw Machine</Link>
+                                <Link className='footeratags' to={'/product/flexo-printing-machine/'}>Flexo Printing Machine</Link>
                             </div>
                         </div>
                         <div className="footerlist">
@@ -82,7 +82,7 @@ const Footer = () => {
             </footer>
             <div className="footerrights">
                 <div className="footercontainerx">
-                    <p className='footerright'>Nessco &copy; 2022 All Right Reserved</p>
+                    <p className='footerright'>Nessco &copy; 2024 All Right Reserved</p>
                     <a className='footerright' href="/">Privacy Policy</a>
                 </div>
             </div>

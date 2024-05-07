@@ -1,10 +1,10 @@
 {
-    "Route": "paper-plate-making-machine",
-    "Heading": "Paper Plate Making Machine",
-    "Description": "We are a leading manufacturer and global supplier of fully automatic Paper Plate machines. Our Paper plate making machine is designed with advance technologies, which gives this model a compact structure and stable performance. This machine can produce up to 120 disposable paper plates every minute. This machine is self-sufficient with the capacity of performing a chain of functions.",
+    "Route": "carton-erecting-machine",
+    "Heading": "Carton Erecting Machine",
+    "Description": " The Carton Erecting Machine excels in precision and stability, featuring a servo control system that allows for smooth, vibration-free operations. It comprises several units including paper feeding, adjustment, and forming units, all designed to work in harmony to produce up to 80 pieces per minute, depending on the box type. The machine supports a wide range of paper weights from 180 to 620 gsm, accommodating cardboard, laminated, and corrugated papers. Additionally, the innovative cam pushing system, enhanced by servo technology, ensures reduced wear, longer service life, and precise adjustments, while the auto lubrication system minimizes maintenance needs.",
     "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
     "Imgdesc": [
-        "We are a leading manufacturer and global supplier of fully automatic Paper Plate machines. Our Paper plate making machine is designed with advance technologies, which gives this model a compact structure and stable performance. This machine can produce up to 120 disposable paper plates every minute. This machine is self-sufficient with the capacity of performing a chain of functions.","This series includes automatic paper feeding, heating, temperature controlling, automatic counting, and collection as well. It has integrated the pneumatic and mechanic technologies, which ensures faster working speed, higher safety-performance, safer operation, and easier maintenance than the conventional one"
+        ""
     ],
     "Suggestions": [
         {
@@ -35,15 +35,15 @@
     ],
     "ImageComponent": true,
     "PointsComponent": true,
-    "NotPoints":true,
+    "NotPoints":false,
     "MultipleImageComp": false,
     "MultipleTable": false,
 
     "PointsHeading": [
-        "Automatic Paper",
-        "Plate Machine"
+        "",
+        ""
     ],
-    "PointsHeadingDesc": "Paper Plate Making Machine has been designed using advanced technologies which gives this model a compact structure and stable performance. This machine performs embossing, pasting and drying to create final product. It has integrated the pneumatic and mechanic technologies, which ensures faster working speed, higher safety-performance, safer operation, and easier maintenance than the conventional one..",
+    "PointsHeadingDesc": "For gluing, the machine utilizes a water-based glue system suitable for food-grade applications, ensuring safe and reliable adhesion with high efficiency. The addition of a pneumatic air cylinder knife optimizes the handling of thicker papers necessary for robust burger boxes, ensuring flawless cutting and forming. This machine not only automates the collection and counting of finished products but also features high-grade electrical components from brands like Schneider Electric to guarantee longevity. Whether forming hamburger boxes, noodle packs, or any other packaging for quick-service foods, this machine stands as a comprehensive solution for modern packaging needs, combining speed, precision, and adaptability.",
     "PointsDescription": [
         "Comprehensive Control System with PLC + HMI",
         "Servo controlled motion",
@@ -62,37 +62,57 @@
     ],
     "MachineSpecs": [
         {
-            "feature": "Production Speed",
-            "specs": "120 Pcs/Min"
+            "feature": "Speed",
+            "specs": "80 Pcs / min (according to box type)"
         },
         {
-            "feature": "Plate Size",
-            "specs": "5-12 mm"
+            "feature": "Paper GSM",
+            "specs": "180 - 620 GSM"
         },
         
         {
-            "feature": "Material Thickness",
-            "specs": "120-600 GSM"
+            "feature": "Paper Specifications",
+            "specs": "Cardboard / Laminated / Corrugated Paper"
+        },
+        {
+            "feature": "Paper Thickness",
+            "specs": "≤1.6mm"
+        },
+        {
+            "feature": "Glue Material",
+            "specs": "Water Based Glue (Food Grade)"
+        },
+        {
+            "feature": "Paper Size Max",
+            "specs": "650mm(W)*500mm(L)"
+        },
+        {
+            "feature": "Max Box Size",
+            "specs": "450mm*400mm"
+        },
+        {
+            "feature": "Min Box Size",
+            "specs": "50mm*30mm"
+        },
+        {
+            "feature": "Air Requirement",
+            "specs": "2kg/cm2"
+        },
+        {
+            "feature": "Voltage",
+            "specs": "380V 50Hz / 220V 50Hz"
+        },
+        {
+            "feature": "Total Power",
+            "specs": "4 kW"
         },
         {
             "feature": "Weight",
-            "specs": "1300 Kg"
+            "specs": "2500 Kg"
         },
         {
-            "feature": "General Power",
-            "specs": "8.5 Kw"
-        },
-        {
-            "feature": "Power",
-            "specs": "380V, 50 Hz"
-        },
-        {
-            "feature": "Machine dimensions",
-            "specs": "(2600x1100x1880) mm"
-        },
-        {
-            "feature": "Applications",
-            "specs": "Paper plates for serving snacks and meals"
+            "feature": "Dimensions",
+            "specs": "3700 * 1350 * 1450 mm"
         }
     ],
     "RelatedProducts": [

@@ -16,7 +16,7 @@ const Video = () => {
     ];
     return (
         <>
-            <Breadcrum previous={"Home > "} active={"Video"} />
+            <Breadcrum previous={"Home"} active={"Video"} />
             <div className="video">
                 <div className="vediocontainer">
                     <h1 className="videoheading">Nessco <span> Videos</span></h1>

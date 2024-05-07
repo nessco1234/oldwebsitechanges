@@ -1,3 +1,107 @@
 {
-    
+    "Route": "paper-cutlery-machine",
+    "Heading": "Paper Cutlery Making Machine",
+    "Description": " Paper Cutlery making Machine segregates its functions in three parts; first, Glue layer coating & Lamination & Die cutting part; second, Forming part and last, Glue Sealing & Drying part. With the increasing awareness of health hazards caused from using plastic cutleries lately, Paper Cutlery Machine came into more popularity with its varied utility- Paper Knife Fork And Spoons.",
+    "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
+    "Imgdesc": [
+        "Paper Cutlery making Machine segregates its functions in three parts; first, Glue layer coating & Lamination & Die cutting part; second, Forming part and last, Glue Sealing & Drying part. With the increasing awareness of health hazards caused from using plastic cutleries lately, Paper Cutlery Machine came into more popularity with its varied utility- Paper Knife Fork And Spoons.","This machine can produce paper spoons, forks and knives which are biodegradable, recyclable, healthy and clean. This machine performs chain of functions including paper feeding, lamination, die cutting, forming, glue sealing and drying. This model can produce cutleries which are water proof, temperature resistant and anti Oi."
+    ],
+    "Suggestions": [
+        {
+            "id": "1",
+            "name": "Paper Bowl Machine",
+            "suggestionlink": "/product/paper-container-bowl-making-machine/"
+        },
+        {
+            "id": "2",
+            "name": "Paper Bag Machine",
+            "suggestionlink": "/product/paper-bag-making-machine/"
+        },
+        {
+            "id": "3",
+            "name": "Paper Cultery Machine",
+            "suggestionlink": "/product/paper-cutlery-machine/"
+        },
+        {
+            "id": "4",
+            "name": "Die Cutting Machine",
+            "suggestionlink": "/product/roll-die-cutting-machine/"
+        },
+        {
+            "id": "5",
+            "name": "Flexo Printing Machine",
+            "suggestionlink": "/product/flexo-printing-machine/"
+        }
+    ],
+    "ImageComponent": true,
+    "PointsComponent": true,
+    "NotPoints":true,
+    "MultipleImageComp": false,
+    "MultipleTable": false,
+
+    "PointsHeading": [
+        "Paper Cutlery",
+        "Machine"
+    ],
+    "PointsHeadingDesc": "Nessco Paper Lid Machine is equipped with paper cover molding technology that makes this device easy to operate. It also includes various other modern technologies for better efficiency and production speed. The automatic lubrication system keeps the machine durable and ensures its smooth run. Paper Cup Lid Machine is more stable due to its heavy and well built structural frame.",
+    "PointsDescription": [
+    ],
+    "ImageHeading": [
+        "Products",
+        "Introduction"
+    ],
+    "ImageDescription": "Paper Cutlery is the best alternative to harmful plastic ones. Our range includes Paper Fork, Paper Knife and Paper Spoon. We are glad to be a part in creating a greener world with our premium Paper Cutlery Machine which forms biodegradable paper cutlery. This machine performs chain of functions including paper feeding, lamination, die cutting, forming, glue sealing and drying. This model can produce cutleries which are water proof, temperature resistant and anti Oi.",
+    "Imagelinkimg": "https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
+    "MachineSpecsLabels": [
+        "FEATURE",
+        "SPECIFICATION"
+    ],
+    "MachineSpecs": [
+        {
+            "feature": "Production Speed",
+            "specs": "170 Pcs/Min"
+        },
+        {
+            "feature": "Paper Specification",
+            "specs": "600-1000 GSM"
+        },
+        
+        {
+            "feature": "General Power",
+            "specs": "Total Power 65 KW"
+        },
+        {
+            "feature": "Weight",
+            "specs": "10000 kg"
+        },
+        {
+            "feature": "Air Requirement",
+            "specs": "> 2m³/min"
+        },
+        {
+            "feature": "Max Paper Layers",
+            "specs": "3-9 layer"
+        },
+        {
+            "feature": "Applications",
+            "specs": "Eco friendly and bio-degradable paper cutleries (spoon, fork and knife)"
+        }
+    ],
+    "RelatedProducts": [
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "PE Coating Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Flexo Printing Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Pop Corn Tub Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        }
+    ]
 }

@@ -1,3 +1,108 @@
 {
-    
+    "Route": "pop-corn-tub-making-machine",
+    "Heading": "PopCorn Tub Making Machine",
+    "Description": " This machine is manufactured using latest technology and high tech equipments which are reliable as well as durable. This machine can produce finely sealed paper bucket/tubs with a production speed of upto 35 bowls per minute. With great quality mechanical parts, inspite of being high speed production, power consumption is still low. It is designed using Single Turn Plate Technology and Direct Bottom Technology.",
+    "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
+    "Imgdesc": [
+        "This machine is used for making large containers like Popcorn Tubs, Chicken Buckets, and many more. Moreover, this machine has certain additional features like photoelectric sensors for paper feeding and bowl counting."
+    ],
+    "Suggestions": [
+        {
+            "id": "1",
+            "name": "Paper Bowl Machine",
+            "suggestionlink": "/product/paper-container-bowl-making-machine/"
+        },
+        {
+            "id": "2",
+            "name": "Paper Bag Machine",
+            "suggestionlink": "/product/paper-bag-making-machine/"
+        },
+        {
+            "id": "3",
+            "name": "Paper Cultery Machine",
+            "suggestionlink": "/product/paper-cutlery-machine/"
+        },
+        {
+            "id": "4",
+            "name": "Die Cutting Machine",
+            "suggestionlink": "/product/roll-die-cutting-machine/"
+        },
+        {
+            "id": "5",
+            "name": "Flexo Printing Machine",
+            "suggestionlink": "/product/flexo-printing-machine/"
+        }
+    ],
+    "ImageComponent": true,
+    "PointsComponent": true,
+    "MultipleImageComp": false,
+    "MultipleTable": false,
+    "PointsHeading": [
+        "PopCorn",
+        "Tubs Manufacturing"
+    ],
+    "PointsHeadingDesc": "This heavy and compact machine structure is equipped with a modern single-turn plate and open cam technology. These technologies generate more significant output while maintaining a stable production process. This machine is used for making large containers like Popcorn Tubs, Chicken Buckets, and many more.",
+    "PointsDescription": [
+        "Photoelectric Sensors",
+        "Open Cam Technology",
+        "Direct Bottom Technology",
+        "Ultrasonic Heating Device"
+    ],
+    "ImageHeading": [
+        "Products",
+        "Introduction"
+    ],
+    "ImageDescription": "This High-speed Paper Tub Making Machine has been embedded with patented open cam technology and produces up to 35 pcs per minute. The average size of the paper tubs ranges from 28 to 190 Oz. The diameter can be controlled to be between 120 to 220 mm, whereas each tub’s height can be around 100 to 200mm. This self-sufficient machine can complete the entire procedure of manufacturing paper tubs itself, including curling and sealing. These containers are finely sealed as this machine has ultrasonic heaters for bowl sealing.",
+    "Imagelinkimg": "https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
+    "MachineSpecsLabels": [
+        "FEATURE",
+        "SPECIFICATION"
+    ],
+    "MachineSpecs": [
+        {
+            "feature": "Production Speed",
+            "specs": "35 Pcs/Min"
+        },
+        {
+            "feature": "Paper Tub Size Range",
+            "specs": "28-190 Oz"
+        },
+        {
+            "feature": "Max Cup Dimension",
+            "specs": "TD-220 mm, H-200 mm"
+        },
+        {
+            "feature": "General Power",
+            "specs": "13 Kw"
+        },
+        {
+            "feature": "Weight",
+            "specs": "4000 kg"
+        },
+        {
+            "feature": "Machine Dimensions",
+            "specs": "(3100*1600*1800) mm"
+        },
+        {
+            "feature": "Applications",
+            "specs": "Serving Popcorn, Chicken, Salad, Noodles, etc"
+        }
+    ],
+    "RelatedProducts": [
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Paper Shopping Bag Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Paper Salad Bowl Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Roll Die Cutting Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        }
+    ]
 }

@@ -13,7 +13,7 @@ import Creation from '../Components/Home/Creation'
 const About = () => {
   return (
     <>
-        <Breadcrum previous={"Home > "} active={"About"} />
+        <Breadcrum previous={"Home"} active={"About"} />
         {/* ///////////////// */}
         <AboutNessco/>
         <AboutCards/>

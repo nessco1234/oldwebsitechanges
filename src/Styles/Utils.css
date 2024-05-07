@@ -16,6 +16,7 @@
     position: fixed;
     bottom: 21.5%;
     left: 0;
+    z-index: 1000000;
 }
 .staticSocial2{
     display: flex;
@@ -104,14 +105,16 @@
     width: 120px;
   }
   .navlink{
-    margin: 0 1.3rem;
+    margin: auto 1.3rem;
     color: black;
     font-size: 1.6rem;
     transition: all .5s ease;
     height: 100%;
-    padding-top:3.4rem;
     font-family: "Inter", sans-serif;
     font-weight:500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .navlink:hover{
     color: var(--redcolor);
@@ -143,9 +146,11 @@
   .headerbtn:hover .headerbtncon{
     /* opacity: 0; */
     transform: translateX(-5px);
+    /* filter: blur(1px); */
   }
+
   .headerbtncon{
-    transform: translateX();
+    transform:;
   }
   .headerbtn:hover {
     text-shadow: -300px 0px 0 #ffffff; /* Move shadow to the left on hover */
@@ -168,16 +173,22 @@
     /* border: 1px solid black; */
   }
   .breadcrumcontainer{
-    width: 90%;
+    width: 85%;
     height: 100%;
     margin: auto;
     display: flex;
     align-items: center;
   }
   .breadcrumheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #b5b5b5;
     font-size: 2.3rem;
     font-weight: 600;
+  }
+  .breadcrumicon{
+    margin-top: 0.5rem;
   }
   .breadcrumheading:hover{
     color: white;

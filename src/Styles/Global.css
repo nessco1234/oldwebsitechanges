@@ -38,3 +38,6 @@ li {
 input:focus{
     border-color: var(--bluecolor);
 }
+.vediocontent{
+    width: 30%;
+}
