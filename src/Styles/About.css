@@ -17,7 +17,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
+    padding: 3rem 4rem;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.10);
     border-radius: 5px;
 }
@@ -99,9 +99,9 @@
 .aboutdescpara{
     color: rgba(0, 0, 0, 0.71);
     margin-top: 3rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 2rem;
-    text-align: center;
+    text-align: justify;
 }
 .aboutvision{
     width: 100%;

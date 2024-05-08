@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const ProductCard = (props) => {
   return (
     <>
-        <Link className="productpagecard">
+        <Link className="productpagecard" to={props.url}>
             <div className="productpageupper">
                 <img src={props.img} alt="" />
             </div>

@@ -1,23 +1,26 @@
 import React from 'react'
 import { BiSolidRightArrowAlt } from 'react-icons/bi'
 import img1 from '../../Assets/images/news/news-1.webp'
+import { Link } from 'react-router-dom'
+import { FaArrowRightLong } from 'react-icons/fa6'
 const SingleBlog = (props) => {
+    const d=props.data
     return (
         <>
             <div className="singleblogcard">
                 <div className="singleblogcardupper">
-                    <img src={img1} alt="" />
+                    <img src={d.url} alt="" />
                 </div>
                 <div className="singleblogcardlower">
                     <h1 className="singleblogcardtitle">
-                        Disposable Packaging Solutions for HORECA
+                        {d.heading}
                     </h1>
                     <p className="singleblogcarddesc">
-                        In these challenging times, it becomes difficult to nvigate ...
+                        {d.desc}
                     </p>
-                    <button className="singleblogbtn">
-                        Learn More <BiSolidRightArrowAlt />
-                    </button>
+                    <Link to={d.link} className="singleblogbtn">
+                        Learn More <FaArrowRightLong style={{marginLeft:"1rem"}}/> 
+                    </Link>
                 </div>
             </div>
         </>

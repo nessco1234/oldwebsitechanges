@@ -51,7 +51,7 @@ const Footer = () => {
                                 <Link className='footeratags' to={'/product/'}>Machines</Link>
                                 <Link className='footeratags' to={'/video'}>Video</Link>
                                 <Link className='footeratags' to={'/contact'}>Contact</Link>
-                                <Link className='footeratags' to={'/market-area'}>MarketArea</Link>
+                                <Link className='footeratags' to={'/market-area'}>Market Area</Link>
                             </div>
 
                         </div>
@@ -83,7 +83,7 @@ const Footer = () => {
             <div className="footerrights">
                 <div className="footercontainerx">
                     <p className='footerright'>Nessco &copy; 2024 All Right Reserved</p>
-                    <a className='footerright' href="/">Privacy Policy</a>
+                    <Link className='footerright' to={"/privacy-policy/"}>Privacy Policy</Link>
                 </div>
             </div>
         </>

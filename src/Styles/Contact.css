@@ -13,7 +13,7 @@
     z-index: -1;
 }
 .contactcontainer{
-    width: 90%;
+    width: 85%;
     height: 100%;
     margin:auto;
     display: flex;
@@ -138,6 +138,7 @@
 }
 .contactinputtextarea{
     padding: 2rem;
+    resize: vertical;
     border-radius: 7px;
     width: 95%;
     background:#f7f7f7;
@@ -146,6 +147,22 @@
     margin: 1rem auto;
 }
 .contactbtn{
+    padding: 2rem;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: var(--bluecolor);
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-shadow: -0px 0px 0 #ffffff; /* Horizontal offset, vertical offset, blur radius, color */
+    transition: all 0.5s ease; /* Optional: Add transition effect */
+    overflow: hidden;
+    /* opacity: 0; */
+    z-index: 199;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,7 +174,24 @@
     color: white;
     border: none;
     margin-top: 2rem;
-}
+  }
+  .contactbtn:hover .headerbtncon{
+    /* opacity: 0; */
+    transform: translateX(-5px);
+    /* filter: blur(1px); */
+  }
+  .contactbtn:hover {
+    text-shadow: -300px 0px 0 #ffffff; /* Move shadow to the left on hover */
+    background-color: var(--redcolor);
+    transform: scale(1.05);
+  }
+  .headerbtnarrow{
+    transition: all 0.5s ease; /* Optional: Add transition effect */
+  }
+  .headerbtnarrow {
+    transform: translateX(5px);
+  }
+
 /* BRANCHES  */
 
 .branches{
@@ -179,12 +213,25 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    position: relative;
     /* border: 1px solid black; */
+}
+.branchcardimg{
+    position: absolute;
+    width: 150px;
+    opacity: .05;
+    transition: all .5s ease;
+}
+.branchcard:hover .branchcardimg{
+    /* position: absolute; */
+    width: 170px;
+    /* opacity: .02; */
 }
 .branchheading{
     margin-bottom: 3rem;
     font-size: 2rem;
     color: var(--bluecolor);
+    z-index: 1;
 }
 .branchdesc{
     font-size: 1.5rem;
@@ -192,6 +239,7 @@
     color: #595959;
     text-align: center;
     margin-bottom: 4rem;
+    z-index: 1;
 }
 .branchcard{
     /* border: 1px solid black; */

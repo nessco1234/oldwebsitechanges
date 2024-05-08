@@ -3,6 +3,7 @@ import icon1 from '../../Assets/images/icons/marker.png'
 import icon2 from '../../Assets/images/icons/email.png'
 import icon3 from '../../Assets/images/icons/phone.png'
 import { BiLeftArrow, BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
+import { FaArrowRightLong } from 'react-icons/fa6'
 const ContactForm = () => {
     return (
         <div className="contact">
@@ -58,10 +59,11 @@ const ContactForm = () => {
                             <input placeholder='Full Name*' className='contactinputfields' type="text" />
                             <input placeholder='Email' className='contactinputfields' type="text" />
                             <input placeholder='Phone Number*' className='contactinputfields' type="text" />
-                            <input placeholder='Full Name*' className='contactinputfields' type="text" />
-                            <textarea placeholder='Full Name*' className='contactinputtextarea' cols="30" rows="5"></textarea>
+                            <input placeholder='Subject' className='contactinputfields' type="text" />
+                            <textarea placeholder='Message' className='contactinputtextarea' cols="30" rows="3"></textarea>
                         </div>
-                        <button className='contactbtn' >Send Message <BiRightArrowAlt /></button>
+                        <button className="contactbtn">
+                            <p className='headerbtncon'>Inquire Now !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
                     </div>
                 </div>
             </div>

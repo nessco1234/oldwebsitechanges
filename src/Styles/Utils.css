@@ -83,7 +83,7 @@
   
   .navbar{
     width: 100%;
-    height: 14vh;
+    height: 12vh;
     position: sticky;
     top: 0;
     left: 0;
@@ -105,13 +105,13 @@
     width: 120px;
   }
   .navlink{
-    margin: auto 1.3rem;
+    margin: auto 1.4rem;
     color: black;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     transition: all .5s ease;
     height: 100%;
     font-family: "Inter", sans-serif;
-    font-weight:500;
+    font-weight:600;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,7 +134,7 @@
     border-radius: 5px;
     background-color: var(--bluecolor);
     border: none;
-    color: white;
+    color: transparent;
     font-weight: 600;
     font-size: 1.3rem;
     text-shadow: -0px 0px 0 #ffffff; /* Horizontal offset, vertical offset, blur radius, color */
@@ -143,17 +143,17 @@
     /* opacity: 0; */
     z-index: 199;
   }
+  .headerbtnarrow{
+    color: white;
+  }
   .headerbtn:hover .headerbtncon{
     /* opacity: 0; */
     transform: translateX(-5px);
     /* filter: blur(1px); */
   }
-
-  .headerbtncon{
-    transform:;
-  }
   .headerbtn:hover {
-    text-shadow: -300px 0px 0 #ffffff; /* Move shadow to the left on hover */
+    color: white;
+    text-shadow: -300px 0px 0 rgba(255, 255, 255, 0.001); /* Move shadow to the left on hover */
     background-color: var(--redcolor);
     transform: scale(1.05);
   }
@@ -241,7 +241,7 @@
   position: absolute;
   top: 100%;
   left: 0%;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   padding: 4rem 2rem;
   /* border: 1px solid #ccc; */
   list-style-type: none;
@@ -250,11 +250,18 @@
   justify-content: flex-start;
   align-items: flex-start;
 }
+.menu-list-container{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
 .menulistitems{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 18%;
+  width: 17%;
   margin: 0 auto;
   justify-content: center;
 }
@@ -267,7 +274,7 @@
 }
 .menulistlinks{
   font-size: 1.2rem;
-  color: grey;
+  color: rgb(63, 60, 60);
   font-weight: 500;
   padding-bottom: 1rem;
   border-bottom: 1px solid rgba(128, 128, 128, 0.249);

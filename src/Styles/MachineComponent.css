@@ -249,21 +249,21 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-top: 1rem;
 }
 .descriptionpoints{
     position: relative;
     display: flex;
-    justify-content: space-around;
-    /* margin-left: 2rem; */
+    align-items: center;
     color: black;
     font-weight: 700;
     align-items: center;
     float: left;
-    width: 40%;
+    width: 45%;
     font-size: 1.3rem;
     margin: 1rem;
+    padding-left: 2rem;
 }
 .descriptionpoints:before {
     position: absolute;
@@ -271,7 +271,7 @@
     width: 12px;
     height: 12px;
     left: 0;
-    top: 6px;
+    top: 5px;
     border-radius: 50%;
     background: -webkit-linear-gradient(45deg, #483d73, #e11e25 100%);
 }

@@ -8,7 +8,7 @@ const IntroMachine = (props) => {
             <div className="intromachinecompo">
                 <div className="intromachineleft">
                     <div className="breadcrumconnections">
-                        <Link to={'/'} className='breadcrumconnectiondislink'>Home</Link> <FaAngleRight /><Link to={'/product'} className='breadcrumconnectiondislink'>Products</Link><FaAngleRight /><p className='breadcrumconnectionactivelink'>{props.heading}</p>
+                        <Link to={'/'} className='breadcrumconnectiondislink'>Home</Link> <FaAngleRight className='breadcrumicon2'/><Link to={'/product'} className='breadcrumconnectiondislink'>Products</Link><FaAngleRight className='breadcrumicon2' /><p className='breadcrumconnectionactivelink'>{props.heading}</p>
                     </div>
                     <h1 className="intromachineheading">{props.heading}</h1>
                     <p className="intromachinedescription">

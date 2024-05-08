@@ -7,7 +7,7 @@ const Breadcrum = (props) => {
     <>
         <div className="breadcrum">
             <div className="breadcrumcontainer">
-                <Link to={'/'} className='breadcrumheading'>{props.previous}<FaAngleRight className='breadcrumicon'/> <span>{props.active}</span> </Link>
+                <Link to={props.link} className='breadcrumheading'>{props.previous}<FaAngleRight className='breadcrumicon'/> <span>{props.active}</span> </Link>
             </div>
         </div>
     </>

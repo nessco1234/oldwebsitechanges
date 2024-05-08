@@ -11,6 +11,8 @@ const HomeStats = () => {
             >
 
                 <div className="homestats">
+                    <div className="bghomestat1"></div>
+                    <div className="bghomestat2"></div>
                     <div className="homstatscontainer">
                         <div className="homestatcontentbox">
                             <div className="homestatcontent">

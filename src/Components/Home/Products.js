@@ -15,6 +15,7 @@ function App() {
         autoplay: true,
         pauseOnHover: false,
         autoplaySpeed: 2000,
+        arrows:false,
         // speed: 100,
     };
     // const settings2 = {
