@@ -1,0 +1,32 @@
+{
+    "section1": false,
+    "section1heading": "Market Area",
+    "section1content": [
+        {
+            "Name":"Supplier",
+            "Link":"/"
+        }
+    ],
+    "section2": true,
+    "section2heading": "UAE Market",
+    "section2content": [
+        {
+            "Name": "Paper Cup Making Machine In Uae",
+            "Link": "/uae/paper-cup-making-machine-in-uae/"
+        },
+        {
+            "Name": "Paper Bag Making Machine in UAE",
+            "Link": "/uae/paper-bag-making-machine-in-uae/"
+        },
+        {
+            "Name": "Gulfood Manufacturing",
+            "Link": "/uae/gulfood-manufacturing/"
+        }
+    ],
+    "internalLinks":[
+        {
+            "Name": "",
+            "Link":""
+        }
+    ]
+}

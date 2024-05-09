@@ -12,16 +12,16 @@
   width: 30%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+    justify-content: flex-start;
   height: 100%;
 }
 .marketarearight {
     width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     height: 100%;
     margin: auto;
 }
@@ -38,6 +38,7 @@
     flex-direction: column;
     width: 100%;
     border-radius: 10px;
+    /* margin-top: 5rem; */
 }
 .marketareainp{
     margin: 1rem 0;
@@ -64,7 +65,7 @@
     width: 100%;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.10);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     border-radius: 10px;
     

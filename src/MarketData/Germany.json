@@ -1,0 +1,32 @@
+{
+    "section1": false,
+    "section1heading": "Market Area",
+    "section1content": [
+        {
+            "Name":"Supplier",
+            "Link":"/"
+        }
+    ],
+    "section2": true,
+    "section2heading": "International Market Area",
+    "section2content": [
+        {
+            "Name": "Paper Cup Making Machine In Germany",
+            "Link": "/global/paper-cup-making-machine-in-germany/"
+        },
+        {
+            "Name": "K Show Germany 2022",
+            "Link": "/germany/k-show-germany/"
+        },
+        {
+            "Name": "Interpack",
+            "Link": "/germany/interpack/"
+        }
+    ],
+    "internalLinks":[
+        {
+            "Name": "",
+            "Link":""
+        }
+    ]
+}

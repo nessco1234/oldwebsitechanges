@@ -1,0 +1,111 @@
+{
+    "Route": "paper-handle-cup-making-machine",
+    "Heading": "Handle Cup Making Machine",
+    "Description": "Handle Cup Machine is manufactured using latest technology and high tech equipment which are reliable as well as durable. This is the best HAndle cup making machine which has two-layer system for movement of paper fans which is formed by a kind of arm arrangement for cup cone tracker. This machine has an additional station for handle formation that involves paper feeding and cutting. These handle cut-outs are pasted on the paper fans right before they are pushed forward for side sealing or cone formation. Robotic Arm plays a vital role in transferring cup cone to Moulds for further process of Bottom heating, knurling and Top curling. Moreover, this machine has certain additional features like photoelectric sensors for paper feeding and cup counting.",
+    "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
+    "Imgdesc": [
+        "Handle Cup Machine is manufactured using latest technology and high tech equipment which are reliable as well as durable. This is the best HAndle cup making machine which has two-layer system for movement of paper fans which is formed by a kind of arm arrangement for cup cone tracker. This machine has an additional station for handle formation that involves paper feeding and cutting. These handle cut-outs are pasted on the paper fans right before they are pushed forward for side sealing or cone formation. Robotic Arm plays a vital role in transferring cup cone to Moulds for further process of Bottom heating, knurling and Top curling. Moreover, this machine has certain additional features like photoelectric sensors for paper feeding and cup counting."
+    ],
+    "Suggestions": [
+        {
+            "id": "1",
+            "name": "Paper Bowl Machine",
+            "suggestionlink": "/product/paper-container-bowl-making-machine/"
+        },
+        {
+            "id": "2",
+            "name": "Paper Bag Machine",
+            "suggestionlink": "/product/paper-bag-making-machine/"
+        },
+        {
+            "id": "3",
+            "name": "Paper Cultery Machine",
+            "suggestionlink": "/product/paper-cutlery-machine/"
+        },
+        {
+            "id": "4",
+            "name": "Die Cutting Machine",
+            "suggestionlink": "/product/roll-die-cutting-machine/"
+        },
+        {
+            "id": "5",
+            "name": "Flexo Printing Machine",
+            "suggestionlink": "/product/flexo-printing-machine/"
+        }
+    ],
+    "ImageComponent": true,
+    "PointsComponent": true,
+    "MultipleImageComp":false,
+    "MultipleTable":false,
+    
+    "PointsHeading": [
+        "Handle",
+        "Cup Machine"
+    ],
+    "PointsHeadingDesc":"This handle cup machine is known for high operational efficiency, low power consumption and minimal maintenance. This handle cup making machine is incorporated with latest technology that leads to faster production.",
+    "PointsDescription": [
+        "PLC Controlled Screen",
+        "Open Cam Technology",
+        "Gear Driven System",
+        "Servo Motor Based Working"
+    ],
+    "ImageHeading": ["Products","Introduction"],
+    "ImageDescription":"This is an automatic machine with a multi-working station. It produces cups through the procedure of automatic handle cup wall feeding, paper handle feeding and sticking, top cup lubrication, heating, bottom punching, knurling, curling & cup stacking. This machine can make cups in various sizes ranging from 40-330 ml. Cups with handle are used to serve hot beverages such as soup, coffee, etc.",
+    "Imagelinkimg":"https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
+    "MachineSpecsLabels":["FEATURE","SPECIFICATION"],
+    "MachineSpecs": [
+        {
+            "feature": "Brand",
+            "specs": "Nessco"
+        },
+        {
+            "feature": "Paper Cup Size Range",
+            "specs": "Up to 35 OZ (1 Ltr)"
+        },
+        {
+            "feature": "Production Speed",
+            "specs": "75 pcs/min"
+        },
+        {
+            "feature": "Raw Material",
+            "specs": "Single & Double PE coated paper"
+        },
+        {
+            "feature": "Paper Specification",
+            "specs": "140~350gsm"
+        },
+        {
+            "feature": "Weight",
+            "specs": "2500 Kg"
+        },
+        {
+            "feature": "Power Supply",
+            "specs": "380V 50Hz"
+        },
+        {
+            "feature": "General Power",
+            "specs": "8KW"
+        },
+        {
+            "feature": "Machine dimensions",
+            "specs": "(2600x1200x1700)"
+        }
+    ],
+    "RelatedProducts": [
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Disposable Cup Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "High Speed Paper Cup Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Fully Automatic Paper Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        }
+    ]
+}

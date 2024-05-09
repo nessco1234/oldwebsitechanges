@@ -1,0 +1,24 @@
+{
+    "section1": false,
+    "section1heading": "Market Area",
+    "section1content": [
+        {
+            "Name":"Supplier",
+            "Link":"/"
+        }
+    ],
+    "section2": true,
+    "section2heading": "France Market ",
+    "section2content": [
+        {
+            "Name": "Paper Cup Making Machine In France",
+            "Link": "/france/paper-cup-making-machine-in-france/"
+        }
+    ],
+    "internalLinks":[
+        {
+            "Name": "",
+            "Link":""
+        }
+    ]
+}

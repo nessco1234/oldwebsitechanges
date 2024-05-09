@@ -1,0 +1,92 @@
+{
+    "section1": false,
+    "section1heading": "Market Area",
+    "section1content": [
+        {
+            "Name":"Supplier",
+            "Link":"/"
+        }
+    ],
+    "section2": true,
+    "section2heading": "Global Market",
+    "section2content": [
+        {
+            "Name": "Paper Cup Making Machine In Nepal",
+            "Link": "/global/paper-cup-making-machine-in-nepal/"
+        },
+        {
+            "Name": "Paper Shopping Bag Forming Machine In Usa",
+            "Link": "/global/paper-shopping-bag-forming-machine-in-usa/"
+        },
+        {
+            "Name": "Paper Cup Making Machine In Germany",
+            "Link": "/global/paper-cup-making-machine-in-germany/"
+        },
+        {
+            "Name": "Paper Cup Making Machine In Oman",
+            "Link": "/global/paper-cup-making-machine-in-oman/"
+        },
+        {
+            "Name": "Paper Cup Making Machine In South Africa",
+            "Link": "/global/paper-cup-making-machine-in-south-africa/"
+        },
+        {
+            "Name": "Paper Cup Making Machine In Saudi Arab",
+            "Link": "/global/paper-cup-making-machine-in-saudi-arab/"
+        },
+        {
+            "Name": "Paper Cup Making Machine In Russia",
+            "Link": "/global/paper-cup-making-machine-in-russia/"
+        },
+        {
+            "Name": "Paper Cup Making Machine In Brazil",
+            "Link": "/global/paper-cup-making-machine-in-brazil/"
+        },
+        {
+            "Name": "Paper Cup Making Machine In Canada",
+            "Link": "/global/paper-cup-making-machine-in-canada/"
+        },
+        {
+            "Name": "Paper Cup Making Machine In China",
+            "Link": "/global/paper-cup-making-machine-in-china/"
+        },
+        {
+            "Name": " Paper Cup Making Machine – Italy",
+            "Link": "/global/paper-cup-making-machine-italy/"
+        },
+        {
+            "Name": "Paper Cup Making machine In Bahrain",
+            "Link": "/global/paper-cup-making-machine-in-bahrain/"
+        },
+        {
+            "Name": "Paper Cup Making machine In Cyprus",
+            "Link": "/global/paper-cup-making-machine-in-cyprus/"
+        },
+        {
+            "Name": "Paper Cup Making machine In Iran",
+            "Link": "/global/paper-cup-making-machine-in-iran/"
+        },
+        {
+            "Name": "Paper Cup Making Machine In Israel",
+            "Link": "/global/paper-cup-making-machine-in-israel/"
+        },
+        {
+            "Name": "Paper Cup Making Machine In Kuwait",
+            "Link": "/global/paper-cup-making-machine-in-kuwait/"
+        },
+        {
+            "Name": "Paper Cup Machine in Korea",
+            "Link": "/global/paper-cup-machine-in-korea/"
+        },
+        {
+            "Name": "Paper Cup Machine in USA",
+            "Link": "/global/paper-cup-machine-in-usa/"
+        }
+    ],
+    "internalLinks":[
+        {
+            "Name": "",
+            "Link":""
+        }
+    ]
+}

@@ -7,24 +7,17 @@ import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
 import MachineSpecs2 from '../Components/MachineComponent/MachineSpecs2'
 import MultiTable from '../Components/MachineComponent/MultiTable'
-const MachineComponent = (props) => {
+const MarketAreaDesc = (props) => {
   const data = props.data
   return (
     <>
       <IntroMachine heading={data.Heading} route={data.Route} description={data.Description} />
       <DescriptionMachine data={data} />
       {
-          !data.ExpandedTable && !data.newTable &&
-          <MachineSpecs labels={data.MachineSpecsLabels} data={data.MachineSpecs} />
+        !data.ExpandedTable ?
+          <MachineSpecs labels={data.MachineSpecsLabels} data={data.MachineSpecs} /> :
+          <MachineSpecs2 labels={data.MachineSpecsLabels} data={data.MachineSpecs} />
       }
-      {
-        data.newTable && 
-        <MachineSpecs3 labels={data.MachineSpecsLabels} data={data.MachineSpecs}/>
-      }
-      {
-        data.ExpandedTable &&
-        <MachineSpecs2 labels={data.MachineSpecsLabels} data={data.MachineSpecs} />
-        }
       {
         data.MultipleTable && 
         <MultiTable labels={data.MultipleLabels} data={data.MultiTabelData}/>
@@ -35,4 +28,4 @@ const MachineComponent = (props) => {
   )
 }
 
-export default MachineComponent
+export default MarketAreaDesc

@@ -1,0 +1,28 @@
+{
+    "section1": false,
+    "section1heading": "Market Area",
+    "section1content": [
+        {
+            "Name":"Supplier",
+            "Link":"/"
+        }
+    ],
+    "section2": true,
+    "section2heading": "Turkey Market",
+    "section2content": [
+        {
+            "Name": "karton bardak makinesi",
+            "Link": "/turkey/karton-bardak-makinesi/"
+        },
+        {
+            "Name": "Paper Cup Making Machine In Turkey",
+            "Link": "/turkey/paper-cup-making-machine-in-turkey/"
+        }
+    ],
+    "internalLinks":[
+        {
+            "Name": "",
+            "Link":""
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "section1": false,
+    "section1heading": "Market Area",
+    "section1content": [
+        {
+            "Name":"Supplier",
+            "Link":"/"
+        }
+    ],
+    "section2": true,
+    "section2heading": "Iraq Market",
+    "section2content": [
+        {
+            "Name": "Paper Cup Making Machine in Iraq",
+            "Link": "/iraq/paper-cup-making-machine-in-iraq/"
+        }
+    ],
+    "internalLinks":[
+        {
+            "Name": "",
+            "Link":""
+        }
+    ]
+}

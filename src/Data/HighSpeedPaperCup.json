@@ -1,3 +1,160 @@
 {
-    
+    "Route": "high-speed-paper-cup-making-machine",
+    "Heading": "Paper Cup Machine",
+    "Description": " Leading manufacturer and supplier of paper cup machines. We offer a wide range of paper cup machines from 90 cups per min to 160 cups per min. We have paper cup machine (90 speed), Automatic paper cup making machine (110 speed), High speed paper cup machine (130 speed), Fully automatic paper cup machine (160 speed).",
+    "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
+    "Imgdesc": [
+        "This High Speed Paper Cup Making Machine adopts automatic lubrication, longitudinal axis transmission and gear drive that ensures the stability and quality of machine. This model has an additional PLC Controlled Screen (Human Machine Interface) for better User Interface and Double Curling System that works with high precision and makes cup curling a smooth procedure.","This model is highly automated with photoelectric sensors for detecting any kind of breakage in the system and uses Bottom Servo motor. Operations in this machine is carried using Air Pneumatic System."
+    ],
+    "Suggestions": [
+        {
+            "id": "1",
+            "name": "Paper Bowl Machine",
+            "suggestionlink": "/product/paper-container-bowl-making-machine/"
+        },
+        {
+            "id": "2",
+            "name": "Paper Bag Machine",
+            "suggestionlink": "/product/paper-bag-making-machine/"
+        },
+        {
+            "id": "3",
+            "name": "Paper Cultery Machine",
+            "suggestionlink": "/product/paper-cutlery-machine/"
+        },
+        {
+            "id": "4",
+            "name": "Die Cutting Machine",
+            "suggestionlink": "/product/roll-die-cutting-machine/"
+        },
+        {
+            "id": "5",
+            "name": "Flexo Printing Machine",
+            "suggestionlink": "/product/flexo-printing-machine/"
+        }
+    ],
+    "ImageComponent": false,
+    "PointsComponent": true,
+    "NotPoints":true,
+    "MultipleImageComp": false,
+    "MultipleTable": false,
+    "ExpandedTable":false,
+    "newTable":true,
+    "PointsHeading": [
+        "High Speed Paper",
+        "Cup Machine Working"
+    ],
+    "PointsHeadingDesc": "This Paper Cup Machine is suitable for optimum paper cup production with high durability and reliability. This machine manufactures 130 cups in a minute within the range of 40-350 ml. This is a single station machine which can be connected to a Auto Cup Collection Unit (optional). It has heavy frame with compact structure which maintains smooth production.",
+    "PointsDescription": [
+        
+    ],
+    "ImageHeading": [
+        "Products",
+        "Introduction"
+    ],
+    "ImageDescription": "Nessco India is one of the well known supplier of Paper Bag Machines. This model of Automatic Paper Bag Machine can manufacture Shopping Bags, Grocery Bags, Bakery Paper Bags. Due to its varied utility, it is often known as Paper Shopping Bag Making Machine as well. These paper bags are completely eco-friendly and provides a sustainable alternate to the plastic bags.",
+    "Imagelinkimg": "https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
+    "MachineSpecsLabels": [
+        "SPECIFICATIONS (Model Wise)",
+        "NS 220A","NS 330A","NS 460A"
+    ],
+    "MachineSpecs": [
+        {
+            "specs": "Production Speed",
+            "ns220": "30-200 Bags/Min",
+            "ns330": "30-200 Bags/Min",
+            "ns460": "30-180 Bags/Min"
+        },
+        {
+            "specs": "General Power",
+            "ns220": "40 KW",
+            "ns330": "40 KW",
+            "ns460": "43 KW"
+        },
+        {
+            "specs": "Paper Bag Width",
+            "ns220": "120-220 mm / 80-220 mm",
+            "ns330": "200-330 mm / 150-330 mm",
+            "ns460": "240-460 mm / 220-460 mm"
+        },
+        {
+            "specs": "Paper Tube Length",
+            "ns220": "190-350 mm / 190-430 mm",
+            "ns330": "280-430 mm / 280-530 mm",
+            "ns460": "280-550 mm / 280-600 mm"
+        },
+        {
+            "specs": "Paper Bag Bottom Width",
+            "ns220": "50-120 mm",
+            "ns330": "80-180 mm",
+            "ns460": "90-260 mm"
+        },
+        {
+            "specs": "Machine Weight",
+            "ns220": "16000 Kg",
+            "ns330": "18500 Kg",
+            "ns460": "20000 Kg"
+        },
+        {
+            "specs": "Dimension (mm)",
+            "ns220": "15000x6000x2700",
+            "ns330": "15000x6000x2700",
+            "ns460": "15000x6000x2700"
+        }
+    ],
+    "MultipleLabels":["ROPE HANDLE PART","Type 1","Type 2","Type 3","Type 4"],
+    "MultiTabelData":[
+        {
+            "rope":"Handle Rope Height",
+            "T1":"90-110 mm",
+            "T2":"90-110 mm",
+            "T3":"95-115 mm",
+            "T4":"100-120 mm"
+        },
+        {
+            "rope":"Patch Width",
+            "T1":"40-50 mm",
+            "T2":"45-50 mm",
+            "T3":"45-50 mm",
+            "T4":"45-50 mm"
+        },
+        {
+            "rope":"Patch Length",
+            "T1":"95 mm",
+            "T2":"114 mm",
+            "T3":"152 mm",
+            "T4":"190 mm"
+        },
+        {
+            "rope":"Handle Rope Diameter",
+            "T1":"Φ3-5 mm",
+            "T2":"Φ4-6 mm",
+            "T3":"Φ4-6 mm",
+            "T4":"Φ4-6 mm"
+        },
+        {
+            "rope":"Handle Separation Distance",
+            "T1":"47 mm",
+            "T2":"57 mm",
+            "T3":"76 mm",
+            "T4":"95 mm"
+        }
+    ],
+    "RelatedProducts": [
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Paper Shopping Bag Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Paper Salad Bowl Making Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "heading": "Roll Die Cutting Machine",
+            "productlink": "/product/disposable-paper-cup-making-machine/"
+        }
+    ]
 }

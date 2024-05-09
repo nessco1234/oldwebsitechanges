@@ -1,0 +1,56 @@
+{
+    "section1": true,
+    "section1heading": "Market Area",
+    "section1content": [
+        {
+            "Name":"Supplier",
+            "Link":"/"
+        }
+    ],
+    "section2": true,
+    "section2heading": "International Market Area",
+    "section2content": [
+        {
+            "Name": "UAE",
+            "Link": "/uae"
+        },
+        {
+            "Name": "Egypt",
+            "Link": "/egypt"
+        },
+        {
+            "Name": "Iraq",
+            "Link": "/iraq"
+        },
+        {
+            "Name": "Turkey",
+            "Link": "/turkey"
+        },
+        {
+            "Name": "France",
+            "Link": "/france"
+        },
+        {
+            "Name": "Other Global Areas",
+            "Link": "/global"
+        },
+        {
+            "Name": "Jordan",
+            "Link": "/jordan"
+        },
+        {
+            "Name": "Bangladesh",
+            "Link": "/bangladesh"
+        },
+        {
+            "Name": "Germany",
+            "Link": "/germany"
+        }
+    ],
+    "internalLinks":[
+        {
+            "Name": "",
+            "Link":""
+        }
+    ]
+}

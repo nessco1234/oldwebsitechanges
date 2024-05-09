@@ -92,32 +92,72 @@
   font-size: 1.5rem;
   color: black;
 }
-.footersocialicon {
+/* .footersocialicon {
   font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
   position: relative;
   overflow: hidden;
-
   position: relative;
   padding: 1.2rem;
-  /* background-color: transparent; */
   background-color: #f0f0f0;
   background: radial-gradient(circle, #e11e25 50%, #f0f0f0 50%);
-  /* background: linear-gradient(#e11e25 50%,#e11e25 50%); */
   background-size: 0% 0%;
   background-position: center;
   transition: all 1s ease;
-  /* outline: none; */
   cursor: pointer;
   margin: 0.6rem;
   border-radius: 3px;
   z-index: 1;
 }
 .footersocialicon:hover {
-  background-size: 200% 200%; /* Increase the size to ensure full coverage */
+  background-size: 400% 400%; 
   color: white;
+} */
+
+.footersocialicon {
+  font-size: 16px;
+  padding: 1.2rem;
+  margin: 0.6rem;
+  background-color: #f0f0f0; /* Fallback color */
+  color: black; /* Default text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+
+  /* Transition for text color change */
+  transition: color 1s ease;
 }
+
+.footersocialicon::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background-color: #e11e25; /* Color for the fill effect */
+  transition: all .5s ease;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  border-radius: 5px; /* Adjust if you want rounded corners */
+}
+
+.footersocialicon:hover::before {
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.footersocialicon:hover {
+  color: white; /* Text color on hover */
+}
+
+
+
 /* .footersocialicon::before {
   content: '';
   position: absolute;
