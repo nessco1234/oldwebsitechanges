@@ -11,6 +11,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 .singleblogcard{
     width: 30%;
@@ -22,7 +23,7 @@
 }
 .singleblogcardupper{
     width: 100%;
-    height: auto;
+    height: 300px;
     overflow: hidden;
     position: relative;
     z-index: -1;
@@ -195,4 +196,20 @@
 }
 .bloglinks:hover{
     color: var(--redcolor);
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .singleblogcard{
+        width: 45%;
+    }
+    .singleblogcardupper{
+        height: 200px;
+    }
+}
+@media  (max-width: 767px) {
+    .singleblogcard{
+        width: 100%;
+    }
+    .singleblogcardupper{
+        height: auto;
+    }
 }

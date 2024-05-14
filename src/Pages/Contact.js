@@ -9,7 +9,7 @@ import Branches from '../Components/Contact/Branches'
 const Contact = () => {
     return (
         <>
-            <Breadcrum previous={"Home > "} active={"Contact"} />
+            <Breadcrum previous={"Home"} active={"Contact"} />
             <ContactForm/>
             <Branches/>
         </>

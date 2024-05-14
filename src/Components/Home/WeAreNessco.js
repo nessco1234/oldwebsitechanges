@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -14,11 +14,12 @@ import nes8 from '../../Assets/images/resource/interpack.webp'
 import { FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6';
 const WeAreNessco = () => {
     const [slider, setSlider] = useState(null);
+    const [slidesToShow, setSlidesToShow] = useState(3);
     const settings = {
         // dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: slidesToShow,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
@@ -32,6 +33,23 @@ const WeAreNessco = () => {
     const previous = () => {
         slider.slickPrev();
     };
+    const updateSlidesToShow = () => {
+        const screenWidth = window.innerWidth;
+        if (screenWidth <= 768) {
+          setSlidesToShow(2);
+        } else if (screenWidth <= 1024) {
+          setSlidesToShow(3);
+        } else {
+          setSlidesToShow(3);
+        }
+      };
+    useEffect(() => {
+        updateSlidesToShow();
+        window.addEventListener('resize', updateSlidesToShow);
+        return () => {
+          window.removeEventListener('resize', updateSlidesToShow);
+        };
+      }, []);
     return (
         <>
             <div className="wenessco">

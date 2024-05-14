@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom'
 import logo from '../../Assets/images/logo.webp'
 import { FaArrowRightLong } from 'react-icons/fa6'
 import img1 from '../../Assets/images/resource/popup.webp'
+import { IoIosMenu, IoMdMenu } from "react-icons/io";
+import { ImCross } from "react-icons/im";
+import { FaAngleDown } from 'react-icons/fa'
 const list1 = [
     {
         id: 1,
@@ -145,17 +148,24 @@ const Header = (props) => {
     const [isOpen, setIsOpen] = useState(false);
     const openModal = () => setIsOpen(true);
     const closeModal = () => setIsOpen(false);
-    function downloadlocal(){
+    function downloadlocal() {
         props.setdown(true)
         closeModal()
         console.log(props.down)
+    }
+    const [navigation, setnavigation] = useState(false)
+    function opennavigation() {
+        setnavigation(true);
+    }
+    function closenavigation() {
+        setnavigation(false);
     }
     return (
         <>
             <nav className="navbar">
                 <div className="navbarcontainer">
-                    <Link className='navbarlogolink' to={'/'}><img  src={logo} alt="" /></Link>
-                    <ul className="navlist">
+                    <Link className='navbarlogolink' to={'/'}><img src={logo} alt="" /></Link>
+                    {/* <ul className="navlist">
                         <Link className='navlink' to={'/'}>HOME</Link>
                         <Link className='navlink' to={'/about-us'}>ABOUT US</Link>
                         <div className='navlink' onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
@@ -202,8 +212,8 @@ const Header = (props) => {
                         <Link className='navlink' to={'/video'}>VIDEO</Link>
                         <Link className='navlink' to={'/blog'}>BLOG</Link>
                         <Link className='navlink' to={'/contact'}>CONTACT US</Link>
-                    </ul>
-                    <button onClick={openModal} className="headerbtn">
+                    </ul> */}
+                    <button onClick={openModal} className="headerbtn tt">
                         <p className='headerbtncon'>Inquire Now !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
                     {isOpen && (
                         <div className="modal">
@@ -224,6 +234,37 @@ const Header = (props) => {
                             </div>
                         </div>
                     )}
+                    <div className="navhamburger active">
+                        <IoIosMenu onClick={opennavigation} className='hamburger' />
+                        {
+                            navigation &&
+                            <div className='hamburgermenu'>
+                                <div className="hamburgercontent">
+                                    <button onClick={closenavigation} className='hamburgerclose'><ImCross /></button>
+                                    <div className="hamburgercontainer">
+                                        <img className='hamburgerimg' src={logo} alt="" />
+                                        <div className="hamburgerlinks">
+                                            <Link className='hamburgerlink' to={''}>Home</Link>
+                                            <Link className='hamburgerlink' to={''}>ABOUT US</Link>
+                                            <Link className='hamburgerlink' to={''}>
+                                                OUR MACHINES<button className='hamburgertogglebtn'><FaAngleDown /></button>
+                                            </Link>
+                                            <Link className='hamburgerlink' to={''}>VIDEO</Link>
+                                            <Link className='hamburgerlink' to={''}>BLOG</Link>
+                                            <Link className='hamburgerlink' to={''}>CONTACT US</Link>
+                                        </div>
+                                        <div className="hamburgerdetails">
+                                            hi
+                                        </div>
+                                        <div className="hamburgersocials">
+                                            hi2
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        }
+                    </div>
                 </div>
             </nav>
         </>

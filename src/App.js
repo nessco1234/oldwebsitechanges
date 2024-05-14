@@ -143,7 +143,6 @@ import serv13 from './Assets/images/service/PaperStraws.webp'
 import serv14 from './Assets/images/service/garment-paper-bag.webp'
 import serv15 from './Assets/images/service/Square-Bottom-Paper-Bags.webp'
 
-
 function ScrollToTopOnRouteChange() {
   const { pathname } = useLocation();
 
@@ -228,7 +227,7 @@ function App() {
 
           </>
           <>
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img3} data={HighSpeedPaperCup} />} exact path="/product/high-speed-paper-cup-making-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload}  imgurl={img3} data={HighSpeedPaperCup} />} exact path="/product/high-speed-paper-cup-making-machine/" />
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img1} data={PaperGlassMachine} />} exact path="/product/paper-glass-making-machine/" />
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img18} img2url={serv9} data={FlexoPrinting} />} exact path="/product/flexo-printing-machine/" />
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img25} img2url={serv14} data={FullyAutomaticPaperBag} />} exact path="product/paper-shopping-bag-making-machine/" />
@@ -265,4 +264,5 @@ function App() {
 }
 
 export default App;
+
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
@@ -11,15 +11,17 @@ import img4 from '../../Assets/images/resource/testimonial-4.webp'
 import img5 from '../../Assets/images/resource/testimonial-5.webp'
 const Testimonials = () => {
     const [slider, setSlider] = useState(null);
+    const [slidesToShow, setSlidesToShow] = useState(2);
 
     const settings = {
         // dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 2,
+        slidesToShow: slidesToShow,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 2000,
+        // fade:true,
         // speed: 100,
     };
     const next = () => {
@@ -29,6 +31,22 @@ const Testimonials = () => {
     const previous = () => {
         slider.slickPrev();
     };
+    const updateSlidesToShow = () => {
+        const screenWidth = window.innerWidth;
+        if (screenWidth <= 768) {
+          setSlidesToShow(1);
+        } 
+        else {
+          setSlidesToShow(2);
+        }
+      };
+    useEffect(() => {
+        updateSlidesToShow();
+        window.addEventListener('resize', updateSlidesToShow);
+        return () => {
+          window.removeEventListener('resize', updateSlidesToShow);
+        };
+      }, []);
     return (
         <>
             <div className="testimonials">

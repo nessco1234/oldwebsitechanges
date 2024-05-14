@@ -40,7 +40,7 @@ const Home = () => {
           {/* <BannerContent/> */}
           <WeAreNessco />
           <AboutUs />
-          <Products />
+          {/* <Products /> */}
           <Creation />
           <IOTSystem />
           <Presence />

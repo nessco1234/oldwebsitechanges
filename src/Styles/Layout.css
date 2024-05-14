@@ -1,32 +1,4 @@
-.footer {
-  width: 100%;
-  min-height: 78vh;
-  overflow: hidden;
-  position: relative;
-}
-.footer::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  /* background-image: url("your-background-image.jpg"); */
-  background: #f0f0f0;
-  opacity: 0.3;
-  z-index: -1;
-}
-.footer::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 55%;
-  height: 100%;
-  /* background-image: url("your-background-image.jpg"); */
-  background: url("../Assets/images/shape/wmap.webp") repeat-x;
-  animation: movingBackground 30s linear infinite;
-}
+2
 
 @keyframes movingBackground {
   from {
@@ -93,29 +65,6 @@
   font-size: 1.5rem;
   color: #595959;
 }
-/* .footersocialicon {
-  font-size: 16px;
-  border-radius: 5px;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  position: relative;
-  padding: 1.2rem;
-  background-color: #f0f0f0;
-  background: radial-gradient(circle, #e11e25 50%, #f0f0f0 50%);
-  background-size: 0% 0%;
-  background-position: center;
-  transition: all 1s ease;
-  cursor: pointer;
-  margin: 0.6rem;
-  border-radius: 3px;
-  z-index: 1;
-}
-.footersocialicon:hover {
-  background-size: 400% 400%; 
-  color: white;
-} */
-
 .footersocialicon {
   width: 40px;
   height: 40px;
@@ -162,31 +111,6 @@
   color: white; /* Text color on hover */
 }
 
-
-
-/* .footersocialicon::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 0%;
-  height: 0%;
-  background-color: var(--redcolor);
-  transition: width 0.6s, height 0.3s, top 0.3s, left 0.3s;
-  border-radius: 50%;
-  z-index: -1;
-  transform: translate(-50%, -50%);
-}
-.footersocialicon:hover{
-  color: white;
-  background-color: transparent;
-}
-.footersocialicon:hover::before {
-  width: 300%;
-  height: 300%;
-  top: 50%;
-  left: 50%;
-} */
 .footerdesccontent {
   font-size: 1.4rem;
   line-height: 2.5rem;
@@ -242,15 +166,18 @@
 .footerlist:nth-child(4) {
   width: 26%;
 }
-@media screen and (min-width: 768px) and (max-width: 1000px) {
+@media screen and (min-width: 768px) and (max-width: 10px) {
   .footercontent {
     flex-wrap: wrap;
   }
   .footerlistabout,
   .footerlist {
-    width: 45%;
+    width: 47%;
     margin: 0 auto;
     margin-bottom: 3rem;
+  }
+  .footerlist:nth-child(4) {
+    width: 47%;
   }
 }
 @media (max-width: 767px) {
@@ -278,6 +205,9 @@
   .footerlinks {
     justify-content: center;
     align-items: center;
+  }
+  .footerlist:nth-child(4) {
+    width: 100%;
   }
   footer {
     z-index: -1;

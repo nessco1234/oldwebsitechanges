@@ -6,7 +6,7 @@ const AboutNessco = () => {
       <div className="aboutnessco">
         <div className="aboutnesscocontainer">
           <div className="aboutnesscoleft">
-            <div className="aboutusbtn">ABOUT US</div>
+            <h1 className="aboutusbtn">ABOUT US</h1>
             <h1 className="aboutusheading">Nessco India</h1>
             <h1 className="aboutussubheading">Begins & Ends With Customer's Smile</h1>
           </div>

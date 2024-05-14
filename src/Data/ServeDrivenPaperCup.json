@@ -131,5 +131,56 @@
             "heading": "Flexo Printing Machine",
             "productlink": "/product/disposable-paper-cup-making-machine/"
         }
-    ]
+    ],
+    "seotitle": "Servo Driven Paper Cup Machine | Nessco India",
+    "seometa": [
+        {
+            "name": "description",
+            "content": "Nessco India offers a servo driven paper cup machine that delivers reliable, fast, and high-quality cup production. Contact us today for best deals."
+        },
+        {
+            "name": "keywords",
+            "content": ""
+        },
+        {
+            "name": "State",
+            "content": "Rajasthan"
+        },
+        {
+            "name": "City",
+            "content": "Jaipur"
+        },
+        {
+            "name": "address",
+            "content": "186 Apparel Park, Mahal Rd, Ricco Industrial Area, Jagatpura, Jaipur, Rajasthan 302022, India"
+        },
+        {
+            "name": "copyright",
+            "content": "Copyright 2022 Nessco India"
+        },
+        {
+            "name": "distribution",
+            "content": "global"
+        },
+        {
+            "name": "language",
+            "content": "english"
+        },
+        {
+            "name": "robots",
+            "content": "index,follow"
+        },
+        {
+            "name": "publisher",
+            "content": "Nessco India"
+        },
+        {
+            "name": "author",
+            "content": "Nessco India"
+        }
+    ],
+    "seolink": {
+        "name": "canonical",
+        "url": "https://www.nesscoindia.com/product/servo-driven-paper-cup-machine/"
+    }
 }
