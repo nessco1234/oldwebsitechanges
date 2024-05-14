@@ -3,6 +3,7 @@ import { MdArrowRightAlt } from 'react-icons/md'
 import { Link } from 'react-router-dom'
 import logo from '../../Assets/images/logo.webp'
 import { FaArrowRightLong } from 'react-icons/fa6'
+import img1 from '../../Assets/images/resource/popup.webp'
 const list1 = [
     {
         id: 1,
@@ -31,8 +32,8 @@ const list1 = [
     },
     {
         id: 6,
-        name: "Serve Driven Paper Cup Machine",
-        link: "/product/Servo-driven-paper-cup-machine/",
+        name: "Servo Driven Paper Cup Machine",
+        link: "/product/servo-driven-paper-cup-machine/",
     },
     {
         id: 6,
@@ -139,13 +140,21 @@ const list5 = [
         link: "/product/paper-food-bag-making-machine/",
     },
 ]
-const Header = () => {
+const Header = (props) => {
     const [isHovered, setIsHovered] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
+    const openModal = () => setIsOpen(true);
+    const closeModal = () => setIsOpen(false);
+    function downloadlocal(){
+        props.setdown(true)
+        closeModal()
+        console.log(props.down)
+    }
     return (
         <>
             <nav className="navbar">
                 <div className="navbarcontainer">
-                    <img src={logo} alt="" />
+                    <Link className='navbarlogolink' to={'/'}><img  src={logo} alt="" /></Link>
                     <ul className="navlist">
                         <Link className='navlink' to={'/'}>HOME</Link>
                         <Link className='navlink' to={'/about-us'}>ABOUT US</Link>
@@ -194,8 +203,27 @@ const Header = () => {
                         <Link className='navlink' to={'/blog'}>BLOG</Link>
                         <Link className='navlink' to={'/contact'}>CONTACT US</Link>
                     </ul>
-                    <button className="headerbtn">
+                    <button onClick={openModal} className="headerbtn">
                         <p className='headerbtncon'>Inquire Now !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
+                    {isOpen && (
+                        <div className="modal">
+                            <button className="close-button" onClick={closeModal}>&times;</button>
+                            <div className="modalcard">
+                                <div className="leftmodal">
+                                    <img src={img1} alt="" />
+                                </div>
+                                <div className="rightmodal">
+                                    <h1 className="modalheading">Request for details to receive a call back</h1>
+                                    <p className="modaldesc">Enter your details to receive a call back</p>
+                                    <input placeholder='Enter your Name' className='modalinp' type="text" />
+                                    <input placeholder='Enter your Email' className='modalinp' type="text" />
+                                    <input placeholder='Enter your Phone' className='modalinp' type="text" />
+                                    <Link onClick={downloadlocal} to={'/thank-you'} className="headerbtn x" style={{ padding: "2rem 3rem" }}>
+                                        <p className='headerbtncon'>Get a Quote !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></Link>
+                                </div>
+                            </div>
+                        </div>
+                    )}
                 </div>
             </nav>
         </>

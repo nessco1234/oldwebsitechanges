@@ -3,6 +3,7 @@ import { FaRegCircle } from "react-icons/fa";
 import { MdArrowRightAlt } from "react-icons/md";
 import iot from '../../Assets/images/resource/iot.webp'
 import { FaArrowRightLong } from "react-icons/fa6";
+import doc from '../../Assets/images/resource/Nessco-Machines-Control-With-Smart-IOT-Solution.pdf'
 const IOTSystem = () => {
   return (
     <>
@@ -20,35 +21,28 @@ const IOTSystem = () => {
             </p>
             <ul className="iotlist">
               <li>
-                  Monitor Production Reports
+                Monitor Production Reports
               </li>
               <li>
-                  Monitor Production Reports
-              </li>
+                Monitor Machine Efficiency              </li>
               <li>
-                  Monitor Production Reports
-              </li>
+                Production Target Analysis              </li>
               <li>
-                  Monitor Production Reports
-              </li>
+                Machine Problem Analysis              </li>
               <li>
-                  Monitor Production Reports
-              </li>
+                Production Setup Data              </li>
               <li>
-                  Monitor Production Reports
-              </li>
+                Machine Element Monitoring              </li>
               <li>
-                  Monitor Production Reports
-              </li>
+                Machine Alarm Monitoring              </li>
               <li>
-                  Monitor Production Reports
-              </li>
+                Machine Performance Overview              </li>
             </ul>
-            <button className="headerbtn" style={{padding:"2rem 3rem"}}>
-                <p className='headerbtncon'>Get Details !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
+            <a className="headerbtn" href={doc} download={''} style={{ padding: "1.5rem 2rem", width:"fitContent" }}>
+              <p className='headerbtncon'>Get Details !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></a>
           </div>
           <div className="rightiot">
-            <img src={iot} alt="123"/>
+            <img src={iot} alt="123" />
           </div>
         </div>
       </section>

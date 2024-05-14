@@ -1,0 +1,43 @@
+.thankyou{
+    width: 100%;
+    height: 80vh;
+}
+.thankyoucontainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thankyouheading{
+    font-size: 4rem;
+    color: var(--bluecolor);
+}
+.thankyouheading>span{
+    color: var(--redcolor);
+}
+.thankyoudesc{
+    font-size: 1.4rem;
+    /* color: ; */
+    margin: 2rem 0;
+}
+.thankyoudesc>a{
+    color: var(--bluecolor);
+}
+.thankyoudesc>a:hover{
+    color: var(--redcolor);
+}
+.thankyoubtn{
+    padding: 1rem;
+    background-color: var(--bluecolor);
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: white;
+    border-radius: 5px;
+
+}
+.thankyoubtn:hover{
+    cursor: pointer;
+}

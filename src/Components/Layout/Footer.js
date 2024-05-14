@@ -25,21 +25,21 @@ const Footer = () => {
                                 We have been focusing in the Disposable Industry since 1978, and continuously concentrating on the idea of team building by creating an R&D team of hard-working personals with self-transcendence, hard-working attitude and spirit of diligent and dedicated craftsmanship.
                             </p>
                             <div className="footersocialicons">
-                                <div className="footersocialicon">
+                                <a href='https://www.facebook.com/NesscoPaperCupMachine' target='_blank' className="footersocialicon">
                                     <FaFacebookF />
-                                </div>
-                                <div className="footersocialicon">
+                                </a>
+                                <a href='https://twitter.com/NesscoIndia' target='_blank' className="footersocialicon">
                                     <FaTwitter />
-                                </div>
-                                <div className="footersocialicon">
+                                </a>
+                                <a href='https://www.youtube.com/c/NesscoPaperCupMachine' target='_blank' className="footersocialicon">
                                     <FaYoutube />
-                                </div>
-                                <div className="footersocialicon">
+                                </a>
+                                <a href='https://www.linkedin.com/company/nesscoindia/' target='_blank' className="footersocialicon">
                                     <FaLinkedin />
-                                </div>
-                                <div className="footersocialicon">
+                                </a>
+                                <a href='https://www.instagram.com/nesscoindia/' target='_blank' className="footersocialicon">
                                     <FaInstagram />
-                                </div>
+                                </a>
 
                             </div>
                         </div>
@@ -72,9 +72,9 @@ const Footer = () => {
                                 <p className="footeraddress">
                                     E-186, Apparel Park, RIICO Industrial Area, Mahal Road, Jagatpura, Jaipur (Rajasthan) - 302022, INDIA
                                 </p>
-                                <p className="mobilenumber">+91 99822 00038</p>
-                                <p className="mobilenumber">+91 99822 00038</p>
-                                <p className="email">info@nesscoindia.com</p>
+                                <a href='tel:+91 99822 00038' className="mobilenumber">+91 99822 00038</a>
+                                <a href='tel:+91 95494 44484' className="mobilenumber">+91 95494 44484</a>
+                                <a href='mailto:info@nesscoindia.com' className="email">info@nesscoindia.com</a>
                             </div>
                         </div>
                     </div>

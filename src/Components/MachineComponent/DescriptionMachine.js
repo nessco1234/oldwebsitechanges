@@ -1,16 +1,31 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FaAngleDoubleRight } from 'react-icons/fa'
 import { FaArrowRightLong } from 'react-icons/fa6'
 import { SiAdobeacrobatreader } from 'react-icons/si'
 import { Link } from 'react-router-dom'
-
+import img1 from '../../Assets/images/resource/popup.webp'
 const DescriptionMachine = (props) => {
     const data = props.data
+    const [isOpen, setIsOpen] = useState(false);
+    const openModal = () => setIsOpen(true);
+    const closeModal = () => setIsOpen(false);
+
+    const [isOpen2, setIsOpen2] = useState(false);
+    const openModal2 = () => setIsOpen2(true);
+    const closeModal2 = () => setIsOpen2(false);
+    function downloadinternational(){
+        props.setdown(false)
+        console.log(props.down)
+    }
+    function downloadlocal(){
+        props.setdown(true)
+        console.log(props.down)
+    }
     return (
         <div className="descriptionmachine">
             <div className="descriptionmachinecomp">
                 <div className="descriptionmachineleft">
-                    <img src={data.Imglink} alt="" />
+                    <img src={props.imgurl} alt="" />
                     {
                         data.Imgdesc.map(obj => (
                             <p className="descriptionmachineleftcontent">
@@ -43,7 +58,7 @@ const DescriptionMachine = (props) => {
                                 <p className="descriptionmachineleftcontent">{data.ImageDescription}</p>
                             </div>
                             <div className="descriptionmachineimageright">
-                                <img src={data.Imagelinkimg} alt="" />
+                                <img src={props.img2url} alt="" />
                             </div>
                         </div>
                     }
@@ -55,7 +70,7 @@ const DescriptionMachine = (props) => {
                                 <p className="descriptionmachineleftcontent">{data.MultipleImageDescription}</p>
                             </div>
                             <div className="descriptionmachineimageright">
-                                <img src={data.MultipleImageLink} alt="" />
+                                <img src={props.img3url} alt="" />
                             </div>
                         </div>
                     }
@@ -90,7 +105,26 @@ const DescriptionMachine = (props) => {
                             </div>
                             <div className="brochuredescription">
                                 <a href='/' className="brochuretitle">Nessco India Catalogue</a>
-                                <a href='/' className="brochuresubtitle">Download Now</a>
+                                <button className="brochuresubtitle" onClick={openModal}>Download Now</button>
+                                {isOpen && (
+                                    <div className="modal">
+                                        <button className="close-button" onClick={closeModal}>&times;</button>
+                                        <div className="modalcard">
+                                            <div className="leftmodal">
+                                                <img src={img1} alt="" />
+                                            </div>
+                                            <div className="rightmodal">
+                                                <h1 className="modalheading">Request for details to receive a call back</h1>
+                                                <p className="modaldesc">Enter your details to receive a call back</p>
+                                                <input placeholder='Enter your Name' className='modalinp' type="text" />
+                                                <input placeholder='Enter your Email' className='modalinp' type="text" />
+                                                <input placeholder='Enter your Phone' className='modalinp' type="text" />
+                                                <Link onClick={downloadlocal}  to={'/thank-you'} className="headerbtn x" style={{ padding: "2rem 3rem" }}>
+                                                    <p className='headerbtncon'>Get a Quote !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                )}
                             </div>
                         </div>
                         <div className="brochurecontent">
@@ -99,7 +133,26 @@ const DescriptionMachine = (props) => {
                             </div>
                             <div className="brochuredescription">
                                 <a href='/' className="brochuretitle">International Catalogue</a>
-                                <a href='/' className="brochuresubtitle">Download Now</a>
+                                <button className="brochuresubtitle" onClick={openModal2}>Download Now</button>
+                                {isOpen2 && (
+                                    <div className="modal">
+                                        <button className="close-button" onClick={closeModal2}>&times;</button>
+                                        <div className="modalcard">
+                                            <div className="leftmodal">
+                                                <img src={img1} alt="" />
+                                            </div>
+                                            <div className="rightmodal">
+                                                <h1 className="modalheading">Request for details to receive a call back</h1>
+                                                <p className="modaldesc">Enter your details to receive a call back</p>
+                                                <input placeholder='Enter your Name' className='modalinp' type="text" />
+                                                <input placeholder='Enter your Email' className='modalinp' type="text" />
+                                                <input placeholder='Enter your Phone' className='modalinp' type="text" />
+                                                <Link onClick={downloadinternational} to={'/thank-you'} className="headerbtn x" style={{ padding: "2rem 3rem" }}>
+                                                    <p className='headerbtncon'>Get a Quote !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                )}
                             </div>
                         </div>
                     </div>

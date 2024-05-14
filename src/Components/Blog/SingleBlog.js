@@ -7,7 +7,7 @@ const SingleBlog = (props) => {
     const d=props.data
     return (
         <>
-            <div className="singleblogcard">
+            <Link to={d.link} className="singleblogcard">
                 <div className="singleblogcardupper">
                     <img src={d.url} alt="" />
                 </div>
@@ -18,11 +18,10 @@ const SingleBlog = (props) => {
                     <p className="singleblogcarddesc">
                         {d.desc}
                     </p>
-                    <Link to={d.link} className="singleblogbtn">
-                        Learn More <FaArrowRightLong style={{marginLeft:"1rem"}}/> 
-                    </Link>
+                    <Link className="blogbtn">
+                        <p className='blogbtncon'>Learn More</p> <FaArrowRightLong className='blogbtnarrow' style={{ fontSize: "1.5rem" }} /></Link>
                 </div>
-            </div>
+            </Link>
         </>
     )
 }

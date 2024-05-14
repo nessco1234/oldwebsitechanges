@@ -29,14 +29,14 @@ const BannerContent = () => {
 
 const ComponentA = () =>
     <>
-        <div className="bannerslideheading">Envision Success Through <span></span></div>;
-        <div className="bannerslideheading">Innovation<span></span></div>;
-        <div className="bannerslidepara">High Speed Machines That Are Enginnered For You</div>;
+        <div className="bannerslideheading"> Envision Success Through<span></span></div>
+        <div className="bannerslideheading">Innovation<span></span></div>
+        <div className="bannerslidepara">High Speed Machines That Are Enginnered For You</div>
     </>
 const ComponentB = () => <>
-    <div className="bannerslideheading">Machineries & Equipment For<span></span></div>;
-    <div className="bannerslideheading">Sustainable Packaging<span></span></div>;
-    <div className="bannerslidepara">Dive In The World Of Paper Based Packaging Container Machines</div>;
+    <div className="bannerslideheading">Machineries & Equipment For<span></span></div>
+    <div className="bannerslideheading">Sustainable Packaging<span></span></div>
+    <div className="bannerslidepara">Dive In The World Of Paper Based Packaging Container Machines</div>
 </>;
 // const ComponentC = () => <>
 //     <div className="bannerslideheading">Envision Success through A<span></span></div>;

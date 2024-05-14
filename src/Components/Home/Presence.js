@@ -4,6 +4,7 @@ import Shape2 from '../../Assets/images/shape/shape-210.png'
 import Map from '../../Assets/images/resource/Nessco-Reaches-World-Map.webp'
 import { MdArrowRightAlt } from 'react-icons/md'
 import { FaArrowRightLong } from 'react-icons/fa6'
+import { Link } from 'react-router-dom'
 const Presence = () => {
   return (
     <section className='presenceSection'>
@@ -23,12 +24,12 @@ const Presence = () => {
         <div className='rightpresence'>
           <div className="presenceCard">
             <h1 className="presencecardtitle">Request For A Quote</h1>
-            <input  className='presenceinpfields' type="text" placeholder='Full Name*' />
+            <input  className='presenceinpfields' type="text" placeholder='Full Name *' />
             <input className='presenceinpfields' type="text" placeholder='Email' />
-            <input  className='presenceinpfields' type="text" placeholder='Phone Number' />
-            <textarea className='presenceinpfields'  name="" id="" cols="10" rows="10" placeholder='Message' />
-            <button className="headerbtn" style={{padding:"2rem 3rem"}}>
-                <p className='headerbtncon'>Send Message !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
+            <input  className='presenceinpfields' type="text" placeholder='Phone Number *' />
+            <textarea className='presenceinpfields'  name="" id="" cols="5" rows="3" placeholder='Message' />
+            <Link to={'/thank-you'} className="headerbtn" style={{padding:"1.5rem 2rem"}}>
+                <p className='headerbtncon'>Send Message !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></Link>
           </div>
         </div>
       </div>

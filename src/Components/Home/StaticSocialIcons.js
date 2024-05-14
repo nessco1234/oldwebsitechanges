@@ -4,10 +4,10 @@ function StaticSocialIcons() {
   return (
     <>
       <div className="staticicons">
-        <a href="/" className="staticSocial1">
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=919982200038" className="staticSocial1">
           <FaWhatsapp />
         </a>
-        <a href="/" className="staticSocial2">
+        <a href="tel:+91 99822 00038" className="staticSocial2">
           <FaPhone />
         </a>
       </div>

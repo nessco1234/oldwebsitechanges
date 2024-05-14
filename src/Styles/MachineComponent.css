@@ -228,6 +228,8 @@
 .brochuresubtitle{
     color: black;
     font-weight: 700;
+    border: none;
+    background-color: transparent;
 }
 .brochurecontent{
     margin: 1rem 0;
@@ -367,4 +369,83 @@
 }
 .descriptionmachineimagedesc{
     font-size: 1.6rem;
+}
+.machinespecs3{
+    width: 100%;
+    height: auto;
+}
+.machinespecs3container{
+    width: 85%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.machinespecs3heading{
+    font-size: 3rem;
+    color: var(--bluecolor);
+    margin: 3rem 0;
+}
+.machinespecsss{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.machinespecsleft{
+    width: 47%;
+}
+.machinespecsleft>img{
+    width: 100%;
+}
+.machinespecsright{
+    width: 47%;
+}
+.h{
+    height: fit-content;
+    margin-top: 1.5rem;
+}
+.modalcard{
+    width: 60%;
+    height: 70%;
+    background: white;
+    display: flex;
+}
+.leftmodal{
+    width: 45%;
+    height: 100%;
+    margin: auto;
+}
+.leftmodal>img{
+    width: 100%;
+}
+.rightmodal{
+    width: 45%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.modalheading{
+    font-size: 1.5rem;
+    color: var(--bluecolor);
+    margin-top: 3rem;
+}
+.modaldesc{
+    color: rgba(0, 0, 0, 0.719);
+}
+.modalinp{
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.418);
+    border-radius: 10px;
+}
+.x{
+    height: fit-content;
+    margin-top: 2rem;
 }

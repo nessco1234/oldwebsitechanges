@@ -34,7 +34,7 @@ const ContactForm = () => {
                             </div>
                             <div className="contactinforight">
                                 <h1 className="contactinfotitle">Company Email</h1>
-                                <p className="contactinfodesc">Info@nesscoindia.com</p>
+                                <a href='mailto:info@nesscoindia.com' className="contactinfodesc">Info@nesscoindia.com</a>
                             </div>
                         </div>
                         <hr className='contactdivider' />
@@ -46,7 +46,8 @@ const ContactForm = () => {
                             </div>
                             <div className="contactinforight">
                                 <h1 className="contactinfotitle">Contact Us</h1>
-                                <p className="contactinfodesc">+91 95494 44484 <br /> +91 99822 00038</p>
+                                <a href='tel:+91 95494 44484' className="contactinfodesc">+91 95494 44484 </a>
+                                <a href='tel:+91 99822 00038' className="contactinfodesc"> +91 99822 00038 </a>
                             </div>
                         </div>
                     </div>
@@ -63,7 +64,7 @@ const ContactForm = () => {
                             <textarea placeholder='Message' className='contactinputtextarea' cols="30" rows="3"></textarea>
                         </div>
                         <button className="contactbtn">
-                            <p className='headerbtncon'>Inquire Now !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
+                            <p className='headerbtncon'>Send Message </p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
                     </div>
                 </div>
             </div>

@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
 import Slider from 'react-slick'
 import ReactStars from 'react-stars'
-
+import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
+import img1 from '../../Assets/images/resource/testimonial-1.webp'
+import img2 from '../../Assets/images/resource/testimonial-2.webp'
+import img3 from '../../Assets/images/resource/testimonial-3.webp'
+import img4 from '../../Assets/images/resource/testimonial-4.webp'
+import img5 from '../../Assets/images/resource/testimonial-5.webp'
 const Testimonials = () => {
+    const [slider, setSlider] = useState(null);
+
     const settings = {
         // dots: true,
         infinite: true,
@@ -16,6 +22,13 @@ const Testimonials = () => {
         autoplaySpeed: 2000
         // speed: 100,
     };
+    const next = () => {
+        slider.slickNext();
+    };
+
+    const previous = () => {
+        slider.slickPrev();
+    };
     return (
         <>
             <div className="testimonials">
@@ -24,12 +37,12 @@ const Testimonials = () => {
                         <h1 className="aboutusbtn ">TESTIMONIALS</h1>
                         <h1 className="testimonialsheading">Trusted <span> by More Than 7k Clients.</span></h1>
                         <div className="wenesscobuttons">
-                            <BiLeftArrowAlt className='wenesscobtn' />
-                            <BiRightArrowAlt className='wenesscobtn' />
+                            <FaArrowLeftLong  onClick={next} className='wenesscobtn' />
+                            <FaArrowRightLong onClick={previous} className='wenesscobtn' />
                         </div>
                     </div>
                     <div className="testimonialsright">
-                        <Slider {...settings} className="testimonialscards">
+                        <Slider ref={setSlider} {...settings} className="testimonialscards">
                             <>
                                 <div className="testimonialsec">
                                     <div className="testimonialcard">
@@ -41,18 +54,19 @@ const Testimonials = () => {
                                             edit={false}
                                         />
                                         <p className="testimonialdesc">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quisquam similique porro esse itaque nam velit nisi sunt accusamus. Nostrum commodi molestiae corrupti, ratione iure sed optio eaque perferendis labore.
+                                        Good experience their people helps me in getting raw materials and high speed “ machines ” performs very good no service issues found in last two years. Keep it up folks.
                                         </p>
 
                                     </div>
                                     <div className="testimonialowner">
-                                        <div className="testimonialowneravatar"></div>
-                                        <div className="testimonialownername">Rahul Shukla</div>
+                                        <div className="testimonialowneravatar">
+                                            <img src={img2} alt="" />
+                                        </div>
+                                        <div className="testimonialownername">Omar Taymullah, UAE</div>
                                     </div>
                                 </div>
                             </>
                             <>
-
                                 <div className="testimonialsec">
                                     <div className="testimonialcard">
                                         <ReactStars
@@ -60,15 +74,64 @@ const Testimonials = () => {
                                             size={24}
                                             color2={'#ffd700'}
                                             value={5}
+                                            edit={false}
                                         />
                                         <p className="testimonialdesc">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quisquam similique porro esse itaque nam velit nisi sunt accusamus. Nostrum commodi molestiae corrupti, ratione iure sed optio eaque perferendis labore.
+                                        We are using 4 Nessco High speed machines. All running nicely and best after sales service support in the market. Highly recommended if you are looking for Machines.
                                         </p>
 
                                     </div>
                                     <div className="testimonialowner">
-                                        <div className="testimonialowneravatar"></div>
-                                        <div className="testimonialownername">Rahul Shukla</div>
+                                        <div className="testimonialowneravatar">
+                                            <img src={img3} alt="" />
+                                        </div>
+                                        <div className="testimonialownername">Rekha Sharma</div>
+                                    </div>
+                                </div>
+                            </>
+                            <>
+                                <div className="testimonialsec">
+                                    <div className="testimonialcard">
+                                        <ReactStars
+                                            count={5}
+                                            size={24}
+                                            color2={'#ffd700'}
+                                            value={5}
+                                            edit={false}
+                                        />
+                                        <p className="testimonialdesc">
+                                        Nessco a trusted name in packaging industry machines Very good experience with them staff and owners are very cooperative and ready to help in establishing your business. Machines quality is excellent.
+                                        </p>
+
+                                    </div>
+                                    <div className="testimonialowner">
+                                        <div className="testimonialowneravatar">
+                                            <img src={img5} alt="" />
+                                        </div>
+                                        <div className="testimonialownername">Thomas Aaron</div>
+                                    </div>
+                                </div>
+                            </>
+                            <>
+                                <div className="testimonialsec">
+                                    <div className="testimonialcard">
+                                        <ReactStars
+                                            count={5}
+                                            size={24}
+                                            color2={'#ffd700'}
+                                            value={5}
+                                            edit={false}
+                                        />
+                                        <p className="testimonialdesc">
+                                        It’s really a very nice experience while dealing with Nessco personals, they are very customer friendly and the machines of Nessco are fantabulous, they have low maintenance and user friendly.
+                                        </p>
+
+                                    </div>
+                                    <div className="testimonialowner">
+                                        <div className="testimonialowneravatar">
+                                            <img src={img1} alt="" />
+                                        </div>
+                                        <div className="testimonialownername">Jonathan Robert</div>
                                     </div>
                                 </div>
                             </>

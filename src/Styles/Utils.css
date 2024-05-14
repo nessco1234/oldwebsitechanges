@@ -87,10 +87,13 @@
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 10000;
+    z-index: 1000;
     background: white;
     box-shadow: 0 0 10px 0 grey;
     /* border: 2px solid black; */
+  }
+  .navbarlogolink{
+    width: 120px;
   }
   .navbarcontainer{
     /* padding: 1rem 0; */
@@ -101,7 +104,7 @@
     justify-content: space-between;
     align-items: center;
   }
-  .navbarcontainer>img{
+  .navbarcontainer .navbarlogolink>img{
     width: 120px;
   }
   .navlink{
@@ -126,8 +129,10 @@
     height: 100%;
   }
   .headerbtn{
+    width: fit-content;
     padding: 2rem;
     height: 50%;
+    /* height: fit-content; */
     display: flex;
     justify-content: center;
     align-items: center;

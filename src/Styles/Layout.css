@@ -21,7 +21,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 70%;
+  width: 55%;
   height: 100%;
   /* background-image: url("your-background-image.jpg"); */
   background: url("../Assets/images/shape/wmap.webp") repeat-x;
@@ -82,6 +82,7 @@
 }
 .footerdesccontent {
   font-size: 1.4rem;
+  color: #595959;
 }
 .footerlistslink {
   display: flex;
@@ -90,7 +91,7 @@
 .footersocialicons {
   display: flex;
   font-size: 1.5rem;
-  color: black;
+  color: #595959;
 }
 /* .footersocialicon {
   font-size: 16px;
@@ -116,10 +117,15 @@
 } */
 
 .footersocialicon {
+  width: 40px;
+  height: 40px;
   font-size: 16px;
   padding: 1.2rem;
   margin: 0.6rem;
   background-color: #f0f0f0; /* Fallback color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: black; /* Default text color */
   border: none;
   border-radius: 5px;
@@ -182,16 +188,18 @@
   left: 50%;
 } */
 .footerdesccontent {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 2.5rem;
+  color: #595959;
   margin: 2rem 0;
 }
 .footeraddress {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  color: #595959;
 }
 .footeratags {
-  font-size: 1.5rem;
-  color: black;
+  font-size: 1.4rem;
+  color: #595959;
   margin: 0.8rem 0;
 }
 .footeratags:hover {
@@ -205,12 +213,12 @@
 .email {
   font-size: 1.5rem;
   margin-top: 1.5rem;
+  color: #595959;
 }
 .footerrights {
   width: 100%;
   height: 80px;
   padding: 1rem 0;
-
   background-color: #f0f0f0;
 }
 .footercontainerx {
@@ -275,3 +283,4 @@
     z-index: -1;
   }
 }
+
