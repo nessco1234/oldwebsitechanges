@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import { MdArrowRightAlt } from 'react-icons/md'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import logo from '../../Assets/images/logo.webp'
-import { FaArrowRightLong } from 'react-icons/fa6'
+import { FaArrowRightLong, FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube } from 'react-icons/fa6'
 import img1 from '../../Assets/images/resource/popup.webp'
 import { IoIosMenu, IoMdMenu } from "react-icons/io";
 import { ImCross } from "react-icons/im";
-import { FaAngleDown } from 'react-icons/fa'
+import { FaAngleDown, FaFacebookSquare, FaInstagramSquare } from 'react-icons/fa'
 const list1 = [
     {
         id: 1,
@@ -143,9 +143,17 @@ const list5 = [
         link: "/product/paper-food-bag-making-machine/",
     },
 ]
+
 const Header = (props) => {
     const [isHovered, setIsHovered] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
+    const [isOpenmain, setIsOpenmain] = useState(false);
+    const [isOpen1, setIsOpen1] = useState(false);
+    const [isOpen2, setIsOpen2] = useState(false);
+    const [isOpen3, setIsOpen3] = useState(false);
+    const [isOpen4, setIsOpen4] = useState(false);
+    const [isOpen5, setIsOpen5] = useState(false);
+    const [isOpen6, setIsOpen6] = useState(false);
     const openModal = () => setIsOpen(true);
     const closeModal = () => setIsOpen(false);
     function downloadlocal() {
@@ -156,16 +164,28 @@ const Header = (props) => {
     const [navigation, setnavigation] = useState(false)
     function opennavigation() {
         setnavigation(true);
+        console.log("Opened")
     }
     function closenavigation() {
         setnavigation(false);
+        setIsOpenmain(false);
+        setIsOpen1(false);
+        setIsOpen2(false);
+        setIsOpen3(false);
+        setIsOpen4(false);
+        setIsOpen5(false);
+        setIsOpen6(false);
+        console.log("CLosed")
     }
+    const mainlist = [
+        "Paper Cup Machines", "Paper Container Machines ", "Paper Forming Machines", "Other Machines", "Paper Bag Machines"
+    ]
     return (
         <>
             <nav className="navbar">
                 <div className="navbarcontainer">
                     <Link className='navbarlogolink' to={'/'}><img src={logo} alt="" /></Link>
-                    {/* <ul className="navlist">
+                    <ul className="navlist">
                         <Link className='navlink' to={'/'}>HOME</Link>
                         <Link className='navlink' to={'/about-us'}>ABOUT US</Link>
                         <div className='navlink' onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
@@ -212,7 +232,7 @@ const Header = (props) => {
                         <Link className='navlink' to={'/video'}>VIDEO</Link>
                         <Link className='navlink' to={'/blog'}>BLOG</Link>
                         <Link className='navlink' to={'/contact'}>CONTACT US</Link>
-                    </ul> */}
+                    </ul>
                     <button onClick={openModal} className="headerbtn tt">
                         <p className='headerbtncon'>Inquire Now !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
                     {isOpen && (
@@ -244,20 +264,137 @@ const Header = (props) => {
                                     <div className="hamburgercontainer">
                                         <img className='hamburgerimg' src={logo} alt="" />
                                         <div className="hamburgerlinks">
-                                            <Link className='hamburgerlink' to={''}>Home</Link>
-                                            <Link className='hamburgerlink' to={''}>ABOUT US</Link>
-                                            <Link className='hamburgerlink' to={''}>
-                                                OUR MACHINES<button className='hamburgertogglebtn'><FaAngleDown /></button>
-                                            </Link>
-                                            <Link className='hamburgerlink' to={''}>VIDEO</Link>
-                                            <Link className='hamburgerlink' to={''}>BLOG</Link>
-                                            <Link className='hamburgerlink' to={''}>CONTACT US</Link>
+                                            <Link className='hamburgerlink' to={'/'} onClick={closenavigation}>Home</Link>
+                                            <Link className='hamburgerlink' to={'/about-us'} onClick={closenavigation} >ABOUT US</Link>
+                                            <div className="hamburgerinternallink ">
+                                                <div className="hamburgerinternalcombo">
+
+                                                    <Link className='hamburgerlink' to={'/product'} onClick={closenavigation} >
+                                                        OUR MACHINES
+                                                    </Link>
+                                                    <button onClick={() => setIsOpenmain(!isOpenmain)} className={!isOpenmain ? 'hamburgertogglebtn' : ' toggled'}><FaAngleDown /></button>
+                                                </div>
+                                                {
+                                                    isOpenmain &&
+                                                    <>
+                                                        <div className="hamburgerinternallist">
+                                                            <div className="hamburgerinternalcombo">
+                                                                <p className='hamburgerlink'  onClick={closenavigation} >
+                                                                    Paper Cup Machines
+                                                                </p>
+                                                                <button onClick={() => setIsOpen1(!isOpen1)} className={!isOpen1 ? 'hamburgertogglebtn' : 'hamburgertogglebtn toggled'}><FaAngleDown /></button>
+                                                            </div>
+                                                            {
+                                                                isOpen1 &&
+                                                                <>
+                                                                    <div className="hamburgerinternallist">
+                                                                        {
+                                                                            list1.map(e => (
+                                                                                <Link className='hamburgerlink' to={e.link} onClick={closenavigation} >{e.name}</Link>
+                                                                            ))
+                                                                        }
+                                                                    </div>
+                                                                </>
+                                                            }
+                                                        </div>
+                                                        <div className="hamburgerinternallist">
+                                                            <div className="hamburgerinternalcombo">
+                                                                <p className='hamburgerlink'  onClick={closenavigation} >
+                                                                    Paper Container Machines
+                                                                </p>
+                                                                <button onClick={() => setIsOpen2(!isOpen2)} className={!isOpen2 ? 'hamburgertogglebtn' : 'hamburgertogglebtn toggled'}><FaAngleDown /></button>
+                                                            </div>
+                                                            {
+                                                                isOpen2 &&
+                                                                <>
+                                                                    <div className="hamburgerinternallist">
+                                                                        {
+                                                                            list2.map(e => (
+                                                                                <Link className='hamburgerlink' to={e.link} onClick={closenavigation} >{e.name}</Link>
+                                                                            ))
+                                                                        }
+                                                                    </div>
+                                                                </>
+                                                            }
+                                                        </div>
+                                                        <div className="hamburgerinternallist">
+                                                            <div className="hamburgerinternalcombo">
+                                                                <p className='hamburgerlink'  onClick={closenavigation} >
+                                                                    Paper Forming machines
+                                                                </p>
+                                                                <button onClick={() => setIsOpen3(!isOpen3)} className={!isOpen3 ? 'hamburgertogglebtn' : 'hamburgertogglebtn toggled'}><FaAngleDown /></button>
+                                                            </div>
+                                                            {
+                                                                isOpen3 &&
+                                                                <>
+                                                                    <div className="hamburgerinternallist">
+                                                                        {
+                                                                            list3.map(e => (
+                                                                                <Link className='hamburgerlink' to={e.link} onClick={closenavigation} >{e.name}</Link>
+                                                                            ))
+                                                                        }
+                                                                    </div>
+                                                                </>
+                                                            }
+                                                        </div>
+                                                        <div className="hamburgerinternallist">
+                                                            <div className="hamburgerinternalcombo">
+                                                                <p className='hamburgerlink' onClick={closenavigation} >
+                                                                    Other Machines
+                                                                </p>
+                                                                <button onClick={() => setIsOpen4(!isOpen4)} className={!isOpen4 ? 'hamburgertogglebtn' : 'hamburgertogglebtn toggled'}><FaAngleDown /></button>
+                                                            </div>
+                                                            {
+                                                                isOpen4 &&
+                                                                <>
+                                                                    <div className="hamburgerinternallist">
+                                                                        {
+                                                                            list4.map(e => (
+                                                                                <Link className='hamburgerlink' to={e.link} onClick={closenavigation} >{e.name}</Link>
+                                                                            ))
+                                                                        }
+                                                                    </div>
+                                                                </>
+                                                            }
+                                                        </div>
+                                                        <div className="hamburgerinternallist">
+                                                            <div className="hamburgerinternalcombo">
+                                                                <p className='hamburgerlink'  onClick={closenavigation} >
+                                                                    Paper Bag Machines
+                                                                </p>
+                                                                <button onClick={() => setIsOpen5(!isOpen5)} className={!isOpen5 ? 'hamburgertogglebtn' : 'hamburgertogglebtn toggled'}><FaAngleDown /></button>
+                                                            </div>
+                                                            {
+                                                                isOpen5 &&
+                                                                <>
+                                                                    <div className="hamburgerinternallist">
+                                                                        {
+                                                                            list5.map(e => (
+                                                                                <Link className='hamburgerlink' to={e.link} onClick={closenavigation} >{e.name}</Link>
+                                                                            ))
+                                                                        }
+                                                                    </div>
+                                                                </>
+                                                            }
+                                                        </div>
+                                                    </>
+                                                }
+                                            </div>
+                                            <Link className='hamburgerlink' to={'/video'} onClick={closenavigation}>VIDEO</Link>
+                                            <Link className='hamburgerlink' to={'/blog'} onClick={closenavigation}>BLOG</Link>
+                                            <Link className='hamburgerlink' to={'/contact'} onClick={closenavigation}>CONTACT US</Link>
                                         </div>
                                         <div className="hamburgerdetails">
-                                            hi
+                                            <a href="tel:+91 95494 44484" className="hamburgercontact hh">+91 95494 44484</a>
+                                            <a href="mailto:info@nesscoindia.com" className="hamburgercontact hh">info@nesscoindia.com</a>
+                                            <p className="hamburgercontact">E-186, Apparel Park, RIICO Industrial Area, Mahal Road, Jagatpura, Jaipur (Rajasthan) - 302022, INDIA</p>
                                         </div>
                                         <div className="hamburgersocials">
-                                            hi2
+                                            <a className='hamburgersocialicons' href="https://twitter.com/NesscoIndia" target='_blank'><FaTwitter/></a>
+                                            <a className='hamburgersocialicons' href="https://www.facebook.com/NesscoPaperCupMachine" target='_blank'><FaFacebookSquare/></a>
+                                            <a className='hamburgersocialicons' href="https://www.linkedin.com/company/nesscoindia/" target='_blank'><FaLinkedinIn/></a>
+                                            <a className='hamburgersocialicons' href="https://www.instagram.com/nesscoindia/" target='_blank'><FaInstagram/></a>
+                                            <a className='hamburgersocialicons' href="https://www.youtube.com/c/NesscoPaperCupMachine" target='_blank'><FaYoutube/></a>
                                         </div>
                                     </div>
 
@@ -266,7 +403,7 @@ const Header = (props) => {
                         }
                     </div>
                 </div>
-            </nav>
+            </nav >
         </>
     )
 }
