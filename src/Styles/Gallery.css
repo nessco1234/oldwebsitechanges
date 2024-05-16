@@ -45,3 +45,13 @@
     opacity: 0.5;
     /* z-index: 2; */
 }
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .imgcontainer{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .imgcontainer{
+        width: 100%;
+    }
+}

@@ -13,7 +13,7 @@ const MachineComponent = (props) => {
   const data = props.data
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <link rel="apple-touch-icon" href="/192x192.ico" />
         <link rel="icon" type="image/x-icon" href="/192x192.ico" />
         <title>{data.seotitle}</title>
@@ -23,7 +23,7 @@ const MachineComponent = (props) => {
           ))
         }
         <link rel={data.seolink.name} href={data.seolink.url} />
-      </Helmet>
+      </Helmet> */}
       <IntroMachine heading={data.Heading} route={data.Route} description={data.Description} />
       <DescriptionMachine down={props.down} setdown={props.setdown} data={data} imgurl={props.imgurl} img2url={props.img2url} img3url={props.img3url} />
       {

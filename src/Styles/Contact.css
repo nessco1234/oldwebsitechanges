@@ -314,7 +314,7 @@
 .branchheading{
     margin-top: 2rem;
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 601px) and (max-width: 1024px) {
     .vediocontent{
         width: 45%;
     }
@@ -347,7 +347,7 @@
         margin: 2rem 0;
     }
 }
-@media (max-width:767px) {
+@media (max-width:600px) {
     .vediocontent{
         width: 100%;
     }

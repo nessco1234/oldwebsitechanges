@@ -173,8 +173,9 @@
   /* BREADCRUM */
   .breadcrum{
     width: 100%;
-    height: 80px;
+    height: auto;
     background-color: var(--bluecolor);
+    padding: 2rem 0;
     /* border: 1px solid black; */
   }
   .breadcrumcontainer{
@@ -186,10 +187,11 @@
   }
   .breadcrumheading{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     color: #b5b5b5;
     font-size: 2.3rem;
+    flex-wrap: wrap;
     font-weight: 600;
   }
   .breadcrumicon{
@@ -219,7 +221,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 2000;
     display: flex;
@@ -232,11 +234,13 @@
     position: relative;
     /* padding: 1rem 2rem; */
     /* right: 0; */
-    width: 300px;
     height: 100vh;
     background-color: white;
     transition: all 1s ease;
     overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .hamburgerclose {
@@ -261,15 +265,21 @@
     width: 100%;
     height: 100%;
     padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* margin-top: 5rem; */
     /* background-color: #f7f7f7; */
   }
   .hamburgerimg{
     width: 60%;
-    margin: auto;
+    margin: 1rem auto;
     margin-left: 4rem;
     padding: 2rem;
   }
   .hamburgerlinks{
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin: 1rem 0;
@@ -370,7 +380,7 @@
   
 
 
-  @media screen and (min-width: 768px) and (max-width: 1100px) {
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
     .navlist{
       display:none;
     }
@@ -380,9 +390,12 @@
     .active{
       display: block;
     }
+    .hamburgercontent{
+      width: 300px;
+    }
   }
-@media screen and (max-width: 767px) {
-  .navlist{
+  @media screen and (max-width: 600px) {
+    .navlist{
     display:none;
   }
   .tt{
@@ -390,6 +403,9 @@
   }
   .active{
     display: block;
+  }
+  .hamburgercontent{
+    width: 100%;
   }
 }
 .hamburgercontent {

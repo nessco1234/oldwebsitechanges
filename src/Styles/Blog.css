@@ -186,7 +186,7 @@
     color: var(--redcolor);
 }
 .blogimg{
-    margin: 3rem 0;
+    margin: 3rem 0;width: 100%;
 }
 .blognavigationdesc{
     font-size: 1.7rem;
@@ -197,7 +197,7 @@
 .bloglinks:hover{
     color: var(--redcolor);
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 601px) and (max-width: 1024px) {
     .singleblogcard{
         width: 45%;
     }
@@ -205,11 +205,15 @@
         height: 200px;
     }
 }
-@media  (max-width: 767px) {
+@media  (max-width: 600px) {
     .singleblogcard{
         width: 100%;
     }
     .singleblogcardupper{
         height: auto;
     }
+    .blognavigationdesc{
+        font-size: 1.3rem;
+    }
+    font-size: 1.7rem;
 }

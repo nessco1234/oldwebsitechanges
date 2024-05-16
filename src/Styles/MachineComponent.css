@@ -29,6 +29,7 @@
   justify-content: flex-start;
   color: grey;
   align-items: center;
+  flex-wrap: wrap;
 }
 .breadcrumconnectiondislink {
   color: grey;
@@ -93,381 +94,471 @@
   margin-left: 1rem;
 }
 .descriptionmachine {
-    width: 100%;
-    min-height: 100vh;
-    background-color: white;
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
 }
-.descriptionmachinecomp{
-    width: 85%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 5rem;
+.descriptionmachinecomp {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 5rem;
+}
+.descriptionmachineleft {
+  width: 65%;
+}
+.descriptionmachineleftdata {
+  font-size: 3rem;
+  color: var(--bluecolor);
+}
+.descriptionmachineleftdata > span {
+  color: var(--redcolor);
+}
+.descriptionmachineleft > img {
+  width: 100%;
+}
+.descriptionmachineright {
+  width: 33%;
+}
+.descriptionsuggestions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.descriptionsuggestion {
+  /* border: 1px solid black; */
+  margin: 1rem 0;
+  padding: 2.5rem 4rem;
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  color: var(--bluecolor);
+  /* justify-content: center; */
+  background-color: #f7f7f7;
+  align-items: center;
+}
+.descriptionsuggestion:hover {
+  color: var(--redcolor);
+}
+.descriptionmachineleftcontent {
+  font-size: 1.6rem;
+  margin: 2rem 0;
+  line-height: 2.2rem;
+  color: #595959;
+}
+.descriptionaboutaquote {
+  padding: 2rem;
+  background-color: #f7f7f7;
+  margin-top: 7rem;
+}
+.descriptionaboutaquote {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.descriptionaboutaquoteinputs {
+  padding: 1.4rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 10px;
+  resize: vertical;
+}
+.descriptionaboutbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bluecolor);
+  border: none;
 
+  border-radius: 3px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 2rem 2.5rem;
+  margin-top: 3rem;
 }
-.descriptionmachineleft{
-    width: 65%;
+.descriptionaboutaquoteheading {
+  font-size: 3rem;
+  color: var(--bluecolor);
+  margin: 1.5rem 0;
 }
-.descriptionmachineleftdata{
-    font-size: 3rem;
-    color: var(--bluecolor);
+.downloadbrochuresheading {
+  font-size: 2.2rem;
+  color: var(--bluecolor);
 }
-.descriptionmachineleftdata>span{
-    color: var(--redcolor);
+.downloadbrochuressubheading {
+  font-size: 1.5rem;
+  color: var(--bluecolor);
+  margin: 1rem 0;
 }
-.descriptionmachineleft >img{
-    width: 100%;
+.brochurecontent {
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
-.descriptionmachineright{
-    width: 33%;
+.brochurelogo {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid black;
+  background-color: var(--bluecolor);
 }
-.descriptionsuggestions{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+.brochuredescription {
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
 }
-.descriptionsuggestion{
-    /* border: 1px solid black; */
-    margin: 1rem 0;
-    padding: 2.5rem 4rem;
-    font-size: 1.7rem;
-    display: flex;
-    justify-content: center;
-    font-weight: 700;
-    color: var(--bluecolor);
-    /* justify-content: center; */
-    background-color: #f7f7f7;
-    align-items: center;
+.brochuretitle {
+  color: black;
 }
-.descriptionsuggestion:hover{
-    color: var(--redcolor);
+.brochuresubtitle {
+  color: black;
+  font-weight: 700;
+  border: none;
+  background-color: transparent;
 }
-.descriptionmachineleftcontent{
-    font-size: 1.6rem;
-    margin:2rem 0;
-    line-height: 2.2rem;
-    color: #595959;
+.brochurecontent {
+  margin: 1rem 0;
 }
-.descriptionaboutaquote{
-    padding: 2rem;
-    background-color: #f7f7f7;
-    margin-top: 7rem;
+.downloadbrochures {
+  width: 100%;
+  margin-top: 4rem;
+  border-radius: 20px;
 }
-.descriptionaboutaquote{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+.descriptionmachineleft {
+  font-size: 3rem;
+  color: var(--bluecolor);
 }
-.descriptionaboutaquoteinputs{
-    padding: 1.4rem;
-    margin-top: 1rem;
-    border: none;
-    border-radius: 10px;
-    resize: vertical;
+.descriptionmachineleft > span {
+  color: var(--redcolor);
 }
-.descriptionaboutbtn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--bluecolor);
-    border: none;
-
-    border-radius: 3px;
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 700;
-    padding: 2rem 2.5rem;
-    margin-top: 3rem;
+.descriptionmachineleftcontentlist {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1rem;
 }
-.descriptionaboutaquoteheading{
-    font-size: 3rem;
-    color: var(--bluecolor);
-    margin:1.5rem 0
-}
-.downloadbrochuresheading{
-    font-size: 2.2rem;
-    color: var(--bluecolor);
-}
-.downloadbrochuressubheading{
-    font-size: 1.5rem;
-    color: var(--bluecolor);
-    margin: 1rem 0;
-}
-.brochurecontent{
-    width: 100%;
-    background-color: #f7f7f7;
-    padding: 2rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-.brochurelogo{
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3rem;
-    border-radius: 10px;
-    color: white;
-    border: 1px solid black;
-    background-color: var(--bluecolor);
-
-}
-.brochuredescription{
-    font-size: 1.3rem;
-    display: flex;
-    flex-direction: column;
-    margin-left: 1rem;
-}
-.brochuretitle{
-    color: black;
-    
-}
-.brochuresubtitle{
-    color: black;
-    font-weight: 700;
-    border: none;
-    background-color: transparent;
-}
-.brochurecontent{
-    margin: 1rem 0;
-}
-.downloadbrochures{
-    width: 100%;
-    margin-top: 4rem;
-    border-radius: 20px;
-}
-.descriptionmachineleft{
-    font-size: 3rem;
-    color: var(--bluecolor);
-}
-.descriptionmachineleft>span{
-    color: var(--redcolor);
-}
-.descriptionmachineleftcontentlist{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-start;
-    margin-top: 1rem;
-}
-.descriptionpoints{
-    position: relative;
-    display: flex;
-    align-items: center;
-    color: black;
-    font-weight: 700;
-    align-items: center;
-    float: left;
-    width: 45%;
-    font-size: 1.3rem;
-    margin: 1rem;
-    padding-left: 2rem;
+.descriptionpoints {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: black;
+  font-weight: 700;
+  align-items: center;
+  float: left;
+  width: 45%;
+  font-size: 1.3rem;
+  margin: 1rem;
+  padding-left: 2rem;
 }
 .descriptionpoints:before {
-    position: absolute;
-    content: '';
-    width: 12px;
-    height: 12px;
-    left: 0;
-    top: 5px;
-    border-radius: 50%;
-    background: -webkit-linear-gradient(45deg, #483d73, #e11e25 100%);
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  left: 0;
+  top: 5px;
+  border-radius: 50%;
+  background: -webkit-linear-gradient(45deg, #483d73, #e11e25 100%);
 }
 .descriptionpoints:after {
-    position: absolute;
-    left: 2px;
-    top: 8px;
-    content: '';
-    background: #fff;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
+  position: absolute;
+  left: 2px;
+  top: 8px;
+  content: "";
+  background: #fff;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
 }
-.machinespecs{
+.machinespecs {
+  width: 100%;
+  min-height: 80vh;
+}
+.machinespecscomp {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.machinetable {
+  border-collapse: collapse;
+  width: 100%;
+}
+.machinehead {
+  background-color: var(--bluecolor);
+  color: white;
+  width: 100%;
+}
+.machinetablerow:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+.machinetablerow:hover {
+  background-color: #ddd;
+}
+.adjustwidth {
+  width: 20%;
+}
+.machinespecsheading {
+  font-size: 4rem;
+  color: var(--bluecolor);
+  margin: 7rem 0;
+}
+.machinespecsheading > span {
+  color: var(--redcolor);
+}
+.machinerealtedproducts {
+  width: 100%;
+  min-height: 100vh;
+}
+.machinerelatedproductscomp {
+  width: 85%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.machinerelatedproductheading {
+  font-size: 4rem;
+  margin: 4rem 0;
+  color: var(--bluecolor);
+}
+.machinerelatedproductheading > span {
+  color: var(--redcolor);
+}
+.machineblogsection {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.descriptionmachineleftimage {
+  display: flex;
+  margin-top: 5rem;
+}
+.descriptionmachineimageleft {
+  width: 60%;
+}
+.descriptionmachineimageright {
+  width: 40%;
+}
+.descriptionmachineimageright > img {
+  width: 100%;
+}
+.descriptionmachineimagedesc {
+  font-size: 1.6rem;
+}
+.machinespecs3 {
+  width: 100%;
+  height: auto;
+}
+.machinespecs3container {
+  width: 85%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.machinespecs3heading {
+  font-size: 3rem;
+  color: var(--bluecolor);
+  margin: 3rem 0;
+}
+.machinespecsss {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.machinespecsleft {
+  width: 47%;
+}
+.machinespecsleft > img {
+  width: 100%;
+}
+.machinespecsright {
+  width: 47%;
+}
+.h {
+  height: fit-content;
+  margin-top: 1.5rem;
+}
+.modalcard {
+  width: 60%;
+  min-height: 60%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftmodal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 100%;
+  margin: auto;
+}
+.leftmodal > img {
+  width: 100%;
+}
+.rightmodal {
+  width: 45%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.modalheading {
+  font-size: 1.5rem;
+  color: var(--bluecolor);
+  margin-top: 3rem;
+}
+.modaldesc {
+  color: rgba(0, 0, 0, 0.719);
+}
+.modalinp {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.418);
+  border-radius: 10px;
+}
+.x {
+  height: fit-content;
+  margin-top: 2rem;
+}
+.tableoverlay{
     width: 100%;
-    min-height: 80vh;
-}
-.machinespecscomp{
-    width: 85%;
-    margin: auto;
-    display: flex;
+    overflow: auto;margin-bottom: 2rem;
+  }
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .modalcard {
+    width: 80%;
+  }
+  .intromachinecompo {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.machinetable{
-    border-collapse: collapse;
-    width: 100%;
-}
-.machinehead{
-    background-color: var(--bluecolor);
-    color: white;
-    /* width: 30%; */
-}
-.machinetablerow:nth-child(odd){
-    background-color: #f2f2f2;
-}
-.machinetablerow:hover{
-    background-color: #ddd;
-}
-.adjustwidth{
-    width: 20%;
-}
-.machinespecsheading{
-    font-size: 4rem;
-    color: var(--bluecolor);
-    margin: 7rem 0;
-}
-.machinespecsheading>span{
-    color: var(--redcolor);
-}
-.machinerealtedproducts{
-    width: 100%;
-    min-height: 100vh;
-}
-.machinerelatedproductscomp{
-    width: 85%;
-    height: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.machinerelatedproductheading{
-    font-size: 4rem;
-    margin: 4rem 0;
-    color: var(--bluecolor);
-}
-.machinerelatedproductheading>span{
-    color: var(--redcolor);
-}
-.machineblogsection{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.descriptionmachineleftimage{
-    display: flex;
-    margin-top: 5rem;
-}
-.descriptionmachineimageleft{
-    width: 60%;
-}
-.descriptionmachineimageright{
-    width: 40%;
-}
-.descriptionmachineimageright>img{
-    width: 100%;
-}
-.descriptionmachineimagedesc{
-    font-size: 1.6rem;
-}
-.machinespecs3{
-    width: 100%;
-    height: auto;
-}
-.machinespecs3container{
-    width: 85%;
-    margin: auto;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
-}
-.machinespecs3heading{
-    font-size: 3rem;
-    color: var(--bluecolor);
-    margin: 3rem 0;
-}
-.machinespecsss{
+  }
+  .intromachineleft {
     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.machinespecsleft{
-    width: 47%;
-}
-.machinespecsleft>img{
+  }
+  .intromachineform {
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+  .intromachinecard {
     width: 100%;
-}
-.machinespecsright{
-    width: 47%;
-}
-.h{
-    height: fit-content;
-    margin-top: 1.5rem;
-}
-.modalcard{
-    width: 60%;
-    min-height: 60%;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.leftmodal{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 45%;
-    height: 100%;
-    margin: auto;
-}
-.leftmodal>img{
+  }
+  .intromachineformbtn {
+    padding: 1.5rem 2rem;
+  }
+  .descriptionsuggestions {
+    display: none;
+  }
+  .descriptionmachinecomp {
+    flex-direction: column;
+  }
+  .descriptionmachineleft {
     width: 100%;
+  }
+  .descriptionmachineright {
+    width: 100%;
+  }
 }
-.rightmodal{
-    width: 45%;
-    height: 100%;
-    margin: auto;
-    display: flex;
+@media (max-width: 600px) {
+  .modalcard {
+    width: 100%;
+  }
+  .leftmodal {
+    display: none;
+  }
+  .rightmodal {
+    width: 90%;
+  }
+  .intromachinecompo {
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
-}
-.modalheading{
-    font-size: 1.5rem;
-    color: var(--bluecolor);
-    margin-top: 3rem;
-}
-.modaldesc{
-    color: rgba(0, 0, 0, 0.719);
-}
-.modalinp{
+  }
+  .intromachineleft {
     width: 100%;
-    margin-top: 2rem;
-    padding: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.418);
-    border-radius: 10px;
+  }
+  .intromachineform {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .intromachinecard {
+    width: 100%;
+  }
+  .intromachineformbtn {
+    padding: 1.5rem 2rem;
+  }
+  .descriptionsuggestions {
+    display: none;
+  }
+  .descriptionmachinecomp {
+    flex-direction: column;
+  }
+  .descriptionmachineleft {
+    width: 100%;
+  }
+  .descriptionmachineright {
+    width: 100%;
+  }
+  .descriptionpoints {
+    width: 100%;
+  }
+  .machinetable{
+    width: auto;;
+  }
+  .machinespecscomp {
+    /* display: flex;
+    overflow: scroll; */
+    flex-direction: column;
+  }
+  .machinespecscomp{
+    width: 90%;
+    /* overflow-x: scroll; */
+  }
+  .descriptionmachineleftimage{
+    flex-direction: column;
+  }
+  .descriptionmachineimageleft{
+    width: 100%;
+  }
+  .descriptionmachineimageright{
+    width: 100%;
+  }
+  .tableoverlay{
+    width: 100%;
+    overflow: auto;
+  }
+  .breadcrum{
+    padding: 2rem 0;
+  }
 }
-.x{
-    height: fit-content;
-    margin-top: 2rem;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .modalcard{
-        width: 80%;
-    }
-}
-@media  (max-width: 767px) {
-    .modalcard{
-        width: 100%;
-    }
-    .leftmodal{
-        display: none;
-    }
-    .rightmodal{
-        width: 90%;
-    }
-}
+/* styles.css */

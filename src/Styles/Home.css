@@ -1434,7 +1434,7 @@
 
 /* ////////////////////////////////// */
 /* MEDIA QUERY FOR TABLET */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 601px) and (max-width: 1024px) {
   .bannerslide{
     width: 85%;
     margin: auto;
@@ -1573,11 +1573,13 @@
     margin-top: 10rem;
   }
   .testimonials {
-    height: 100vh;
+    height: auto;
   }
   .testimonialscontainer {
+    min-height: 300px;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
   }
   .testimonialsleft {
     width: 100%;
@@ -1597,6 +1599,7 @@
   }
   .testimonialowner {
     margin-right: 0;
+    margin-bottom: 5re;
   }
   .homestats {
     height: 45vh;
@@ -1645,7 +1648,7 @@
     margin: auto 2rem;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   .bannerslide{
     width: 85%;
     margin: auto;
@@ -1725,7 +1728,7 @@
   .rightabout {
     width: 100%;
     margin: auto;
-    margin-top: 10rem;
+    margin-top: 10rem;margin-bottom: 4rem;
   }
 
   .leftaboutpic2 {
@@ -1870,11 +1873,17 @@
   .subsribecontainer {
     flex-direction: column;
   }
+  .rightsubscribe > input {
+    width: 100%;
+  }
   .leftsubscribe {
     width: 100%;
   }
   .rightsubscribe {
-    width: 100%;
+    width: 100%;margin-bottom: 2rem;
+  }
+  .subscribebtn{
+    margin-left: 0;
   }
   .productbox {
     overflow-x: hidden;
@@ -1898,7 +1907,7 @@
     width: 100%;
   }
   .mm {
-    margin-top: 3rem;
+    margin-top: 10rem;
     /* margin-right: 2rem ; */
   }
   .testimonialsec {
@@ -1932,7 +1941,7 @@
     width: 100%;
     left: 0%;
     top: 0;
-    z-index: -1;
+    z-index: 1;
   }
   .KK {
     margin-top: 10rem;

@@ -166,7 +166,7 @@
 .footerlist:nth-child(4) {
   width: 26%;
 }
-@media screen and (min-width: 768px) and (max-width: 10px) {
+@media screen and (min-width: 601px) and (max-width: 10px) {
   .footercontent {
     flex-wrap: wrap;
   }
@@ -180,7 +180,7 @@
     width: 47%;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 600px) {
   .footercontent {
     flex-direction: column;
   }

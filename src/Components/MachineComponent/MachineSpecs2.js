@@ -7,26 +7,30 @@ const MachineSpecs2 = (props) => {
         <div className="machinespecs">
             <div className="machinespecscomp">
                 <h1 className='machinespecsheading'>Machine <span>Specification</span></h1>
-                <table className='machinetable'>
-                    <thead className='machinehead'>
-                        <tr>{
-                            labels.map(obj => (
-                                <th style={cellStyle}>{obj}</th>
-                            ))
-                        }
-                        </tr>
-                    </thead>
-                    <tbody className='machinedata'>
-                        {data.map(row => (
-                            <tr key={row.key} className='machinetablerow'>
-                                <td style={cellStyle}>{row.specs}</td>
-                                <td style={cellStyle}>{row.ns220}</td>
-                                <td style={cellStyle}>{row.ns330}</td>
-                                <td style={cellStyle}>{row.ns460}</td>
+                <div className="tableoverlay">
+
+                    <table className='machinetable'>
+                        <thead className='machinehead'>
+                            <tr>{
+                                labels.map(obj => (
+                                    <th colSpan={1} style={cellStyle}>{obj}</th>
+                                ))
+                            }
                             </tr>
-                        ))}
-                    </tbody>
-                </table>
+                        </thead>
+                        <tbody className='machinedata'>
+                            {data.map(row => (
+                                <tr key={row.key} className='machinetablerow'>
+                                    <td style={cellStyle}>{row.specs}</td>
+                                    <td style={cellStyle}>{row.ns220}</td>
+                                    <td style={cellStyle}>{row.ns330}</td>
+                                    <td style={cellStyle}>{row.ns460}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
+
             </div>
         </div>
     )
