@@ -7,10 +7,24 @@ import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
 import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
+import { Helmet } from 'react-helmet'
 
 const ChinaPaper = () => {
     return (
         <>
+            <Helmet>
+                <title>Paper Cup Making Machine in China | Nessco</title>
+                <meta name="description" content="Nessco provides a wide range of paper cup making machine in China. A fully automatic cup forming machine manufacturer & supplier in China. Get Quote Now!" />
+                <meta name="keywords" content="Paper cup making machine in china, paper cup machine in china, paper cup machine china, China Paper cup machine, paper cup machine in china, paper forming machine in china, paper cups machinery, paper cup making machinery in china, paper cup manufacturing machine in china" />
+                <meta name="copyright" content="Copyright 2022 Nessco India" />
+                <meta name="distribution" content="global" />
+                <meta name="language" content="english" />
+                <meta name="robots" content="index,follow" />
+                <meta name="publisher" content="Nessco India" />
+                <meta name="author" content="Nessco India" />
+                <link rel="canonical" href="https://www.nesscoindia.com/global/paper-cup-making-machine-in-china/" />
+
+            </Helmet>
             <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">

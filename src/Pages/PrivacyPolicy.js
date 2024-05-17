@@ -2,9 +2,13 @@ import React from 'react'
 import { FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
 import Breadcrum from '../Components/Home/Breadcrum'
+import { Helmet } from 'react-helmet'
 const PrivacyPolicy = () => {
     return (
         <>
+        <Helmet>
+            <title>Privacy Policy - Nessco India</title>
+        </Helmet>
             <Breadcrum previous={"Home"} link={"/"} active={"Privacy Policy"} />
             <section className="blogdescsection">
                 <div className="blogdescsectioncontainer">

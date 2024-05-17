@@ -7,10 +7,23 @@ import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
 import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
+import { Helmet } from 'react-helmet'
 
 const GermanyKShow = () => {
     return (
         <>
+            <Helmet>
+                <title>K-show Germany | Nessco</title>
+                <meta name="description" content="Nessco would like to take the pleasure to invite you all to The World’s No. 1 Trade Fair For Plastics And Rubber – #K2022 in Düsseldorf Germany" />
+                <meta name="copyright" content="Copyright 2022 Nessco India" />
+                <meta name="distribution" content="global" />
+                <meta name="language" content="english" />
+                <meta name="robots" content="index,follow" />
+                <meta name="publisher" content="Nessco India" />
+                <meta name="author" content="Nessco India" />
+                <link rel="canonical" href="https://www.nesscoindia.com/germany/k-show-germany/"/>
+
+            </Helmet>
             <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">
@@ -36,23 +49,23 @@ const GermanyKShow = () => {
                         <img src={img1} alt="" />
                         <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Germany</span></h1>
                         <p className="descriptionmachineleftcontent"><b>𝗡𝗲𝘀𝘀𝗰𝗼 𝗜𝗻𝗱𝗶𝗮</b> would like to take the pleasure to invite you all to The World’s No. 1 Trade Fair For Plastics And Rubber – #K2022 in <b>𝗗𝘂̈𝘀𝘀𝗲𝗹𝗱𝗼𝗿𝗳, 𝗚𝗲𝗿𝗺𝗮𝗻𝘆</b>. We are exhibiting at <b>𝗦𝘁𝗮𝗻𝗱 𝗖𝟰𝟲-𝟬𝟮 in 𝗛𝗮𝗹𝗹 𝟭𝟮.</b> Our team will be available at the venue from  <b>𝟭𝟵𝘁𝗵 𝘁𝗼 𝟮𝟲𝘁𝗵 𝗢𝗰𝘁𝗼𝗯𝗲𝗿</b> to assist you with all the details.
-<br /><br />
-We are showcasing our High Speed Paper Cup Machine along with various technologies associated with it which are – <br />
-• IOT Platform <br />
-• Remote Machine Controlling <br />
-• Machine Synchronization With ERP <br />
-• POKA-YOKE Controlled Mechanisms <br />
-• High Tech Sensors For Controlling Excessive Paper Waste <br />
-• Various Machine Faults Detection System <br />
-• Integrated Packaging Solutions <br />
-<br />
-Besides Paper Cup Machines, we manufacture various machines which are – <br />
-• PE Coating Machine <br />
-• Bio-Coating Machine <br />
-• PLA Coating Machine <br />
-• Paper Slitting Machine <br />
-• Flexo Printing Machine <br />
-• Roll Die Cutting Machine</p> <br /><br />
+                            <br /><br />
+                            We are showcasing our High Speed Paper Cup Machine along with various technologies associated with it which are – <br />
+                            • IOT Platform <br />
+                            • Remote Machine Controlling <br />
+                            • Machine Synchronization With ERP <br />
+                            • POKA-YOKE Controlled Mechanisms <br />
+                            • High Tech Sensors For Controlling Excessive Paper Waste <br />
+                            • Various Machine Faults Detection System <br />
+                            • Integrated Packaging Solutions <br />
+                            <br />
+                            Besides Paper Cup Machines, we manufacture various machines which are – <br />
+                            • PE Coating Machine <br />
+                            • Bio-Coating Machine <br />
+                            • PLA Coating Machine <br />
+                            • Paper Slitting Machine <br />
+                            • Flexo Printing Machine <br />
+                            • Roll Die Cutting Machine</p> <br /><br />
                     </div>
                     <div className="descriptionmachineright">
                         <div className="descriptionsuggestions">

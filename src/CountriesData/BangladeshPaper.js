@@ -7,10 +7,24 @@ import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
 import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
+import { Helmet } from 'react-helmet'
 
 const BangladeshPaper = () => {
     return (
         <>
+            <Helmet>
+                <title>Disposable Paper Cup Making Machine in Bangladesh</title>
+                <meta name="description" content="Buy paper cup making machine in Bangladesh from Nessco. We have top-quality range of disposable paper cup machines. Best Price. Get Quote Now!" />
+                <meta name="keywords" content="Paper cup making machine in bangladesh, paper cup machine in bangladesh, paper cup forming machine in bangladesh, fullly automatic paper cup making machine in bangladesh, automatic paper cup making machine in bangladesh, high speed paper cup making machine in bangladesh" />
+                <meta name="copyright" content="Copyright 2022 Nessco India" />
+                <meta name="distribution" content="global" />
+                <meta name="language" content="english" />
+                <meta name="robots" content="index,follow" />
+                <meta name="publisher" content="Nessco India" />
+                <meta name="author" content="Nessco India" />
+                <link rel="canonical" href="https://www.nesscoindia.com/bangladesh/paper-cup-making-machine-in-bangladesh/" />
+
+            </Helmet>
             <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">
@@ -36,10 +50,10 @@ const BangladeshPaper = () => {
                         <img src={img1} alt="" />
                         <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Bangladesh</span></h1>
                         <p className="descriptionmachineleftcontent">Nessco India brings you a top-quality range of disposable paper cup making machine in France. which is multi-station automatic, capable of producing an unbelievable number of paper cups at one time. Continuous automatic procedures such as sealing, oil filling, heating, knurling, curling, and unloading make it the ideal machine.
-<br /><br /><b>
-High-quality Paper Cup Forming Machine
-</b><br /><br />
-Our Paper cup making machines is ideal for producing paper testing Beer cups, tea cups, cups, and many more. It is widely use for making hot drinks and beverages such as cold drinks and buttermilk. Moreover, our clients can have these machines at a budget-friendly price.</p> <br /><br />
+                            <br /><br /><b>
+                                High-quality Paper Cup Forming Machine
+                            </b><br /><br />
+                            Our Paper cup making machines is ideal for producing paper testing Beer cups, tea cups, cups, and many more. It is widely use for making hot drinks and beverages such as cold drinks and buttermilk. Moreover, our clients can have these machines at a budget-friendly price.</p> <br /><br />
                     </div>
                     <div className="descriptionmachineright">
                         <div className="descriptionsuggestions">

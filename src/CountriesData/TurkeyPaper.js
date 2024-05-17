@@ -7,10 +7,23 @@ import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
 import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
+import { Helmet } from 'react-helmet'
 
 const TurkeyPaper = () => {
     return (
-        <>
+        <><Helmet>
+            <title>Paper Cup Making Machine in Turkey | Nessco</title>
+            <meta name="description" content="Nessco offers a wide range of paper cup making machine in Turkey for 40 years. Best Price. Get Quote Now!" />
+            <meta name="keywords" content="paper cup making machine, paper cup machine, paper cup machine price, paper cup making machine near me, paper cup making machine price, paper cup, paper cup machine manufacturer, paper cup machine company, cup manufacturing machine" />
+            <meta name="copyright" content="Copyright 2022 Nessco India" />
+            <meta name="distribution" content="global" />
+            <meta name="language" content="english" />
+            <meta name="robots" content="index,follow" />
+            <meta name="publisher" content="Nessco India" />
+            <meta name="author" content="Nessco India" />
+            <link rel="canonical" href="https://www.nesscoindia.com/turkey/paper-cup-making-machine-in-turkey/" />
+
+        </Helmet>
             <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">
@@ -36,8 +49,8 @@ const TurkeyPaper = () => {
                         <img src={img1} alt="" />
                         <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Turkey</span></h1>
                         <p className="descriptionmachineleftcontent">Nessco India top-quality range of <Link>disposable paper cup making machines in turkey</Link>. Which is multi-station programmed, fit for creating a an unbelievable number of paper cups all at once. With the continuous automatic systems like fixing, oil filling, warming, knurling, twisting, and dumping make it the ideal machine.
-<br /><br />
-Nessco <Link> paper cup making machines</Link> is ideal for creating paper drinking cups, market cups, promoting cups, and some more. In turkey or globally it is generally utilized for hot beverages and refreshments like cold beverages and buttermilk. Additionally, our customers can have these machines at at the budget-friendly price.</p> <br /><br />
+                            <br /><br />
+                            Nessco <Link> paper cup making machines</Link> is ideal for creating paper drinking cups, market cups, promoting cups, and some more. In turkey or globally it is generally utilized for hot beverages and refreshments like cold beverages and buttermilk. Additionally, our customers can have these machines at at the budget-friendly price.</p> <br /><br />
                     </div>
                     <div className="descriptionmachineright">
                         <div className="descriptionsuggestions">

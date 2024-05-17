@@ -7,10 +7,24 @@ import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
 import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
+import { Helmet } from 'react-helmet'
 
 const GermanyPaper = () => {
     return (
         <>
+            <Helmet>
+                <title>Paper Cup Making Machine in Germany | Nessco</title>
+                <meta name="description" content="Paper Cup Making Machine in Germany. Nessco is a leading manufacturer of fully automatic best quality German paper cup machine. Get Quote Now!" />
+                <meta name="keywords" content="Paper cup making machine in germany, paper cup forming machine in germany, fully automatic paper cup making machine in germany, high speed paper cup making machine in germany, manufacturers, germany, supplier, German paper cup machine" />
+                <meta name="copyright" content="Copyright 2022 Nessco India" />
+                <meta name="distribution" content="global" />
+                <meta name="language" content="english" />
+                <meta name="robots" content="index,follow" />
+                <meta name="publisher" content="Nessco India" />
+                <meta name="author" content="Nessco India" />
+                <link rel="canonical" href="https://www.nesscoindia.com/global/paper-cup-making-machine-in-germany/" />
+
+            </Helmet>
             <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">

@@ -32,6 +32,7 @@ import img28 from '../Assets/images/gallery/installation3.webp'
 import img29 from '../Assets/images/gallery/installation4.webp'
 import img30 from '../Assets/images/gallery/installation5.webp'
 import img31 from '../Assets/images/gallery/installation6.webp'
+import { Helmet } from 'react-helmet';
 
 function ProductFilter({ products }) {
     const [selectedFilter, setSelectedFilter] = useState('All');
@@ -114,11 +115,16 @@ const products = [
 
 function Gallery() {
     return (
-        <div>
-            <h1 className="galleryheading">Our <span>Gallery</span></h1>
-            <ProductFilter products={products} />
+        <>
+<Helmet>
+    <title>Nessco Gallary</title>
+</Helmet>
+            <div>
+                <h1 className="galleryheading">Our <span>Gallery</span></h1>
+                <ProductFilter products={products} />
 
-        </div>
+            </div>
+        </>
     );
 }
 

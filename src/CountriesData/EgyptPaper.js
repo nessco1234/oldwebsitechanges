@@ -7,10 +7,24 @@ import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
 import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
+import { Helmet } from 'react-helmet'
 
 const EgyptPaper = () => {
     return (
         <>
+            <Helmet>
+                <title>Paper Cup Making Machine in Egypt | Nessco</title>
+                <meta name="description" content="Nessco offers a wide range of paper cup making machine in Egypt for 40 years. Best Price. Get Quote Now!" />
+                <meta name="keywords" content="Paper Cup Making Machine In Egypt, Paper Cup Forming Machine In Egypt, High Speed Paper Cup Forming Machine in Egypt, ماكينة صنع الأكواب الورقية عالية السرعة في مصر,egyptian paper cup machine, paper cup machine made in china, paper cup machine manufacturers eygpt, paper cup machine suppliers eygpt, paper cup machine made in egypt, coffee cup machine eygpt, ice cream cup machine eygpt, paper forming machine eygpt" />
+                <meta name="copyright" content="Copyright 2022 Nessco India" />
+                <meta name="distribution" content="global" />
+                <meta name="language" content="english" />
+                <meta name="robots" content="index,follow" />
+                <meta name="publisher" content="Nessco India" />
+                <meta name="author" content="Nessco India" />
+                <link rel="canonical" href="https://www.nesscoindia.com/egypt/paper-cup-making-machine-in-egypt/" />
+
+            </Helmet>
             <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">

@@ -17,6 +17,8 @@ import img12 from '../../Assets/images/resource/paper-cutlery-making-machine.web
 import { BiSolidRightArrowAlt } from "react-icons/bi";
 import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { useState } from "react";
+import { useEffect } from "react";
 const data = [
     {
         name: `Paper Container Bowl Making Machine`,
@@ -85,45 +87,36 @@ const data2 = [
     }
 ];
 function App() {
+    // const [slider, setSlider] = useState(null);
+
+    const [slidesToShow, setSlidesToShow] = useState(4);
+    const updateSlidesToShow = () => {
+        const screenWidth = window.innerWidth;
+        if (screenWidth <= 600) {
+          setSlidesToShow(1);
+        } else if (screenWidth <= 1024) {
+          setSlidesToShow(2);
+        } else {
+          setSlidesToShow(4);
+        }
+      };
+    useEffect(() => {
+        updateSlidesToShow();
+        window.addEventListener('resize', updateSlidesToShow);
+        return () => {
+          window.removeEventListener('resize', updateSlidesToShow);
+        };
+      }, []);
     const settings = {
         // dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 4,
+        slidesToShow: slidesToShow,
         slidesToScroll: 1,
         autoplay: true,
         pauseOnHover: false,
         autoplaySpeed: 2000,
         arrows: false,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    infinite: true,
-                    speed: 500,
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    pauseOnHover: false,
-                    autoplaySpeed: 2000,
-                    arrows: false,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    infinite: true,
-                    speed: 500,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    pauseOnHover: false,
-                    autoplaySpeed: 2000,
-                    arrows: false,
-                }
-            }
-        ]
-        // speed: 100,
     };
     return (
         <section className='product'>
@@ -156,7 +149,6 @@ function App() {
                                     <img src={d.img} alt="" />
                                 </div>
                                 <div className="productssslower">
-                                    {/* <img src={img1} alt="" /> */}
                                     <Link to={d.link} className="productsssheading">{d.name}</Link>
                                     <Link to={d.link} className="productssslink">View Machine <FaArrowRightLong style={{ marginLeft: "1rem" }} /></Link>
                                 </div>

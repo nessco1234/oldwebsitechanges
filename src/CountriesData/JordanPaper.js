@@ -7,10 +7,23 @@ import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
 import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
+import { Helmet } from 'react-helmet'
 
 const JordanPaper = () => {
     return (
-        <>
+        <><Helmet>
+            <title>Paper Cup Making Machine in Jordan | Nessco</title>
+            <meta name="description" content="Nessco offers a wide range of paper cup making machine in Jordan for 40 years. Best Price. Get Quote Now!" />
+            <meta name="keywords" content="paper cup making machine, paper cup machine, paper cup machine price, paper cup making machine near me, paper cup making machine price, paper cup, paper cup machine manufacturer, paper cup machine company, cup manufacturing machine" />
+            <meta name="copyright" content="Copyright 2022 Nessco India" />
+            <meta name="distribution" content="global" />
+            <meta name="language" content="english" />
+            <meta name="robots" content="index,follow" />
+            <meta name="publisher" content="Nessco India" />
+            <meta name="author" content="Nessco India" />
+            <link rel="canonical" href="https://www.nesscoindia.com/jordan/paper-cup-making-machine-in-jordan/" />
+
+        </Helmet>
             <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">
@@ -36,17 +49,17 @@ const JordanPaper = () => {
                         <img src={img1} alt="" />
                         <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Jordan</span></h1>
                         <p className="descriptionmachineleftcontent">Nesscoindia is bringing you its complete range of Paper Cup Making Machine In Jordan. We are supplying our fully automated machines which require the least human intervention and can perform a chain of functions. And these serial functions include paper feeding, oil filling, heating, knurling, curling, and popping up paper cups as well.
-<br /><br /><b>
+                            <br /><br /><b>
 
-High-Quality Paper Cup Machine in Jordan
-</b><br /><br />
+                                High-Quality Paper Cup Machine in Jordan
+                            </b><br /><br />
 
-The offered range of machines is ideal for producing paper testing drinking cups, market cups, advertising cups, and many more. It is widely used for hot drinks and beverages such as cold drinks and buttermilk. Moreover, our clients can have these machines at a budget-friendly price.
-<br /><br />
-Features <br />
-• The main frame of the machine is an incline and the incline can help the cups easily drop into the plastic hoed, the rate of which goes up to 99.99%. <br />
-• Inside the machine, we have used three range chains instead of conventional two range chains. <br />
-• It can reduce paper wastage.</p> <br /><br />
+                            The offered range of machines is ideal for producing paper testing drinking cups, market cups, advertising cups, and many more. It is widely used for hot drinks and beverages such as cold drinks and buttermilk. Moreover, our clients can have these machines at a budget-friendly price.
+                            <br /><br />
+                            Features <br />
+                            • The main frame of the machine is an incline and the incline can help the cups easily drop into the plastic hoed, the rate of which goes up to 99.99%. <br />
+                            • Inside the machine, we have used three range chains instead of conventional two range chains. <br />
+                            • It can reduce paper wastage.</p> <br /><br />
                     </div>
                     <div className="descriptionmachineright">
                         <div className="descriptionsuggestions">

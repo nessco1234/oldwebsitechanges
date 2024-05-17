@@ -7,10 +7,24 @@ import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
 import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
+import { Helmet } from 'react-helmet'
 
 const CyprusPaper = () => {
     return (
         <>
+            <Helmet>
+                <title>Paper Cup Making Machine in Cyprus | Nessco</title>
+                <meta name="description" content="Nessco provides a wide range of paper cup making machine in Cyprus for 40 years. Buy high speed, low power consumption machines. Get Quote Now!" />
+                <meta name="keywords" content="paper cup making machine, paper cup machine, paper cup machine price, paper cup making machine near me, paper cup making machine price, paper cup, paper cup machine manufacturer, paper cup machine company, cup manufacturing machine" />
+                <meta name="copyright" content="Copyright 2022 Nessco India" />
+                <meta name="distribution" content="global" />
+                <meta name="language" content="english" />
+                <meta name="robots" content="index,follow" />
+                <meta name="publisher" content="Nessco India" />
+                <meta name="author" content="Nessco India" />
+                <link rel="canonical" href="https://www.nesscoindia.com/global/paper-cup-making-machine-in-cyprus/" />
+
+            </Helmet>
             <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">
@@ -36,7 +50,7 @@ const CyprusPaper = () => {
                         <img src={img1} alt="" />
                         <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Cyprus</span></h1>
                         <p className="descriptionmachineleftcontent">Nessco brings you A top quality range of paper cup making machines in Cyprus. <br />
-Nessco <Link> high speed Paper cup making machine</Link> is one of the most latest and completely programmed open-cam-based machines accessible on the lookout. It is known for making great cups at a high speed of 85 cups each consistently. Nessco machines are made with the most latest innovation improving their speed and security. It is the best machine that can help you in the production of creative and various-type paper cups.</p> <br /><br />
+                            Nessco <Link> high speed Paper cup making machine</Link> is one of the most latest and completely programmed open-cam-based machines accessible on the lookout. It is known for making great cups at a high speed of 85 cups each consistently. Nessco machines are made with the most latest innovation improving their speed and security. It is the best machine that can help you in the production of creative and various-type paper cups.</p> <br /><br />
                     </div>
                     <div className="descriptionmachineright">
                         <div className="descriptionsuggestions">

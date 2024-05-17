@@ -7,6 +7,7 @@ import img3 from '../Assets/images/news/news-3.webp'
 import img4 from '../Assets/images/news/use-paper-cups-it-can-be-recycled.webp'
 import img5 from '../Assets/images/news/paper-cups-for-hot-beverages.webp'
 import img6 from '../Assets/images/news/Paper-cup-Startup.webp'
+import { Helmet } from 'react-helmet'
 const data = [
     {
         "url": img1,
@@ -48,6 +49,22 @@ const data = [
 const Blog = () => {
     return (
         <>
+            <Helmet>
+                <title>Disposable Industry Blog | Nessco India</title>
+                <meta name="description" content="Nesscoindia latest disposable industry blog. Contact us for more detail about disposable paper cup industries. Visit the website!" />
+                <meta name="keywords" content="" />
+                <meta name="State" content="Rajasthan" />
+                <meta name="City" content="Jaipur" />
+                <meta name="address" content="186 Apparel Park, Mahal Rd, Ricco Industrial Area, Jagatpura, Jaipur, Rajasthan 302022, India" />
+                <meta name="copyright" content="Copyright 2022 Nessco India" />
+                <meta name="distribution" content="global" />
+                <meta name="language" content="english" />
+                <meta name="robots" content="index,follow" />
+                <meta name="publisher" content="Nessco India" />
+                <meta name="author" content="Nessco India" />
+                <link rel="canonical" href="https://www.nesscoindia.com/blog/" />
+
+            </Helmet>
             <section className="blogs">
                 <div className="blogcontainer">
                     {

@@ -1646,14 +1646,14 @@
   .rightsubscribe {
     width: 90%;
   }
-  .productbox {
+  /* .productbox {
     overflow-x: hidden;
     margin: 1rem auto;
   }
   .product {
     min-width: 28%;
     margin: auto 2rem;
-  }
+  } */
 }
 @media screen and (max-width: 600px) {
   .bannerslide{
@@ -1900,14 +1900,17 @@
   .aboutusbtn{
     margin-top: 2rem;
   }
-  .productbox {
+  .productsssdesc{
+    width: 100%;
+  }
+  /* .productbox {
     overflow-x: hidden;
     margin: 2rem auto;
   }
   .product {
     min-width: 28%;
     margin: auto 2rem;
-  }
+  } */
   .subscribe {
     height: 300px;
   }

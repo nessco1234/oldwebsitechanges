@@ -7,10 +7,24 @@ import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
 import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
+import { Helmet } from 'react-helmet'
 
 const FrancePaper = () => {
     return (
         <>
+            <Helmet>
+                <title>Paper Cup Making Machine in France | Nessco</title>
+                <meta name="description" content="Nessco offers high speed paper cup making machine in France. This machine can produce both Single and Double-side-PE-film-coated paper cups." />
+                <meta name="keywords" content="paper cup making machine, paper cup machine, paper cup machine price, paper cup making machine near me, paper cup making machine price, paper cup, paper cup machine manufacturer, paper cup machine company, cup manufacturing machine" />
+                <meta name="copyright" content="Copyright 2022 Nessco India" />
+                <meta name="distribution" content="global" />
+                <meta name="language" content="english" />
+                <meta name="robots" content="index,follow" />
+                <meta name="publisher" content="Nessco India" />
+                <meta name="author" content="Nessco India" />
+                <link rel="canonical" href="https://www.nesscoindia.com/france/paper-cup-making-machine-in-france/" />
+
+            </Helmet>
             <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">
@@ -36,10 +50,10 @@ const FrancePaper = () => {
                         <img src={img1} alt="" />
                         <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In France</span></h1>
                         <p className="descriptionmachineleftcontent">Nesscoindia brings you a top-quality range of disposable paper cup making machine in France. which is multi-station automatic, capable of producing an unbelievable number of paper cups at one time. Continuous automatic procedures such as sealing, oil filling, heating, knurling, curling, and unloading make it the ideal machine.
-<br /><br /><b>
-High-quality Paper Cup Forming Machine
-</b><br /><br />
-Our Paper cup making machines is ideal for producing paper testing Beer cups, tea cups, cups, and many more. It is widely use for making hot drinks and beverages such as cold drinks and buttermilk. Moreover, our clients can have these machines at a budget-friendly price.</p> <br /><br />
+                            <br /><br /><b>
+                                High-quality Paper Cup Forming Machine
+                            </b><br /><br />
+                            Our Paper cup making machines is ideal for producing paper testing Beer cups, tea cups, cups, and many more. It is widely use for making hot drinks and beverages such as cold drinks and buttermilk. Moreover, our clients can have these machines at a budget-friendly price.</p> <br /><br />
                     </div>
                     <div className="descriptionmachineright">
                         <div className="descriptionsuggestions">

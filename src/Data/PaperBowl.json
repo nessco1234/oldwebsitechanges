@@ -117,5 +117,56 @@
             "heading": "Fully Automatic Paper Making Machine",
             "productlink": "/product/disposable-paper-cup-making-machine/"
         }
-    ]
+    ],
+    "seotitle": "Paper Container Machine and Paper Bowl making Machine",
+    "seometa": [
+        {
+            "name": "description",
+            "content": "Nessco Paper Container or Bowl making machine available for making Salad Container, Soup Bowl, Chicken Bucket, Noodles Box."
+        },
+        {
+            "name": "keywords",
+            "content": "paper container bowl making machine, paper container making machine , paper bowl making machine, Paper Container Forming Machine, Paper Food Container making Machine, Paper Food bowl making Machine"
+        },
+        {
+            "name": "State",
+            "content": "Rajasthan"
+        },
+        {
+            "name": "City",
+            "content": "Jaipur"
+        },
+        {
+            "name": "address",
+            "content": "186 Apparel Park, Mahal Rd, Ricco Industrial Area, Jagatpura, Jaipur, Rajasthan 302022, India"
+        },
+        {
+            "name": "copyright",
+            "content": "Copyright 2022 Nessco India"
+        },
+        {
+            "name": "distribution",
+            "content": "global"
+        },
+        {
+            "name": "language",
+            "content": "english"
+        },
+        {
+            "name": "robots",
+            "content": "index,follow"
+        },
+        {
+            "name": "publisher",
+            "content": "Nessco India"
+        },
+        {
+            "name": "author",
+            "content": "Nessco India"
+        }
+    ],
+    "seolink": {
+        "name": "canonical",
+        "url": "https://www.nesscoindia.com/product/paper-container-bowl-making-machine"
+    }
 }
