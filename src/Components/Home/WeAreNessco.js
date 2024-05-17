@@ -35,7 +35,7 @@ const WeAreNessco = () => {
     };
     const updateSlidesToShow = () => {
         const screenWidth = window.innerWidth;
-        if (screenWidth <= 768) {
+        if (screenWidth <= 600) {
           setSlidesToShow(2);
         } else if (screenWidth <= 1024) {
           setSlidesToShow(3);
@@ -87,7 +87,7 @@ const WeAreNessco = () => {
                                 </a>
                             </>
                             <>
-                                <a href='/' className="wenesscocard">
+                                <a href='/https://saudi-pp.com/' target='_blank' className="wenesscocard">
                                     <div className="wenesscocardleft">
                                         <img src={nes4} alt="" />
                                     </div>

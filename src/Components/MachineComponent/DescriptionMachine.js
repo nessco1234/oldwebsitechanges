@@ -104,7 +104,7 @@ const DescriptionMachine = (props) => {
                                 <SiAdobeacrobatreader />
                             </div>
                             <div className="brochuredescription">
-                                <a href='/' className="brochuretitle">Nessco India Catalogue</a>
+                                <button onClick={openModal} className="brochuresubtitle">Nessco India Catalogue</button>
                                 <button className="brochuresubtitle" onClick={openModal}>Download Now</button>
                                 {isOpen && (
                                     <div className="modal">
@@ -132,7 +132,7 @@ const DescriptionMachine = (props) => {
                                 <SiAdobeacrobatreader />
                             </div>
                             <div className="brochuredescription">
-                                <a href='/' className="brochuretitle">International Catalogue</a>
+                                <button onClick={openModal} className=" brochuresubtitle">International Catalogue</button>
                                 <button className="brochuresubtitle" onClick={openModal2}>Download Now</button>
                                 {isOpen2 && (
                                     <div className="modal">

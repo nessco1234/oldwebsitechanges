@@ -5,10 +5,10 @@ function StaticSocialIcons() {
     <>
       <div className="staticicons">
         <a target="_blank" href="https://api.whatsapp.com/send?phone=919982200038" className="staticSocial1">
-          <FaWhatsapp />
+          <FaWhatsapp style={{fontSize:'2.4rem'}}/>
         </a>
         <a href="tel:+91 99822 00038" className="staticSocial2">
-          <FaPhone />
+          <FaPhone style={{fontSize:'2rem'}}/>
         </a>
       </div>
     </>

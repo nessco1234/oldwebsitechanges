@@ -1,7 +1,7 @@
 import React from 'react'
 import Shape from '../../Assets/images/shape/shape-209.png'
 import Shape2 from '../../Assets/images/shape/shape-210.png'
-import Map from '../../Assets/images/resource/Nessco-Reaches-World-Map.webp'
+import Map from '../../Assets/images/resource/newmap.png'
 import { MdArrowRightAlt } from 'react-icons/md'
 import { FaArrowRightLong } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'

@@ -8,6 +8,7 @@ const Footer = () => {
         <>
             <Subscribe />
             <footer className="footer">
+            <div className="bgimagefooter"></div>
                 <div className="footercontainer">
                     <div className="footerlinks">
                         <Link className='footerlink' to={'/our-gallery'}>Our Gallery</Link>

@@ -6,7 +6,7 @@ import { FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6'
 const RecycledPapers = () => {
     return (
         <>
-            <Breadcrum previous={"Blog"} link={"/blog"} active={"Use Paper Cups – Renewable Into High-quality Products"} />
+            <Breadcrum third={true} previous={"Blog"} link={"/blog"} active={"Use Paper Cups – Renewable Into High-quality Products"} />
             <div className="blogdescsection">
                 <div className="blogdescsectioncontainer">
 
@@ -24,12 +24,12 @@ const RecycledPapers = () => {
                         Now for the Healthy & green environment, use paper cups instead of plastic. NESSCOINDIA Groups will take a conscious effort to make an impact on making the world a more sustainable place.
                     </p>
                     <div className="blognavigationbtns marr">
-                        <Link to={'/blog/'} className='blognavbtn'><FaArrowLeftLong style={{ marginRight: "2rem" }} /> Previous</Link>
-                        <Link to={'/blog/'} className='blognavbtn'>Next <FaArrowRightLong style={{ marginLeft: "2rem" }} /></Link>
+                        <Link to={'/blog/paper-plate-making-machine-an-eco-friendly-alternative'} className='blognavbtn'><FaArrowLeftLong style={{ marginRight: "2rem" }} /> Previous</Link>
+                        <Link to={'/blog/paper-cups-for-hot-beverages/'} className='blognavbtn'>Next <FaArrowRightLong style={{ marginLeft: "2rem" }} /></Link>
                     </div>
                     <div className="blognavigationbtns marrr">
-                        <h1 className="blognavigationdesc">How You Can Start A Business for Paper Cup</h1>
-                        <h1 className="blognavigationdesc">Why Paper Cups – Responsible Consumer Choice?</h1>
+                        <h1 className="blognavigationdesc">Paper Plate Making Machine Eco Friendly Alternative</h1>
+                        <h1 className="blognavigationdesc">Premium Paper Cups For Hot Beverages</h1>
                     </div>
                 </div>
             </div>

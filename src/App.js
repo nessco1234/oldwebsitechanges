@@ -43,6 +43,7 @@ import ServeDrivenPaperCup from './Data/ServeDrivenPaperCup.json'
 import Gallery from "./Pages/Gallery";
 import Horeca from "./Components/Blog/Horeca";
 import ConsumerChoice from "./Components/Blog/ConsumerChoice";
+import PaperPlate2 from "./Components/Blog/PaperPlate";
 import RecycledPapers from "./Components/Blog/RecycledPapers";
 import PremiumPaper from "./Components/Blog/PremiumPaper";
 import StartBuisness from "./Components/Blog/StartBuisness";
@@ -142,6 +143,7 @@ import serv12 from './Assets/images/service/PE-Coating-Machine.webp'
 import serv13 from './Assets/images/service/PaperStraws.webp'
 import serv14 from './Assets/images/service/garment-paper-bag.webp'
 import serv15 from './Assets/images/service/Square-Bottom-Paper-Bags.webp'
+import ScrollToTop from "./Components/Layout/ScrollToTop";
 
 function ScrollToTopOnRouteChange() {
   const { pathname } = useLocation();
@@ -177,7 +179,7 @@ function App() {
           <>
             <Route element={<Horeca />} exact path="/blog/disposable-packaging-solutions-for-horeca/" />
             <Route element={<ConsumerChoice />} exact path="/blog/why-say-yes-to-paper-cups/" />
-            <Route element={<PaperPlate />} exact path="/blog/paper-plate-making-machine-an-eco-friendly-alternative/" />
+            <Route element={<PaperPlate2 />} exact path="/blog/paper-plate-making-machine-an-eco-friendly-alternative/" />
             <Route element={<RecycledPapers />} exact path="/blog/use-paper-cups-it-can-be-recycled/" />
             <Route element={<PremiumPaper />} exact path="/blog/paper-cups-for-hot-beverages/" />
             <Route element={<StartBuisness />} exact path="/blog/paper-cup-business-idea/" />
@@ -245,7 +247,7 @@ function App() {
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img5} img2url={serv2} data={RippleWallCup} />} exact path="/product/ripple-wall-cup-machine/" />
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img19} img2url={serv10} data={RollDieCutting} />} exact path="/product/roll-die-cutting-machine/" />
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img25} img2url={serv15} data={SquareBottom} />} exact path="/product/paper-food-bag-making-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img16} data={AutomaticOctagonalBox} />} exact path="/product/automatic-octagonal-box-forming-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img16} data={AutomaticOctagonalBox} />} exact path="/product/octagonal-box-forming-machine/" />
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img15} img2url={serv7} data={CartonErecting} />} exact path="/product/carton-erecting-machine/" />
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img14} data={LunchBoxForming} />} exact path="/product/lunch-box-forming-machine/" />
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img7} data={PaperDomeLid} />} exact path="/product/paper-dome-lid-machine/" />
@@ -258,6 +260,7 @@ function App() {
           </>
         </Routes>
         <Footer />
+        <ScrollToTop/>
       </Router>
     </>
   );

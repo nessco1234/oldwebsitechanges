@@ -6,7 +6,7 @@ import Breadcrum from '../Home/Breadcrum'
 const Horeca = () => {
     return (
         <>
-            <Breadcrum previous={"Blog"} link={"/blog"} active={"Disposable Packaging Solutions for HORECA"} />
+            <Breadcrum third={true} previous={"Blog"} link={"/blog"} active={"Disposable Packaging Solutions for HORECA"} />
             <div className="blogdescsection">
                 <div className="blogdescsectioncontainer">
 
@@ -22,11 +22,11 @@ const Horeca = () => {
                         We at Nessco India understand that it is necessary to provide some modern and sustainable packaging solutions to protect our environment. We have complete range of machines for disposables, from cold cups to hot cups with double wall and aesthetic covers. However, for years’ environmentalists and activists have been campaigning against single use plastic disposables and promoting new eco-friendly solutions, will we people be able to keep it up with that? Are we willing to put a noose around our planet’s neck? We, at Nessco India (Paper Cup Machines Manufacturer), say no, as we know the nature’s value and its vital importance to maintain a balanced ecosystem.
                     </p>
                     <div className="blognavigationbtns marr">
-                        <Link to={'/blog/'} className='blognavbtn'><FaArrowLeftLong style={{ marginRight: "2rem" }} /> Previous</Link>
-                        <Link to={'/blog/'} className='blognavbtn'>Next <FaArrowRightLong style={{ marginLeft: "2rem" }} /></Link>
+                        <Link to={'/blog/paper-cup-business-idea/'} className='blognavbtn'><FaArrowLeftLong style={{ marginRight: "2rem" }} /> Previous</Link>
+                        <Link to={'/blog/why-say-yes-to-paper-cups/'} className='blognavbtn'>Next <FaArrowRightLong style={{ marginLeft: "2rem" }} /></Link>
                     </div>
                     <div className="blognavigationbtns marrr">
-                        <h1 className="blognavigationdesc">Paper Cups For Hot Beverages</h1>
+                        <h1 className="blognavigationdesc">How you can Start Business for Paper Cup</h1>
                         <h1 className="blognavigationdesc">Why Paper Cups – Responsible Consumer Choice?</h1>
                     </div>
                 </div>

@@ -1,0 +1,59 @@
+.scroll-to-top {
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+    transform: rotate(90deg);
+    z-index: 99;border: none;
+    background-color: transparent;
+    opacity: 0;
+  }
+  .visible{
+    opacity: 1;
+  }
+  .scroll-to-top .scroll-top-inner {
+    display: flex;
+    align-items: center;
+    transition: all cubic-bezier(.4,0,.2,1) .4s;
+  }
+  .scroll-to-top .visible {
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  .scroll-to-top .scroll-bar {
+    width: 50px;
+    height: 2px;
+    margin-right: 10px;
+    position: relative;
+  }
+  .scroll-to-top .scroll-bar::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #f4244f;
+    opacity: .3;
+  }
+  .scroll-to-top .scroll-bar .bar-inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: currentColor;
+  }
+  .scroll-to-top .scroll-bar-text {
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 500ms ease;
+  }
+  .g_color {
+    color: transparent;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+  }
+  .g_color {
+    background: -webkit-linear-gradient(45deg,#483d73,#e11e25 100%);
+      background-clip: border-box;
+  }

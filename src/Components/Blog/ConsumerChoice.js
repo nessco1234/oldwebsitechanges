@@ -5,7 +5,7 @@ import Breadcrum from '../Home/Breadcrum'
 const ConsumerChoice = () => {
     return (
         <>
-            <Breadcrum previous={"Blog"} link={"/blog"} active={"Why Paper Cups – Responsible Consumer Choice?"} />
+            <Breadcrum third={true} previous={"Blog"} link={"/blog"} active={"Why Paper Cups – Responsible Consumer Choice?"} />
             <div className="blogdescsection">
                 <div className="blogdescsectioncontainer">
 
@@ -37,12 +37,12 @@ const ConsumerChoice = () => {
                         Paper products, including paper cups, do a lot more than hold food and beverages or package other materials. It is our home and it’s our responsibility to Clean up the plastic mess. So finally you all must Say Yes To Paper Cups? Start Using It.
                     </p>
                     <div className="blognavigationbtns marr">
-                        <Link to={'/blog/'} className='blognavbtn'><FaArrowLeftLong style={{ marginRight: "2rem" }} /> Previous</Link>
-                        <Link to={'/blog/'} className='blognavbtn'>Next <FaArrowRightLong style={{ marginLeft: "2rem" }} /></Link>
+                        <Link to={'/blog/disposable-packaging-solutions-for-horeca/'} className='blognavbtn'><FaArrowLeftLong style={{ marginRight: "2rem" }} /> Previous</Link>
+                        <Link to={'/blog/paper-plate-making-machine-an-eco-friendly-alternative'} className='blognavbtn'>Next <FaArrowRightLong style={{ marginLeft: "2rem" }} /></Link>
                     </div>
                     <div className="blognavigationbtns marrr">
-                        <h1 className="blognavigationdesc">How You Can Start A Business for Paper Cup</h1>
-                        <h1 className="blognavigationdesc">Paper Cups For Hot Beverages</h1>
+                        <h1 className="blognavigationdesc">Disposable Packaging Solutions for HORECA</h1>
+                        <h1 className="blognavigationdesc">Paper Plate Making Machine Eco Friendly Alternative</h1>
                     </div>
                 </div>
             </div>

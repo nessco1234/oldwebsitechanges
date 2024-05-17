@@ -227,7 +227,11 @@
   color: black;
   font-weight: 700;
   border: none;
-  background-color: transparent;
+  background-color: transparent;text-align: start;
+  transition: all .5s ease;
+}
+.brochuresubtitle:hover {
+  color: var(--redcolor);
 }
 .brochurecontent {
   margin: 1rem 0;
@@ -541,7 +545,7 @@
     flex-direction: column;
   }
   .machinespecscomp{
-    width: 90%;
+    width: 95%;
     /* overflow-x: scroll; */
   }
   .descriptionmachineleftimage{
@@ -559,6 +563,9 @@
   }
   .breadcrum{
     padding: 2rem 0;
+  }
+  .intromachinecompo{
+    width: 90%;
   }
 }
 /* styles.css */

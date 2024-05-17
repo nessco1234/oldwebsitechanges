@@ -6,7 +6,7 @@ import { FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6'
 const PremiumPaper = () => {
     return (
         <>
-            <Breadcrum previous={"Blog"} link={"/blog"} active={"Paper Cups For Hot Beverages"} />
+            <Breadcrum third={true} previous={"Blog"} link={"/blog"} active={"Paper Cups For Hot Beverages"} />
             <div className="blogdescsection">
                 <div className="blogdescsectioncontainer">
 
@@ -36,12 +36,12 @@ const PremiumPaper = () => {
                         Our only purpose of bringing this blog to you is to raise awareness for more usage of paper disposables rather than the plastic ones. We should use more and more of paper disposables for packaging and serving purpose as we all know that paper is recyclable and Paper products are an easy and widely available alternative to plastic products as well.
                     </p>
                     <div className="blognavigationbtns marr">
-                        <Link to={'/blog/'} className='blognavbtn'><FaArrowLeftLong style={{ marginRight: "2rem" }} /> Previous</Link>
-                        <Link to={'/blog/'} className='blognavbtn'>Next <FaArrowRightLong style={{ marginLeft: "2rem" }} /></Link>
+                        <Link to={'/blog/use-paper-cups-it-can-be-recycled/'} className='blognavbtn'><FaArrowLeftLong style={{ marginRight: "2rem" }} /> Previous</Link>
+                        <Link to={'/blog/paper-cup-business-idea/'} className='blognavbtn'>Next <FaArrowRightLong style={{ marginLeft: "2rem" }} /></Link>
                     </div>
                     <div className="blognavigationbtns marrr">
+                        <h1 className="blognavigationdesc">Use Paper CUps It Can Be Recycled</h1>
                         <h1 className="blognavigationdesc">How You Can Start A Business for Paper Cup</h1>
-                        <h1 className="blognavigationdesc">Why Paper Cups – Responsible Consumer Choice?</h1>
                     </div>
                 </div>
             </div>

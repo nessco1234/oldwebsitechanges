@@ -26,7 +26,7 @@ const AboutSkills = () => {
 
             <div className="aboutskillcontentbox">
               <div className="aboutskillcontentleft">
-                <img src={img2} alt="" />
+                <img src={img3} alt="" />
               </div>
               <div className="aboutskillcontentright">
                 <h1 className="aboutskillcontentheading">Effective Range of Products</h1>
@@ -35,7 +35,7 @@ const AboutSkills = () => {
             </div>
             <div className="aboutskillcontentbox">
               <div className="aboutskillcontentleft">
-                <img src={img3} alt="" />
+                <img src={img2} alt="" />
               </div>
               <div className="aboutskillcontentright">
                 <h1 className="aboutskillcontentheading">Capacious Warehouse</h1>

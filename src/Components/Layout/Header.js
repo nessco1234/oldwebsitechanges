@@ -90,7 +90,7 @@ const list3 = [
     {
         id: 2,
         name: "Octagonal Box Forming Machine",
-        link: "/product/automatic-octagonal-box-forming-machine/",
+        link: "/product/octagonal-box-forming-machine/",
     },
     {
         id: 1,
@@ -262,9 +262,12 @@ const Header = (props) => {
                                 <div className="hamburgercontent">
                                     <button onClick={closenavigation} className='hamburgerclose'><ImCross /></button>
                                     <div className="hamburgercontainer">
-                                        <img className='hamburgerimg' src={logo} alt="" />
+                                        <div className="hamburgerimgcontainer">
+
+                                            <img className='hamburgerimg' src={logo} alt="" />
+                                        </div>
                                         <div className="hamburgerlinks">
-                                            <Link className='hamburgerlink' to={'/'} onClick={closenavigation}>Home</Link>
+                                            <Link className='hamburgerlink' to={'/'} onClick={closenavigation}>HOME</Link>
                                             <Link className='hamburgerlink' to={'/about-us'} onClick={closenavigation} >ABOUT US</Link>
                                             <div className="hamburgerinternallink ">
                                                 <div className="hamburgerinternalcombo">
@@ -279,7 +282,7 @@ const Header = (props) => {
                                                     <>
                                                         <div className="hamburgerinternallist">
                                                             <div className="hamburgerinternalcombo">
-                                                                <p className='hamburgerlink'  onClick={closenavigation} >
+                                                                <p className='hamburgerlink' onClick={closenavigation} >
                                                                     Paper Cup Machines
                                                                 </p>
                                                                 <button onClick={() => setIsOpen1(!isOpen1)} className={!isOpen1 ? 'hamburgertogglebtn' : 'hamburgertogglebtn toggled'}><FaAngleDown /></button>
@@ -299,7 +302,7 @@ const Header = (props) => {
                                                         </div>
                                                         <div className="hamburgerinternallist">
                                                             <div className="hamburgerinternalcombo">
-                                                                <p className='hamburgerlink'  onClick={closenavigation} >
+                                                                <p className='hamburgerlink' onClick={closenavigation} >
                                                                     Paper Container Machines
                                                                 </p>
                                                                 <button onClick={() => setIsOpen2(!isOpen2)} className={!isOpen2 ? 'hamburgertogglebtn' : 'hamburgertogglebtn toggled'}><FaAngleDown /></button>
@@ -319,7 +322,7 @@ const Header = (props) => {
                                                         </div>
                                                         <div className="hamburgerinternallist">
                                                             <div className="hamburgerinternalcombo">
-                                                                <p className='hamburgerlink'  onClick={closenavigation} >
+                                                                <p className='hamburgerlink' onClick={closenavigation} >
                                                                     Paper Forming machines
                                                                 </p>
                                                                 <button onClick={() => setIsOpen3(!isOpen3)} className={!isOpen3 ? 'hamburgertogglebtn' : 'hamburgertogglebtn toggled'}><FaAngleDown /></button>
@@ -359,7 +362,7 @@ const Header = (props) => {
                                                         </div>
                                                         <div className="hamburgerinternallist">
                                                             <div className="hamburgerinternalcombo">
-                                                                <p className='hamburgerlink'  onClick={closenavigation} >
+                                                                <p className='hamburgerlink' onClick={closenavigation} >
                                                                     Paper Bag Machines
                                                                 </p>
                                                                 <button onClick={() => setIsOpen5(!isOpen5)} className={!isOpen5 ? 'hamburgertogglebtn' : 'hamburgertogglebtn toggled'}><FaAngleDown /></button>
@@ -387,14 +390,14 @@ const Header = (props) => {
                                         <div className="hamburgerdetails">
                                             <a href="tel:+91 95494 44484" className="hamburgercontact hh">+91 95494 44484</a>
                                             <a href="mailto:info@nesscoindia.com" className="hamburgercontact hh">info@nesscoindia.com</a>
-                                            <p className="hamburgercontact">E-186, Apparel Park, RIICO Industrial Area, Mahal Road, Jagatpura, Jaipur (Rajasthan) - 302022, INDIA</p>
+                                            <a href='https://maps.app.goo.gl/eWURecM5YL7Gt2Kf7' className="hamburgercontact">E-186, Apparel Park, RIICO Industrial Area, Mahal Road, Jagatpura, Jaipur (Rajasthan) - 302022, INDIA</a>
                                         </div>
                                         <div className="hamburgersocials">
-                                            <a className='hamburgersocialicons' href="https://twitter.com/NesscoIndia" target='_blank'><FaTwitter/></a>
-                                            <a className='hamburgersocialicons' href="https://www.facebook.com/NesscoPaperCupMachine" target='_blank'><FaFacebookSquare/></a>
-                                            <a className='hamburgersocialicons' href="https://www.linkedin.com/company/nesscoindia/" target='_blank'><FaLinkedinIn/></a>
-                                            <a className='hamburgersocialicons' href="https://www.instagram.com/nesscoindia/" target='_blank'><FaInstagram/></a>
-                                            <a className='hamburgersocialicons' href="https://www.youtube.com/c/NesscoPaperCupMachine" target='_blank'><FaYoutube/></a>
+                                            <a className='hamburgersocialicons' href="https://twitter.com/NesscoIndia" target='_blank'><FaTwitter /></a>
+                                            <a className='hamburgersocialicons' href="https://www.facebook.com/NesscoPaperCupMachine" target='_blank'><FaFacebookSquare /></a>
+                                            <a className='hamburgersocialicons' href="https://www.linkedin.com/company/nesscoindia/" target='_blank'><FaLinkedinIn /></a>
+                                            <a className='hamburgersocialicons' href="https://www.instagram.com/nesscoindia/" target='_blank'><FaInstagram /></a>
+                                            <a className='hamburgersocialicons' href="https://www.youtube.com/c/NesscoPaperCupMachine" target='_blank'><FaYoutube /></a>
                                         </div>
                                     </div>
 

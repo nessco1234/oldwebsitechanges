@@ -18,7 +18,7 @@ const SingleBlog = (props) => {
                     <p className="singleblogcarddesc">
                         {d.desc}
                     </p>
-                    <Link className="blogbtn">
+                    <Link className="blogbtn" to={d.link}>
                         <p className='blogbtncon'>Learn More</p> <FaArrowRightLong className='blogbtnarrow' style={{ fontSize: "1.5rem" }} /></Link>
                 </div>
             </Link>

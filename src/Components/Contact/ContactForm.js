@@ -4,7 +4,12 @@ import icon2 from '../../Assets/images/icons/email.png'
 import icon3 from '../../Assets/images/icons/phone.png'
 import { BiLeftArrow, BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
 import { FaArrowRightLong } from 'react-icons/fa6'
+import { redirect, useNavigate } from 'react-router-dom'
 const ContactForm = () => {
+    const navigate=useNavigate()
+    function red(){
+        navigate('/thank-you')
+    }
     return (
         <div className="contact">
             <div className="contactshape"></div>
@@ -22,7 +27,7 @@ const ContactForm = () => {
                             </div>
                             <div className="contactinforight">
                                 <h1 className="contactinfotitle">Head Office</h1>
-                                <p className="contactinfodesc">E-186, Apparel Park, RIICO Industrial Area, Mahal Road, Jagatpura, Jaipur (Rajasthan) - 302022, INDIA</p>
+                                <a className="contactinfodesc" href='https://maps.app.goo.gl/kuArACWXXSUuSY848'>E-186, Apparel Park, RIICO Industrial Area, Mahal Road, Jagatpura, Jaipur (Rajasthan) - 302022, INDIA</a>
                             </div>
                         </div>
                         <hr className='contactdivider' />
@@ -63,7 +68,7 @@ const ContactForm = () => {
                             <input placeholder='Subject' className='contactinputfields' type="text" />
                             <textarea placeholder='Message' className='contactinputtextarea' cols="30" rows="3"></textarea>
                         </div>
-                        <button className="contactbtn">
+                        <button className="contactbtn" onClick={red}>
                             <p className='headerbtncon'>Send Message </p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
                     </div>
                 </div>

@@ -2,19 +2,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
+    font-size: 5rem;
     color: white;
-    background-color: #25d366;
+    background-color: #25d365d7;
     
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     color: white;
-    padding: 1rem;
+    /* padding: 1rem; */
     z-index: 10;
 }
 .staticicons{
     position: fixed;
-    bottom: 21.5%;
+    /* bottom: 21.5%; */
+    bottom: 5%;
     left: 0;
     z-index: 1000000;
 }
@@ -24,11 +25,11 @@
     align-items: center;
     font-size: 2rem;
     color: white;
-    background-color: #483d73;
-    width: 40px;
-    height: 40px;
+    background-color: #483d73d5;
+    width: 35px;
+    height: 35px;
     color: white;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 /* .navbar {
@@ -272,10 +273,14 @@
     /* margin-top: 5rem; */
     /* background-color: #f7f7f7; */
   }
+  .hamburgerimgcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .hamburgerimg{
     width: 60%;
-    margin: 1rem auto;
-    margin-left: 4rem;
     padding: 2rem;
   }
   .hamburgerlinks{
@@ -365,8 +370,8 @@
     justify-content: space-evenly;
   }
   .hamburgersocialicons{
-    font-size: 1.4rem;
-    margin: 1rem;
+    font-size: 2rem;
+    margin: 2rem;
     color: black;
   }
   @keyframes slide {
