@@ -210,11 +210,20 @@
     .singleblogcard{
         width: 100%;
     }
+    .blogmainheading{
+        font-size: 3rem;
+    }
     .singleblogcardupper{
         height: auto;
     }
     .blognavigationdesc{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
+    }
+    .blognavigationdesc:nth-child(1){
+        text-align: left;
+    }
+    .blognavigationdesc:nth-child(2){
+        text-align: right;
     }
     .blogimg{
         width: 100%;

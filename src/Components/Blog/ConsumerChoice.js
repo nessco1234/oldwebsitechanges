@@ -6,7 +6,7 @@ const ConsumerChoice = () => {
     return (
         <>
             <Breadcrum third={true} previous={"Blog"} link={"/blog"} active={"Why Paper Cups – Responsible Consumer Choice?"} />
-            <div className="blogdescsection">
+            <section className="blogdescsection">
                 <div className="blogdescsectioncontainer">
 
                     <h1 className="blogmainheading">Why Paper Cups – Responsible Consumer Choice?</h1>
@@ -45,7 +45,7 @@ const ConsumerChoice = () => {
                         <h1 className="blognavigationdesc">Paper Plate Making Machine Eco Friendly Alternative</h1>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }

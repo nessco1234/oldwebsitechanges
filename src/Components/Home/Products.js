@@ -126,7 +126,7 @@ function App() {
         // speed: 100,
     };
     return (
-        <div className='product'>
+        <section className='product'>
             <div className="productcontainer">
                 <h1 className="aboutusbtn align">OUR MACHINES</h1>
                 <h1 className="productssstitle">Our Products</h1>
@@ -166,7 +166,7 @@ function App() {
                 </Slider>
             </div>
 
-        </div>
+        </section>
     );
 }
 

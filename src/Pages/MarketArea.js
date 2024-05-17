@@ -42,7 +42,7 @@ const MarketArea = (props) => {
     return (
         <>
             <Breadcrum active={props.activecomp} previous={"Home"} />
-            <div className="marketarea">
+            <section className="marketarea">
                 <div className="marketareacontainer">
                     <div className="marketarealeft">
                         <h1 className="marketareaheading">Quick Contact</h1>
@@ -90,7 +90,7 @@ const MarketArea = (props) => {
                     </div>
 
                 </div>
-            </div>
+            </section>
         </>
     )
 }

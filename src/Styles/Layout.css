@@ -5,6 +5,7 @@
   height: 100%;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 .bgimagefooter {
   position: absolute;
@@ -196,6 +197,13 @@
   }
 }
 @media (max-width: 770px) {
+  .footercontainer{
+    width: 90%;
+  }
+  .bgimagefooter{
+    width: 170%;
+    height: 76%;
+  }
   .footercontent {
     flex-direction: column;
   }

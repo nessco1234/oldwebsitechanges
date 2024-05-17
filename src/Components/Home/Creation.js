@@ -24,7 +24,7 @@ const Creation = () => {
                 )}
                 <div className="creationcontainer">
                     <div className="creationcontent">
-                        <h1 className="creationheading">High Tech Machines Created <br />By  Our Engineers:</h1>
+                        <h1 className="creationheading">High Tech Machines<br /> Created By <br /> Our Engineers:</h1>
                         <p className="creationdesc">
                             Our Engineers innovate and bring new solutions every now and then to  ease the production process. We change the way you think about Paper Packaging Industry.
                         </p>

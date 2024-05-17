@@ -7,7 +7,7 @@ const PremiumPaper = () => {
     return (
         <>
             <Breadcrum third={true} previous={"Blog"} link={"/blog"} active={"Paper Cups For Hot Beverages"} />
-            <div className="blogdescsection">
+            <section className="blogdescsection">
                 <div className="blogdescsectioncontainer">
 
                     <h1 className="blogmainheading">Paper Cups For Hot Beverages</h1>
@@ -40,11 +40,11 @@ const PremiumPaper = () => {
                         <Link to={'/blog/paper-cup-business-idea/'} className='blognavbtn'>Next <FaArrowRightLong style={{ marginLeft: "2rem" }} /></Link>
                     </div>
                     <div className="blognavigationbtns marrr">
-                        <h1 className="blognavigationdesc">Use Paper CUps It Can Be Recycled</h1>
+                        <h1 className="blognavigationdesc">Use Paper Cups It Can Be Recycled</h1>
                         <h1 className="blognavigationdesc">How You Can Start A Business for Paper Cup</h1>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }

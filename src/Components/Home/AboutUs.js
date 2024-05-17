@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import TeamPic from "../../Assets/images/resource/nessco-team.webp";
-// import NesscoTeamPic from "../Assets/images/resource/nessco-team-pic1.webp";
+import NesscoTeamPic from "../../Assets/images/resource/samplekshow2.webp";
 import Signature from "../../Assets/images/resource/signature.webp";
 import img1 from '../../Assets/images/resource/popup.webp'
 import { FaPlay } from "react-icons/fa";
@@ -28,7 +28,7 @@ const AboutUs = (props) => {
       <section className="homeaboutus">
         <div className="sectionContainer">
           <div className="leftabout">
-            <img className="leftaboutpic" alt="123" src={TeamPic} />
+            <img className="leftaboutpic" alt="123" src={TeamPic} decoding="async"  />
             <div className="leftaboutpic2">
               {/* <a  href="https://www.youtube.com/embed/e-rwkwTE8P4" data-caption>
                 <FaPlay />

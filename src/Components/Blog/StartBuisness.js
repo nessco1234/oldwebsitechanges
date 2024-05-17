@@ -8,7 +8,7 @@ const StartBuisness = () => {
     return (
         <>
             <Breadcrum third={true} previous={"Blog"} link={"/blog"} active={"How You Can Start A Business for Paper Cup"} />
-            <div className="blogdescsection">
+            <section className="blogdescsection">
                 <div className="blogdescsectioncontainer">
 
                     <h1 className="blogmainheading">How You Can Start A Business for Paper Cup</h1>
@@ -73,7 +73,7 @@ const StartBuisness = () => {
                         <h1 className="blognavigationdesc">Premium Paper Cups For Hot Beverages</h1>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }

@@ -49,7 +49,7 @@ const Testimonials = () => {
       }, []);
     return (
         <>
-            <div className="testimonials">
+            <section className="testimonials">
                 <div className="testimonialscontainer">
                     <div className="testimonialsleft">
                         <h1 className="aboutusbtn ">TESTIMONIALS</h1>
@@ -157,7 +157,7 @@ const Testimonials = () => {
                         </Slider>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }

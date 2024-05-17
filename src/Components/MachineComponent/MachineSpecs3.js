@@ -5,7 +5,7 @@ const MachineSpecs3 = (props) => {
     const data=props.data;
     return (
         <>
-            <div className="machinespecs3">
+            <section className="machinespecs3">
                 <div className="machinespecs3container">
                     <h1 className="machinespecs3heading">{props.Heading}</h1>
                     <div className="machinespecsss">
@@ -34,7 +34,7 @@ const MachineSpecs3 = (props) => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }

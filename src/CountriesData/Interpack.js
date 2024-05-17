@@ -11,7 +11,7 @@ import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.we
 const Interpack = () => {
     return (
         <>
-            <div className="intromachine">
+            <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">
                         <h1 className="intromachineheading">Interpack Germany <br /><span>Machine In Bangladesh</span></h1>
@@ -29,8 +29,8 @@ const Interpack = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="descriptionmachine">
+            </section>
+            <section className="descriptionmachine">
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
@@ -104,7 +104,7 @@ We are showcasing our High Speed Paper Cup Machine along with various technologi
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <MachineSpecs labels={specs.MachineSpecsLabels} data={specs.MachineSpecs} />
             <RelatedProducts data={specs.RelatedProducts} />
         </>

@@ -4,7 +4,7 @@ import img1 from '../../Assets/images/resource/paper-bag-machine.webp'
 const RelatedProducts = (props) => {
   const data = props.data
   return (
-    <div className="machinerealtedproducts">
+    <section className="machinerealtedproducts">
       <div className="machinerelatedproductscomp">
         <h1 className="machinerelatedproductheading">Related <span>Products</span></h1>
         <div className="machineblogsection">
@@ -15,7 +15,7 @@ const RelatedProducts = (props) => {
           }
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

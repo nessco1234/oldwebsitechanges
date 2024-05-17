@@ -9,7 +9,7 @@ import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
 const UAEPaperBag = () => {
     return (
         <>
-            <div className="intromachine">
+            <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">
                         {/* <div className="breadcrumconnections">
@@ -30,8 +30,8 @@ const UAEPaperBag = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="descriptionmachine">
+            </section>
+            <section className="descriptionmachine">
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src='https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp' alt="" />
@@ -88,7 +88,7 @@ tation, bottom folding, bottom gluing. One can use both plain and printed paper 
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <MachineSpecs labels={specs.MachineSpecsLabels} data={specs.MachineSpecs}/>
             <RelatedProducts data={specs.RelatedProducts}/>
         </>

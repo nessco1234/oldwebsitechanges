@@ -17,7 +17,7 @@ export default function App(props) {
   }
   return (
     <>
-      <div
+      <section
         className="mySwiper"
       >
         {/* hi therSe my name is karan sharma  */}
@@ -54,7 +54,7 @@ export default function App(props) {
             </div>
           )}
         </div>
-      </div>
+      </section>
     </>
   );
 }

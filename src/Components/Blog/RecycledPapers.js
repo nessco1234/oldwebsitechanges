@@ -7,7 +7,7 @@ const RecycledPapers = () => {
     return (
         <>
             <Breadcrum third={true} previous={"Blog"} link={"/blog"} active={"Use Paper Cups – Renewable Into High-quality Products"} />
-            <div className="blogdescsection">
+            <section className="blogdescsection">
                 <div className="blogdescsectioncontainer">
 
                     <h1 className="blogmainheading">Use Paper Cups – Renewable Into High-quality Products</h1>
@@ -32,7 +32,7 @@ const RecycledPapers = () => {
                         <h1 className="blognavigationdesc">Premium Paper Cups For Hot Beverages</h1>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }

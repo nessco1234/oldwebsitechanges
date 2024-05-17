@@ -10,7 +10,7 @@ const IOTSystem = () => {
       <section className="iotsection">
         <div className="iotcontainer">
           <div className="leftiot">
-            <h1 className="aboutusbtn mm">IOT SYSTEM</h1>
+            <h1 className="aboutusbtn ">IOT SYSTEM</h1>
             <h1 className="iotheading">Nessco Remote Control <span> Maintenance System</span></h1>
             <p className="iotpara">
               {" "}

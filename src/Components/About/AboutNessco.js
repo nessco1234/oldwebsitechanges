@@ -3,7 +3,7 @@ import React from 'react'
 const AboutNessco = () => {
   return (
     <>
-      <div className="aboutnessco">
+      <section className="aboutnessco">
         <div className="aboutnesscocontainer">
           <div className="aboutnesscoleft">
             <h1 className="aboutusbtn">ABOUT US</h1>
@@ -16,7 +16,7 @@ const AboutNessco = () => {
             </p>
           </div>
         </div>
-      </div>
+      </section>
     </>
   )
 }

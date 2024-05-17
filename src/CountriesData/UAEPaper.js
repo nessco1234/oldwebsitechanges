@@ -10,7 +10,7 @@ const UAEPaper = (props) => {
     const data=props.data
     return (
         <>
-            <div className="intromachine">
+            <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">
                         {/* <div className="breadcrumconnections">
@@ -31,8 +31,8 @@ const UAEPaper = (props) => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="descriptionmachine">
+            </section>
+            <section className="descriptionmachine">
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src='https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp' alt="" />
@@ -94,7 +94,7 @@ const UAEPaper = (props) => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <MachineSpecs labels={specs.MachineSpecsLabels} data={specs.MachineSpecs}/>
             <RelatedProducts data={specs.RelatedProducts}/>
         </>

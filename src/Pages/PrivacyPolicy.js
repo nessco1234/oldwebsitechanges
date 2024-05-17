@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
     return (
         <>
             <Breadcrum previous={"Home"} link={"/"} active={"Privacy Policy"} />
-            <div className="blogdescsection">
+            <section className="blogdescsection">
                 <div className="blogdescsectioncontainer">
 
                     <h1 className="blogmainheading">Who we are</h1>
@@ -53,7 +53,7 @@ const PrivacyPolicy = () => {
                     Visitor comments may be checked through an automated spam detection service.
                     </p>
                 </div>
-            </div>
+            </section>
         </>
     )
 }

@@ -4,7 +4,7 @@ const MachineSpecs2 = (props) => {
     const data = props.data
     const labels = props.labels
     return (
-        <div className="machinespecs">
+        <section className="machinespecs">
             <div className="machinespecscomp">
                 <h1 className='machinespecsheading'>Machine <span>Specification</span></h1>
                 <div className="tableoverlay">
@@ -32,7 +32,7 @@ const MachineSpecs2 = (props) => {
                 </div>
 
             </div>
-        </div>
+        </section>
     )
 }
 const cellStyle = {

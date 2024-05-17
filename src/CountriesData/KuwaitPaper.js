@@ -11,7 +11,7 @@ import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.we
 const KuwaitPaper = () => {
     return (
         <>
-            <div className="intromachine">
+            <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">
                         <h1 className="intromachineheading">Paper Cup Making <br /><span>Machine In Kuwait</span></h1>
@@ -29,8 +29,8 @@ const KuwaitPaper = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="descriptionmachine">
+            </section>
+            <section className="descriptionmachine">
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
@@ -88,7 +88,7 @@ Machines are offered by us are ideal for making paper testing Beer cups, teacups
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <MachineSpecs labels={specs.MachineSpecsLabels} data={specs.MachineSpecs} />
             <RelatedProducts data={specs.RelatedProducts} />
         </>

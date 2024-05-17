@@ -1,5 +1,6 @@
 import React from 'react'
 import { BiRightArrowAlt } from 'react-icons/bi'
+import { FaArrowRightLong } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
 
 const ProductCard = (props) => {
@@ -11,7 +12,7 @@ const ProductCard = (props) => {
             </div>
             <div className="productpagelower">
                 <h1 className="productpageheading">{props.heading}</h1>
-                <Link className='productpagelink' to={props.url}>View Machine <BiRightArrowAlt/></Link>
+                <Link className='productpagelink' to={props.url}>View Machine <FaArrowRightLong style={{marginLeft:"1rem"}}/></Link>
             </div>
         </Link>
     </>

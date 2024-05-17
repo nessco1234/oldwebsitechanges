@@ -11,7 +11,7 @@ const InfinteCompany = () => {
     return (
         <>
             <hr />
-            <div class="logos">
+            <section class="logos">
                 <div class="logos-slide">
                     <img src={client1} />
                     <img src={client2} />
@@ -32,7 +32,7 @@ const InfinteCompany = () => {
                     <img src={client7} />
                     <img src={client8} />
                 </div>
-            </div>
+            </section>
             {/* <hr /> */}
         </>
     )

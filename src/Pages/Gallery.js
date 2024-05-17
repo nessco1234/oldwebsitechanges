@@ -42,7 +42,7 @@ function ProductFilter({ products }) {
         : products;
 
     return (
-        <div className='productpage'>
+        <section className='productpage'>
             <div className="productpagecontainer">
                 <div className="productpagebtncontainer">
                     <button className='productfilterbtn' style={selectedFilter === 'All' ? { backgroundColor: '#483d73', color: '#fff', border: "2px solid #483d73" } : {}} onClick={() => setSelectedFilter('All')}>
@@ -74,7 +74,7 @@ function ProductFilter({ products }) {
                     </div>
                 </ul>
             </div>
-        </div>
+        </section>
     );
 }
 

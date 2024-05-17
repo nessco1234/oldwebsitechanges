@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const IntroMachine = (props) => {
     return (
-        <div className="intromachine">
+        <section className="intromachine">
             <div className="intromachinecompo">
                 <div className="intromachineleft">
                     <div className="breadcrumconnections">
@@ -25,7 +25,7 @@ const IntroMachine = (props) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

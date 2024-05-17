@@ -7,7 +7,7 @@ const Horeca = () => {
     return (
         <>
             <Breadcrum third={true} previous={"Blog"} link={"/blog"} active={"Disposable Packaging Solutions for HORECA"} />
-            <div className="blogdescsection">
+            <section className="blogdescsection">
                 <div className="blogdescsectioncontainer">
 
                     <h1 className="blogmainheading">Disposable Packaging Solutions for HORECA</h1>
@@ -30,7 +30,7 @@ const Horeca = () => {
                         <h1 className="blognavigationdesc">Why Paper Cups – Responsible Consumer Choice?</h1>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }

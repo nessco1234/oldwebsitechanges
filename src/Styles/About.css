@@ -131,7 +131,7 @@
     border-radius: 5px;
 }
 .aboutvisionheading{
-    font-size: 3rem;
+    font-size: 2.8rem;
     color: var(--bluecolor);
     margin-bottom: 4rem;
 }
@@ -339,9 +339,16 @@
     }
 }
 @media (max-width:600px){
+    .aboutnesscocontainer{
+        width: 90%;
+    }
+    .aboutcardscontainer{
+        width: 90%;
+
+    }
     .aboutdescheading{
         text-align: start;
-        font-size: 2.1rem;
+        font-size: 2.8rem;
         width: 100%;
         margin-top: 7rem;
     }
@@ -356,13 +363,20 @@
     .aboutcard{
         width: 100%;
         margin: 1rem 1rem;
-        align-items: flex-start;
+        align-items: center;
+    }
+    .aboutvisionleft{
+        margin: 0;
+    }
+    .aboutvisionright{
+        margin: 0;
     }
     .aboutcardheading{
-        text-align: start;
+        text-align: center;
     }
     .aboutcardpara{
-        text-align: start;
+        text-align: center;
+        font-size: 1.4rem;
     }
     .aboutnesscocontainer{
         flex-direction: column;

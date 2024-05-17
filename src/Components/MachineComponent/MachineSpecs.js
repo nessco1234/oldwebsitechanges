@@ -3,7 +3,7 @@ import React from 'react'
 const MachineSpecs = (props) => {
     const data = props.data
     return (
-        <div className="machinespecs">
+        <section className="machinespecs">
             <div className="machinespecscomp">
                 <h1 className='machinespecsheading'>Machine <span>Specification</span></h1>
                 <table className='machinetable'>
@@ -23,7 +23,7 @@ const MachineSpecs = (props) => {
                     </tbody>
                 </table>
             </div>
-        </div>
+        </section>
     )
 }
 const cellStyle = {

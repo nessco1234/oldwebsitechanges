@@ -11,7 +11,7 @@ const ContactForm = () => {
         navigate('/thank-you')
     }
     return (
-        <div className="contact">
+        <section className="contact">
             <div className="contactshape"></div>
             <div className="contactcontainer">
                 <div className="contactleftsection">
@@ -73,7 +73,7 @@ const ContactForm = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

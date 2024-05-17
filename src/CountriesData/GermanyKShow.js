@@ -11,7 +11,7 @@ import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.we
 const GermanyKShow = () => {
     return (
         <>
-            <div className="intromachine">
+            <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">
                         <h1 className="intromachineheading">K Show <br /><span>Germany</span></h1>
@@ -29,8 +29,8 @@ const GermanyKShow = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="descriptionmachine">
+            </section>
+            <section className="descriptionmachine">
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
@@ -99,7 +99,7 @@ Besides Paper Cup Machines, we manufacture various machines which are – <br />
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <MachineSpecs labels={specs.MachineSpecsLabels} data={specs.MachineSpecs} />
             <RelatedProducts data={specs.RelatedProducts} />
         </>

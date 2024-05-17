@@ -4,7 +4,7 @@ const MultiTable = (props) => {
     const data = props.data
     const labels = props.labels
     return (
-        <div className="machinespecscomp">
+        <section className="machinespecscomp">
             <div className="tableoverlay">
 
                 <table className='machinetable'>
@@ -29,7 +29,7 @@ const MultiTable = (props) => {
                     </tbody>
                 </table>
             </div>
-        </div>
+        </section>
     )
 }
 const cellStyle = {

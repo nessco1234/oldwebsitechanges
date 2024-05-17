@@ -22,7 +22,7 @@ const DescriptionMachine = (props) => {
         console.log(props.down)
     }
     return (
-        <div className="descriptionmachine">
+        <section className="descriptionmachine">
             <div className="descriptionmachinecomp">
                 <div className="descriptionmachineleft">
                     <img src={props.imgurl} alt="" />
@@ -158,7 +158,7 @@ const DescriptionMachine = (props) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

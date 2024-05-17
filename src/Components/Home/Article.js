@@ -8,7 +8,7 @@ const Article = () => {
         <>
             <section className="article">
                 <div className="articlecontainer">
-                    <h1 className="aboutusbtn mm " style={{ marginLeft: "2.5rem" }}>ARTICLE</h1>
+                    <h1 className="aboutusbtn " style={{ marginLeft: "2.5rem" }}>ARTICLE</h1>
                     <h1 className="articleheadings" style={{ marginLeft: "2.5rem" }}>
                         Latest <span>Articles</span>
                     </h1>

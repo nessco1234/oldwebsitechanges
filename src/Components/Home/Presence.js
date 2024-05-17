@@ -14,7 +14,7 @@ const Presence = () => {
           <img className='staticimage2' alt='123' src={Shape2} />
         </div>
         <div className='leftpresence'>
-          <h1 className="aboutusbtn mm">PRESENCE</h1>
+          <h1 className="aboutusbtn">PRESENCE</h1>
           <h1 className="presenceheading">Nessco Global <span> Presence</span>
           </h1>
           <p className="presencepara">With a strong functional position in this market for over 40 years, now Nessco India is backed by 5 Domestic Distributing Centres and 7 International Ones. Over all these years, we have spread our arms to almost every country to expand our business globally.</p>

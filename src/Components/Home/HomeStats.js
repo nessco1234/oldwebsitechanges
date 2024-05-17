@@ -10,7 +10,7 @@ const HomeStats = () => {
                 onExit={() => setCounterOn(false)}
             >
 
-                <div className="homestats">
+                <section className="homestats">
                     <div className="bghomestat1"></div>
                     <div className="bghomestat2"></div>
                     <div className="homstatscontainer">
@@ -51,7 +51,7 @@ const HomeStats = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </ScrollTrigger>
         </>
     )

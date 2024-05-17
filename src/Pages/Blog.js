@@ -48,7 +48,7 @@ const data = [
 const Blog = () => {
     return (
         <>
-            <div className="blogs">
+            <section className="blogs">
                 <div className="blogcontainer">
                     {
                         data.map(datax => (
@@ -56,7 +56,7 @@ const Blog = () => {
                         ))
                     }
                 </div>
-            </div>
+            </section>
         </>
     )
 }

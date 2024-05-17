@@ -1,7 +1,7 @@
 .scroll-to-top {
     position: fixed;
-    right: 0;
-    bottom: 100px;
+    right: -25px;
+    bottom: 150px;
     transform: rotate(90deg);
     z-index: 99;border: none;
     background-color: transparent;
@@ -56,4 +56,14 @@
   .g_color {
     background: -webkit-linear-gradient(45deg,#483d73,#e11e25 100%);
       background-clip: border-box;
+  }
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    .scroll-to-top{
+      right: -45px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .scroll-to-top{
+      display: none;
+    }
   }

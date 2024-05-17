@@ -10,7 +10,7 @@ const AboutSkills = () => {
         <div className="aboutskillscontainer">
           <div className="aboutskillsleft">
             <h1 className="aboutusbtn">OUR SKILLS</h1>
-            <h1 className="aboutskillsheading"><span>OUR Skillset</span> with More Experience.</h1>
+            <h1 className="aboutskillsheading"><span>Our Skillset</span> with More Experience.</h1>
             <p className="aboutskillspara">All our machines are manufactured and assembled using high quality parts with the usage of advance technology. Our machines are constructed on the principle of Open Cam Technology accompanied with Gear Driven System or Chain Transmission System as per the model of machines. We have shown an impeccable growth in dynamic technical environment as we believe in growing together through Creativity, Innovation and Invention.</p>
           </div>
           <div className="aboutskillright">

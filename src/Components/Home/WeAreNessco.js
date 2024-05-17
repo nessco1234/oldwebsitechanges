@@ -3,13 +3,13 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
-import nes1 from '../../Assets/images/resource/kshow.webp'
-import nes2 from '../../Assets/images/resource/fooma.webp'
-import nes3 from '../../Assets/images/resource/drupa.webp'
-import nes4 from '../../Assets/images/resource/saudi.webp'
-import nes5 from '../../Assets/images/resource/gulffood.webp'
+import nes1 from '../../Assets/images/resource/kshow3.png'
+import nes2 from '../../Assets/images/resource/fooma2.png'
+import nes3 from '../../Assets/images/resource/drupa2.png'
+import nes4 from '../../Assets/images/resource/saudiprint.png'
+import nes5 from '../../Assets/images/resource/gulffood3.webp'
 import nes6 from '../../Assets/images/resource/plastindia.webp'
-import nes7 from '../../Assets/images/resource/paperone.webp'
+import nes7 from '../../Assets/images/resource/paperone2.png'
 import nes8 from '../../Assets/images/resource/interpack.webp'
 import { FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6';
 const WeAreNessco = () => {
@@ -36,7 +36,7 @@ const WeAreNessco = () => {
     const updateSlidesToShow = () => {
         const screenWidth = window.innerWidth;
         if (screenWidth <= 600) {
-          setSlidesToShow(2);
+          setSlidesToShow(3);
         } else if (screenWidth <= 1024) {
           setSlidesToShow(3);
         } else {
@@ -52,7 +52,7 @@ const WeAreNessco = () => {
       }, []);
     return (
         <>
-            <div className="wenessco">
+            <section className="wenessco">
                 <div className="wenesscocontainer">
                     <div className="wenesscoleft">
                         <h1 className="wenesscoheading">We Are <span>
@@ -67,7 +67,7 @@ const WeAreNessco = () => {
                             <>
                                 <a href='https://www.drupa.com/vis/v1/en/exhprofiles/ucAWUVDjQvuCaTPIMjGH4Q' target='_blank' className="wenesscocard">
                                     <div className="wenesscocardleft">
-                                        <img src={nes3} alt="" />
+                                        <img src={nes3} style={{width:"70%"}} alt="" />
                                     </div>
                                     <div className="wenesscocardright">
                                         <h1 className="nesscocardheading"> Drupa Germany</h1>
@@ -78,7 +78,7 @@ const WeAreNessco = () => {
                             <>
                                 <a href='https://www.foomajapan.jp/int/exhibitor/' target={"_blank"} className="wenesscocard">
                                     <div className="wenesscocardleft">
-                                        <img src={nes2} alt="" />
+                                        <img src={nes2} style={{width:"80%"}} alt="" />
                                     </div>
                                     <div className="wenesscocardright">
                                         <h1 className="nesscocardheading"> Fooma Japan 24</h1>
@@ -111,7 +111,7 @@ const WeAreNessco = () => {
                             <>
                                 <a href='/' className="wenesscocard">
                                     <div className="wenesscocardleft">
-                                        <img src={nes1} alt="" />
+                                        <img src={nes1} style={{width:"70%"}} alt="" />
                                     </div>
                                     <div className="wenesscocardright">
                                         <h1 className="nesscocardheading"> K- Show</h1>
@@ -155,7 +155,7 @@ const WeAreNessco = () => {
                         </Slider>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }
