@@ -88,7 +88,6 @@ function ProductFilter({ products }) {
 const products = [
     { id: 1, name: 'Disposable Cup Making Machine', type: 'papercup', url: '/product/disposable-paper-cup-making-machine/', imglink: img2 },
     { id: 2, name: 'High Speed Paper Cup Machine', type: 'papercup', url: '/product/high-speed-paper-cup-making-machine/', imglink: img3 },
-    { id: 3, name: 'Fully Automatic Cup Making Machine', type: 'papercup', url: '/product/paper-bag-making-machine/', imglink: img24 },
     { id: 4, name: 'Paper Bag Making Machine', type: 'paperbag', url: '/product/paper-bag-making-machine/', imglink: img27 },
     { id: 5, name: 'Flexo Printing Machine', type: 'paperrelated', url: '/product/flexo-printing-machine/', imglink: img18 },
     { id: 6, name: 'Paper Cutlery Machine', type: 'other', url: '/product/paper-cutlery-machine/', imglink: img25 },
@@ -108,11 +107,11 @@ const products = [
     { id: 19, name: 'Roll Die Cutting Machine', type: 'paperrelated', url: '/product/roll-die-cutting-machine/', imglink: img19 },
     { id: 19, name: 'Rectangluar Flat Bottom Bowl Machine', type: 'paperbowl', url: '/product/rectangle-flat-bottom-bowl-machine/', imglink: img17 },
     { id: 20, name: 'Paper Dome Lid Machine', type: 'paperlid', url: '/product/paper-dome-lid-machine/', imglink: img7 },
-    { id: 21, name: 'Octagonal Box Forming Machine', type: 'paperbox', url: '/product/automatic-octagonal-box-forming-machine/', imglink: img16 },
+    { id: 21, name: 'Octagonal Box Forming Machine', type: 'paperbox', url: '/product/octagonal-box-forming-machine/', imglink: img16 },
     { id: 22, name: 'Lunch Box Forming Machine', type: 'paperbox', url: '/product/lunch-box-forming-machine/', imglink: img14 },
     { id: 23, name: 'Carton Erecting Machine', type: 'paperbox', url: '/product/carton-erecting-machine/', imglink: img15 },
-    { id: 26, name: 'Ripple Wall Cup Sleeve Gluing Machine', type: 'other', url: '/product/ripple-wall-cup-sleeve-glueing-machine/', imglink: img23 },
-    { id: 27, name: 'Paper Sleeve Gluing and Folding Machine', type: 'other', url: '/product/paper-sleeve-gluing-folding-machine/', imglink: img22 },
+    { id: 26, name: 'Ripple Wall Cup Sleeve Gluing Machine', type: 'other', url: '/product/ripple-wall-cup-sleeve-glueing-machine/', imglink: img22 },
+    { id: 27, name: 'Paper Sleeve Gluing and Folding Machine', type: 'other', url: '/product/paper-sleeve-gluing-folding-machine/', imglink: img23 },
 ];
 
 function App() {

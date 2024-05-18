@@ -13,11 +13,11 @@ const DescriptionMachine = (props) => {
     const [isOpen2, setIsOpen2] = useState(false);
     const openModal2 = () => setIsOpen2(true);
     const closeModal2 = () => setIsOpen2(false);
-    function downloadinternational(){
+    function downloadinternational() {
         props.setdown(false)
         console.log(props.down)
     }
-    function downloadlocal(){
+    function downloadlocal() {
         props.setdown(true)
         console.log(props.down)
     }
@@ -91,10 +91,9 @@ const DescriptionMachine = (props) => {
                         <input placeholder='Full Name *' className='descriptionaboutaquoteinputs' type="text" />
                         <input placeholder='Phone Number*' className='descriptionaboutaquoteinputs' type="text" />
                         <input placeholder='Email' className='descriptionaboutaquoteinputs' type="text" />
-                        <textarea placeholder='Message' className='descriptionaboutaquoteinputs' ></textarea>
-                        <button className="descriptionaboutbtn">
-                            Send Message <FaArrowRightLong />
-                        </button>
+                        <textarea style={{marginBottom:"1rem"}} placeholder='Message' className='descriptionaboutaquoteinputs' ></textarea>
+                        <button onClick={openModal2} className="headerbtn" style={{ padding: "1.5rem 2rem" }}>
+                            <p className='headerbtncon'>Send Message </p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
                     </div>
                     <div className="downloadbrochures">
                         <h1 className="downloadbrochuresheading">Download Brochures</h1>
@@ -119,7 +118,7 @@ const DescriptionMachine = (props) => {
                                                 <input placeholder='Enter your Name' className='modalinp' type="text" />
                                                 <input placeholder='Enter your Email' className='modalinp' type="text" />
                                                 <input placeholder='Enter your Phone' className='modalinp' type="text" />
-                                                <Link onClick={downloadlocal}  to={'/thank-you'} className="headerbtn x" style={{ padding: "2rem 3rem" }}>
+                                                <Link onClick={downloadlocal} to={'/thank-you'} className="headerbtn x" style={{ padding: "2rem 3rem" }}>
                                                     <p className='headerbtncon'>Get a Quote !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></Link>
                                             </div>
                                         </div>

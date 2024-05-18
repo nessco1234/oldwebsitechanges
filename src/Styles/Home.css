@@ -71,7 +71,7 @@
 }
 
 .leftaboutpic2 {
-  background: url("../Assets/images/resource/nessco-team-pic1.webp") top center/contain;
+  background: url("https://nessco.kafkaindia.com/Assets/images/resource/nessco-team-pic1.webp") top center/contain;
   /* border: 1px solid black; */
   position: absolute;
   width: 200px;
@@ -572,7 +572,7 @@
   width: 100%;
   height: 70vh;
   /* background-color: khaki; */
-  background: url("../Assets/images/background/video-bg.webp") no-repeat center
+  background: url("https://nessco.kafkaindia.com/Assets/images/background/video-bg.webp") no-repeat center
     center/cover;
   position: relative;
   /* z-index: -1; */
@@ -582,7 +582,7 @@
   left: 0;
   bottom: 0;
   position: absolute;
-  background: url("../Assets/images/shape/shape-13.png") no-repeat center
+  background: url("https://nessco.kafkaindia.com/Assets/images/shape/shape-13.png") no-repeat center
     center/cover;
   z-index: 100;
   width: 397px;
@@ -596,7 +596,7 @@
   right: -30px;
   top: -15px;
   position: absolute;
-  background: url("../Assets/images/shape/shape-15.png") no-repeat center
+  background: url("https://nessco.kafkaindia.com/Assets/images/shape/shape-15.png") no-repeat center
     center/cover;
   z-index: 100;
   animation: walkingshadow 5s linear infinite;
@@ -606,7 +606,7 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  background: url("../Assets/images/shape/shape-14.png") no-repeat center;
+  background: url("https://nessco.kafkaindia.com/Assets/images/shape/shape-14.png") no-repeat center;
   width: 337px;
   height: 291px;
   background-repeat: no-repeat;
@@ -616,7 +616,7 @@
   position: absolute;
   right: 0;
   top: 0;
-  background: url("../Assets/images/shape/shape-16.png") no-repeat center;
+  background: url("https://nessco.kafkaindia.com/Assets/images/shape/shape-16.png") no-repeat center;
   width: 312px;
   height: 301px;
   background-repeat: no-repeat;
@@ -806,7 +806,7 @@
   overflow: hidden;
 }
 .bghomestat1 {
-  background: url("../Assets/images/shape/shape-21.png") no-repeat center center;
+  background: url("https://nessco.kafkaindia.com/Assets/images/shape/shape-21.png") no-repeat center center;
   width: 170px;
   height: 170px;
   position: absolute;
@@ -815,7 +815,7 @@
   transform: scale(1.4);
 }
 .bghomestat2 {
-  background: url("../Assets/images/shape/shape-22.png") no-repeat center center;
+  background: url("https://nessco.kafkaindia.com/Assets/images/shape/shape-22.png") no-repeat center center;
   width: 170px;
   height: 170px;
   position: absolute;
@@ -870,7 +870,7 @@
 .bannerslide::after {
   position: absolute;
   content: "";
-  background: url("../Assets/images/banner/banner-image-nessco-2.webp")
+  background: url("https://nessco.kafkaindia.com/Assets/images/banner/banner-image-nessco-2.webp")
     no-repeat center center/cover;
   animation: anima 5s ease forwards infinite;
   width: 100%;
@@ -885,7 +885,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background: url("../Assets/images/shape/shape-2.png");
+  background: url("https://nessco.kafkaindia.com/Assets/images/shape/shape-2.png");
   width: 425px;
   height: 576px;
   background-repeat: no-repeat;
@@ -895,7 +895,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background: url("../Assets/images/shape/shape-3.png");
+  background: url("https://nessco.kafkaindia.com/Assets/images/shape/shape-3.png");
   width: 425px;
   height: 576px;
   background-repeat: no-repeat;
@@ -907,7 +907,7 @@
   right: 0;
   width: 100px;
   height: 100px;
-  background: url("../Assets/images/shape/shape-4.png");
+  background: url("https://nessco.kafkaindia.com/Assets/images/shape/shape-4.png");
   width: 442px;
   height: 273px;
   background-repeat: no-repeat;
@@ -917,7 +917,7 @@
   z-index: 1;
   bottom: 0;
   right: 0;
-  background: url("../Assets/images/shape/shape-5.png");
+  background: url("https://nessco.kafkaindia.com/Assets/images/shape/shape-5.png");
   width: 382px;
   height: 291px;
   background-repeat: no-repeat;
@@ -1144,7 +1144,7 @@
 }
 .wenesscocardleft {
   width: 30%;
-  height: 100px;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1514,7 +1514,7 @@
     width: 100%;
     height: 100vh;
     background-color: khaki;
-    background: url("../Assets/images/background/video-bg.webp") no-repeat
+    background: url("https://nessco.kafkaindia.com/Assets/images/background/video-bg.webp") no-repeat
       bottom center/150%;
   }
 
@@ -1717,6 +1717,7 @@
   }
   .wenesscocardleft{
     width: 100%;
+    height: 100px;
   }
   .wenesscocardleft>img{
     width: 100%;
@@ -1757,7 +1758,7 @@
     width: 100%;
     height: 100vh;
     background-color: khaki;
-    background: url("../Assets/images/background/video-bg.webp") no-repeat
+    background: url("https://nessco.kafkaindia.com/Assets/images/background/video-bg.webp") no-repeat
       bottom center/150%;
     /* position: relative; */
   }

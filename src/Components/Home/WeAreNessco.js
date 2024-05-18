@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
-import nes1 from '../../Assets/images/resource/kshow3.png'
+import nes1 from '../..'
 import nes2 from '../../Assets/images/resource/fooma2.png'
 import nes3 from '../../Assets/images/resource/drupa2.png'
 import nes4 from '../../Assets/images/resource/saudiprint.png'
@@ -67,7 +67,7 @@ const WeAreNessco = () => {
                             <>
                                 <a href='https://www.drupa.com/vis/v1/en/exhprofiles/ucAWUVDjQvuCaTPIMjGH4Q' target='_blank' className="wenesscocard">
                                     <div className="wenesscocardleft">
-                                        <img src={nes3} style={{width:"70%"}} alt="" />
+                                        <img src={'https://nessco.kafkaindia.com/Assets/images/resource/drupa2.png'} style={{width:"70%"}} alt="Drupa Germany" />
                                     </div>
                                     <div className="wenesscocardright">
                                         <h1 className="nesscocardheading"> Drupa Germany</h1>
@@ -78,7 +78,7 @@ const WeAreNessco = () => {
                             <>
                                 <a href='https://www.foomajapan.jp/int/exhibitor/' target={"_blank"} className="wenesscocard">
                                     <div className="wenesscocardleft">
-                                        <img src={nes2} style={{width:"80%"}} alt="" />
+                                        <img src={'https://nessco.kafkaindia.com/Assets/images/resource/fooma2.png'} style={{width:"80%"}} alt="Fooma Japan 24" />
                                     </div>
                                     <div className="wenesscocardright">
                                         <h1 className="nesscocardheading"> Fooma Japan 24</h1>
@@ -89,7 +89,7 @@ const WeAreNessco = () => {
                             <>
                                 <a href='/https://saudi-pp.com/' target='_blank' className="wenesscocard">
                                     <div className="wenesscocardleft">
-                                        <img src={nes4} alt="" />
+                                        <img src={'https://nessco.kafkaindia.com/Assets/images/resource/saudiprint.png'} alt="Saudi Print & Pack" />
                                     </div>
                                     <div className="wenesscocardright">
                                         <h1 className="nesscocardheading"> Saudi Print & Pack</h1>
@@ -100,7 +100,7 @@ const WeAreNessco = () => {
                             <>
                                 <a href='/' className="wenesscocard">
                                     <div className="wenesscocardleft">
-                                        <img src={nes8} alt="" />
+                                        <img src={'https://nessco.kafkaindia.com/Assets/images/resource/interpack.webp'} alt="Interpack" />
                                     </div>
                                     <div className="wenesscocardright">
                                         <h1 className="nesscocardheading"> Interpack</h1>
@@ -111,7 +111,7 @@ const WeAreNessco = () => {
                             <>
                                 <a href='/' className="wenesscocard">
                                     <div className="wenesscocardleft">
-                                        <img src={nes1} style={{width:"70%"}} alt="" />
+                                        <img src={'https://nessco.kafkaindia.com/Assets/images/resource/kshow3.png'} style={{width:"70%"}} alt="K Show" />
                                     </div>
                                     <div className="wenesscocardright">
                                         <h1 className="nesscocardheading"> K- Show</h1>
@@ -122,7 +122,7 @@ const WeAreNessco = () => {
                             <>
                                 <a href='/' className="wenesscocard">
                                     <div className="wenesscocardleft">
-                                        <img src={nes5} alt="" />
+                                        <img src={'https://nessco.kafkaindia.com/Assets/images/resource/gulffood3.webp'} alt="Gulfood 2022" />
                                     </div>
                                     <div className="wenesscocardright">
                                         <h1 className="nesscocardheading"> Gulfood 2022</h1>
@@ -133,7 +133,7 @@ const WeAreNessco = () => {
                             <>
                                 <a href='/' className="wenesscocard">
                                     <div className="wenesscocardleft">
-                                        <img src={nes7} alt="" />
+                                        <img src={'https://nessco.kafkaindia.com/Assets/images/resource/paperone2.png'} alt="Paper One Show" />
                                     </div>
                                     <div className="wenesscocardright">
                                         <h1 className="nesscocardheading"> Paper One Show</h1>
@@ -144,7 +144,7 @@ const WeAreNessco = () => {
                             <>
                                 <a href='/' className="wenesscocard">
                                     <div className="wenesscocardleft">
-                                        <img src={nes6} alt="" />
+                                        <img src={'https://nessco.kafkaindia.com/Assets/images/resource/plastindia.webp'} alt="PLASTINDIA" />
                                     </div>
                                     <div className="wenesscocardright">
                                         <h1 className="nesscocardheading"> PLASTINDIA</h1>

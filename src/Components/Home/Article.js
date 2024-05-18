@@ -16,7 +16,7 @@ const Article = () => {
                         <div className="articlecard">
                             <Link to={'/blog/disposable-packaging-solutions-for-horeca/'} className="uppersection">
                                 <div className="uppersectionoverlaylayer"></div>
-                                <img src={news1} alt="" />
+                                <img src={'https://nessco.kafkaindia.com/Assets/images/news/news-1.webp'} alt="Disposable Packaging Solutions for HORECA" />
                             </Link>
                             <div className="lowersection">
                                 <Link to={'/blog/disposable-packaging-solutions-for-horeca/'} className='articleheading' >Disposable Packaging Solutions for HORECA</Link>
@@ -28,7 +28,7 @@ const Article = () => {
                             <Link to={'/blog/why-say-yes-to-paper-cups/'} className="uppersection">
                                 <div className="uppersectionoverlaylayer"></div>
 
-                                <img src={news2} alt="" />
+                                <img src={'https://nessco.kafkaindia.com/Assets/images/news/news-2.webp'} alt="Paper Cups – Responsible Consumer Choice?" />
                             </Link>
                             <div className="lowersection">
                                 <Link className='articleheading' to={'/blog/why-say-yes-to-paper-cups/'}>Paper Cups – Responsible Consumer Choice?</Link>
@@ -40,7 +40,7 @@ const Article = () => {
                             <Link to={'/blog/paper-plate-making-machine-an-eco-friendly-alternative/'} className="uppersection">
                                 <div className="uppersectionoverlaylayer"></div>
 
-                                <img src={news3} alt="" />
+                                <img src={'https://nessco.kafkaindia.com/Assets/images/news/news-3.webp'} alt="Paper Plate Making Machine An Eco Friendly Alternative" />
                             </Link>
                             <div className="lowersection">
                                 <Link className='articleheading' to={'/blog/paper-plate-making-machine-an-eco-friendly-alternative/'}>Paper Plate Making Machine An Eco Friendly Alternative</Link>

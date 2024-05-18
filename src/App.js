@@ -124,6 +124,8 @@ import img22 from './Assets/images/resource/FolderGluing.webp'
 import img23 from './Assets/images/resource/SleeveForming.webp'
 import img24 from './Assets/images/resource/fully-automatic-paper-cup-making-machine.webp'
 import img25 from './Assets/images/resource/paper-food-bag-making-machine.webp'
+// import img26 from './Assets/images/resource/papercup'
+// import img27 from './Assets/images/resource/automatic'
 import Thankyou from "./Pages/Thankyou";
 
 
@@ -229,7 +231,7 @@ function App() {
 
           </>
           <>
-            <Route element={<MachineComponent down={download} setdown={setdownload}  imgurl={img3} data={HighSpeedPaperCup} />} exact path="/product/high-speed-paper-cup-making-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} img1url={img1} img2url={img2} img3url={img3} img4url={img24}  imgurl={img24} data={HighSpeedPaperCup} />} exact path="/product/high-speed-paper-cup-making-machine/" />
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img1} data={PaperGlassMachine} />} exact path="/product/paper-glass-making-machine/" />
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img18} img2url={serv9} data={FlexoPrinting} />} exact path="/product/flexo-printing-machine/" />
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img25} img2url={serv14} data={FullyAutomaticPaperBag} />} exact path="product/paper-shopping-bag-making-machine/" />

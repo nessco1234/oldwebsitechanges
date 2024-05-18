@@ -42,7 +42,7 @@ const IOTSystem = () => {
               <p className='headerbtncon'>Get Details !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></a>
           </div>
           <div className="rightiot">
-            <img src={iot} alt="123" />
+            <img src={'https://nessco.kafkaindia.com/Assets/images/resource/iot.webp'} alt="iot" />
           </div>
         </div>
       </section>

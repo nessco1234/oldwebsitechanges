@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import img1 from '../../Assets/images/resource/High-Speed-Paper-Cup-Making-Machine.webp'
 import { FaArrowRightLong } from 'react-icons/fa6';
+import { Link } from 'react-router-dom';
 const MachineSpecs3 = (props) => {
-    const data=props.data;
+    const data = props.data;
+    const [isOpen2, setIsOpen2] = useState(false);
+    const openModal2 = () => setIsOpen2(true);
+    const closeModal2 = () => setIsOpen2(false);
     return (
         <>
             <section className="machinespecs3">
@@ -10,7 +14,7 @@ const MachineSpecs3 = (props) => {
                     <h1 className="machinespecs3heading">{props.Heading}</h1>
                     <div className="machinespecsss">
                         <div className="machinespecsleft">
-                            <img src={img1} alt="" />
+                            <img src={props.imglink} alt="" />
                         </div>
                         <div className="machinespecsright">
                             <table className='machinetable'>
@@ -23,14 +27,33 @@ const MachineSpecs3 = (props) => {
                                 <tbody className='machinedata'>
                                     {data.map(row => (
                                         <tr key={row.key} className='machinetablerow'>
-                                            <td  style={cellStyle}>{row.feature}</td>
+                                            <td style={cellStyle}>{row.feature}</td>
                                             <td style={cellStyle}>{row.specs}</td>
                                         </tr>
                                     ))}
                                 </tbody>
                             </table>
-                            <button className="headerbtn h">
+                            <button onClick={openModal2} className="headerbtn h">
                                 <p className='headerbtncon'>Inquire Now !</p> <FaArrowRightLong className='headerbtnarrow ' style={{ fontSize: "1.5rem" }} /></button>
+                            {isOpen2 && (
+                                <div className="modal">
+                                    <button className="close-button" onClick={closeModal2}>&times;</button>
+                                    <div className="modalcard">
+                                        <div className="leftmodal">
+                                            <img src={'https://nessco.kafkaindia.com/Assets/images/resource/popup.webp'} alt="Popup" />
+                                        </div>
+                                        <div className="rightmodal">
+                                            <h1 className="modalheading">Request for details to receive a call back</h1>
+                                            <p className="modaldesc">Enter your details to receive a call back</p>
+                                            <input placeholder='Enter your Name' className='modalinp' type="text" />
+                                            <input placeholder='Enter your Email' className='modalinp' type="text" />
+                                            <input placeholder='Enter your Phone' className='modalinp' type="text" />
+                                            <Link to={'/thank-you'} className="headerbtn x" style={{ padding: "2rem 3rem" }}>
+                                                <p className='headerbtncon'>Get a Quote !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>

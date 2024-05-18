@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import TeamPic from "../../Assets/images/resource/nessco-team.webp";
-import NesscoTeamPic from "../../Assets/images/resource/samplekshow2.webp";
+// import TeamPic from "../../Assets/images/resource/nessco-team.webp";
+// import NesscoTeamPic from "../../Assets/images/resource/samplekshow2.webp";
 import Signature from "../../Assets/images/resource/signature.webp";
 import img1 from '../../Assets/images/resource/popup.webp'
 import { FaPlay } from "react-icons/fa";
@@ -28,7 +28,7 @@ const AboutUs = (props) => {
       <section className="homeaboutus">
         <div className="sectionContainer">
           <div className="leftabout">
-            <img className="leftaboutpic" alt="123" src={TeamPic} decoding="async"  />
+            <img className="leftaboutpic" alt="Nessco Team" src="https://nessco.kafkaindia.com/Assets/images/resource/nessco-team.webp" decoding="async"  />
             <div className="leftaboutpic2">
               {/* <a  href="https://www.youtube.com/embed/e-rwkwTE8P4" data-caption>
                 <FaPlay />
@@ -69,7 +69,7 @@ const AboutUs = (props) => {
                   <button className="close-button" onClick={closeModal2}>&times;</button>
                   <div className="modalcard">
                     <div className="leftmodal">
-                      <img src={img1} alt="" />
+                      <img src={'https://nessco.kafkaindia.com/Assets/images/resource/popup.webp'} alt="Popup" />
                     </div>
                     <div className="rightmodal">
                       <h1 className="modalheading">Request for details to receive a call back</h1>
@@ -85,7 +85,7 @@ const AboutUs = (props) => {
               )}
               <button onClick={openModal2} className="headerbtn" style={{ padding: "1.5rem 2rem" }}>
                 <p className='headerbtncon'>Get a Quote !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
-              <img className="signatureimg" alt="123" src={Signature} />
+              <img className="signatureimg" alt="Signature" src={'https://nessco.kafkaindia.com/Assets/images/resource/signature.webp'} />
             </div>
           </div>
         </div>

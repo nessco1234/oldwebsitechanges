@@ -10,15 +10,15 @@ const Presence = () => {
     <section className='presenceSection'>
       <div className='presenceContainer'>
         <div className='staticimages'>
-          <img className='staticimage1' alt='123' src={Shape} />
-          <img className='staticimage2' alt='123' src={Shape2} />
+          <img className='staticimage1' alt='123' src={'https://nessco.kafkaindia.com/Assets/images/shape/shape-209.png'} />
+          <img className='staticimage2' alt='123' src={'https://nessco.kafkaindia.com/Assets/images/shape/shape-210.png'} />
         </div>
         <div className='leftpresence'>
           <h1 className="aboutusbtn">PRESENCE</h1>
           <h1 className="presenceheading">Nessco Global <span> Presence</span>
           </h1>
           <p className="presencepara">With a strong functional position in this market for over 40 years, now Nessco India is backed by 5 Domestic Distributing Centres and 7 International Ones. Over all these years, we have spread our arms to almost every country to expand our business globally.</p>
-          <img src={Map} alt="123" />
+          <img src={'https://nessco.kafkaindia.com/Assets/images/resource/newmap.png'} alt="map" />
         </div>
 
         <div className='rightpresence'>

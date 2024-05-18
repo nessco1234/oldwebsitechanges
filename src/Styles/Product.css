@@ -90,7 +90,7 @@
     text-align: left;
     /* margin-top: 2rem; */
     color: var(--bluecolor);
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;font-weight: 700;
   }
   .productpagelink:hover{
     color: var(--redcolor);
