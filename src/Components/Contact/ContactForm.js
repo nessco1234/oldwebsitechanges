@@ -1,15 +1,51 @@
-import React from 'react'
+import React, { useState } from 'react'
 import icon1 from '../../Assets/images/icons/marker.png'
 import icon2 from '../../Assets/images/icons/email.png'
 import icon3 from '../../Assets/images/icons/phone.png'
 import { BiLeftArrow, BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
 import { FaArrowRightLong } from 'react-icons/fa6'
 import { redirect, useNavigate } from 'react-router-dom'
+import axios from 'axios'
 const ContactForm = () => {
-    const navigate=useNavigate()
-    function red(){
+    const navigate = useNavigate()
+
+    const [formData, setFormData] = useState({
+        SingleLine: '',
+        Email: '',
+        PhoneNumber_countrycode: '',
+        SingleLine1: '',
+        MultiLine: ''
+        // Add more fields as needed
+    });
+
+    const handleChange = (e) => {
+        setFormData({
+            ...formData,
+            [e.target.name]: e.target.value,
+        });
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        // if () {
+
         navigate('/thank-you')
-    }
+        try {
+            // const response = await axios.post('http://16.171.239.170:5000/form-submission', formData, {
+            const response = await axios.post('http://localhost:5000/form-submission', formData, {
+                headers: {
+                    'Content-Type': 'application/json', // Ensure the backend handles JSON
+                },
+            });
+            console.log(response)
+
+        } catch (error) {
+            console.error('Error submitting form:', error);
+        }
+
+        // }
+        // navigate('/thank-you')
+    };
     return (
         <section className="contact">
             <div className="contactshape"></div>
@@ -58,19 +94,19 @@ const ContactForm = () => {
                     </div>
                 </div>
                 <div className="contactrightsection">
-                    <div className="contactcard">
+                    <form className="contactcard" onSubmit={handleSubmit}>
                         <div className="contactcardtitle">Send a Message</div>
                         <div className="contactfields">
 
-                            <input placeholder='Full Name*' className='contactinputfields' type="text" />
-                            <input placeholder='Email' className='contactinputfields' type="text" />
-                            <input placeholder='Phone Number*' className='contactinputfields' type="text" />
-                            <input placeholder='Subject' className='contactinputfields' type="text" />
-                            <textarea placeholder='Message' className='contactinputtextarea' cols="30" rows="3"></textarea>
+                            <input value={formData.SingleLine} onChange={handleChange} name='SingleLine' placeholder='Full Name*' className='contactinputfields' type="text" />
+                            <input value={formData.Email} onChange={handleChange} name='Email' placeholder='Email' className='contactinputfields' type="text" />
+                            <input value={formData.PhoneNumber_countrycode} onChange={handleChange} name='PhoneNumber_countrycode' placeholder='Phone Number*' className='contactinputfields' type="text" />
+                            <input value={formData.SingleLine1} onChange={handleChange} name='SingleLine1' placeholder='Subject' className='contactinputfields' type="text" />
+                            <textarea value={formData.MultiLine} onChange={handleChange} name='MultiLine' placeholder='Message' className='contactinputtextarea' cols="30" rows="3"></textarea>
                         </div>
-                        <button className="contactbtn" onClick={red}>
+                        <button type="submit" className="contactbtn">
                             <p className='headerbtncon'>Send Message </p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
-                    </div>
+                    </form>
                 </div>
             </div>
         </section>

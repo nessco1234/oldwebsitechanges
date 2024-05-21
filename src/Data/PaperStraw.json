@@ -3,9 +3,7 @@
     "Heading": "Paper Straw Making Machine",
     "Description": " Nessco India is offering you a complete range of disposable products making machines which include disposable Paper Straw Making Machine. This Machine is suitable for manufacturing different sizes of paper straws, such as 5 mm; 6 mm; 8 mm; 10 mm, 12 mm etc. With the upgraded technology for cutting device, the speed is 5 meters per minute higher than the previous one and the stable working speed now is 45 m/min.",
     "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
-    "Imgdesc": [
-        
-    ],
+    "Imgdesc": [],
     "Suggestions": [
         {
             "id": "1",
@@ -35,17 +33,15 @@
     ],
     "ImageComponent": true,
     "PointsComponent": true,
-    "NotPoints":true,
+    "NotPoints": true,
     "MultipleImageComp": false,
     "MultipleTable": false,
-
     "PointsHeading": [
         "Paper Straw",
         "Machine"
     ],
     "PointsHeadingDesc": "This machine is the most suitable and perfect alternate to the PP/PE plastic straws machines. These Paper straws are environment friendly as they are formed with bio degradable and food grade paper. This machine can make paper straws from 45 meters of paper in a minute.",
-    "PointsDescription": [
-    ],
+    "PointsDescription": [],
     "ImageHeading": [
         "Products",
         "Introduction"
@@ -65,7 +61,6 @@
             "feature": "Paper Layer",
             "specs": "3 Layers"
         },
-        
         {
             "feature": "Inner Diameter",
             "specs": "5-12 mm"
@@ -105,35 +100,25 @@
     ],
     "RelatedProducts": [
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Paper Straw Bending Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-160-Speed.webp",
+            "heading": "High Speed Paper Cup Machine Working",
+            "productlink": "/product/high-speed-paper-cup-making-machine/"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Sharp Bevel Cutting Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Bowl-Container-Machine-75-Speed.webp",
+            "heading": "Paper Bowl Making Machine",
+            "productlink": "/product/paper-container-bowl-making-machine"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Single Straw Packing Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
-        },
-        {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Paper Straw Tetra Packing Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
-        },
-        {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Multi Paper Straw Packing Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
-        },
-        {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Paper Straw Slitting Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
-        }
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Straw-Making-Machine.webp",
+            "heading": "Paper Straw Making Machine",
+            "productlink": "/product/paper-straw-making-machine"
+       	},
+  	{
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Plate-Making-Machine.webp",
+            "heading": "Paper Plate Making Machine",
+            "productlink": "/product/paper-plate-making-machine"
+       	}
     ],
     "seotitle": "Paper Straw Making Machine | Nessco India",
     "seometa": [

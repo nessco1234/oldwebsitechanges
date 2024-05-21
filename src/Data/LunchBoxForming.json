@@ -35,10 +35,9 @@
     ],
     "ImageComponent": false,
     "PointsComponent": true,
-    "NotPoints":false,
+    "NotPoints": false,
     "MultipleImageComp": false,
     "MultipleTable": false,
-
     "PointsHeading": [
         "Choose the Best Lunch",
         "Box forming machine"
@@ -69,7 +68,6 @@
             "feature": "Maximum size",
             "specs": "480 x480mm"
         },
-        
         {
             "feature": "Paper GSM",
             "specs": "200-400 GSM"
@@ -97,19 +95,24 @@
     ],
     "RelatedProducts": [
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Fully Automatic Paper Cup Making Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-160-Speed.webp",
+            "heading": "High Speed Paper Cup Machine Working",
+            "productlink": "/product/high-speed-paper-cup-making-machine/"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Disposable Paper Cup Making Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Bowl-Container-Machine-75-Speed.webp",
+            "heading": "Paper Bowl Making Machine",
+            "productlink": "/product/paper-container-bowl-making-machine"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Straw-Making-Machine.webp",
+            "heading": "Paper Straw Making Machine",
+            "productlink": "/product/paper-straw-making-machine"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Flexo-Printing-Machine.webp",
             "heading": "Flexo Printing Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "productlink": "/product/flexo-printing-machine/"
         }
     ],
     "seotitle": "Lunch Box Forming Machine | Nessco India",

@@ -4,7 +4,8 @@
     "Description": "The Paper Cup Sleeve Forming Machine is designed to form paper/cardboard sleeves, essential for providing insulation to paper cups commonly used in the beverage industry. This machine executes a series of automated functions including paper feeding, pre-folding, alignment adjustments, and folding, culminating in the conveying of the final product. Utilizing insulated, generally corrugated fluted paper, this machine enhances the functionality of paper cups by adding a layer of insulation that protects users from the heat of the beverage.",
     "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
     "Imgdesc": [
-        "This robust machine integrates an auto-controlled conveyor system that efficiently feeds and transports the paper. The pre-folding knife assists in the initial folds, followed by the application of water-based cold glue and subsequent folding to create a secure snap-in sleeve. These sleeves are versatile and compatible with a wide range of paper cups and glasses, varying in size and volume. The resulting product significantly improves comfort and safety for users, ensuring the paper cup can hold hot beverages without discomfort.","In the fast-paced Quick Service Restaurant (QSR) industry, the Paper Cup Sleeve Forming Machine has proven to be highly effective. Its ability to produce at a speed of 300m/min and handle paper GSM ranging from 200 to 600 makes it a vital tool in the operations of large brands like Starbucks. This machine not only boosts production efficiency but also supports environmental sustainability with its use of water-based, cold glue systems."
+        "This robust machine integrates an auto-controlled conveyor system that efficiently feeds and transports the paper. The pre-folding knife assists in the initial folds, followed by the application of water-based cold glue and subsequent folding to create a secure snap-in sleeve. These sleeves are versatile and compatible with a wide range of paper cups and glasses, varying in size and volume. The resulting product significantly improves comfort and safety for users, ensuring the paper cup can hold hot beverages without discomfort.",
+        "In the fast-paced Quick Service Restaurant (QSR) industry, the Paper Cup Sleeve Forming Machine has proven to be highly effective. Its ability to produce at a speed of 300m/min and handle paper GSM ranging from 200 to 600 makes it a vital tool in the operations of large brands like Starbucks. This machine not only boosts production efficiency but also supports environmental sustainability with its use of water-based, cold glue systems."
     ],
     "Suggestions": [
         {
@@ -35,10 +36,9 @@
     ],
     "ImageComponent": false,
     "PointsComponent": true,
-    "NotPoints":false,
+    "NotPoints": false,
     "MultipleImageComp": false,
     "MultipleTable": false,
-
     "PointsHeading": [
         "",
         ""
@@ -69,7 +69,6 @@
             "feature": "Paper GSM",
             "specs": "200-600 GSM"
         },
-        
         {
             "feature": "Glue Specifications",
             "specs": "Water Base Cold Glue"
@@ -101,19 +100,24 @@
     ],
     "RelatedProducts": [
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Fully Automatic Paper Cup Making Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-160-Speed.webp",
+            "heading": "High Speed Paper Cup Machine Working",
+            "productlink": "/product/high-speed-paper-cup-making-machine/"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Disposable Paper Cup Making Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Straw-Making-Machine.webp",
+            "heading": "Paper Straw Making Machine",
+            "productlink": "/product/paper-straw-making-machine"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Flexo Printing Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Plate-Making-Machine.webp",
+            "heading": "Paper Plate Making Machine",
+            "productlink": "/product/paper-plate-making-machine"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Roll-Die-Cutting-Machine.webp",
+            "heading": "Roll Die Cutting Machine",
+            "productlink": "/product/roll-die-cutting-machine/"
         }
     ],
     "seotitle": "Paper Sleeve Gluing & Folding Machine | Nessco India",

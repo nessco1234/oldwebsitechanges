@@ -4,7 +4,8 @@
     "Description": " Fully automatic Paper Bag Making Machine is able to perform a series of functions including printing tracking, cutting, bottom indentation, bottom folding, bottom gluing. One can use both plain and printed paper as raw material for bag formation. This bag making machine is equipped with German photoelectric sensors which enables precise tracking of paper movement throughout the machine whether it is alignment of paper, unwinding or rewinding of paper.",
     "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
     "Imgdesc": [
-        "Fully automatic Paper Bag Making Machine is able to perform a series of functions including printing tracking, cutting, bottom indentation, bottom folding, bottom gluing. One can use both plain and printed paper as raw material for bag formation. This bag making machine is equipped with German photoelectric sensors which enables precise tracking of paper movement throughout the machine whether it is alignment of paper, unwinding or rewinding of paper.","Servo motor is being used for the handle gluing part of the machine. The machine is more convenient, efficient and stable while in operation. One can produce paper bags of various applications like shopping bags, gift/goodies bags, carry bags, food bags and many more."
+        "Fully automatic Paper Bag Making Machine is able to perform a series of functions including printing tracking, cutting, bottom indentation, bottom folding, bottom gluing. One can use both plain and printed paper as raw material for bag formation. This bag making machine is equipped with German photoelectric sensors which enables precise tracking of paper movement throughout the machine whether it is alignment of paper, unwinding or rewinding of paper.",
+        "Servo motor is being used for the handle gluing part of the machine. The machine is more convenient, efficient and stable while in operation. One can produce paper bags of various applications like shopping bags, gift/goodies bags, carry bags, food bags and many more."
     ],
     "Suggestions": [
         {
@@ -35,18 +36,16 @@
     ],
     "ImageComponent": true,
     "PointsComponent": true,
-    "NotPoints":true,
+    "NotPoints": true,
     "MultipleImageComp": true,
     "MultipleTable": false,
-    "ExpandedTable":true,
+    "ExpandedTable": true,
     "PointsHeading": [
         "Paper Bag ",
         "Making Machine"
     ],
     "PointsHeadingDesc": "Nessco High Speed paper bag making Machine has equipped with Latest Technology which results in improved Production ,Stability and product Quality. All use of standard drive parts, Production Versatility, Excellent Interchangeability, Easy Maintenance of Equipment. The machine is more convenient, efficient and stable while in operation. One can produce paper bags of various applications like shopping bags, gift/goodies bags, carry bags, food bags and many more.",
-    "PointsDescription": [
-        
-    ],
+    "PointsDescription": [],
     "ImageHeading": [
         "Products",
         "Introduction"
@@ -55,7 +54,9 @@
     "Imagelinkimg": "https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
     "MachineSpecsLabels": [
         "SPECIFICATIONS (Model Wise)",
-        "NS 220A","NS 330A","NS 460A"
+        "NS 220A",
+        "NS 330A",
+        "NS 460A"
     ],
     "MachineSpecs": [
         {
@@ -125,59 +126,70 @@
             "ns460": "380V 3 Phase"
         }
     ],
-    "MultipleLabels":["ROPE HANDLE PART","Type 1","Type 2","Type 3","Type 4"],
-    "MultiTabelData":[
+    "MultipleLabels": [
+        "ROPE HANDLE PART",
+        "Type 1",
+        "Type 2",
+        "Type 3",
+        "Type 4"
+    ],
+    "MultiTabelData": [
         {
-            "rope":"Handle Rope Height",
-            "T1":"90-110 mm",
-            "T2":"90-110 mm",
-            "T3":"95-115 mm",
-            "T4":"100-120 mm"
+            "rope": "Handle Rope Height",
+            "T1": "90-110 mm",
+            "T2": "90-110 mm",
+            "T3": "95-115 mm",
+            "T4": "100-120 mm"
         },
         {
-            "rope":"Patch Width",
-            "T1":"40-50 mm",
-            "T2":"45-50 mm",
-            "T3":"45-50 mm",
-            "T4":"45-50 mm"
+            "rope": "Patch Width",
+            "T1": "40-50 mm",
+            "T2": "45-50 mm",
+            "T3": "45-50 mm",
+            "T4": "45-50 mm"
         },
         {
-            "rope":"Patch Length",
-            "T1":"95 mm",
-            "T2":"114 mm",
-            "T3":"152 mm",
-            "T4":"190 mm"
+            "rope": "Patch Length",
+            "T1": "95 mm",
+            "T2": "114 mm",
+            "T3": "152 mm",
+            "T4": "190 mm"
         },
         {
-            "rope":"Handle Rope Diameter",
-            "T1":"Φ3-5 mm",
-            "T2":"Φ4-6 mm",
-            "T3":"Φ4-6 mm",
-            "T4":"Φ4-6 mm"
+            "rope": "Handle Rope Diameter",
+            "T1": "Φ3-5 mm",
+            "T2": "Φ4-6 mm",
+            "T3": "Φ4-6 mm",
+            "T4": "Φ4-6 mm"
         },
         {
-            "rope":"Handle Separation Distance",
-            "T1":"47 mm",
-            "T2":"57 mm",
-            "T3":"76 mm",
-            "T4":"95 mm"
+            "rope": "Handle Separation Distance",
+            "T1": "47 mm",
+            "T2": "57 mm",
+            "T3": "76 mm",
+            "T4": "95 mm"
         }
     ],
     "RelatedProducts": [
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Paper Shopping Bag Making Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-160-Speed.webp",
+            "heading": "High Speed Paper Cup Machine Working",
+            "productlink": "/product/high-speed-paper-cup-making-machine/"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Paper Salad Bowl Making Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Straw-Making-Machine.webp",
+            "heading": "Paper Straw Making Machine",
+            "productlink": "/product/paper-straw-making-machine"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Flexo-Printing-Machine.webp",
+            "heading": "Flexo Printing Machine",
+            "productlink": "/product/flexo-printing-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Roll-Die-Cutting-Machine.webp",
             "heading": "Roll Die Cutting Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "productlink": "/product/roll-die-cutting-machine/"
         }
     ],
     "seotitle": "Paper Food Bag Making Machine - Food Packaging Bag Machine",

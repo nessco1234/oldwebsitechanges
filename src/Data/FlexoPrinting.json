@@ -35,10 +35,9 @@
     ],
     "ImageComponent": true,
     "PointsComponent": true,
-    "NotPoints":false,
+    "NotPoints": false,
     "MultipleImageComp": false,
     "MultipleTable": false,
-
     "PointsHeading": [
         "Flexographic",
         "Printing"
@@ -69,7 +68,6 @@
             "feature": "Maximum Web Width",
             "specs": "950 mm"
         },
-        
         {
             "feature": "Maximum Printing Width",
             "specs": "930 mm"
@@ -105,19 +103,24 @@
     ],
     "RelatedProducts": [
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Paper Cutlery Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-160-Speed.webp",
+            "heading": "High Speed Paper Cup Machine Working",
+            "productlink": "/product/high-speed-paper-cup-making-machine/"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Fully Automatic Paper Cup Making Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Plate-Making-Machine.webp",
+            "heading": "Paper Plate Making Machine",
+            "productlink": "/product/paper-plate-making-machine"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Flexo-Printing-Machine.webp",
+            "heading": "Flexo Printing Machine",
+            "productlink": "/product/flexo-printing-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Roll-Die-Cutting-Machine.webp",
             "heading": "Roll Die Cutting Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "productlink": "/product/roll-die-cutting-machine/"
         }
     ],
     "seotitle": "Flexo Printing Machine Manufacturer | Nessco India",
@@ -171,5 +174,4 @@
         "name": "canonical",
         "url": "https://www.nesscoindia.com/product/flexo-printing-machine"
     }
-    
 }

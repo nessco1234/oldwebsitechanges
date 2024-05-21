@@ -31,7 +31,7 @@ const PaperPlate = () => {
                         <Link to={'/blog/use-paper-cups-it-can-be-recycled/'} className='blognavbtn'>Next <FaArrowRightLong style={{ marginLeft: "2rem" }} /></Link>
                     </div>
                     <div className="blognavigationbtns marrr">
-                        <h1 className="blognavigationdesc">Ppaer Cups - Responsibel Consumer Choice?</h1>
+                        <h1 className="blognavigationdesc">Paper Cups - Responsible Consumers Choice?</h1>
                         <h1 className="blognavigationdesc">Use Paper Cups It can Be Recycled</h1>
                     </div>
                 </div>

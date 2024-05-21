@@ -10,7 +10,7 @@ const RelatedProducts = (props) => {
         <div className="machineblogsection">
           {
             data.map(obj => (
-              <ProductCard img={obj.imglink} heading={obj.heading} url={props.productlink} />
+              <ProductCard img={obj.imglink} heading={obj.heading} url={obj.productlink} />
             ))
           }
         </div>

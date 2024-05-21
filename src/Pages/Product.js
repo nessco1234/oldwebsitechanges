@@ -87,7 +87,7 @@ function ProductFilter({ products }) {
 
 const products = [
     { id: 1, name: 'Disposable Cup Making Machine', type: 'papercup', url: '/product/disposable-paper-cup-making-machine/', imglink: img2 },
-    { id: 2, name: 'High Speed Paper Cup Machine', type: 'papercup', url: '/product/high-speed-paper-cup-making-machine/', imglink: img3 },
+    { id: 2, name: 'High Speed Paper Cup Machine', type: 'papercup', url: '/product/high-speed-paper-cup-making-machine/', imglink: img24 },
     { id: 4, name: 'Paper Bag Making Machine', type: 'paperbag', url: '/product/paper-bag-making-machine/', imglink: img27 },
     { id: 5, name: 'Flexo Printing Machine', type: 'paperrelated', url: '/product/flexo-printing-machine/', imglink: img18 },
     { id: 6, name: 'Paper Cutlery Machine', type: 'other', url: '/product/paper-cutlery-machine/', imglink: img25 },

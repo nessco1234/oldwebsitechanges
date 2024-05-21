@@ -35,17 +35,15 @@
     ],
     "ImageComponent": true,
     "PointsComponent": true,
-    "NotPoints":true,
+    "NotPoints": true,
     "MultipleImageComp": false,
     "MultipleTable": false,
-
     "PointsHeading": [
         "Paper Lid",
         "Manufacturing"
     ],
     "PointsHeadingDesc": "Nessco Paper Lid Machine is equipped with paper cover molding technology that makes this device easy to operate. It also includes various other modern technologies for better efficiency and production speed. The automatic lubrication system keeps the machine durable and ensures its smooth run. Paper Cup Lid Machine is more stable due to its heavy and well built structural frame.",
-    "PointsDescription": [
-    ],
+    "PointsDescription": [],
     "ImageHeading": [
         "Products",
         "Introduction"
@@ -96,19 +94,24 @@
     ],
     "RelatedProducts": [
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-160-Speed.webp",
+            "heading": "High Speed Paper Cup Machine Working",
+            "productlink": "/product/high-speed-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Plate-Making-Machine.webp",
             "heading": "Paper Plate Making Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "productlink": "/product/paper-plate-making-machine"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Paper Straw Making Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Flexo-Printing-Machine.webp",
+            "heading": "Flexo Printing Machine",
+            "productlink": "/product/flexo-printing-machine/"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "PE Coating Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Roll-Die-Cutting-Machine.webp",
+            "heading": "Roll Die Cutting Machine",
+            "productlink": "/product/roll-die-cutting-machine/"
         }
     ],
     "seotitle": "Paper Lid Making Machine - Manufacturers & Suppliers | Nessco",

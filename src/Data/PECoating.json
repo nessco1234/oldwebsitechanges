@@ -3,9 +3,7 @@
     "Heading": "PE Coating Machine",
     "Description": " PE Film Coating Machine is a casting lamination compounding machine. The machine performs sealing at high speed with fin effect that gives equally and finely sealed output. It is an ideal equipment for coating single PE film over paper for making paper cups and other packaging products. This machine is used for making PE-film coated paper for paper cups and bowls, melon seeds paper bag, brand paper, refuse-paper bag, non-woven cloth, gauze, aluminum foil, etc.",
     "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
-    "Imgdesc": [
-        
-    ],
+    "Imgdesc": [],
     "Suggestions": [
         {
             "id": "1",
@@ -35,27 +33,24 @@
     ],
     "ImageComponent": true,
     "PointsComponent": true,
-    "NotPoints":true,
+    "NotPoints": true,
     "MultipleImageComp": true,
     "MultipleTable": false,
-
     "PointsHeading": [
         "PE Coating",
         "Machine"
     ],
     "PointsHeadingDesc": "This Machine is equipped with latest Technology which makes production much smoother and at a faster pace. Machine uses automatic spray lubrication system which increases durability of machine parts. Various cylindrical rollers ensure fine sealing which don’t leave any air bubbles between two layers, i.e Paper & PE film.",
-    "PointsDescription": [
-        
-    ],
+    "PointsDescription": [],
     "ImageHeading": [
         "Products",
         "Introduction"
     ],
     "ImageDescription": "This machine is used to make Base materials which is used in various products such as: PE-film-coated paper for paper cups and bowls, melon seeds bag paper, refuse-bag paper, brand paper, nonwoven-cloth, gauze, aluminum foil etc. The finished output (coated paper or any other coated sheet) has even thickness and fine sealed capability which is up to the international standard. It is an ideal equipment for making single PE coated paper for paper cups manufacturing.",
     "Imagelinkimg": "https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
-    "MultipleImageHeading":"High Speed PE Coating Machine",
-    "MultipleImageDescription":"PE coating is a horizontally assembled machine that has various segments for different functions. This machine can laminate basic paper in LDPE, PP & PLA (as per requirement) and adds non-leakage property to paper. The material obtained after processing is used to make paper cups, plates and various take- away food boxes.",
-    "MultipleImageLink":"https://www.nesscoindia.com/assets/images/service/PE-Coating-Machine.webp",
+    "MultipleImageHeading": "High Speed PE Coating Machine",
+    "MultipleImageDescription": "PE coating is a horizontally assembled machine that has various segments for different functions. This machine can laminate basic paper in LDPE, PP & PLA (as per requirement) and adds non-leakage property to paper. The material obtained after processing is used to make paper cups, plates and various take- away food boxes.",
+    "MultipleImageLink": "https://www.nesscoindia.com/assets/images/service/PE-Coating-Machine.webp",
     "MachineSpecsLabels": [
         "FEATURE",
         "SPECIFICATION"
@@ -69,7 +64,6 @@
             "feature": "Base Material Thickness",
             "specs": "35-425 GSM"
         },
-        
         {
             "feature": "Max width of coating film",
             "specs": "1200 mm"
@@ -109,19 +103,24 @@
     ],
     "RelatedProducts": [
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Paper Shopping Bag Making Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-160-Speed.webp",
+            "heading": "High Speed Paper Cup Machine Working",
+            "productlink": "/product/high-speed-paper-cup-making-machine/"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Paper Salad Bowl Making Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Bowl-Container-Machine-75-Speed.webp",
+            "heading": "Paper Bowl Making Machine",
+            "productlink": "/product/paper-container-bowl-making-machine"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Plate-Making-Machine.webp",
+            "heading": "Paper Plate Making Machine",
+            "productlink": "/product/paper-plate-making-machine"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Roll-Die-Cutting-Machine.webp",
             "heading": "Roll Die Cutting Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "productlink": "/product/roll-die-cutting-machine/"
         }
     ],
     "seotitle": "PE Coating Machine Manufacturers, Suppliers, and Exporters ",

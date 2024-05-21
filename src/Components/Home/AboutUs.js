@@ -28,7 +28,7 @@ const AboutUs = (props) => {
       <section className="homeaboutus">
         <div className="sectionContainer">
           <div className="leftabout">
-            <img className="leftaboutpic" alt="Nessco Team" src="https://nessco.kafkaindia.com/Assets/images/resource/nessco-team.webp" decoding="async"  />
+            <img className="leftaboutpic" alt="Nessco Team" src="https://www.nesscoindia.com/Assets/images/resource/nessco-team.webp" decoding="async"  />
             <div className="leftaboutpic2">
               {/* <a  href="https://www.youtube.com/embed/e-rwkwTE8P4" data-caption>
                 <FaPlay />

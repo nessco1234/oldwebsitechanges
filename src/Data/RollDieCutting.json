@@ -35,10 +35,9 @@
     ],
     "ImageComponent": true,
     "PointsComponent": true,
-    "NotPoints":false,
+    "NotPoints": false,
     "MultipleImageComp": false,
     "MultipleTable": false,
-
     "PointsHeading": [
         "Die Cutting Machine",
         "Working"
@@ -69,7 +68,6 @@
             "feature": "Max Paper Width",
             "specs": "950 mm"
         },
-        
         {
             "feature": "Thickness of Coating Film",
             "specs": "0.01-0.11 mm"
@@ -109,19 +107,24 @@
     ],
     "RelatedProducts": [
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Flexo Printing Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-160-Speed.webp",
+            "heading": "High Speed Paper Cup Machine Working",
+            "productlink": "/product/high-speed-paper-cup-making-machine/"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Flexo Cultery Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Bowl-Container-Machine-75-Speed.webp",
+            "heading": "Paper Bowl Making Machine",
+            "productlink": "/product/paper-container-bowl-making-machine"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Paper Container Bowl Making Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Plate-Making-Machine.webp",
+            "heading": "Paper Plate Making Machine",
+            "productlink": "/product/paper-plate-making-machine"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Roll-Die-Cutting-Machine.webp",
+            "heading": "Roll Die Cutting Machine",
+            "productlink": "/product/roll-die-cutting-machine/"
         }
     ],
     "seotitle": "Roll Die Cutting Machine - NS-970 & NS-1200",

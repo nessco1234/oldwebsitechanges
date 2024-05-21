@@ -4,7 +4,8 @@
     "Description": "We are a leading manufacturer and global supplier of fully automatic Paper Plate machines. Our Paper plate making machine is designed with advance technologies, which gives this model a compact structure and stable performance. This machine can produce up to 120 disposable paper plates every minute. This machine is self-sufficient with the capacity of performing a chain of functions.",
     "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
     "Imgdesc": [
-        "We are a leading manufacturer and global supplier of fully automatic Paper Plate machines. Our Paper plate making machine is designed with advance technologies, which gives this model a compact structure and stable performance. This machine can produce up to 120 disposable paper plates every minute. This machine is self-sufficient with the capacity of performing a chain of functions.","This series includes automatic paper feeding, heating, temperature controlling, automatic counting, and collection as well. It has integrated the pneumatic and mechanic technologies, which ensures faster working speed, higher safety-performance, safer operation, and easier maintenance than the conventional one"
+        "We are a leading manufacturer and global supplier of fully automatic Paper Plate machines. Our Paper plate making machine is designed with advance technologies, which gives this model a compact structure and stable performance. This machine can produce up to 120 disposable paper plates every minute. This machine is self-sufficient with the capacity of performing a chain of functions.",
+        "This series includes automatic paper feeding, heating, temperature controlling, automatic counting, and collection as well. It has integrated the pneumatic and mechanic technologies, which ensures faster working speed, higher safety-performance, safer operation, and easier maintenance than the conventional one"
     ],
     "Suggestions": [
         {
@@ -35,10 +36,9 @@
     ],
     "ImageComponent": true,
     "PointsComponent": true,
-    "NotPoints":true,
+    "NotPoints": true,
     "MultipleImageComp": false,
     "MultipleTable": false,
-
     "PointsHeading": [
         "Automatic Paper",
         "Plate Machine"
@@ -69,7 +69,6 @@
             "feature": "Plate Size",
             "specs": "5-12 mm"
         },
-        
         {
             "feature": "Material Thickness",
             "specs": "120-600 GSM"
@@ -97,19 +96,24 @@
     ],
     "RelatedProducts": [
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Fully Automatic Paper Cup Making Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-160-Speed.webp",
+            "heading": "High Speed Paper Cup Machine Working",
+            "productlink": "/product/high-speed-paper-cup-making-machine/"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Disposable Paper Cup Making Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Straw-Making-Machine.webp",
+            "heading": "Paper Straw Making Machine",
+            "productlink": "/product/paper-straw-making-machine"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Plate-Making-Machine.webp",
+            "heading": "Paper Plate Making Machine",
+            "productlink": "/product/paper-plate-making-machine"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Flexo-Printing-Machine.webp",
             "heading": "Flexo Printing Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "productlink": "/product/flexo-printing-machine/"
         }
     ],
     "seotitle": "Paper Plate Making Machine | Automatic Paper Plate Machine",

@@ -4,7 +4,8 @@
     "Description": " Leading manufacturer and supplier of paper cup machines. We offer a wide range of paper cup machines from 90 cups per min to 160 cups per min. We have paper cup machine (90 speed), Automatic paper cup making machine (110 speed), High speed paper cup machine (130 speed), Fully automatic paper cup machine (160 speed).",
     "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
     "Imgdesc": [
-        "This High Speed Paper Cup Making Machine adopts automatic lubrication, longitudinal axis transmission and gear drive that ensures the stability and quality of machine. This model has an additional PLC Controlled Screen (Human Machine Interface) for better User Interface and Double Curling System that works with high precision and makes cup curling a smooth procedure.","This model is highly automated with photoelectric sensors for detecting any kind of breakage in the system and uses Bottom Servo motor. Operations in this machine is carried using Air Pneumatic System."
+        "This High Speed Paper Cup Making Machine adopts automatic lubrication, longitudinal axis transmission and gear drive that ensures the stability and quality of machine. This model has an additional PLC Controlled Screen (Human Machine Interface) for better User Interface and Double Curling System that works with high precision and makes cup curling a smooth procedure.",
+        "This model is highly automated with photoelectric sensors for detecting any kind of breakage in the system and uses Bottom Servo motor. Operations in this machine is carried using Air Pneumatic System."
     ],
     "Suggestions": [
         {
@@ -35,151 +36,150 @@
     ],
     "ImageComponent": false,
     "PointsComponent": true,
-    "NotPoints":true,
+    "NotPoints": true,
     "MultipleImageComp": false,
     "MultipleTable": false,
-    "ExpandedTable":false,
-    "newTable":true,
+    "ExpandedTable": false,
+    "newTable": true,
     "PointsHeading": [
         "High Speed Paper",
         "Cup Machine Working"
     ],
     "PointsHeadingDesc": "This Paper Cup Machine is suitable for optimum paper cup production with high durability and reliability. This machine manufactures 130 cups in a minute within the range of 40-350 ml. This is a single station machine which can be connected to a Auto Cup Collection Unit (optional). It has heavy frame with compact structure which maintains smooth production.",
-    "PointsDescription": [
-        
-    ],
+    "PointsDescription": [],
     "ImageHeading": [
         "Products",
         "Introduction"
     ],
-    "Table1Heading":"Paper Cup Machine",
-    "Table1Specs":[
+    "Table1Heading": "Paper Cup Machine",
+    "Table1Specs": [
         {
-            "feature":"Production Speed",
-            "specs":"90 Pcs/Min"
+            "feature": "Production Speed",
+            "specs": "90 Pcs/Min"
         },
         {
-            "feature":"Paper Cup Size Range",
-            "specs":"30-350 ml (1.5 Oz - 12 Oz)"
+            "feature": "Paper Cup Size Range",
+            "specs": "30-350 ml (1.5 Oz - 12 Oz)"
         },
         {
-            "feature":"Paper Specification",
-            "specs":"130-350 gsm"
+            "feature": "Paper Specification",
+            "specs": "130-350 gsm"
         },
         {
-            "feature":"General Power",
-            "specs":"3.5 Kw"
+            "feature": "General Power",
+            "specs": "3.5 Kw"
         },
         {
-            "feature":"Power Supply",
-            "specs":"380V 3 Phases"
+            "feature": "Power Supply",
+            "specs": "380V 3 Phases"
         },
         {
-            "feature":"Weight",
-            "specs":"2300 kg"
+            "feature": "Weight",
+            "specs": "2300 kg"
         },
         {
-            "feature":"Machine Dimensions",
-            "specs":"(2300*1200*1700) mm"
+            "feature": "Machine Dimensions",
+            "specs": "(2300*1200*1700) mm"
         }
     ],
-    "Table2Heading":"Automatic Paper cup Forming machine",
-    "Table2Specs":[
+    "Table2Heading": "Automatic Paper cup Forming machine",
+    "Table2Specs": [
         {
-            "feature":"Production Speed",
-            "specs":"110 Pcs/Min"
+            "feature": "Production Speed",
+            "specs": "110 Pcs/Min"
         },
         {
-            "feature":"Paper Cup Size Range",
-            "specs":"35-450 ml (1.5 Oz -16 Oz)"
+            "feature": "Paper Cup Size Range",
+            "specs": "35-450 ml (1.5 Oz -16 Oz)"
         },
         {
-            "feature":"Paper Specification",
-            "specs":"130-350 gsm"
+            "feature": "Paper Specification",
+            "specs": "130-350 gsm"
         },
         {
-            "feature":"General Power",
-            "specs":"4.5 Kw"
+            "feature": "General Power",
+            "specs": "4.5 Kw"
         },
         {
-            "feature":"Power Supply",
-            "specs":"380V 3 Phases"
+            "feature": "Power Supply",
+            "specs": "380V 3 Phases"
         },
         {
-            "feature":"Weight",
-            "specs":"2900 kg"
+            "feature": "Weight",
+            "specs": "2900 kg"
         },
         {
-            "feature":"Machine Dimensions",
-            "specs":"(2300*1200*1700) mm"
+            "feature": "Machine Dimensions",
+            "specs": "(2300*1200*1700) mm"
         }
     ],
-    "Table3Heading":"High Speed Paper Cup Making Machine",
-    "Table3Specs":[
+    "Table3Heading": "High Speed Paper Cup Making Machine",
+    "Table3Specs": [
         {
-            "feature":"Production Speed",
-            "specs":"130 Pcs/Min"
+            "feature": "Production Speed",
+            "specs": "130 Pcs/Min"
         },
         {
-            "feature":"Paper Cup Size Range",
-            "specs":"40 -350 ml"
+            "feature": "Paper Cup Size Range",
+            "specs": "40 -350 ml"
         },
         {
-            "feature":"Paper Specification",
-            "specs":"130-350 gsm"
+            "feature": "Paper Specification",
+            "specs": "130-350 gsm"
         },
         {
-            "feature":"General Power",
-            "specs":"8 KW"
+            "feature": "General Power",
+            "specs": "8 KW"
         },
         {
-            "feature":"Power Supply",
-            "specs":"380V 50Hz"
+            "feature": "Power Supply",
+            "specs": "380V 50Hz"
         },
         {
-            "feature":"Weight",
-            "specs":"3300 kg"
+            "feature": "Weight",
+            "specs": "3300 kg"
         }
     ],
-    "Table4Heading":"Fully Automatic Paper cup Forming machine",
-    "Table4Specs":[
+    "Table4Heading": "Fully Automatic Paper cup Forming machine",
+    "Table4Specs": [
         {
-            "feature":"Production Speed",
-            "specs":"160 Pcs/Min"
+            "feature": "Production Speed",
+            "specs": "160 Pcs/Min"
         },
         {
-            "feature":"Paper Cup Size Range",
-            "specs":"3oz - 16oz"
+            "feature": "Paper Cup Size Range",
+            "specs": "3oz - 16oz"
         },
         {
-            "feature":"Paper Specification",
-            "specs":"190-400 gsm"
+            "feature": "Paper Specification",
+            "specs": "190-400 gsm"
         },
         {
-            "feature":"General Power",
-            "specs":"18 KW"
+            "feature": "General Power",
+            "specs": "18 KW"
         },
         {
-            "feature":"Power Supply",
-            "specs":"380V 3 Phases"
+            "feature": "Power Supply",
+            "specs": "380V 3 Phases"
         },
         {
-            "feature":"Weight",
-            "specs":"5000 kg"
+            "feature": "Weight",
+            "specs": "5000 kg"
         },
         {
-            "feature":"Machine Dimensions",
-            "specs":"(2900x1380x1800) mm"
+            "feature": "Machine Dimensions",
+            "specs": "(2900x1380x1800) mm"
         },
         {
-            "feature":"Air Specification",
-            "specs":"0.5~0.8Mpa, 0.4 m³/min"
+            "feature": "Air Specification",
+            "specs": "0.5~0.8Mpa, 0.4 m³/min"
         }
     ],
     "ImageDescription": "Nessco India is one of the well known supplier of Paper Bag Machines. This model of Automatic Paper Bag Machine can manufacture Shopping Bags, Grocery Bags, Bakery Paper Bags. Due to its varied utility, it is often known as Paper Shopping Bag Making Machine as well. These paper bags are completely eco-friendly and provides a sustainable alternate to the plastic bags.",
     "Imagelinkimg": "https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
     "MachineSpecsLabels": [
-        "FEATURES","SPECIFICATIONS "
+        "FEATURES",
+        "SPECIFICATIONS "
     ],
     "MachineSpecs": [
         {
@@ -225,59 +225,67 @@
             "ns460": "15000x6000x2700"
         }
     ],
-    "MultipleLabels":["FEATURES","SPECIFICATION"],
-    "MultiTabelData":[
+    "MultipleLabels": [
+        "FEATURES",
+        "SPECIFICATION"
+    ],
+    "MultiTabelData": [
         {
-            "rope":"Handle Rope Height",
-            "T1":"90-110 mm",
-            "T2":"90-110 mm",
-            "T3":"95-115 mm",
-            "T4":"100-120 mm"
+            "rope": "Handle Rope Height",
+            "T1": "90-110 mm",
+            "T2": "90-110 mm",
+            "T3": "95-115 mm",
+            "T4": "100-120 mm"
         },
         {
-            "rope":"Patch Width",
-            "T1":"40-50 mm",
-            "T2":"45-50 mm",
-            "T3":"45-50 mm",
-            "T4":"45-50 mm"
+            "rope": "Patch Width",
+            "T1": "40-50 mm",
+            "T2": "45-50 mm",
+            "T3": "45-50 mm",
+            "T4": "45-50 mm"
         },
         {
-            "rope":"Patch Length",
-            "T1":"95 mm",
-            "T2":"114 mm",
-            "T3":"152 mm",
-            "T4":"190 mm"
+            "rope": "Patch Length",
+            "T1": "95 mm",
+            "T2": "114 mm",
+            "T3": "152 mm",
+            "T4": "190 mm"
         },
         {
-            "rope":"Handle Rope Diameter",
-            "T1":"Φ3-5 mm",
-            "T2":"Φ4-6 mm",
-            "T3":"Φ4-6 mm",
-            "T4":"Φ4-6 mm"
+            "rope": "Handle Rope Diameter",
+            "T1": "Φ3-5 mm",
+            "T2": "Φ4-6 mm",
+            "T3": "Φ4-6 mm",
+            "T4": "Φ4-6 mm"
         },
         {
-            "rope":"Handle Separation Distance",
-            "T1":"47 mm",
-            "T2":"57 mm",
-            "T3":"76 mm",
-            "T4":"95 mm"
+            "rope": "Handle Separation Distance",
+            "T1": "47 mm",
+            "T2": "57 mm",
+            "T3": "76 mm",
+            "T4": "95 mm"
         }
     ],
     "RelatedProducts": [
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Paper Shopping Bag Making Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-160-Speed.webp",
+            "heading": "High Speed Paper Cup Machine Working",
+            "productlink": "/product/high-speed-paper-cup-making-machine/"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Paper Salad Bowl Making Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Bowl-Container-Machine-75-Speed.webp",
+            "heading": "Paper Bowl Making Machine",
+            "productlink": "/product/paper-container-bowl-making-machine"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Plate-Making-Machine.webp",
+            "heading": "Paper Plate Making Machine",
+            "productlink": "/product/paper-plate-making-machine"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Roll-Die-Cutting-Machine.webp",
             "heading": "Roll Die Cutting Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "productlink": "/product/roll-die-cutting-machine/"
         }
     ],
     "seotitle": "High Speed Paper Cup Machine - Nessco India",

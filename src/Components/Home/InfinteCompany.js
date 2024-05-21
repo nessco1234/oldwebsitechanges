@@ -13,14 +13,24 @@ const InfinteCompany = () => {
             <hr />
             <section class="logos">
                 <div class="logos-slide">
-                    <img src={'https://nessco.kafkaindia.com/Assets/clients/Autonics.webp'} alt='Autonics' />
-                    <img src={'https://nessco.kafkaindia.com/Assets/clients/Delta.webp'} alt='Delta' />
-                    <img src={'https://nessco.kafkaindia.com/Assets/clients/Eura.webp'} alt='Eura' />
-                    <img src={'https://nessco.kafkaindia.com/Assets/clients/Omron.webp'} alt='Omron' />
-                    <img src={'https://nessco.kafkaindia.com/Assets/clients/Panasonic.webp'} alt='Panasonic' />
-                    <img src={'https://nessco.kafkaindia.com/Assets/clients/SMC.webp'} alt='SMC' />
-                    <img src={'https://nessco.kafkaindia.com/Assets/clients/Schneider.webp'} alt='Schneider' />
-                    <img src={'https://nessco.kafkaindia.com/Assets/clients/Siemens.webp'} alt='Siemens' />
+                    <img src={'https://nessco.kafkaindia.com/Assets/images/clients/Autonics.webp'} alt='Autonics' />
+                    <img src={'https://nessco.kafkaindia.com/Assets/images/clients/Delta.webp'} alt='Delta' />
+                    <img src={'https://nessco.kafkaindia.com/Assets/images/clients/Eura.webp'} alt='Eura' />
+                    <img src={'https://nessco.kafkaindia.com/Assets/images/clients/Omron.webp'} alt='Omron' />
+                    <img src={'https://nessco.kafkaindia.com/Assets/images/clients/Panasonic.webp'} alt='Panasonic' />
+                    <img src={'https://nessco.kafkaindia.com/Assets/images/clients/SMC.webp'} alt='SMC' />
+                    <img src={'https://nessco.kafkaindia.com/Assets/images/clients/Schneider.webp'} alt='Schneider' />
+                    <img src={'https://nessco.kafkaindia.com/Assets/images/clients/Siemens.webp'} alt='Siemens' />
+                </div>
+                <div class="logos-slide">
+                    <img src={'https://nessco.kafkaindia.com/Assets/images/clients/Autonics.webp'} alt='Autonics' />
+                    <img src={'https://nessco.kafkaindia.com/Assets/images/clients/Delta.webp'} alt='Delta' />
+                    <img src={'https://nessco.kafkaindia.com/Assets/images/clients/Eura.webp'} alt='Eura' />
+                    <img src={'https://nessco.kafkaindia.com/Assets/images/clients/Omron.webp'} alt='Omron' />
+                    <img src={'https://nessco.kafkaindia.com/Assets/images/clients/Panasonic.webp'} alt='Panasonic' />
+                    <img src={'https://nessco.kafkaindia.com/Assets/images/clients/SMC.webp'} alt='SMC' />
+                    <img src={'https://nessco.kafkaindia.com/Assets/images/clients/Schneider.webp'} alt='Schneider' />
+                    <img src={'https://nessco.kafkaindia.com/Assets/images/clients/Siemens.webp'} alt='Siemens' />
                 </div>
                 
             </section>

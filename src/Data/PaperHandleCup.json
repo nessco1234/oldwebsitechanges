@@ -35,24 +35,29 @@
     ],
     "ImageComponent": true,
     "PointsComponent": true,
-    "MultipleImageComp":false,
-    "MultipleTable":false,
-    
+    "MultipleImageComp": false,
+    "MultipleTable": false,
     "PointsHeading": [
         "Handle",
         "Cup Machine"
     ],
-    "PointsHeadingDesc":"This handle cup machine is known for high operational efficiency, low power consumption and minimal maintenance. This handle cup making machine is incorporated with latest technology that leads to faster production.",
+    "PointsHeadingDesc": "This handle cup machine is known for high operational efficiency, low power consumption and minimal maintenance. This handle cup making machine is incorporated with latest technology that leads to faster production.",
     "PointsDescription": [
         "PLC Controlled Screen",
         "Open Cam Technology",
         "Gear Driven System",
         "Servo Motor Based Working"
     ],
-    "ImageHeading": ["Products","Introduction"],
-    "ImageDescription":"This is an automatic machine with a multi-working station. It produces cups through the procedure of automatic handle cup wall feeding, paper handle feeding and sticking, top cup lubrication, heating, bottom punching, knurling, curling & cup stacking. This machine can make cups in various sizes ranging from 40-330 ml. Cups with handle are used to serve hot beverages such as soup, coffee, etc.",
-    "Imagelinkimg":"https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
-    "MachineSpecsLabels":["FEATURE","SPECIFICATION"],
+    "ImageHeading": [
+        "Products",
+        "Introduction"
+    ],
+    "ImageDescription": "This is an automatic machine with a multi-working station. It produces cups through the procedure of automatic handle cup wall feeding, paper handle feeding and sticking, top cup lubrication, heating, bottom punching, knurling, curling & cup stacking. This machine can make cups in various sizes ranging from 40-330 ml. Cups with handle are used to serve hot beverages such as soup, coffee, etc.",
+    "Imagelinkimg": "https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
+    "MachineSpecsLabels": [
+        "FEATURE",
+        "SPECIFICATION"
+    ],
     "MachineSpecs": [
         {
             "feature": "Production Speed",
@@ -85,21 +90,27 @@
     ],
     "RelatedProducts": [
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Disposable Cup Making Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-160-Speed.webp",
+            "heading": "High Speed Paper Cup Machine Working",
+            "productlink": "/product/high-speed-paper-cup-making-machine/"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "High Speed Paper Cup Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Straw-Making-Machine.webp",
+            "heading": "Paper Straw Making Machine",
+            "productlink": "/product/paper-straw-making-machine"
         },
         {
-            "imglink": "https://www.nesscoindia.com/assets/images/resource/disposable-paper-cup-making-machine.webp",
-            "heading": "Fully Automatic Paper Making Machine",
-            "productlink": "/product/disposable-paper-cup-making-machine/"
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Plate-Making-Machine.webp",
+            "heading": "Paper Plate Making Machine",
+            "productlink": "/product/paper-plate-making-machine"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/assets/images/service/Roll-Die-Cutting-Machine.webp",
+            "heading": "Roll Die Cutting Machine",
+            "productlink": "/product/roll-die-cutting-machine/"
         }
-    ],"seotitle": "Handle Cup Making Machine | Nessco India",
+    ],
+    "seotitle": "Handle Cup Making Machine | Nessco India",
     "seometa": [
         {
             "name": "description",

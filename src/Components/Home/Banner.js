@@ -39,7 +39,7 @@ export default function App(props) {
               <button className="close-button" onClick={closeModal}>&times;</button>
               <div className="modalcard">
                 <div className="leftmodal">
-                  <img src={img1} alt="" />
+                  <img src={'https://www.nesscoindia.com/Assets/images/resource/popup.webp'} alt="Popup" />
                 </div>
                 <div className="rightmodal">
                   <h1 className="modalheading">Request for details to receive a call back</h1>
