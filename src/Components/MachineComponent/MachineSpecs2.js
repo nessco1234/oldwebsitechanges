@@ -38,7 +38,7 @@ const MachineSpecs2 = (props) => {
 const cellStyle = {
     border: '1px solid grey',
     padding: '8px',
-    fontSize: "1.5rem",
+    fontSize: "1.4rem",
     textAlign: "start"
 };
 export default MachineSpecs2

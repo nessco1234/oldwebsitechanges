@@ -46,3 +46,6 @@ input:focus{
         font-size: 10px;
     }
 }
+p{
+    font-size: 1.4rem !important;
+}

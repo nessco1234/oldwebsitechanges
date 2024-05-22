@@ -8,40 +8,80 @@ import { redirect, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 const ContactForm = () => {
     const navigate = useNavigate()
+    const [errors, setErrors] = useState({ phoneNumber: '', email: '', username: '' });
+    const validatePhoneNumber = (number) => {
+        const phoneRegex = /^\d{7,15}$/;
+        return phoneRegex.test(number);
+    };
 
+    const validateEmail = (email) => {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    };
     const [formData, setFormData] = useState({
         SingleLine: '',
         Email: '',
         PhoneNumber_countrycode: '',
         SingleLine1: '',
         MultiLine: ''
-        // Add more fields as needed
     });
-
     const handleChange = (e) => {
         setFormData({
             ...formData,
             [e.target.name]: e.target.value,
         });
     };
-
     const handleSubmit = async (e) => {
         e.preventDefault();
         // if () {
-
-        navigate('/thank-you')
-        try {
-            // const response = await axios.post('http://16.171.239.170:5000/form-submission', formData, {
-            const response = await axios.post('http://localhost:5000/form-submission', formData, {
-                headers: {
-                    'Content-Type': 'application/json', // Ensure the backend handles JSON
-                },
-            });
-            console.log(response)
-
-        } catch (error) {
-            console.error('Error submitting form:', error);
+        let valid = true;
+        if (!formData.PhoneNumber_countrycode) {
+            setErrors((prevErrors) => ({
+                ...prevErrors,
+                phoneNumber: 'Phone number is required',
+            }));
+            valid = false;
+        } else if (!validatePhoneNumber(formData.PhoneNumber_countrycode)) {
+            setErrors((prevErrors) => ({
+                ...prevErrors,
+                phoneNumber: 'Phone number must be between 7 and 15 digits long',
+            }));
+            valid = false;
+        } else {
+            setErrors((prevErrors) => ({ ...prevErrors, phoneNumber: '' }));
         }
+
+        if (!formData.Email) {
+            setErrors((prevErrors) => ({
+                ...prevErrors,
+                email: 'Email is required',
+            }));
+            valid = false;
+        } else if (!validateEmail(formData.Email)) {
+            setErrors((prevErrors) => ({
+                ...prevErrors,
+                email: 'Email is not valid',
+            }));
+            valid = false;
+        } else {
+            setErrors((prevErrors) => ({ ...prevErrors, email: '' }));
+        }
+        if (valid) {
+            try {
+                const response = await axios.post('http://15.206.15.179:5000/form-submission', formData, {
+                // const response = await axios.post('http://localhost:5000/form-submission', formData, {
+                    headers: {
+                        'Content-Type': 'application/json', // Ensure the backend handles JSON
+                    },
+                });
+                navigate('/thank-you')
+                console.log(response)
+
+            } catch (error) {
+                console.error('Error submitting form:', error);
+            }
+        }
+
 
         // }
         // navigate('/thank-you')
@@ -97,10 +137,16 @@ const ContactForm = () => {
                     <form className="contactcard" onSubmit={handleSubmit}>
                         <div className="contactcardtitle">Send a Message</div>
                         <div className="contactfields">
+                            <input value={formData.SingleLine} onChange={handleChange} name='SingleLine' placeholder='Full Name*' className='contactinputfields' type="text" required />
+                            <div className="validations">
+                                <input value={formData.Email} onChange={handleChange} name='Email' placeholder='Email' className='contactinputfields' type="text" />
+                                {errors.email && <p style={{ color: 'red' }}>{errors.email}</p>}
+                            </div>
+                            <div className="validations">
 
-                            <input value={formData.SingleLine} onChange={handleChange} name='SingleLine' placeholder='Full Name*' className='contactinputfields' type="text" />
-                            <input value={formData.Email} onChange={handleChange} name='Email' placeholder='Email' className='contactinputfields' type="text" />
-                            <input value={formData.PhoneNumber_countrycode} onChange={handleChange} name='PhoneNumber_countrycode' placeholder='Phone Number*' className='contactinputfields' type="text" />
+                                <input value={formData.PhoneNumber_countrycode} onChange={handleChange} name='PhoneNumber_countrycode' placeholder='Phone Number*' required className='contactinputfields' type="text" />
+                                {errors.phoneNumber && <p style={{ color: 'red' }}>{errors.phoneNumber}</p>}
+                            </div>
                             <input value={formData.SingleLine1} onChange={handleChange} name='SingleLine1' placeholder='Subject' className='contactinputfields' type="text" />
                             <textarea value={formData.MultiLine} onChange={handleChange} name='MultiLine' placeholder='Message' className='contactinputtextarea' cols="30" rows="3"></textarea>
                         </div>

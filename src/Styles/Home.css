@@ -1143,14 +1143,14 @@
   display: flex;
 }
 .wenesscocardleft {
-  width: 30%;
+  width: 25%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .wenesscocardright {
-  width: 70%;
+  width: 75%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -1163,7 +1163,7 @@
 }
 .nesscocardheading {
   color: var(--bluecolor);
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   font-family: "Inter", sans-serif;
 }
 .nesscocardpara {
@@ -1432,7 +1432,13 @@
   cursor: pointer;
   padding: 10px 20px;
 }
-
+.validations{
+  width: 45%;
+  margin: 0 auto;
+}
+.validations>input{
+  width: 100%;
+}
 /* ////////////////////////////////// */
 /* MEDIA QUERY FOR TABLET */
 @media screen and (min-width: 601px) and (max-width: 1024px) {

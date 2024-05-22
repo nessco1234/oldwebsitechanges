@@ -1,13 +1,14 @@
 import React, { useState } from "react";
-// import TeamPic from "../../Assets/images/resource/nessco-team.webp";
-// import NesscoTeamPic from "../../Assets/images/resource/samplekshow2.webp";
+import TeamPic from "../../Assets/images/resource/nessco-team.webp";
+import NesscoTeamPic from "../../Assets/images/resource/samplekshow2.webp";
 import Signature from "../../Assets/images/resource/signature.webp";
 import img1 from '../../Assets/images/resource/popup.webp'
 import { FaPlay } from "react-icons/fa";
 import { MdArrowRightAlt } from "react-icons/md";
 import { FaArrowRightLong } from "react-icons/fa6";
 import '../../Styles/Modal.css';  // Ensure to create this CSS file
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import axios from "axios";
 const AboutUs = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -15,20 +16,101 @@ const AboutUs = (props) => {
   const closeModal = () => setIsOpen(false);
 
   const [isHovered, setIsHovered] = useState(false);
-    const [isOpen2, setIsOpen2] = useState(false);
-    const openModal2 = () => setIsOpen2(true);
-    const closeModal2 = () => setIsOpen2(false);
-    function downloadlocal(){
-        props.setdown(true)
-        closeModal()
-        console.log(props.down)
+  const [isOpen2, setIsOpen2] = useState(false);
+  const openModal2 = () => setIsOpen2(true);
+  const closeModal2 = () => setIsOpen2(false);
+  function downloadlocal() {
+    props.setdown(true)
+    closeModal()
+    console.log(props.down)
+  }
+  const navigate = useNavigate()
+  const [errors, setErrors] = useState({ phoneNumber: '', email: '', username: '' });
+  const validatePhoneNumber = (number) => {
+    const phoneRegex = /^\d{7,15}$/;
+    return phoneRegex.test(number);
+  };
+
+  const validateEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+  const [formData, setFormData] = useState({
+    SingleLine: '',
+    Email: '',
+    PhoneNumber_countrycode: '',
+    SingleLine1: '',
+    MultiLine: ''
+  });
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    // if () {
+    let valid = true;
+    if (!formData.PhoneNumber_countrycode) {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        phoneNumber: 'Phone number is required',
+      }));
+      valid = false;
+    } else if (!validatePhoneNumber(formData.PhoneNumber_countrycode)) {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        phoneNumber: 'Phone number must be between 7 and 15 digits long',
+      }));
+      valid = false;
+    } else {
+      setErrors((prevErrors) => ({ ...prevErrors, phoneNumber: '' }));
     }
+
+    if (!formData.Email) {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        email: 'Email is required',
+      }));
+      valid = false;
+    } else if (!validateEmail(formData.Email)) {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        email: 'Email is not valid',
+      }));
+      valid = false;
+    } else {
+      setErrors((prevErrors) => ({ ...prevErrors, email: '' }));
+    }
+    if (valid) {
+      try {
+        const response = await axios.post('http://13.202.40.238/form-submission', formData, {
+          // const response = await axios.post('http://localhost:5000/form-submission', formData, {
+          headers: {
+            'Content-Type': 'application/json', // Ensure the backend handles JSON
+          },
+        });
+        navigate('/thank-you')
+        // props.setdown(true)
+        closeModal2()
+        console.log(response)
+
+      } catch (error) {
+        console.error('Error submitting form:', error);
+      }
+    }
+
+
+    // }
+    // navigate('/thank-you')
+  };
   return (
     <>
       <section className="homeaboutus">
         <div className="sectionContainer">
           <div className="leftabout">
-            <img className="leftaboutpic" alt="Nessco Team" src="https://www.nesscoindia.com/Assets/images/resource/nessco-team.webp" decoding="async"  />
+            <img className="leftaboutpic" alt="Nessco Team" src={TeamPic} decoding="async" />
             <div className="leftaboutpic2">
               {/* <a  href="https://www.youtube.com/embed/e-rwkwTE8P4" data-caption>
                 <FaPlay />
@@ -69,23 +151,26 @@ const AboutUs = (props) => {
                   <button className="close-button" onClick={closeModal2}>&times;</button>
                   <div className="modalcard">
                     <div className="leftmodal">
-                      <img src={'https://nessco.kafkaindia.com/Assets/images/resource/popup.webp'} alt="Popup" />
+                      <img src={img1} alt="Popup" />
                     </div>
                     <div className="rightmodal">
                       <h1 className="modalheading">Request for details to receive a call back</h1>
                       <p className="modaldesc">Enter your details to receive a call back</p>
-                      <input placeholder='Enter your Name' className='modalinp' type="text" />
-                      <input placeholder='Enter your Email' className='modalinp' type="text" />
-                      <input placeholder='Enter your Phone' className='modalinp' type="text" />
-                      <Link onClick={downloadlocal} to={'/thank-you'} className="headerbtn x" style={{ padding: "2rem 3rem" }}>
-                        <p className='headerbtncon'>Get a Quote !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></Link>
+
+                      <input value={formData.SingleLine} onChange={handleChange} name='SingleLine' type="text" required placeholder='Enter your Name' className='modalinp'  />
+                      <input value={formData.Email} onChange={handleChange} name='Email' placeholder='Email' className='modalinp' type="email" />
+                      {errors.email && <p style={{ color: 'red' }}>{errors.email}</p>}
+                      <input value={formData.PhoneNumber_countrycode} onChange={handleChange} name='PhoneNumber_countrycode' placeholder='Phone Number*' required className='modalinp' type="text" />
+                      {errors.phoneNumber && <p style={{ color: 'red' }}>{errors.phoneNumber}</p>}
+                      <button onClick={handleSubmit} className="headerbtn x" style={{ padding: "2rem 3rem" }}>
+                        <p className='headerbtncon'>Get a Quote !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
                     </div>
                   </div>
                 </div>
               )}
               <button onClick={openModal2} className="headerbtn" style={{ padding: "1.5rem 2rem" }}>
                 <p className='headerbtncon'>Get a Quote !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
-              <img className="signatureimg" alt="Signature" src={'https://nessco.kafkaindia.com/Assets/images/resource/signature.webp'} />
+              <img className="signatureimg" alt="Signature" src={Signature} />
             </div>
           </div>
         </div>
