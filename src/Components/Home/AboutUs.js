@@ -85,7 +85,7 @@ const AboutUs = (props) => {
     }
     if (valid) {
       try {
-        const response = await axios.post('http://13.202.40.238/form-submission', formData, {
+        const response = await axios.post('https://nesscobackend-sx1t.vercel.app/form-submission', formData, {
           // const response = await axios.post('http://localhost:5000/form-submission', formData, {
           headers: {
             'Content-Type': 'application/json', // Ensure the backend handles JSON
@@ -110,11 +110,8 @@ const AboutUs = (props) => {
       <section className="homeaboutus">
         <div className="sectionContainer">
           <div className="leftabout">
-            <img className="leftaboutpic" alt="Nessco Team" src={TeamPic} decoding="async" />
+            <img className="leftaboutpic" alt="Nessco Team" src={'https://www.nesscoindia.com/Assets/images/resource/nessco-team.webp'}  />
             <div className="leftaboutpic2">
-              {/* <a  href="https://www.youtube.com/embed/e-rwkwTE8P4" data-caption>
-                <FaPlay />
-              </a> */}
               <div className="aboutimagesection"></div>
               <button className="playbtn" onClick={openModal}><FaPlay /></button>
               {isOpen && (
@@ -126,7 +123,7 @@ const AboutUs = (props) => {
             </div>
           </div>
           <div className="rightabout">
-            <h1 className="aboutusbtn  mm">ABOUT US</h1>
+            <h6 style={{ margin: "1rem 0" }} className="aboutusbtn  mm">ABOUT US</h6>
             <h1 className="aboutheading">
               Paper cup machine <span> Manufacturer & Exporter</span>
             </h1>
@@ -137,7 +134,7 @@ const AboutUs = (props) => {
               business globally in the whole Disposable Paper Packaging
               Industry.
             </p>
-            <h1 className="aboutheading small">CLAIM TO FAME</h1>
+            <h2 className="aboutheading small">CLAIM TO FAME</h2>
             <p className="aboutpara">
               We are known for manufacturing and globally exporting various
               paper packaging machines including Cups, Glass, Straws and Plate
@@ -151,13 +148,13 @@ const AboutUs = (props) => {
                   <button className="close-button" onClick={closeModal2}>&times;</button>
                   <div className="modalcard">
                     <div className="leftmodal">
-                      <img src={img1} alt="Popup" />
+                      <img src={'https://www.nesscoindia.com/Assets/images/resource/popup.webp'} alt="Popup" />
                     </div>
                     <div className="rightmodal">
-                      <h1 className="modalheading">Request for details to receive a call back</h1>
+                      <h3 className="modalheading">Request for details to receive a call back</h3>
                       <p className="modaldesc">Enter your details to receive a call back</p>
 
-                      <input value={formData.SingleLine} onChange={handleChange} name='SingleLine' type="text" required placeholder='Enter your Name' className='modalinp'  />
+                      <input value={formData.SingleLine} onChange={handleChange} name='SingleLine' type="text" required placeholder='Enter your Name' className='modalinp' />
                       <input value={formData.Email} onChange={handleChange} name='Email' placeholder='Email' className='modalinp' type="email" />
                       {errors.email && <p style={{ color: 'red' }}>{errors.email}</p>}
                       <input value={formData.PhoneNumber_countrycode} onChange={handleChange} name='PhoneNumber_countrycode' placeholder='Phone Number*' required className='modalinp' type="text" />
@@ -170,7 +167,7 @@ const AboutUs = (props) => {
               )}
               <button onClick={openModal2} className="headerbtn" style={{ padding: "1.5rem 2rem" }}>
                 <p className='headerbtncon'>Get a Quote !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
-              <img className="signatureimg" alt="Signature" src={Signature} />
+              <img className="signatureimg" alt="Signature" src={'https://www.nesscoindia.com/Assets/images/resource/signature.webp'} />
             </div>
           </div>
         </div>

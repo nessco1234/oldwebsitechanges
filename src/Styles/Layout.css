@@ -9,7 +9,7 @@
 }
 .bgimagefooter {
   position: absolute;
-  background: url("../Assets/images/shape/wmap.webp");
+  background: url("https://www.nesscoindia.com/Assets/images/shape/wmap.webp");
   width: 100%;
   height: 100%;
   background-repeat: repeat-x;
@@ -145,8 +145,12 @@
 .footeratags:hover {
   color: var(--redcolor);
 }
+.footerdesctitle{
+  font-size: 1.5rem;
+}
 .footerlistheading {
   margin-bottom: 2rem;
+  font-size: 1.5rem;
 }
 .footerdesccontent .footeraddress,
 .mobilenumber,

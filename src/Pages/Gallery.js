@@ -68,7 +68,7 @@ function ProductFilter({ products }) {
                         {filteredProducts.map(product => (
                             <>
                                 <div className="imgcontainer">
-                                    <img src={product.url} alt="" />
+                                    <img src={product.url} alt={product.alt} />
                                 </div>
                             </>
                         ))}
@@ -80,37 +80,37 @@ function ProductFilter({ products }) {
 }
 
 const products = [
-    { id: 1, type: 'Exhibition', url: img1 },
-    { id: 2, type: 'Exhibition', url: img2 },
-    { id: 3, type: 'Exhibition', url: img3 },
-    { id: 4, type: 'Exhibition', url: img4 },
-    { id: 5, type: 'Exhibition', url: img5 },
-    { id: 6, type: 'Exhibition', url: img6 },
-    { id: 7, type: 'Exhibition', url: img7 },
-    { id: 8, type: 'Exhibition', url: img8 },
-    { id: 9, type: 'Exhibition', url: img9 },
-    { id: 10, type: 'Exhibition', url: img10 },
-    { id: 11, type: 'Exhibition', url: img11 },
-    { id: 12, type: 'Exhibition', url: img12 },
-    { id: 13, type: 'Clients', url: img13 },
-    { id: 14, type: 'Clients', url: img14 },
-    { id: 15, type: 'Clients', url: img15 },
-    { id: 16, type: 'Clients', url: img16 },
-    { id: 17, type: 'Clients', url: img17 },
-    { id: 18, type: 'Clients', url: img18 },
-    { id: 19, type: 'Clients', url: img19 },
-    { id: 20, type: 'Events', url: img20 },
-    { id: 21, type: 'Events', url: img21 },
-    { id: 22, type: 'Events', url: img22 },
-    { id: 23, type: 'Events', url: img23 },
-    { id: 24, type: 'Events', url: img24 },
-    { id: 25, type: 'Events', url: img25 },
-    { id: 26, type: 'Installation', url: img26 },
-    { id: 27, type: 'Installation', url: img27 },
-    { id: 28, type: 'Installation', url: img28 },
-    { id: 29, type: 'Installation', url: img29 },
-    { id: 30, type: 'Installation', url: img30 },
-    { id: 31, type: 'Installation', url: img31 },
+    { id: 1, type: 'Exhibition', url: 'https://www.nesscoindia.com/Assets/images/gallery/Exhibition1.webp' ,alt:"Exhibition1" },
+    { id: 2, type: 'Exhibition', url: 'https://www.nesscoindia.com/Assets/images/gallery/Exhibition2.webp' ,alt:"Exhibition2" },
+    { id: 3, type: 'Exhibition', url: 'https://www.nesscoindia.com/Assets/images/gallery/Exhibition3.webp' ,alt:"Exhibition3" },
+    { id: 4, type: 'Exhibition', url: 'https://www.nesscoindia.com/Assets/images/gallery/Exhibition4.webp' ,alt:"Exhibition4" },
+    { id: 5, type: 'Exhibition', url: 'https://www.nesscoindia.com/Assets/images/gallery/Exhibition5.webp' ,alt:"Exhibition5" },
+    { id: 6, type: 'Exhibition', url: 'https://www.nesscoindia.com/Assets/images/gallery/Exhibition6.webp' ,alt:"Exhibition6" },
+    { id: 7, type: 'Exhibition', url: 'https://www.nesscoindia.com/Assets/images/gallery/Exhibition7.webp' ,alt:"Exhibition7" },
+    { id: 8, type: 'Exhibition', url: 'https://www.nesscoindia.com/Assets/images/gallery/Exhibition8.webp' ,alt:"Exhibition8" },
+    { id: 9, type: 'Exhibition', url: 'https://www.nesscoindia.com/Assets/images/gallery/exhibition9.webp' ,alt:"exhibition9" },
+    { id: 10, type: 'Exhibition', url: 'https://www.nesscoindia.com/Assets/images/gallery/exhibition10.webp' ,alt:"exhibition10" },
+    { id: 11, type: 'Exhibition', url: 'https://www.nesscoindia.com/Assets/images/gallery/exhibition11.webp' ,alt:"exhibition11" },
+    { id: 12, type: 'Exhibition', url: 'https://www.nesscoindia.com/Assets/images/gallery/exhibition12.webp' ,alt:"exhibition12" },
+    { id: 13, type: 'Clients', url: 'https://www.nesscoindia.com/Assets/images/gallery/client1.webp' ,alt:"client1" },
+    { id: 14, type: 'Clients', url: 'https://www.nesscoindia.com/Assets/images/gallery/client2.webp' ,alt:"client2" },
+    { id: 15, type: 'Clients', url: 'https://www.nesscoindia.com/Assets/images/gallery/client3.webp' ,alt:"client3" },
+    { id: 16, type: 'Clients', url: 'https://www.nesscoindia.com/Assets/images/gallery/client4.webp' ,alt:"client4" },
+    { id: 17, type: 'Clients', url: 'https://www.nesscoindia.com/Assets/images/gallery/client5.webp' ,alt:"client5" },
+    { id: 18, type: 'Clients', url: 'https://www.nesscoindia.com/Assets/images/gallery/client6.webp' ,alt:"client6" },
+    { id: 19, type: 'Clients', url: 'https://www.nesscoindia.com/Assets/images/gallery/client7.webp' ,alt:"client7" },
+    { id: 20, type: 'Events', url: 'https://www.nesscoindia.com/Assets/images/gallery/event1.webp' ,alt:"event1" },
+    { id: 21, type: 'Events', url: 'https://www.nesscoindia.com/Assets/images/gallery/event2.webp' ,alt:"event2" },
+    { id: 22, type: 'Events', url: 'https://www.nesscoindia.com/Assets/images/gallery/event3.webp' ,alt:"event3" },
+    { id: 23, type: 'Events', url: 'https://www.nesscoindia.com/Assets/images/gallery/event4.webp' ,alt:"event4" },
+    { id: 24, type: 'Events', url: 'https://www.nesscoindia.com/Assets/images/gallery/event5.webp' ,alt:"event5" },
+    { id: 25, type: 'Events', url: 'https://www.nesscoindia.com/Assets/images/gallery/event6.webp' ,alt:"event6" },
+    { id: 26, type: 'Installation', url: 'https://www.nesscoindia.com/Assets/images/gallery/installation1.webp' ,alt:"installation1" },
+    { id: 27, type: 'Installation', url: 'https://www.nesscoindia.com/Assets/images/gallery/installation2.webp' ,alt:"installation2" },
+    { id: 28, type: 'Installation', url: 'https://www.nesscoindia.com/Assets/images/gallery/installation3.webp' ,alt:"installation3" },
+    { id: 29, type: 'Installation', url: 'https://www.nesscoindia.com/Assets/images/gallery/installation4.webp' ,alt:"installation4" },
+    { id: 30, type: 'Installation', url: 'https://www.nesscoindia.com/Assets/images/gallery/installation5.webp' ,alt:"installation5" },
+    { id: 31, type: 'Installation', url: 'https://www.nesscoindia.com/Assets/images/gallery/installation6.webp' ,alt:"installation6" },
 ];
 
 function Gallery() {

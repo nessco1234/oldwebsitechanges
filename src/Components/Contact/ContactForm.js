@@ -68,7 +68,7 @@ const ContactForm = () => {
         }
         if (valid) {
             try {
-                const response = await axios.post('http://15.206.15.179:5000/form-submission', formData, {
+                const response = await axios.post('https://nesscobackend-sx1t.vercel.app/form-submission', formData, {
                 // const response = await axios.post('http://localhost:5000/form-submission', formData, {
                     headers: {
                         'Content-Type': 'application/json', // Ensure the backend handles JSON
@@ -98,11 +98,11 @@ const ContactForm = () => {
                         <div className="contactinfo">
                             <div className="contactinfoleft">
                                 <div className="contactinfologo">
-                                    <img src={icon1} alt="" />
+                                    <img src={'https://www.nesscoindia.com/Assets/images/icons/marker.png'} alt="Marker" />
                                 </div>
                             </div>
                             <div className="contactinforight">
-                                <h1 className="contactinfotitle">Head Office</h1>
+                                <h2 className="contactinfotitle">Head Office</h2>
                                 <a className="contactinfodesc" href='https://maps.app.goo.gl/kuArACWXXSUuSY848'>E-186, Apparel Park, RIICO Industrial Area, Mahal Road, Jagatpura, Jaipur (Rajasthan) - 302022, INDIA</a>
                             </div>
                         </div>
@@ -110,11 +110,11 @@ const ContactForm = () => {
                         <div className="contactinfo">
                             <div className="contactinfoleft">
                                 <div className="contactinfologo">
-                                    <img src={icon2} alt="" />
+                                    <img src={'https://www.nesscoindia.com/Assets/images/icons/email.png'} alt="Email" />
                                 </div>
                             </div>
                             <div className="contactinforight">
-                                <h1 className="contactinfotitle">Company Email</h1>
+                                <h2 className="contactinfotitle">Company Email</h2>
                                 <a href='mailto:info@nesscoindia.com' className="contactinfodesc">Info@nesscoindia.com</a>
                             </div>
                         </div>
@@ -122,11 +122,11 @@ const ContactForm = () => {
                         <div className="contactinfo">
                             <div className="contactinfoleft">
                                 <div className="contactinfologo">
-                                    <img src={icon3} alt="" />
+                                    <img src={'https://www.nesscoindia.com/Assets/images/icons/phone.png'} alt="Phone" />
                                 </div>
                             </div>
                             <div className="contactinforight">
-                                <h1 className="contactinfotitle">Contact Us</h1>
+                                <h2 className="contactinfotitle">Contact Us</h2>
                                 <a href='tel:+91 95494 44484' className="contactinfodesc">+91 95494 44484 </a>
                                 <a href='tel:+91 99822 00038' className="contactinfodesc"> +91 99822 00038 </a>
                             </div>

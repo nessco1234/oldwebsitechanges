@@ -7,9 +7,23 @@ import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
 import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
+import { Helmet } from 'react-helmet'
 const IsraelPaper = () => {
     return (
         <>
+            <Helmet>
+                <title>Paper Cup Making Machine in Israel</title>
+                <meta name="description" content="Nessco provides a wide range of paper cup making machine in Israel with latest technology for 40 years. High speed, Low power consumption. Get Quote Now!" />
+                <meta name="keywords" content="paper cup making machine, paper cup machine, paper cup machine price, paper cup making machine near me, paper cup making machine price, paper cup, paper cup machine manufacturer, paper cup machine company, cup manufacturing machine" />
+                <meta name="copyright" content="Copyright 2022 Nessco India" />
+                <meta name="distribution" content="global" />
+                <meta name="language" content="english" />
+                <meta name="robots" content="index,follow" />
+                <meta name="publisher" content="Nessco India" />
+                <meta name="author" content="Nessco India" />
+                <link rel="canonical" href="https://www.nesscoindia.com/global/paper-cup-making-machine-in-israel/" />
+
+            </Helmet>
             <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">
@@ -35,12 +49,12 @@ const IsraelPaper = () => {
                         <img src={img1} alt="" />
                         <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Israel</span></h1>
                         <p className="descriptionmachineleftcontent">Nesscoindia brings to you a complete range of Paper Cup Making Machine in Israel. We are a verified supplier of fully automatic machines that require less labor and can perform a range of tasks. And these functions also include paper feeding, oil filling, heating, knurling, curling and popping up paper cups.
-<br /><br /><b>
+                            <br /><br /><b>
 
-Fully automatic paper cup making machine
-</b><br /><br />
+                                Fully automatic paper cup making machine
+                            </b><br /><br />
 
-Machines offered by Nessco are Ideal for producing Paper Tasting Drinking Cups, Market Cups, Advertising Cups and many more. It is widely used for hot drinks and cold drinks and beverages and other drinks. In addition, we provide a high level of after-sales service and take care of our client’s budget.</p> <br /><br />
+                            Machines offered by Nessco are Ideal for producing Paper Tasting Drinking Cups, Market Cups, Advertising Cups and many more. It is widely used for hot drinks and cold drinks and beverages and other drinks. In addition, we provide a high level of after-sales service and take care of our client’s budget.</p> <br /><br />
                     </div>
                     <div className="descriptionmachineright">
                         <div className="descriptionsuggestions">

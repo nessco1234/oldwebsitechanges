@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import img1 from '../../Assets/images/resource/High-Speed-Paper-Cup-Making-Machine.webp'
 import { FaArrowRightLong } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 const MachineSpecs3 = (props) => {
@@ -11,10 +10,10 @@ const MachineSpecs3 = (props) => {
         <>
             <section className="machinespecs3">
                 <div className="machinespecs3container">
-                    <h1 className="machinespecs3heading">{props.Heading}</h1>
+                    <h3 className="machinespecs3heading">{props.Heading}</h3>
                     <div className="machinespecsss">
                         <div className="machinespecsleft">
-                            <img src={props.imglink} alt="" />
+                            <img src={props.imglink} alt={props.Heading} />
                         </div>
                         <div className="machinespecsright">
                             <table className='machinetable'>
@@ -40,7 +39,7 @@ const MachineSpecs3 = (props) => {
                                     <button className="close-button" onClick={closeModal2}>&times;</button>
                                     <div className="modalcard">
                                         <div className="leftmodal">
-                                            <img src={'https://nessco.kafkaindia.com/Assets/images/resource/popup.webp'} alt="Popup" />
+                                            <img src={'https://www.nesscoindia.com/Assets/images/resource/popup.webp'} alt="Popup" />
                                         </div>
                                         <div className="rightmodal">
                                             <h1 className="modalheading">Request for details to receive a call back</h1>

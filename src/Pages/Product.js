@@ -2,33 +2,7 @@ import React, { useState } from 'react';
 // import './ProductFilter.css'; // Import CSS file for styling
 import '../Styles/Product.css'
 import ProductCard from '../Components/Product/ProductCard';
-import img1 from '../Assets/images/resource/paper-glass-machine.webp'
-import img2 from '../Assets/images/resource/disposable-paper-cup-making-machine.webp'
-import img3 from '../Assets/images/resource/High-Speed-Paper-Cup-Making-Machine.webp'
-import img4 from '../Assets/images/resource/paper-handle-cup-machine.webp'
-import img5 from '../Assets/images/resource/ripple-wall-cup-machine.webp'
-import img6 from '../Assets/images/resource/ServoDrivenMachine.webp'
-import img7 from '../Assets/images/resource/DomeLidMachine.webp'
-import img8 from '../Assets/images/resource/paper-container-bowl-machine.webp'
-import img9 from '../Assets/images/resource/salad-bowl-making-machine.webp'
-import img10 from '../Assets/images/resource/paper-lid-machine.webp'
-import img11 from '../Assets/images/resource/paper-cutlery-machine.webp'
-import img12 from '../Assets/images/resource/pop-corn-tub-making-machine.webp'
-import img13 from '../Assets/images/resource/paper-plate-machine.webp'
-import img14 from '../Assets/images/resource/LunchBoxMachine.webp'
-import img15 from '../Assets/images/resource/CartonErectingMachine.webp'
-import img16 from '../Assets/images/resource/OctagonalMachine.webp'
-import img17 from '../Assets/images/resource/RectangularMachine.webp'
-import img18 from '../Assets/images/resource/flexo-printing-machine-nessco.webp'
-import img19 from '../Assets/images/resource/roll-die-cutting-machine.webp'
-import img20 from '../Assets/images/resource/pe-coating-machine.webp'
-import img21 from '../Assets/images/resource/paper-straw-making-machine.webp'
-import img22 from '../Assets/images/resource/FolderGluing.webp'
-import img23 from '../Assets/images/resource/SleeveForming.webp'
-import img24 from '../Assets/images/resource/fully-automatic-paper-cup-making-machine.webp'
-import img25 from '../Assets/images/resource/paper-cutlery-making-machine.webp'
-import img26 from '../Assets/images/resource/paper-food-bag-making-machine.webp'
-import img27 from '../Assets/images/resource/paper-bag-making-machine.webp'
+
 import { Helmet } from 'react-helmet';
 function ProductFilter({ products }) {
     const [selectedFilter, setSelectedFilter] = useState('All');
@@ -86,32 +60,32 @@ function ProductFilter({ products }) {
 }
 
 const products = [
-    { id: 1, name: 'Disposable Cup Making Machine', type: 'papercup', url: '/product/disposable-paper-cup-making-machine/', imglink: img2 },
-    { id: 2, name: 'High Speed Paper Cup Machine', type: 'papercup', url: '/product/high-speed-paper-cup-making-machine/', imglink: img24 },
-    { id: 4, name: 'Paper Bag Making Machine', type: 'paperbag', url: '/product/paper-bag-making-machine/', imglink: img27 },
-    { id: 5, name: 'Flexo Printing Machine', type: 'paperrelated', url: '/product/flexo-printing-machine/', imglink: img18 },
-    { id: 6, name: 'Paper Cutlery Machine', type: 'other', url: '/product/paper-cutlery-machine/', imglink: img25 },
-    { id: 7, name: 'Paper Container Bowl Machine', type: 'paperbowl', url: '/product/paper-container-bowl-making-machine/', imglink: img8 },
-    { id: 8, name: 'Paper Food Bag Making Machine', type: 'paperbag', url: '/product/paper-food-bag-making-machine/', imglink: img26 },
-    { id: 9, name: 'Paper Handle Cup Making Machine', type: 'papercup', url: '/product/paper-handle-cup-making-machine/', imglink: img4 },
-    { id: 10, name: 'Paper Glass Making Machine', type: 'papercup', url: '/product/paper-glass-making-machine/', imglink: img1 },
-    { id: 11, name: 'Paper Lid Making Machine', type: 'paperlid', url: '/product/paper-lid-making-machine/', imglink: img10 },
-    { id: 12, name: 'Paper Plate Making Machine', type: 'paperplate', url: '/product/paper-plate-making-machine/', imglink: img13 },
-    { id: 13, name: 'Paper Straw Making Machine', type: 'paperstraw', url: '/product/paper-straw-making-machine/', imglink: img21 },
-    { id: 14, name: 'PE Coating Machine', type: 'paperrelated', url: '/product/pe-coating-machine/', imglink: img20 },
-    { id: 15, name: 'Ripple Wall Cup Machine', type: 'papercup', url: '/product/ripple-wall-cup-machine/', imglink: img5 },
-    { id: 16, name: 'Pop Corn Tub Making Machine', type: 'paperbowl', url: '/product/pop-corn-tub-making-machine/', imglink: img12 },
-    { id: 17, name: 'Paper Shopping Bag Making Machine', type: 'paperbag', url: '/product/paper-shopping-bag-making-machine/', imglink: img27 },
-    { id: 18, name: 'Paper Salad Bowl Making Machine', type: 'paperbowl', url: '/product/salad-bowl-making-machine/', imglink: img9 },
-    { id: 19, name: 'Servo Driven Paper Cup Machine', type: 'papercup', url: '/product/servo-driven-paper-cup-machine/', imglink: img6 },
-    { id: 19, name: 'Roll Die Cutting Machine', type: 'paperrelated', url: '/product/roll-die-cutting-machine/', imglink: img19 },
-    { id: 19, name: 'Rectangluar Flat Bottom Bowl Machine', type: 'paperbowl', url: '/product/rectangle-flat-bottom-bowl-machine/', imglink: img17 },
-    { id: 20, name: 'Paper Dome Lid Machine', type: 'paperlid', url: '/product/paper-dome-lid-machine/', imglink: img7 },
-    { id: 21, name: 'Octagonal Box Forming Machine', type: 'paperbox', url: '/product/octagonal-box-forming-machine/', imglink: img16 },
-    { id: 22, name: 'Lunch Box Forming Machine', type: 'paperbox', url: '/product/lunch-box-forming-machine/', imglink: img14 },
-    { id: 23, name: 'Carton Erecting Machine', type: 'paperbox', url: '/product/carton-erecting-machine/', imglink: img15 },
-    { id: 26, name: 'Ripple Wall Cup Sleeve Gluing Machine', type: 'other', url: '/product/ripple-wall-cup-sleeve-glueing-machine/', imglink: img22 },
-    { id: 27, name: 'Paper Sleeve Gluing and Folding Machine', type: 'other', url: '/product/paper-sleeve-gluing-folding-machine/', imglink: img23 },
+    { id: 1, name: 'Disposable Cup Making Machine', type: 'papercup', url: '/product/disposable-paper-cup-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/disposable-paper-cup-making-machine.webp' },
+    { id: 2, name: 'High Speed Paper Cup Machine', type: 'papercup', url: '/product/high-speed-paper-cup-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-making-machine.webp' },
+    { id: 4, name: 'Paper Bag Making Machine', type: 'paperbag', url: '/product/paper-bag-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/paper-bag-making-machine.webp' },
+    { id: 5, name: 'Flexo Printing Machine', type: 'paperrelated', url: '/product/flexo-printing-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/flexo-printing-machine-nessco.webp' },
+    { id: 6, name: 'Paper Cutlery Machine', type: 'other', url: '/product/paper-cutlery-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/paper-cutlery-making-machine.webp' },
+    { id: 7, name: 'Paper Container Bowl Machine', type: 'paperbowl', url: '/product/paper-container-bowl-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/paper-container-bowl-machine.webp' },
+    { id: 8, name: 'Paper Food Bag Making Machine', type: 'paperbag', url: '/product/paper-food-bag-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/paper-food-bag-making-machine.webp' },
+    { id: 9, name: 'Paper Handle Cup Making Machine', type: 'papercup', url: '/product/paper-handle-cup-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/paper-handle-cup-machine.webp' },
+    { id: 10, name: 'Paper Glass Making Machine', type: 'papercup', url: '/product/paper-glass-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/paper-glass-machine.webp' },
+    { id: 11, name: 'Paper Lid Making Machine', type: 'paperlid', url: '/product/paper-lid-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/paper-lid-machine.webp' },
+    { id: 12, name: 'Paper Plate Making Machine', type: 'paperplate', url: '/product/paper-plate-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/paper-plate-machine.webp' },
+    { id: 13, name: 'Paper Straw Making Machine', type: 'paperstraw', url: '/product/paper-straw-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/paper-straw-making-machine.webp' },
+    { id: 14, name: 'PE Coating Machine', type: 'paperrelated', url: '/product/pe-coating-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/pe-coating-machine.webp' },
+    { id: 15, name: 'Ripple Wall Cup Machine', type: 'papercup', url: '/product/ripple-wall-cup-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/ripple-wall-cup-machine.webp' },
+    { id: 16, name: 'Pop Corn Tub Making Machine', type: 'paperbowl', url: '/product/pop-corn-tub-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/pop-corn-tub-making-machine.webp' },
+    { id: 17, name: 'Paper Shopping Bag Making Machine', type: 'paperbag', url: '/product/paper-shopping-bag-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/paper-bag-making-machine.webp' },
+    { id: 18, name: 'Paper Salad Bowl Making Machine', type: 'paperbowl', url: '/product/salad-bowl-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/salad-bowl-making-machine.webp' },
+    { id: 19, name: 'Servo Driven Paper Cup Machine', type: 'papercup', url: '/product/servo-driven-paper-cup-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/ServoDrivenMachine.webp' },
+    { id: 19, name: 'Roll Die Cutting Machine', type: 'paperrelated', url: '/product/roll-die-cutting-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/roll-die-cutting-machine.webp' },
+    { id: 19, name: 'Rectangluar Flat Bottom Bowl Machine', type: 'paperbowl', url: '/product/rectangle-flat-bottom-bowl-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/RectangularMachine.webp' },
+    { id: 20, name: 'Paper Dome Lid Machine', type: 'paperlid', url: '/product/paper-dome-lid-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/DomeLidMachine.webp' },
+    { id: 21, name: 'Octagonal Box Forming Machine', type: 'paperbox', url: '/product/octagonal-box-forming-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/OctagonalMachine.webp' },
+    { id: 22, name: 'Lunch Box Forming Machine', type: 'paperbox', url: '/product/lunch-box-forming-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/LunchBoxMachine.webp' },
+    { id: 23, name: 'Carton Erecting Machine', type: 'paperbox', url: '/product/carton-erecting-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/CartonErectingMachine.webp' },
+    { id: 26, name: 'Ripple Wall Cup Sleeve Gluing Machine', type: 'other', url: '/product/ripple-wall-cup-sleeve-glueing-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/FolderGluing.webp' },
+    { id: 27, name: 'Paper Sleeve Gluing and Folding Machine', type: 'other', url: '/product/paper-sleeve-gluing-folding-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/SleeveForming.webp' },
 ];
 
 function App() {

@@ -5,7 +5,7 @@ const MachineSpecs = (props) => {
     return (
         <section className="machinespecs">
             <div className="machinespecscomp">
-                <h1 className='machinespecsheading'>Machine <span>Specification</span></h1>
+                <h2 className='machinespecsheading'>Machine <span>Specification</span></h2>
                 <table className='machinetable'>
                     <thead className='machinehead'>
                         <tr>

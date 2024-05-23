@@ -6,9 +6,9 @@ const AboutNessco = () => {
       <section className="aboutnessco">
         <div className="aboutnesscocontainer">
           <div className="aboutnesscoleft">
-            <h1 className="aboutusbtn">ABOUT US</h1>
+            <h6 className="aboutusbtn">ABOUT US</h6>
             <h1 className="aboutusheading">Nessco India</h1>
-            <h1 className="aboutussubheading">Begins & Ends With Customer's Smile</h1>
+            <h2 className="aboutussubheading">Begins & Ends With Customer's Smile</h2>
           </div>
           <div className="aboutnesscoright">
             <p className="aboutusdescription">

@@ -7,10 +7,24 @@ import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
 import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
+import { Helmet } from 'react-helmet'
 
 const KoreaPaper = () => {
     return (
         <>
+            <Helmet>
+                <title>Fully Automatic Paper Cup Machine in Korea | Nessco</title>
+                <meta name="description" content="We are a leading manufacturer of paper cup machine in Korea. Buy Fully automatic high-speed Korean paper cup making machine for sale. Get Quote Now!" />
+                <meta name="keywords" content="Paper Cup Making machine In korea, Paper Cup Forming Machine In korea, High Speed Paper Cup Machine In korea, Automatic Paper Cup Machine In korea, korean paper cup machine, paper cup machine korea" />
+                <meta name="copyright" content="Copyright 2022 Nessco India" />
+                <meta name="distribution" content="global" />
+                <meta name="language" content="english" />
+                <meta name="robots" content="index,follow" />
+                <meta name="publisher" content="Nessco India" />
+                <meta name="author" content="Nessco India" />
+                <link rel="canonical" href="https://www.nesscoindia.com/global/paper-cup-machine-in-korea/" />
+
+            </Helmet>
             <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">

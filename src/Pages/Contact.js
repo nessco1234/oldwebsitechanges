@@ -6,6 +6,8 @@ import '../Styles/Contact.css'
 import ContactForm from '../Components/Contact/ContactForm'
 import Branches from '../Components/Contact/Branches'
 import { Helmet } from 'react-helmet'
+import { Link } from 'react-router-dom'
+import { FaAngleRight } from 'react-icons/fa6'
 
 const Contact = () => {
     return (
@@ -26,7 +28,11 @@ const Contact = () => {
                 <link rel="canonical" href="https://www.nesscoindia.com/contact/" />
 
             </Helmet>
-            <Breadcrum previous={"Home"} active={"Contact"} />
+            <section className="breadcrum">
+        <div className="breadcrumcontainer">
+          <Link to={'/'} className='breadcrumheading'>Home<FaAngleRight className='breadcrumicon' /></Link><Link className='breadcrumheading'><span>Contact</span> </Link>
+        </div>
+      </section>
             <ContactForm />
             <Branches />
         </>

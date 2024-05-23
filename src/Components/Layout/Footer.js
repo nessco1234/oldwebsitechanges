@@ -20,8 +20,8 @@ const Footer = () => {
                     <hr className='horizontaldiv' />
                     <div className="footercontent">
                         <div className="footerlistabout">
-                            <h1 className="footerdesctitle">
-                                About</h1>
+                            <h3 className="footerdesctitle">
+                                About</h3>
                             <p className="footerdesccontent">
                                 We have been focusing in the Disposable Industry since 1978, and continuously concentrating on the idea of team building by creating an R&D team of hard-working personals with self-transcendence, hard-working attitude and spirit of diligent and dedicated craftsmanship.
                             </p>
@@ -45,7 +45,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="footerlist">
-                            <h1 className="footerlistheading">Links</h1>
+                            <h3 className="footerlistheading">Links</h3>
                             <div className="footerlistslink">
                                 <Link className='footeratags' to={'/'}>Home</Link>
                                 <Link className='footeratags' to={'/about-us'}>About us</Link>
@@ -57,7 +57,7 @@ const Footer = () => {
 
                         </div>
                         <div className="footerlist">
-                            <h1 className="footerlistheading">Services</h1>
+                            <h3 className="footerlistheading">Services</h3>
                             <div className="footerlistslink">
                                 <Link className='footeratags' to={'/product/high-speed-paper-cup-making-machine/'}>Paper Cup Machine</Link>
                                 <Link className='footeratags' to={'/product/paper-bag-making-machine/'}>Paper Bag Machine</Link>
@@ -68,7 +68,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="footerlist">
-                            <h1 className="footerlistheading">Contacts</h1>
+                            <h3 className="footerlistheading">Contacts</h3>
                             <div className="footerlistslink">
                                 <p className="footeraddress">
                                     E-186, Apparel Park, RIICO Industrial Area, Mahal Road, Jagatpura, Jaipur (Rajasthan) - 302022, INDIA

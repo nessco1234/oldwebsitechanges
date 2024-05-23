@@ -11,6 +11,8 @@ import AboutSkills from '../Components/About/AboutSkills'
 import AboutExperts from '../Components/About/AboutExperts'
 import Creation from '../Components/Home/Creation'
 import { Helmet } from 'react-helmet'
+import { Link } from 'react-router-dom'
+import { FaAngleRight } from 'react-icons/fa6'
 const About = () => {
   return (
     <>
@@ -31,7 +33,11 @@ const About = () => {
         <link rel="canonical" href="https://www.nesscoindia.com/about-us/" />
 
       </Helmet>
-      <Breadcrum previous={"Home"} active={"About"} />
+      <section className="breadcrum">
+        <div className="breadcrumcontainer">
+          <Link to={'/'} className='breadcrumheading'>Home<FaAngleRight className='breadcrumicon' /></Link><Link className='breadcrumheading'><span>About</span> </Link>
+        </div>
+      </section>
       {/* ///////////////// */}
       <AboutNessco />
       <AboutCards />

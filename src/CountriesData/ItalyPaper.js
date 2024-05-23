@@ -7,10 +7,24 @@ import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
 import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
+import { Helmet } from 'react-helmet'
 
 const ItalyPaper = () => {
     return (
         <>
+            <Helmet>
+                <title>Paper Cup Making Machine in Italy | Nessco</title>
+                <meta name="description" content="Nessco offers a wide range of paper cup making machine in Italy with latest technology for 40 years. High Speed, Low Power Consumption. Get Quote Now!" />
+                <meta name="keywords" content="paper cup making machine, paper cup machine, paper cup machine price, paper cup making machine near me, paper cup making machine price, paper cup, paper cup machine manufacturer, paper cup machine company, cup manufacturing machine" />
+                <meta name="copyright" content="Copyright 2022 Nessco India" />
+                <meta name="distribution" content="global" />
+                <meta name="language" content="english" />
+                <meta name="robots" content="index,follow" />
+                <meta name="publisher" content="Nessco India" />
+                <meta name="author" content="Nessco India" />
+                <link rel="canonical" href="https://www.nesscoindia.com/global/paper-cup-making-machine-italy/" />
+
+            </Helmet>
             <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">
@@ -37,7 +51,7 @@ const ItalyPaper = () => {
                         <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Italy</span></h1>
                         <p className="descriptionmachineleftcontent">Nessco brings a top quality range of paper cup making machine in Italy.
 
-As the packaging machinery is becoming high-speed and automation, we have improved the level of automation technology. In order to improve the function of the equipment, reliability of the automatic operation of the machine, as far as possible to use continuous transmission. It has simplified structure, control system and operation procedure. This machine manufactured by Nessco, runs an entire procedure of paper-feeding, cup-fan-wall sealing, oiling, bottom-punching, heating, rolling, rimming, rounding, and tripping.</p> <br /><br />
+                            As the packaging machinery is becoming high-speed and automation, we have improved the level of automation technology. In order to improve the function of the equipment, reliability of the automatic operation of the machine, as far as possible to use continuous transmission. It has simplified structure, control system and operation procedure. This machine manufactured by Nessco, runs an entire procedure of paper-feeding, cup-fan-wall sealing, oiling, bottom-punching, heating, rolling, rimming, rounding, and tripping.</p> <br /><br />
                     </div>
                     <div className="descriptionmachineright">
                         <div className="descriptionsuggestions">

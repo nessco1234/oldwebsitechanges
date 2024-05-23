@@ -262,7 +262,7 @@ const Header = (props) => {
         <>
             <nav className="navbar">
                 <div className="navbarcontainer">
-                    <Link className='navbarlogolink' to={'/'}><img src={logo} alt="" /></Link>
+                    <Link className='navbarlogolink' to={'/'}><img src={'https://www.nesscoindia.com/Assets/images/logo.webp'} alt="NesscoLogo" /></Link>
                     <ul className="navlist">
                         <Link className='navlink' to={'/'}>HOME</Link>
                         <Link className='navlink' to={'/about-us'}>ABOUT US</Link>
@@ -273,31 +273,31 @@ const Header = (props) => {
                                     <div className="menu-list-container">
 
                                         <div className="menulistitems">
-                                            <h1 className="menulistheading">Paper Cup Machines</h1>
+                                            <h3 className="menulistheading">Paper Cup Machines</h3>
                                             {list1.map(obj => (
                                                 <Link onClick={() => setIsHovered(false)} className='menulistlinks' key={obj.id} to={obj.link}>{obj.name}</Link>
                                             ))}
                                         </div>
                                         <div className="menulistitems">
-                                            <h1 className="menulistheading">Paper Container Machines</h1>
+                                            <h3 className="menulistheading">Paper Container Machines</h3>
                                             {list2.map(obj => (
                                                 <Link onClick={() => setIsHovered(false)} className='menulistlinks' key={obj.id} to={obj.link}>{obj.name}</Link>
                                             ))}
                                         </div>
                                         <div className="menulistitems">
-                                            <h1 className="menulistheading">Paper Forming Machines</h1>
+                                            <h3 className="menulistheading">Paper Forming Machines</h3>
                                             {list3.map(obj => (
                                                 <Link onClick={() => setIsHovered(false)} className='menulistlinks' key={obj.id} to={obj.link}>{obj.name}</Link>
                                             ))}
                                         </div>
                                         <div className="menulistitems">
-                                            <h1 className="menulistheading">Other Machines</h1>
+                                            <h3 className="menulistheading">Other Machines</h3>
                                             {list4.map(obj => (
                                                 <Link onClick={() => setIsHovered(false)} className='menulistlinks' key={obj.id} to={obj.link}>{obj.name}</Link>
                                             ))}
                                         </div>
                                         <div className="menulistitems">
-                                            <h1 className="menulistheading">Paper Bag Machines</h1>
+                                            <h3 className="menulistheading">Paper Bag Machines</h3>
                                             {list5.map(obj => (
                                                 <Link onClick={() => setIsHovered(false)} className='menulistlinks' key={obj.id} to={obj.link}>{obj.name}</Link>
                                             ))}
@@ -318,7 +318,7 @@ const Header = (props) => {
                             <button className="close-button" onClick={closeModal}>&times;</button>
                             <div className="modalcard">
                                 <div className="leftmodal">
-                                    <img src={img1} alt="" />
+                                    <img src={'https://www.nesscoindia.com/Assets/images/resource/popup.webp'} alt="POPUP" />
                                 </div>
                                 <div className="rightmodal">
                                     <h1 className="modalheading">Request for details to receive a call back</h1>
@@ -344,7 +344,7 @@ const Header = (props) => {
                                     <div className="hamburgercontainer">
                                         <div className="hamburgerimgcontainer">
 
-                                            <img className='hamburgerimg' src={logo} alt="" />
+                                            <img className='hamburgerimg' src={'https://www.nesscoindia.com//Assets/images/logo.webp'} alt="NesscoLogo" />
                                         </div>
                                         <div className="hamburgerlinks">
                                             <Link className='hamburgerlink' to={'/'} onClick={closenavigation}>HOME</Link>

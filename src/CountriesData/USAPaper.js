@@ -7,10 +7,24 @@ import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
 import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
+import { Helmet } from 'react-helmet'
 
 const USAPaper = () => {
     return (
         <>
+            <Helmet>
+                <title>Paper Cup Machine in USA | Nessco</title>
+                <meta name="description" content="Looking for paper cup machine in USA? Nessco's machines designed for making coffee cup, tea cup. High speed, Low energy consumption. Get Quote Now!" />
+                <meta name="keywords" content="Paper cup machine in usa, manufacturers in usa, machines in usa, high speed paper cup forming machinein usa, cup forming machine in usa" />
+                <meta name="copyright" content="Copyright 2022 Nessco India" />
+                <meta name="distribution" content="global" />
+                <meta name="language" content="english" />
+                <meta name="robots" content="index,follow" />
+                <meta name="publisher" content="Nessco India" />
+                <meta name="author" content="Nessco India" />
+                <link rel="canonical" href="https://www.nesscoindia.com/global/paper-cup-machine-in-usa/" />
+
+            </Helmet>
             <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">

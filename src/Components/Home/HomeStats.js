@@ -16,37 +16,37 @@ const HomeStats = () => {
                     <div className="homstatscontainer">
                         <div className="homestatcontentbox">
                             <div className="homestatcontent">
-                                <h1 className='homestatheading'>{counterOn && (
+                                <h3 className='homestatheading'>{counterOn && (
                                     <CountUp start={0} end={300} duration={2}  />
                                 )}
-                                    +</h1>
+                                    +</h3>
                                 <p className="homestatpara">Ready Stock Machine</p>
                             </div>
                         </div>
                         <div className="homestatcontentbox">
                             <div className="homestatcontent">
-                                <h1 className='homestatheading'>{counterOn && (
+                                <h3 className='homestatheading'>{counterOn && (
                                     <CountUp start={0} end={30} duration={2}  />
                                 )}
-                                    +</h1>
+                                    +</h3>
                                 <p className="homestatpara">Service Center</p>
                             </div>
                         </div>
                         <div className="homestatcontentbox">
                             <div className="homestatcontent">
-                                <h1 className='homestatheading'>{counterOn && (
+                                <h3 className='homestatheading'>{counterOn && (
                                     <CountUp start={0} end={80} duration={2}  />
                                 )}
-                                    +</h1>
+                                    +</h3>
                                 <p className="homestatpara">Service Engineers</p>
                             </div>
                         </div>
                         <div className="homestatcontentbox">
                             <div className="homestatcontent">
-                                <h1 className='homestatheading'>{counterOn && (
+                                <h3 className='homestatheading'>{counterOn && (
                                     <CountUp start={0} end={7000} duration={2}  />
                                 )}
-                                    +</h1>
+                                    +</h3>
                                 <p className="homestatpara">Installation Till Date</p>
                             </div>
                         </div>

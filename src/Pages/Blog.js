@@ -10,37 +10,37 @@ import img6 from '../Assets/images/news/Paper-cup-Startup.webp'
 import { Helmet } from 'react-helmet'
 const data = [
     {
-        "url": img1,
+        "url": 'https://www.nesscoindia.com/Assets/images/news/news-1.webp',
         "heading": "Disposable Packaging Solutions for HORECA",
         "desc": "In these challenging times, it becomes difficult to nvigate ...",
         "link": "/blog/disposable-packaging-solutions-for-horeca/",
     },
     {
-        "url": img2,
+        "url": 'https://www.nesscoindia.com/Assets/images/news/news-2.webp',
         "heading": "Paper Cups – Responsible Consumer Choice?",
         "desc": "For a century, plastic has been among the consumer first...",
         "link": "/blog/why-say-yes-to-paper-cups/",
     },
     {
-        "url": img3,
+        "url": 'https://www.nesscoindia.com/Assets/images/news/news-3.webp',
         "heading": "Paper Plate Making Machine An Eco Friendly Alternative",
         "desc": "Nessco India promotes Paper Plate Making Machine as eco...",
         "link": "/blog/paper-plate-making-machine-an-eco-friendly-alternative",
     },
     {
-        "url": img4,
+        "url": 'https://www.nesscoindia.com/Assets/images/news/use-paper-cups-it-can-be-recycled.webp',
         "heading": "Use Paper Cups It Can Be Recycled",
         "desc": "Many Consumers feel they don’t want to choose single-use",
         "link": "/blog/use-paper-cups-it-can-be-recycled/",
     },
     {
-        "url": img5,
+        "url": 'https://www.nesscoindia.com/Assets/images/news/paper-cups-for-hot-beverages.webp',
         "heading": "Premium Paper Cups For Hot Beverages",
         "desc": "Disposable market is segmented by two parts – Plastic and...",
         "link": "/blog/paper-cups-for-hot-beverages/",
     },
     {
-        "url": img6,
+        "url": 'https://www.nesscoindia.com/Assets/images/news/Paper-cup-Startup.webp',
         "heading": "How You Can Start A Business for Paper Cup",
         "desc": "“The advent of paper cups is increasingly replacing plastic cups...",
         "link": "/blog/paper-cup-business-idea/",

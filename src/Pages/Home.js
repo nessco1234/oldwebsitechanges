@@ -3,10 +3,8 @@ import AboutUs from "../Components/Home/AboutUs";
 import '../Styles/Home.css'
 import IOTSystem from '../Components/Home/IOTSystem'
 import Presence from "../Components/Home/Presence";
-import Subscribe from "../Components/Home/Subscribe";
 import Article from "../Components/Home/Article";
 import Creation from "../Components/Home/Creation";
-import Nessco from "../Components/Home/Nessco";
 import Banner from "../Components/Home/Banner";
 import InfinteCompany from "../Components/Home/InfinteCompany";
 import HomeStats from "../Components/Home/HomeStats";
@@ -37,7 +35,6 @@ const Home = () => {
 
           </Helmet>
           <Banner />
-          {/* <BannerContent/> */}
           <WeAreNessco />
           <AboutUs />
           <Products />

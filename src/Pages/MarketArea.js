@@ -45,7 +45,7 @@ const MarketArea = (props) => {
             <section className="marketarea">
                 <div className="marketareacontainer">
                     <div className="marketarealeft">
-                        <h1 className="marketareaheading">Quick Contact</h1>
+                        <h2 className="marketareaheading">Quick Contact</h2>
                         <div className="marketareacard">
                             <input placeholder='Enter Your Name' className='marketareainp' type="text" />
                             <input placeholder='Enter Your Email' className='marketareainp' type="text" />

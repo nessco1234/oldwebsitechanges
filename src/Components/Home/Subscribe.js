@@ -6,8 +6,8 @@ const Subscribe = () => {
         <section className="subscribe">
             <div className="subsribecontainer">
                 <div className="leftsubscribe">
-                    <img src={icon1} alt="" className="icon1" />
-                    <h1 className="subsribeheading">Subscribe & Get Updates of Sustainable Packaging</h1>
+                    <img src={'https://www.nesscoindia.com/Assets/images/icons/icon-1.png'} alt="Mail Icon" className="icon1" />
+                    <h2 className="subsribeheading">Subscribe & Get Updates of Sustainable Packaging</h2>
                 </div>
                 <div className="rightsubscribe">
                     <input type="text" placeholder='Your email address'/>

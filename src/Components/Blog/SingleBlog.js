@@ -9,7 +9,7 @@ const SingleBlog = (props) => {
         <>
             <Link to={d.link} className="singleblogcard">
                 <div className="singleblogcardupper">
-                    <img src={d.url} alt="" />
+                    <img src={d.url} alt={d.heading} />
                 </div>
                 <div className="singleblogcardlower">
                     <h1 className="singleblogcardtitle">

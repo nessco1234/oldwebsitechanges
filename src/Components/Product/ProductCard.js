@@ -8,7 +8,7 @@ const ProductCard = (props) => {
     <>
         <Link className="productpagecard" to={props.url}>
             <div className="productpageupper">
-                <img src={props.img} alt="" />
+                <img src={props.img} alt={props.heading} />
             </div>
             <div className="productpagelower">
                 <h1 className="productpageheading">{props.heading}</h1>

@@ -52,8 +52,8 @@ const Testimonials = () => {
             <section className="testimonials">
                 <div className="testimonialscontainer">
                     <div className="testimonialsleft">
-                        <h1 className="aboutusbtn ">TESTIMONIALS</h1>
-                        <h1 className="testimonialsheading">Trusted <span> by More Than 7k Clients.</span></h1>
+                        <h6 className="aboutusbtn ">TESTIMONIALS</h6>
+                        <h2 className="testimonialsheading">Trusted <span> by More Than 7k Clients.</span></h2>
                         <div className="wenesscobuttons">
                             <FaArrowLeftLong  onClick={next} className='wenesscobtn' />
                             <FaArrowRightLong onClick={previous} className='wenesscobtn' />
@@ -78,7 +78,7 @@ const Testimonials = () => {
                                     </div>
                                     <div className="testimonialowner">
                                         <div className="testimonialowneravatar">
-                                            <img src={img2} alt="" />
+                                            <img src={'https://www.nesscoindia.com/Assets/images/resource/testimonial-2.webp'} alt="Omar Taymullah" />
                                         </div>
                                         <div className="testimonialownername">Omar Taymullah, UAE</div>
                                     </div>
@@ -101,7 +101,7 @@ const Testimonials = () => {
                                     </div>
                                     <div className="testimonialowner">
                                         <div className="testimonialowneravatar">
-                                            <img src={img3} alt="" />
+                                            <img src={'https://www.nesscoindia.com/Assets/images/resource/testimonial-3.webp'} alt="Rekha Sharma" />
                                         </div>
                                         <div className="testimonialownername">Rekha Sharma</div>
                                     </div>
@@ -124,7 +124,7 @@ const Testimonials = () => {
                                     </div>
                                     <div className="testimonialowner">
                                         <div className="testimonialowneravatar">
-                                            <img src={img5} alt="" />
+                                            <img src={'https://www.nesscoindia.com/Assets/images/resource/testimonial-5.webp'} alt="Thomas Aaron" />
                                         </div>
                                         <div className="testimonialownername">Thomas Aaron</div>
                                     </div>
@@ -147,7 +147,7 @@ const Testimonials = () => {
                                     </div>
                                     <div className="testimonialowner">
                                         <div className="testimonialowneravatar">
-                                            <img src={img1} alt="" />
+                                            <img src={'https://www.nesscoindia.com/Assets/images/resource/testimonial-1.webp'} alt="Jonathan Robert" />
                                         </div>
                                         <div className="testimonialownername">Jonathan Robert</div>
                                     </div>

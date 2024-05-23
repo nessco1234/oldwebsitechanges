@@ -2,6 +2,8 @@ import React from 'react'
 import Breadcrum from '../Components/Home/Breadcrum'
 import VedioComponent from '../Components/Vedio/VedioComponent'
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
+import { FaAngleRight } from 'react-icons/fa6';
 
 const Video = () => {
     const vediodata = [
@@ -33,7 +35,11 @@ const Video = () => {
                 <link rel="canonical" href="https://www.nesscoindia.com/video/" />
 
             </Helmet>
-            <Breadcrum previous={"Home"} active={"Video"} />
+            <section className="breadcrum">
+                <div className="breadcrumcontainer">
+                    <Link to={'/'} className='breadcrumheading'>Home<FaAngleRight className='breadcrumicon' /></Link><Link className='breadcrumheading'><span>Video</span> </Link>
+                </div>
+            </section>
             <section className="video">
                 <div className="vediocontainer">
                     <h1 className="videoheading">Nessco <span> Videos</span></h1>

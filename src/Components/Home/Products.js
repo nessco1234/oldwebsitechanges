@@ -22,68 +22,69 @@ import { useEffect } from "react";
 const data = [
     {
         name: `Paper Container Bowl Making Machine`,
-        img: img1,
-        link: "/product/paper-container-bowl-making-machine/"
+        img: 'https://www.nesscoindia.com/Assets/images/resource/paper-container-bowl-making-machine.webp',
+        link: "/product/paper-container-bowl-making-machine/",
+
 
     },
     {
         name: `Paper Food Bag Making Machine`,
-        img: img2,
-        link: "/product/paper-food-bag-making-machine/"
+        img: 'https://www.nesscoindia.com/Assets/images/resource/paper-food-bag-making-machine.webp',
+        link: "/product/paper-food-bag-making-machine/",
     },
     {
         name: `Paper Handle Cup Making Machine`,
-        img: img3,
-        link: "/product/paper-handle-cup-making-machine/"
+        img: 'https://www.nesscoindia.com/Assets/images/resource/paper-handle-cup-making-machine.webp',
+        link: "/product/paper-handle-cup-making-machine/",
     },
     {
         name: `Paper Glass Making Machine`,
-        img: img4,
-        link: "/product/paper-glass-making-machine/"
+        img: 'https://www.nesscoindia.com/Assets/images/resource/paper-glass-machine.webp',
+        link: "/product/paper-glass-making-machine/",
     },
     {
         name: `Paper Shopping Bag Making Machine`,
-        img: img5,
-        link: "/product/paper-shopping-bag-making-machine/"
+        img: 'https://www.nesscoindia.com/Assets/images/resource/paper-bag-making-machine.webp',
+        link: "/product/paper-shopping-bag-making-machine/",
     },
     {
         name: `Disposable Cup Making Machine`,
-        img: img6,
-        link: "/product/disposable-paper-cup-making-machine/"
+        img: 'https://www.nesscoindia.com/Assets/images/resource/disposable-paper-cup-making-machine.webp',
+        link: "/product/disposable-paper-cup-making-machine/",
     },
     {
         name: `High Speed Paper Cup Machine`,
-        img: img7,
-        link: "/product/high-speed-paper-cup-making-machine/"
+        img: 'https://www.nesscoindia.com/Assets/images/resource/high-speed-paper-cup-machine.webp',
+        link: "/product/high-speed-paper-cup-making-machine/",
     },
 
 ];
 const data2 = [
     {
         name: `Paper Lid Machine`,
-        img: img8,
-        link: "/product/paper-lid-making-machine/"
+        img: 'https://www.nesscoindia.com/Assets/images/resource/paper-lid-making-machine.webp',
+        link: "/product/paper-lid-making-machine/",
     },
     {
         name: `Paper Plate Machine`,
-        img: img9,
-        link: "/product/paper-plate-making-machine/"
+        img: 'https://www.nesscoindia.com/Assets/images/resource/paper-plate-making-machine.webp',
+        link: "/product/paper-plate-making-machine/",
     },
     {
         name: `Paper Bag Machine`,
-        img: img10,
-        link: "/product/paper-bag-making-machine/"
+        img: 'https://www.nesscoindia.com/Assets/images/resource/paper-bag-machine.webp',
+        link: "/product/paper-bag-making-machine/",
 
     },
     {
         name: `Flexo Printing Machine`,
-        img: img11,
-        link: "/product/flexo-printing-machine/"
+        img: 'https://www.nesscoindia.com/Assets/images/resource/flexo-printing-machine-nessco.webp',
+        link: "/product/flexo-printing-machine/",
     },
     {
-        name: `Paper Cultery Machine`,
-        img: img12,
-        link: "/product/paper-cutlery-machine/"
+        name: `Paper Cutlery Machine`,
+        img: 'https://www.nesscoindia.com/Assets/images/resource/paper-cutlery-making-machine.webp',
+        link: "/product/paper-cutlery-machine/",
     }
 ];
 function App() {
@@ -121,8 +122,8 @@ function App() {
     return (
         <section className='product'>
             <div className="productcontainer">
-                <h1 className="aboutusbtn align">OUR MACHINES</h1>
-                <h1 className="productssstitle">Our Products</h1>
+                <h6 className="aboutusbtn align">OUR MACHINES</h6>
+                <h2 className="productssstitle">Our Products</h2>
                 <p className="productsssdesc">We are known for manufacturing and globally exporting various paper packaging machines including
                     Cups, Glass, Straws and Plate Machines.</p>
                 <Slider {...settings} className="productbox" >
@@ -130,7 +131,7 @@ function App() {
                         <>
                             <Link to={d.link} className="productssscard" >
                                 <div className="productsssupper">
-                                    <img src={d.img} alt="" />
+                                    <img src={d.img} alt={d.name} />
                                 </div>
                                 <div className="productssslower">
                                     {/* <img src={img1} alt="" /> */}
@@ -146,7 +147,7 @@ function App() {
                         <>
                             <Link to={d.link} className="productssscard">
                                 <div className="productsssupper">
-                                    <img src={d.img} alt="" />
+                                    <img src={d.img} alt={d.name} />
                                 </div>
                                 <div className="productssslower">
                                     <Link to={d.link} className="productsssheading">{d.name}</Link>

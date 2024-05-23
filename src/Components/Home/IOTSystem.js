@@ -10,8 +10,8 @@ const IOTSystem = () => {
       <section className="iotsection">
         <div className="iotcontainer">
           <div className="leftiot">
-            <h1 className="aboutusbtn ">IOT SYSTEM</h1>
-            <h1 className="iotheading">Nessco Remote Control <span> Maintenance System</span></h1>
+            <h6 className="aboutusbtn ">IOT SYSTEM</h6>
+            <h2 className="iotheading">Nessco Remote Control <span> Maintenance System</span></h2>
             <p className="iotpara">
               {" "}
               In our Control Maintenance System, we can customize the IOT
@@ -38,11 +38,11 @@ const IOTSystem = () => {
               <li>
                 Machine Performance Overview              </li>
             </ul>
-            <a className="headerbtn" href={doc} download={''} style={{ padding: "1.5rem 2rem", width:"fitContent" }}>
+            <a className="headerbtn" href={'https://www.nesscoindia.com/Assets/images/resource/Nessco-Machines-Control-With-Smart-IOT-Solution.pdf'} target="_blank"  style={{ padding: "1.5rem 2rem", width:"fitContent" }}>
               <p className='headerbtncon'>Get Details !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></a>
           </div>
           <div className="rightiot">
-            <img src={'https://nessco.kafkaindia.com/Assets/images/resource/iot.webp'} alt="iot" />
+            <img src={'https://www.nesscoindia.com/Assets/images/resource/iot.webp'} alt="iot" />
           </div>
         </div>
       </section>

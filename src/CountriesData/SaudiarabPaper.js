@@ -7,10 +7,24 @@ import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
 import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
+import { Helmet } from 'react-helmet'
 
 const SaudiarabPaper = () => {
     return (
         <>
+            <Helmet>
+                <title>Paper Cup Making Machine in Saudi Arabia</title>
+                <meta name="description" content="Leading manufacturer of paper cup machine in Saudi Arabia. Buy fully automatic high-speed paper cup making machine for sale from Nessco. Get Quote Now!" />
+                <meta name="keywords" content="paper cup making machine, paper cup machine, paper cup machine price, paper cup making machine near me, paper cup making machine price, paper cup, paper cup machine manufacturer, paper cup machine company, cup manufacturing machine" />
+                <meta name="copyright" content="Copyright 2022 Nessco India" />
+                <meta name="distribution" content="global" />
+                <meta name="language" content="english" />
+                <meta name="robots" content="index,follow" />
+                <meta name="publisher" content="Nessco India" />
+                <meta name="author" content="Nessco India" />
+                <link rel="canonical" href="https://www.nesscoindia.com/global/paper-cup-making-machine-in-saudi-arab/" />
+
+            </Helmet>
             <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">
@@ -36,12 +50,12 @@ const SaudiarabPaper = () => {
                         <img src={img1} alt="" />
                         <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Saudi Arab</span></h1>
                         <p className="descriptionmachineleftcontent">Nesscoindia brings you a top-quality range of paper cup making machines in Saudi Arab. which is multi-station automatic, capable of producing an unbelievable number of paper cups at one time. Continuous automatic procedures such as sealing, oil filling, heating, knurling, curling, and unloading make it the ideal machine for paper cups.
-<br /><br /><b>
+                            <br /><br /><b>
 
-آلة تشكيل الأكواب الورقية عالية الجودة
-</b><br /><br />
+                                آلة تشكيل الأكواب الورقية عالية الجودة
+                            </b><br /><br />
 
-The offered range of Paper cup making machines is ideal for producing paper testing Beer cups, teacups, cups, and many more. It is widely used for hot drinks and beverages such as cold drinks and buttermilk. Moreover, our clients can have these machines at a budget-friendly price.</p> <br /><br />
+                            The offered range of Paper cup making machines is ideal for producing paper testing Beer cups, teacups, cups, and many more. It is widely used for hot drinks and beverages such as cold drinks and buttermilk. Moreover, our clients can have these machines at a budget-friendly price.</p> <br /><br />
                     </div>
                     <div className="descriptionmachineright">
                         <div className="descriptionsuggestions">

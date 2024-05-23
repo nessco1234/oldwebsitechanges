@@ -20,16 +20,16 @@ const PremiumPaper = () => {
                         <br /><br />
 
                         <b>Let’s have a look at our range and get a brief of the same:</b></p>
-                    <h1 className="blogheading">High Speed Paper Cup Machine</h1>
+                    <h2 className="blogheading">High Speed Paper Cup Machine</h2>
                     <p className="blogdesc">Paper cup forming machine is designed using Single Turn Plate Technology and Direct Bottom Technology which reduces wastage of paper and rotations during the process of bottom feeding, bottom knurling and top curling as well. Our machines can produce cups of different sizes as per customer’s requirement. It is suitable for manufacturing both Single and Double side PE coated Paper Cups which can be used for serving hot as well as cold drinks.</p>
-                    <h1 className="blogheading">Paper Bowl Machine
-                    </h1>
+                    <h2 className="blogheading">Paper Bowl Machine
+                    </h2>
                     <p className="blogdesc">
                         This fully automated Paper Bowl making machine is designed with high level of accuracy and international standards. This machine is used for producing quality containers and bowls. It handles the entire process of paper feeding, bowl-fan wall sealing, oil silicon lubrication, bottom punching, heating, rolling, rimming, rounding, and cup discharge by itself. This Paper Bowl making machine can make containers up to 35 oz or 1 litre. This machine can use both single and double coated PE paper and has a production capacity of 75 pcs per minute. This model is most suitable for producing soup bowls, noodles bowls, etc.
                     </p>
-                    <h1 className="blogheading">Paper Straw Machine
+                    <h2 className="blogheading">Paper Straw Machine
 
-                    </h1>
+                    </h2>
                     <p className="blogdesc">
                         Eliminating plastic straws is easier than you think. Today, any changes and efforts made by us will bring hope to us and the future of the ocean. And we are introducing Paper Straw Machine which is suitable for producing different sizes of paper straws, such as 5 mm; 6 mm; 8 mm; 10 mm, 12 mm etc. With upgraded design for cutting device with 5 cutting knives, the speed will be higher than previous one. The stable working speed of this machine is 40-50 m/min. This machine automatically picks up the paper without any personnel operation and runs smoothly.
                         <br /><br />
@@ -40,8 +40,8 @@ const PremiumPaper = () => {
                         <Link to={'/blog/paper-cup-business-idea/'} className='blognavbtn'>Next <FaArrowRightLong style={{ marginLeft: "2rem" }} /></Link>
                     </div>
                     <div className="blognavigationbtns marrr">
-                        <h1 className="blognavigationdesc">Use Paper Cups It Can Be Recycled</h1>
-                        <h1 className="blognavigationdesc">How You Can Start A Business for Paper Cup</h1>
+                        <h3 className="blognavigationdesc">Use Paper Cups It Can Be Recycled</h3>
+                        <h3 className="blognavigationdesc">How You Can Start A Business for Paper Cup</h3>
                     </div>
                 </div>
             </section>

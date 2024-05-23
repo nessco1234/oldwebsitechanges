@@ -7,10 +7,24 @@ import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
 import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
+import { Helmet } from 'react-helmet'
 
 const IranPaper = () => {
     return (
         <>
+            <Helmet>
+                <title>Paper Cup Making Machine in Iran | Nessco</title>
+                <meta name="description" content="Looking for paper cup making machine in Iran? Find Nessco's complete range. Explore our high speed, low power consumption machines. Get Quote Now!" />
+                <meta name="keywords" content="paper cup making machine, paper cup machine, paper cup machine price, paper cup making machine near me, paper cup making machine price, paper cup, paper cup machine manufacturer, paper cup machine company, cup manufacturing machine" />
+                <meta name="copyright" content="Copyright 2022 Nessco India" />
+                <meta name="distribution" content="global" />
+                <meta name="language" content="english" />
+                <meta name="robots" content="index,follow" />
+                <meta name="publisher" content="Nessco India" />
+                <meta name="author" content="Nessco India" />
+                <link rel="canonical" href="https://www.nesscoindia.com/global/paper-cup-making-machine-in-iran/" />
+
+            </Helmet>
             <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">
@@ -36,12 +50,12 @@ const IranPaper = () => {
                         <img src={img1} alt="" />
                         <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Iran</span></h1>
                         <p className="descriptionmachineleftcontent">Nesscoindia is bringing you its complete range of Paper Cup Making Machine in Iran. We are the best supplier of fully automatic machines which require the least labor work and can perform a chain of functions. And these functions include paper feeding, oil filling, heating, knurling, curling, and popping up paper cups as well.
-<br /><br /><b>
+                            <br /><br /><b>
 
-Fully Automatic Paper Cup Machine In Iran
-</b><br /><br />
+                                Fully Automatic Paper Cup Machine In Iran
+                            </b><br /><br />
 
-WE offered ideal machines for producing Paper Tasting Drinking Cups, Market Cups, Advertising Cups and many more. It is widely used for hot drinks and soft drinks and beverages such as buttermilk. Moreover, we provide higher level after-sale service and take care of our client’s budgets.</p> <br /><br />
+                            WE offered ideal machines for producing Paper Tasting Drinking Cups, Market Cups, Advertising Cups and many more. It is widely used for hot drinks and soft drinks and beverages such as buttermilk. Moreover, we provide higher level after-sale service and take care of our client’s budgets.</p> <br /><br />
                     </div>
                     <div className="descriptionmachineright">
                         <div className="descriptionsuggestions">

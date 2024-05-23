@@ -15,10 +15,10 @@ const StartBuisness = () => {
                     <p className="blogdesc">“The advent of paper cups is increasingly replacing plastic cups”
                         <br /><br/>
                         First of all, we (NESSCO) must say YES paper cup-making business is profitable. However, it depends on several aspects. Generally, Paper Cup Making is comparatively an easy business to start. It demands fewer infrastructures and less working capital also. It is a good idea for the paper cup and paper disposables manufacturing business. It is a low investment and high revenue business. Due to environmental pollution, almost all countries and states ban poly bags, plastic cups, and plates, etc. Paper forming machines aids in the manufacturing of Eco-friendly and recyclable paper products. Planning startup in paper forming products, we can guide you to run the business.</p>
-                    <h1 className="blogheading">High Speed Paper Cup Machine</h1>
+                    <h2 className="blogheading">High Speed Paper Cup Machine</h2>
                     <p className="blogdesc">Paper cup forming machine is designed using Single Turn Plate Technology and Direct Bottom Technology which reduces wastage of paper and rotations during the process of bottom feeding, bottom knurling and top curling as well. Our machines can produce cups of different sizes as per customer’s requirement. It is suitable for manufacturing both Single and Double side PE coated Paper Cups which can be used for serving hot as well as cold drinks.</p>
-                    <h1 className="blogheading">Ideas for the manufacturing paper cup in disposable industry:
-                    </h1>
+                    <h2 className="blogheading">Ideas for the manufacturing paper cup in disposable industry:
+                    </h2>
                     <p className="blogdesc">
                         <b>1. Right People: </b> First of all, you need the right people who can manage or help your business. You merely cannot focus on manufacturing and marketing both. <br />
                         <b>2. Good Quality Machinery: </b> You need automatic paper cups and disposables machinery so that you can produce the best quality of products. <br />
@@ -33,9 +33,9 @@ const StartBuisness = () => {
                         Paper cup suppliers, wholesalers, and retailers.  <br />
                         Juice and tea vendor <br />
                     </p>
-                    <h1 className="blogheading">Paper Straw Machine
+                    <h2 className="blogheading">Paper Straw Machine
                         How to Make a Paper Cup
-                    </h1>
+                    </h2>
                     <p className="blogdesc">
                         If you are planning to start a paper cup manufacturing business so book an appointment with NESSCO EXPERTS to support you to start your business in the Paper Cup Manufacturing industry. Following are products for small or large scale paper products business :
                         <br /><br /><br />
@@ -51,8 +51,8 @@ const StartBuisness = () => {
                         <br />
                         6. <Link className='bloglinks' to={'/product'}>Fully Automatic Paper Cup Making Machine</Link>
                     </p>
-                    <h1 className="blogheading">Other Paper Forming Products by Nessco India:
-                    </h1>
+                    <h2 className="blogheading">Other Paper Forming Products by Nessco India:
+                    </h2>
                     <p className="blogdesc">
                         <Link className='bloglinks' to={"/product/paper-container-bowl-making-machine/"}>Paper Container Bowl Making Machine </Link>
 <br />
@@ -69,8 +69,8 @@ const StartBuisness = () => {
                         <Link to={'/blog/paper-cups-for-hot-beverages/'} className='blognavbtn'>Next <FaArrowRightLong style={{ marginLeft: "2rem" }} /></Link>
                     </div>
                     <div className="blognavigationbtns marrr">
-                        <h1 className="blognavigationdesc">Disposable Packaging Solutions for HORECA</h1>
-                        <h1 className="blognavigationdesc">Premium Paper Cups For Hot Beverages</h1>
+                        <h3 className="blognavigationdesc">Disposable Packaging Solutions for HORECA</h3>
+                        <h3 className="blognavigationdesc">Premium Paper Cups For Hot Beverages</h3>
                     </div>
                 </div>
             </section>

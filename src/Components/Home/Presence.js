@@ -68,7 +68,7 @@ const Presence = () => {
     }
     if (valid) {
       try {
-        const response = await axios.post('http://13.202.40.238/form-submission', formData, {
+        const response = await axios.post('https://nesscobackend-sx1t.vercel.app/form-submission', formData, {
           headers: {
             'Content-Type': 'application/json', // Ensure the backend handles JSON
           },
@@ -85,20 +85,19 @@ const Presence = () => {
     <section className='presenceSection'>
       <div className='presenceContainer'>
         <div className='staticimages'>
-          <img className='staticimage1' alt='123' src={'https://nessco.kafkaindia.com/Assets/images/shape/shape-209.png'} />
-          <img className='staticimage2' alt='123' src={'https://nessco.kafkaindia.com/Assets/images/shape/shape-210.png'} />
+          <div className='staticimage1' />
+          <div className='staticimage2'  />
         </div>
         <div className='leftpresence'>
-          <h1 className="aboutusbtn">PRESENCE</h1>
-          <h1 className="presenceheading">Nessco Global <span> Presence</span>
-          </h1>
+          <h6 className="aboutusbtn">PRESENCE</h6>
+          <h2 className="presenceheading">Nessco Global <span> Presence</span>
+          </h2>
           <p className="presencepara">With a strong functional position in this market for over 40 years, now Nessco India is backed by 5 Domestic Distributing Centres and 7 International Ones. Over all these years, we have spread our arms to almost every country to expand our business globally.</p>
-          <img src={'https://nessco.kafkaindia.com/Assets/images/resource/newmap.png'} alt="map" />
+          <img src={'https://www.nesscoindia.com/Assets/images/resource/newmap.png'} alt="map" />
         </div>
-
         <div className='rightpresence'>
           <div className="presenceCard">
-            <h1 className="presencecardtitle">Request For A Quote</h1>
+            <h3 className="presencecardtitle">Request For A Quote</h3>
             <input value={formData.SingleLine} onChange={handleChange} name='SingleLine' placeholder='Full Name*' className='presenceinpfields' type="text" required />
             <div className="validations" style={{width:"100%"}}>
               <input value={formData.Email} onChange={handleChange} name='Email' placeholder='Email' className='presenceinpfields' type="text" />

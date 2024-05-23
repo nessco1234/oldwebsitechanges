@@ -71,7 +71,8 @@
 }
 
 .leftaboutpic2 {
-  background: url("https://nessco.kafkaindia.com/Assets/images/resource/nessco-team-pic1.webp") top center/contain;
+  background: url("https://www.nesscoindia.com/Assets/images/resource/nessco-team-pic1.webp")
+    top center/contain;
   /* border: 1px solid black; */
   position: absolute;
   width: 200px;
@@ -87,7 +88,6 @@
   /* transform: scale(0.8); */
   /* transform:scale3d(); */
 }
-
 
 .playbtn {
   color: var(--redcolor);
@@ -175,7 +175,7 @@
 .aboutpara {
   font-weight: 400;
   color: #595959;
-  
+
   font-size: 1.4rem;
   margin-bottom: 2rem;
   word-spacing: 4px;
@@ -310,15 +310,21 @@
 }
 .staticimage1 {
   position: absolute;
-  bottom: 0;
-  right: 100px;
-  z-index: -1;
-  z-index: -1;
+  top: 0;
+  left: 100px;
+  background: url("https://www.nesscoindia.com/Assets/images/shape/shape-209.png")
+    no-repeat center center/cover;
+  width: 100%;
 }
 .staticimage2 {
   position: absolute;
+  background: url(https://www.nesscoindia.com/Assets/images/shape/shape-210.png)
+    no-repeat;
+  width: 353px;
+  height: 303px;
   top: 0;
   left: 0;
+  z-index: 1;
 }
 .leftpresence {
   width: 50%;
@@ -572,8 +578,8 @@
   width: 100%;
   height: 70vh;
   /* background-color: khaki; */
-  background: url("https://nessco.kafkaindia.com/Assets/images/background/video-bg.webp") no-repeat center
-    center/cover;
+  background: url("https://www.nesscoindia.com/Assets/images/background/video-bg.webp")
+    no-repeat center center/cover;
   position: relative;
   /* z-index: -1; */
   overflow: hidden;
@@ -582,8 +588,8 @@
   left: 0;
   bottom: 0;
   position: absolute;
-  background: url("https://nessco.kafkaindia.com/Assets/images/shape/shape-13.png") no-repeat center
-    center/cover;
+  background: url("https://www.nesscoindia.com/Assets/images/shape/shape-13.png")
+    no-repeat center center/cover;
   z-index: 100;
   width: 397px;
   height: 273px;
@@ -596,8 +602,8 @@
   right: -30px;
   top: -15px;
   position: absolute;
-  background: url("https://nessco.kafkaindia.com/Assets/images/shape/shape-15.png") no-repeat center
-    center/cover;
+  background: url("https://www.nesscoindia.com/Assets/images/shape/shape-15.png")
+    no-repeat center center/cover;
   z-index: 100;
   animation: walkingshadow 5s linear infinite;
   z-index: 1;
@@ -606,7 +612,8 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  background: url("https://nessco.kafkaindia.com/Assets/images/shape/shape-14.png") no-repeat center;
+  background: url("https://www.nesscoindia.com/Assets/images/shape/shape-14.png")
+    no-repeat center;
   width: 337px;
   height: 291px;
   background-repeat: no-repeat;
@@ -616,7 +623,8 @@
   position: absolute;
   right: 0;
   top: 0;
-  background: url("https://nessco.kafkaindia.com/Assets/images/shape/shape-16.png") no-repeat center;
+  background: url("https://www.nesscoindia.com/Assets/images/shape/shape-16.png")
+    no-repeat center;
   width: 312px;
   height: 301px;
   background-repeat: no-repeat;
@@ -747,7 +755,7 @@
   border: 3px solid white;
   animation: hamburger_puls2 2s 1s ease infinite;
 }
-.youtubebtn:hover{
+.youtubebtn:hover {
   background-color: white;
   color: black;
 }
@@ -806,7 +814,8 @@
   overflow: hidden;
 }
 .bghomestat1 {
-  background: url("https://nessco.kafkaindia.com/Assets/images/shape/shape-21.png") no-repeat center center;
+  background: url("https://www.nesscoindia.com/Assets/images/shape/shape-21.png")
+    no-repeat center center;
   width: 170px;
   height: 170px;
   position: absolute;
@@ -815,7 +824,8 @@
   transform: scale(1.4);
 }
 .bghomestat2 {
-  background: url("https://nessco.kafkaindia.com/Assets/images/shape/shape-22.png") no-repeat center center;
+  background: url("https://www.nesscoindia.com/Assets/images/shape/shape-22.png")
+    no-repeat center center;
   width: 170px;
   height: 170px;
   position: absolute;
@@ -870,7 +880,7 @@
 .bannerslide::after {
   position: absolute;
   content: "";
-  background: url("https://nessco.kafkaindia.com/Assets/images/banner/banner-image-nessco-2.webp")
+  background: url("https://www.nesscoindia.com/Assets/images/banner/banner-image-nessco-2.webp")
     no-repeat center center/cover;
   animation: anima 5s ease forwards infinite;
   width: 100%;
@@ -885,7 +895,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background: url("https://nessco.kafkaindia.com/Assets/images/shape/shape-2.png");
+  background: url("https://www.nesscoindia.com/Assets/images/shape/shape-2.png");
   width: 425px;
   height: 576px;
   background-repeat: no-repeat;
@@ -895,7 +905,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background: url("https://nessco.kafkaindia.com/Assets/images/shape/shape-3.png");
+  background: url("https://www.nesscoindia.com/Assets/images/shape/shape-3.png");
   width: 425px;
   height: 576px;
   background-repeat: no-repeat;
@@ -907,7 +917,7 @@
   right: 0;
   width: 100px;
   height: 100px;
-  background: url("https://nessco.kafkaindia.com/Assets/images/shape/shape-4.png");
+  background: url("https://www.nesscoindia.com/Assets/images/shape/shape-4.png");
   width: 442px;
   height: 273px;
   background-repeat: no-repeat;
@@ -917,7 +927,7 @@
   z-index: 1;
   bottom: 0;
   right: 0;
-  background: url("https://nessco.kafkaindia.com/Assets/images/shape/shape-5.png");
+  background: url("https://www.nesscoindia.com/Assets/images/shape/shape-5.png");
   width: 382px;
   height: 291px;
   background-repeat: no-repeat;
@@ -931,7 +941,6 @@
   justify-content: center;
   align-items: center;
 }
-
 
 .bannerbtn {
   padding: 1rem 1.5rem;
@@ -981,7 +990,7 @@
 
 .bannerslideheading {
   /* width: 100%; */
-  text-align:initial;
+  text-align: initial;
   color: white;
   font-size: 6rem;
   font-weight: 600;
@@ -1217,7 +1226,8 @@
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
-  margin-right: 7rem;margin-bottom: 5rem;
+  margin-right: 7rem;
+  margin-bottom: 5rem;
 }
 .testimonialsec {
   display: flex;
@@ -1351,7 +1361,7 @@
   border-bottom-right-radius: 10px;
 }
 .productsssheading {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   text-align: center;
   color: var(--bluecolor);
@@ -1432,33 +1442,33 @@
   cursor: pointer;
   padding: 10px 20px;
 }
-.validations{
+.validations {
   width: 45%;
   margin: 0 auto;
 }
-.validations>input{
+.validations > input {
   width: 100%;
 }
 /* ////////////////////////////////// */
 /* MEDIA QUERY FOR TABLET */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
-  .bannerslide{
+  .bannerslide {
     width: 80%;
     margin: auto;
     justify-content: flex-start;
-    align-items:flex-start;
+    align-items: flex-start;
     text-align: start;
   }
-  .home-page{
+  .home-page {
     display: inline;
     align-items: start;
     justify-content: start;
     text-align: start;
   }
-  .bannerslideheading{
+  .bannerslideheading {
     font-size: 5rem;
   }
-  .bannerslidepara{
+  .bannerslidepara {
     text-align: start;
   }
   .wenesscobuttons {
@@ -1467,11 +1477,11 @@
   .wenesscocontainer {
     overflow-x: scroll;
   }
-  .wenesscocontainer{
+  .wenesscocontainer {
     overflow: hidden;
     flex-direction: column;
   }
-  .wenesscoleft{
+  .wenesscoleft {
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -1479,14 +1489,14 @@
   .wenesscocard {
     min-width: 50%;
   }
-  
-  .wenesscocardleft{
+
+  .wenesscocardleft {
     width: 100%;
   }
-  .wenesscocardleft>img{
+  .wenesscocardleft > img {
     width: 70%;
   }
-  .wenesscocardright{
+  .wenesscocardright {
     display: none;
   }
   .sectionContainer {
@@ -1520,8 +1530,8 @@
     width: 100%;
     height: 100vh;
     background-color: khaki;
-    background: url("https://nessco.kafkaindia.com/Assets/images/background/video-bg.webp") no-repeat
-      bottom center/150%;
+    background: url("https://www.nesscoindia.com/Assets/images/background/video-bg.webp")
+      no-repeat bottom center/150%;
   }
 
   .creation::before {
@@ -1572,14 +1582,14 @@
     width: 100%;
     margin-top: 0;
   }
-  .leftpresence > img{
+  .leftpresence > img {
     width: 60%;
   }
   .rightpresence {
     width: 100%;
     margin-top: 0;
   }
-  .presenceCard{
+  .presenceCard {
     width: 100%;
   }
   .mm {
@@ -1596,7 +1606,7 @@
   }
   .testimonialsleft {
     width: 100%;
-    margin:3rem 0;
+    margin: 3rem 0;
   }
   .testimonialsright {
     width: 100%;
@@ -1638,7 +1648,7 @@
     width: 100%;
     height: 130px;
   }
-  .subscribebtn{
+  .subscribebtn {
     height: 65%;
   }
   .subsribecontainer {
@@ -1662,28 +1672,31 @@
   } */
 }
 @media screen and (max-width: 600px) {
-  .bannerslide{
+  .bannerslide {
     width: 90%;
     margin: auto;
     justify-content: flex-start;
-    align-items:flex-start;
+    align-items: flex-start;
     text-align: start;
   }
-  .home-page{
+  .home-page {
     display: inline;
     align-items: start;
     justify-content: start;
     text-align: start;
     width: 100%;
   }
-  .imglayer1,.imglayer2,.imglayer3,.imglayer4{
+  .imglayer1,
+  .imglayer2,
+  .imglayer3,
+  .imglayer4 {
     display: none;
   }
-  .bannerslidepara{
+  .bannerslidepara {
     text-align: start;
     font-size: 1.6rem;
   }
-  .bannerslideheading{
+  .bannerslideheading {
     font-size: 3.5rem;
   }
   .rightabout {
@@ -1695,25 +1708,23 @@
   .wenesscobuttons {
     display: none;
   }
-  .wenessco{
+  .wenessco {
     height: 100%;
   }
   .wenesscocontainer {
     flex-direction: column;
     overflow-x: scroll;
   }
-  .wenesscoleft{
+  .wenesscoleft {
     width: 100%;
     display: none;
-    
-
   }
-  .wenesscoheading{
+  .wenesscoheading {
     /* di */
     width: 100%;
     font-size: 3rem;
   }
-  .wenesscoright{
+  .wenesscoright {
     width: 100%;
   }
   .wenesscocard {
@@ -1721,14 +1732,14 @@
     height: 100%;
     /* overflow-x: scroll; */
   }
-  .wenesscocardleft{
+  .wenesscocardleft {
     width: 100%;
     height: 100px;
   }
-  .wenesscocardleft>img{
+  .wenesscocardleft > img {
     width: 100%;
   }
-  .wenesscocardright{
+  .wenesscocardright {
     display: none;
   }
   .sectionContainer {
@@ -1743,7 +1754,8 @@
   .rightabout {
     width: 100%;
     margin: auto;
-    margin-top: 10rem;margin-bottom: 4rem;
+    margin-top: 20rem;
+    margin-bottom: 4rem;
   }
 
   .leftaboutpic2 {
@@ -1757,15 +1769,15 @@
   .signatureimg {
     width: 15%;
   }
-  .testimonialscontainer{
-      width: 90%;
+  .testimonialscontainer {
+    width: 90%;
   }
   .creation {
     width: 100%;
     height: 100vh;
     background-color: khaki;
-    background: url("https://nessco.kafkaindia.com/Assets/images/background/video-bg.webp") no-repeat
-      bottom center/150%;
+    background: url("https://www.nesscoindia.com/Assets/images/background/video-bg.webp")
+      no-repeat bottom center/150%;
     /* position: relative; */
   }
 
@@ -1780,7 +1792,10 @@
     opacity: 0.6;
     z-index: 1;
   }
-  .creationpattern1,.creationpattern2,.creationpattern3,.creationpattern4{
+  .creationpattern1,
+  .creationpattern2,
+  .creationpattern3,
+  .creationpattern4 {
     display: none;
   }
   .creationcontainer {
@@ -1821,7 +1836,7 @@
   .rightpresence {
     width: 100%;
   }
-  .presenceCard{
+  .presenceCard {
     width: 100%;
   }
   .mm {
@@ -1899,15 +1914,16 @@
     width: 100%;
   }
   .rightsubscribe {
-    width: 100%;margin-bottom: 2rem;
+    width: 100%;
+    margin-bottom: 2rem;
   }
-  .subscribebtn{
+  .subscribebtn {
     margin-left: 0;
   }
-  .aboutusbtn{
+  .aboutusbtn {
     margin-top: 2rem;
   }
-  .productsssdesc{
+  .productsssdesc {
     width: 100%;
   }
   /* .productbox {
@@ -1939,7 +1955,7 @@
     width: 80%;
     z-index: -1;
   }
-  .testimonialowner{
+  .testimonialowner {
     width: 100%;
     margin-right: 0;
   }

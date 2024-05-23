@@ -7,10 +7,24 @@ import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
 import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
+import { Helmet } from 'react-helmet'
 
 const CanadaPaper = () => {
     return (
         <>
+            <Helmet>
+                <title>Paper Cup Making Machine in Canada | Nessco</title>
+                <meta name="description" content="Looking for paper cup machine in Canada? Nessco has over 40 years of experience in paper cup making machine manufacturing in Canada. Get Quote Now!" />
+                <meta name="keywords" content="paper cup making machine in canada, paper cup machine in canada, paper cup making machine supplier in canada, paper cup making machine manufacturers in canada, paper cup making machine price in canada, paper forming machine in canada" />
+                <meta name="copyright" content="Copyright 2022 Nessco India" />
+                <meta name="distribution" content="global" />
+                <meta name="language" content="english" />
+                <meta name="robots" content="index,follow" />
+                <meta name="publisher" content="Nessco India" />
+                <meta name="author" content="Nessco India" />
+                <link rel="canonical" href="https://www.nesscoindia.com/global/paper-cup-making-machine-in-canada/" />
+
+            </Helmet>
             <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">
@@ -36,7 +50,7 @@ const CanadaPaper = () => {
                         <img src={img1} alt="" />
                         <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Canada</span></h1>
                         <p className="descriptionmachineleftcontent">Nessco brings A top quality range of paper cup making machine in Canada. <br />
-<Link>Nessco Machine</Link> is a multi-station automatic cup making machine. Introduced with a photoelectric sensor, flaw recognizing gadget, précised counter, and other instruments, this paper forming machine is in high demand and production of a variety of paper cups. The high-speed paper cup machine satisfies various complex systems and is noted for simple activity, stable properties, minimal involved area, and high production. Moreover, now our clients in Canada can buy paper cup making machines at a budget-friendly price. Fully Automatic Paper Cup Making Machine for Small and large size cups, Single PE coated Dixie cups.</p> <br /><br />
+                            <Link>Nessco Machine</Link> is a multi-station automatic cup making machine. Introduced with a photoelectric sensor, flaw recognizing gadget, précised counter, and other instruments, this paper forming machine is in high demand and production of a variety of paper cups. The high-speed paper cup machine satisfies various complex systems and is noted for simple activity, stable properties, minimal involved area, and high production. Moreover, now our clients in Canada can buy paper cup making machines at a budget-friendly price. Fully Automatic Paper Cup Making Machine for Small and large size cups, Single PE coated Dixie cups.</p> <br /><br />
                     </div>
                     <div className="descriptionmachineright">
                         <div className="descriptionsuggestions">
