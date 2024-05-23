@@ -4,6 +4,8 @@ import '../Styles/Product.css'
 import ProductCard from '../Components/Product/ProductCard';
 
 import { Helmet } from 'react-helmet';
+import { FaAngleRight } from 'react-icons/fa6';
+import { Link } from 'react-router-dom';
 function ProductFilter({ products }) {
     const [selectedFilter, setSelectedFilter] = useState('All');
 
@@ -106,6 +108,11 @@ function App() {
                 <meta name="author" content="Nessco India" />
                 <link rel="canonical" href="https://www.nesscoindia.com/product/" />
             </Helmet>
+            <section className="breadcrum">
+                <div className="breadcrumcontainer">
+                    <Link to={'/'} className='breadcrumheading'>Home<FaAngleRight className='breadcrumicon' /></Link><Link className='breadcrumheading'><span>Product</span> </Link>
+                </div>
+            </section>
             <div>
                 <ProductFilter products={products} />
             </div>

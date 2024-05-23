@@ -2,10 +2,24 @@ import React from 'react'
 import Breadcrum from '../Home/Breadcrum'
 import { Link } from 'react-router-dom'
 import { FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6'
+import { Helmet } from 'react-helmet'
 
 const PremiumPaper = () => {
     return (
         <>
+            <Helmet>
+                <title>Paper Cups For Hot Beverages</title>
+                <meta name="description" content="Nessco India, manufacture customize Paper Cup Machines which can manufacture cups for cold as well as hot beverages." />
+                <meta name="keywords" content=" " />
+                <meta name="copyright" content="Copyright 2022 Nessco India" />
+                <meta name="distribution" content="global" />
+                <meta name="language" content="english" />
+                <meta name="robots" content="index,follow" />
+                <meta name="publisher" content="Nessco India" />
+                <meta name="author" content="Nessco India" />
+                <link rel="canonical" href="https://www.nesscoindia.com/blog/paper-cups-for-hot-beverages/" />
+
+            </Helmet>
             <Breadcrum third={true} previous={"Blog"} link={"/blog"} active={"Paper Cups For Hot Beverages"} />
             <section className="blogdescsection">
                 <div className="blogdescsectioncontainer">

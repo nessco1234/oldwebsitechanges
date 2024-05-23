@@ -3,9 +3,22 @@ import { FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
 import img1 from '../../Assets/images/news/news-1.webp'
 import Breadcrum from '../Home/Breadcrum'
+import { Helmet } from 'react-helmet'
 const Horeca = () => {
     return (
         <>
+            <Helmet>
+                <title>Disposable Packaging Solutions for HORECA</title>
+                <meta name="description" content="The ban on single use plastic from July 2021, everyone is looking for other packaging options which includes paper cups, containers and bowls that are sustainable as well as eco-friendly." />
+                <meta name="keywords" content="" />
+                <meta name="copyright" content="Copyright 2022 Nessco India" />
+                <meta name="distribution" content="global" />
+                <meta name="language" content="english" />
+                <meta name="robots" content="index,follow" />
+                <meta name="publisher" content="Nessco India" />
+                <meta name="author" content="Nessco India" />
+                <link rel="canonical" href="https://www.nesscoindia.com/blog/disposable-packaging-solutions-for-horeca/" />
+            </Helmet>
             <Breadcrum third={true} previous={"Blog"} link={"/blog"} active={"Disposable Packaging Solutions for HORECA"} />
             <section className="blogdescsection">
                 <div className="blogdescsectioncontainer">

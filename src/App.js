@@ -103,9 +103,10 @@ import KoreaPaper from "./CountriesData/KoreaPaper";
 // import img27 from './Assets/images/resource/automatic'
 import Thankyou from "./Pages/Thankyou";
 
-
+import PaperBag from './Data/PaperBag.json'
 
 import ScrollToTop from "./Components/Layout/ScrollToTop";
+import USAPaperBag from "./CountriesData/USAPaperBag";
 
 function ScrollToTopOnRouteChange() {
   const { pathname } = useLocation();
@@ -213,7 +214,7 @@ function App() {
             <Route element={<GermanyKShow />} exact path="/germany/k-show-germany/" />
             <Route element={<Interpack />} exact path="/germany/interpack/" />
             <Route element={<NepalPaper />} exact path="/global/paper-cup-making-machine-in-nepal/" />
-            <Route element={<USAPaper />} exact path="global/paper-shopping-bag-forming-machine-in-usa/" />
+            <Route element={<USAPaperBag />} exact path="global/paper-shopping-bag-forming-machine-in-usa/" />
             <Route element={<OmanPaper />} exact path="/global/paper-cup-making-machine-in-oman/" />
             <Route element={<SouthafricaPaper />} exact path="/global/paper-cup-making-machine-in-south-africa/" />
             <Route element={<SaudiarabPaper />} exact path="/global/paper-cup-making-machine-in-saudi-arab/" />
@@ -258,7 +259,7 @@ function App() {
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img17} data={RectangularFlatBottom} />} exact path="/product/rectangle-flat-bottom-bowl-machine/" />
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img22} data={RippleWallCupSleeve} />} exact path="/product/ripple-wall-cup-sleeve-glueing-machine/" />
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img6} data={ServeDrivenPaperCup} />} exact path="/product/servo-driven-paper-cup-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img26} data={FullyAutomaticPaperBag} />} exact path="/product/paper-bag-making-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img26} img2url={serv14} data={PaperBag} />} exact path="/product/paper-bag-making-machine/" />
             <Route element={<Thankyou link={download} />} exact path="/thank-you" />
           </>
           <Route

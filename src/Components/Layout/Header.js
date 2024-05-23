@@ -10,6 +10,11 @@ import { FaAngleDown, FaFacebookSquare, FaFcebookSquare, FaInstagramSquare } fro
 import axios from 'axios'
 const list1 = [
     {
+        id: 6,
+        name: "Servo Driven Paper Cup Machine",
+        link: "/product/servo-driven-paper-cup-machine/",
+    },
+    {
         id: 1,
         name: "Paper Glass Machine",
         link: "/product/paper-glass-making-machine/",
@@ -33,11 +38,6 @@ const list1 = [
         id: 5,
         name: "Ripple wall Cup Machine",
         link: "/product/ripple-wall-cup-machine/",
-    },
-    {
-        id: 6,
-        name: "Servo Driven Paper Cup Machine",
-        link: "/product/servo-driven-paper-cup-machine/",
     },
     {
         id: 6,
@@ -133,6 +133,11 @@ const list4 = [
 ]
 
 const list5 = [
+    {
+        id: 1,
+        name: "Paper Bag Machine",
+        link: "/product/paper-bag-making-machine/",
+    },
     {
         id: 1,
         name: "Fully Automatic Paper Bag Machine",

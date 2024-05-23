@@ -8,6 +8,8 @@ import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
 import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
 import { Helmet } from 'react-helmet'
+import Form1 from '../Components/MarketArea/Form1'
+import Form2 from '../Components/MarketArea/Form2'
 
 const FrancePaper = () => {
     return (
@@ -33,15 +35,7 @@ const FrancePaper = () => {
                             Nessco India is known for manufacturing and globally exporting various paper product forming machineries. With a strong functional position in this market for over 40 years, now we are backed by 5 Domestic Distributing Centers and 4 International Ones. Over all these years, we have spread our arms to almost every country to expand our business globally.
                         </p>
                     </div>
-                    <div className="intromachineform">
-                        <div className="intromachinecard">
-                            <input placeholder='Full Name *' className='intromachineforminputs' type="text" />
-                            <input placeholder='Phone Number *' className='intromachineforminputs' type="text" />
-                            <input placeholder='Email ' className='intromachineforminputs' type="text" />
-                            <textarea placeholder='Message ' className='intromachineforminputs' type="text" />
-                            <button className='intromachineformbtn'>Send Message <FaArrowRightLong className='intromachineicon' /></button>
-                        </div>
-                    </div>
+                    <Form1/>
                 </div>
             </section>
             <section className="descriptionmachine">
@@ -66,16 +60,7 @@ const FrancePaper = () => {
                                 ))
                             }
                         </div>
-                        <div className="descriptionaboutaquote">
-                            <h1 className="descriptionaboutaquoteheading">Get a Quote</h1>
-                            <input placeholder='Full Name *' className='descriptionaboutaquoteinputs' type="text" />
-                            <input placeholder='Phone Number*' className='descriptionaboutaquoteinputs' type="text" />
-                            <input placeholder='Email' className='descriptionaboutaquoteinputs' type="text" />
-                            <textarea placeholder='Message' className='descriptionaboutaquoteinputs' ></textarea>
-                            <button className="descriptionaboutbtn">
-                                Send Message <FaArrowRightLong />
-                            </button>
-                        </div>
+                        <Form2/>
                         <div className="downloadbrochures">
                             <h1 className="downloadbrochuresheading">Download Brochures</h1>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>

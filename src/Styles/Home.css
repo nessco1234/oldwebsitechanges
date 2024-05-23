@@ -572,7 +572,9 @@
   color: var(--bluecolor);
   font-size: 1.4rem;
 }
-
+.articlelink>img{
+  width: 35%;
+}
 /* CREATION SECTION  */
 .creation {
   width: 100%;

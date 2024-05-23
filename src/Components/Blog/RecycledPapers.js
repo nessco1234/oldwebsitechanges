@@ -2,10 +2,24 @@ import React from 'react'
 import Breadcrum from '../Home/Breadcrum'
 import { Link } from 'react-router-dom'
 import { FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6'
+import { Helmet } from 'react-helmet'
 
 const RecycledPapers = () => {
     return (
         <>
+            <Helmet>
+                <title>Use Paper Cups - Renewable Into High-quality Products</title>
+                <meta name="description" content="Use Paper Cups, it can be recycled. One more step for green environment. Now for the Healthy &amp; green environment, use paper cups instead of plastic." />
+                <meta name="keywords" content="" />
+                <meta name="copyright" content="Copyright 2022 Nessco India" />
+                <meta name="distribution" content="global" />
+                <meta name="language" content="english" />
+                <meta name="robots" content="index,follow" />
+                <meta name="publisher" content="Nessco India" />
+                <meta name="author" content="Nessco India" />
+                <link rel="canonical" href="https://www.nesscoindia.com/blog/use-paper-cups-it-can-be-recycled/" />
+
+            </Helmet>
             <Breadcrum third={true} previous={"Blog"} link={"/blog"} active={"Use Paper Cups – Renewable Into High-quality Products"} />
             <section className="blogdescsection">
                 <div className="blogdescsectioncontainer">

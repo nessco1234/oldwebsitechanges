@@ -65,7 +65,7 @@ const MarketArea = (props) => {
                         </div>
                     </div>
                     <div className="marketarearight">
-                        {
+                        {/* {
                             data.section1 && <>
 
                                 <h1 className="marketareaheading">{data.section1heading}</h1>
@@ -75,7 +75,7 @@ const MarketArea = (props) => {
                                     ))}
                                 </div>
                             </>
-                        }
+                        } */}
                         {
                             data.section2 && <>
                                 <h1 className="marketareaheading">{data.section2heading}</h1>

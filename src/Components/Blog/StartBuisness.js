@@ -3,17 +3,31 @@ import React from 'react'
 import Breadcrum from '../Home/Breadcrum'
 import { Link } from 'react-router-dom'
 import { FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6'
+import { Helmet } from 'react-helmet'
 
 const StartBuisness = () => {
     return (
         <>
+            <Helmet>
+                <title>How You Can Start A Business for Paper Cup</title>
+                <meta name="description" content="Plan startup in paper forming products, we can guide you to run the business. Nessco India have experience, resources, and machinery according to requirements." />
+                <meta name="keywords" content=" " />
+                <meta name="copyright" content="Copyright 2022 Nessco India" />
+                <meta name="distribution" content="global" />
+                <meta name="language" content="english" />
+                <meta name="robots" content="index,follow" />
+                <meta name="publisher" content="Nessco India" />
+                <meta name="author" content="Nessco India" />
+                <link rel="canonical" href="https://www.nesscoindia.com/blog/paper-cup-business-idea/" />
+
+            </Helmet>
             <Breadcrum third={true} previous={"Blog"} link={"/blog"} active={"How You Can Start A Business for Paper Cup"} />
             <section className="blogdescsection">
                 <div className="blogdescsectioncontainer">
 
                     <h1 className="blogmainheading">How You Can Start A Business for Paper Cup</h1>
                     <p className="blogdesc">“The advent of paper cups is increasingly replacing plastic cups”
-                        <br /><br/>
+                        <br /><br />
                         First of all, we (NESSCO) must say YES paper cup-making business is profitable. However, it depends on several aspects. Generally, Paper Cup Making is comparatively an easy business to start. It demands fewer infrastructures and less working capital also. It is a good idea for the paper cup and paper disposables manufacturing business. It is a low investment and high revenue business. Due to environmental pollution, almost all countries and states ban poly bags, plastic cups, and plates, etc. Paper forming machines aids in the manufacturing of Eco-friendly and recyclable paper products. Planning startup in paper forming products, we can guide you to run the business.</p>
                     <h2 className="blogheading">High Speed Paper Cup Machine</h2>
                     <p className="blogdesc">Paper cup forming machine is designed using Single Turn Plate Technology and Direct Bottom Technology which reduces wastage of paper and rotations during the process of bottom feeding, bottom knurling and top curling as well. Our machines can produce cups of different sizes as per customer’s requirement. It is suitable for manufacturing both Single and Double side PE coated Paper Cups which can be used for serving hot as well as cold drinks.</p>
@@ -55,13 +69,13 @@ const StartBuisness = () => {
                     </h2>
                     <p className="blogdesc">
                         <Link className='bloglinks' to={"/product/paper-container-bowl-making-machine/"}>Paper Container Bowl Making Machine </Link>
-<br />
+                        <br />
                         <Link className='bloglinks' to={"/product/paper-plate-making-machine/"}>Paper Plate Making Machine</Link>
-<br />
+                        <br />
                         <Link className='bloglinks' to={"product/flexo-printing-machine/"}>Flexographic Printing Machine</Link>
-<br />
+                        <br />
                         <Link className='bloglinks' to={"/product/roll-die-cutting-machine/"}>Roll Die Cutting Machine</Link>
-<br />
+                        <br />
                         <Link className='bloglinks' to={""}>Paper Shopping Bag Machine</Link>
                     </p>
                     <div className="blognavigationbtns marr">

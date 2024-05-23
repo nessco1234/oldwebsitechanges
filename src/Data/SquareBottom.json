@@ -63,66 +63,86 @@
             "specs": "Production Speed",
             "ns220": "280 Pcs/Min",
             "ns330": "230 Pcs/Min",
-            "ns460": "30-180 Bags/Min"
+            "ns400": "220 Pcs/Min",
+            "ns460": "180 Bags/Min"
         },
         {
             "specs": "Paper Thickness",
             "ns220": "50-130 GSM",
             "ns330": "60-150 GSM",
+            "ns400": "70-150 Pcs/Min",
             "ns460": "70-150 GSM"
         },
         {
             "specs": "Paper Bag Width",
             "ns220": "80-220 mm",
             "ns330": "150-330 mm",
+            "ns400": "150-400 mm",
+
             "ns460": "150-400 mm"
         },
         {
             "specs": "Paper Bag Bottom Width",
             "ns220": "50-120 mm",
             "ns330": "70-180 mm",
+            "ns400": "150-400 mm",
+
             "ns460": "90-200 mm"
         },
         {
             "specs": "Tube Cutting Length",
             "ns220": "190-430 mm",
             "ns330": "280-510 mm",
+            "ns400": "150-400 mm",
+
             "ns460": "280-600 mm"
         },
         {
             "specs": "Machine dimensions (in mm)",
             "ns220": "8200x3200x1900",
             "ns330": "9200x3700x2000",
+            "ns400": "150-400 mm",
+
             "ns460": "9200x3700x2000"
         },
         {
             "specs": "Weight",
             "ns220": "7000 Kg",
             "ns330": "9000 Kg",
+            "ns400": "150-400 mm",
+
             "ns460": "10000 Kg"
         },
         {
             "specs": "Max Paper Roll Width",
             "ns220": "620 mm",
             "ns330": "1050 mm",
+            "ns400": "150-400 mm",
+
             "ns460": "1290 mm"
         },
         {
             "specs": "Max Paper Roll Diameter",
             "ns220": "1200 mm",
             "ns330": "1200 mm",
+            "ns400": "150-400 mm",
+
             "ns460": "1200 mm"
         },
         {
             "specs": "General Power",
             "ns220": "12 KW",
             "ns330": "15 kW",
+            "ns400": "150-400 mm",
+
             "ns460": "16 KW"
         },
         {
             "specs": "Power Supply",
             "ns220": "380V 3 Phase",
             "ns330": "380V 3 Phase",
+            "ns400": "150-400 mm",
+
             "ns460": "380V 3 Phase"
         }
     ],

@@ -2,10 +2,24 @@ import React from 'react'
 import { FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6'
 import Breadcrum from '../Home/Breadcrum'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 
 const PaperPlate = () => {
     return (
         <>
+            <Helmet>
+                <title>Paper Plate Making Machine An Eco-Friendly Alternative</title>
+                <meta name="description" content="Paper Plate Making Machine An Eco-Friendly Alternative. Recycling is the best method to reduce wastage and pollution. Inquire Now!" />
+                <meta name="keywords" content=" " />
+                <meta name="copyright" content="Copyright 2022 Nessco India" />
+                <meta name="distribution" content="global" />
+                <meta name="language" content="english" />
+                <meta name="robots" content="index,follow" />
+                <meta name="publisher" content="Nessco India" />
+                <meta name="author" content="Nessco India" />
+                <link rel="canonical" href="https://www.nesscoindia.com/blog/paper-plate-making-machine-an-eco-friendly-alternative/" />
+
+            </Helmet>
             <Breadcrum third={true} previous={"Blog"} link={"/blog"} active={"Paper Plate Making Machine An Eco Friendly Alternative"} />
             <section className="blogdescsection">
                 <div className="blogdescsectioncontainer">
