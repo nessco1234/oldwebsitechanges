@@ -41,7 +41,7 @@ const TurkeyKarton = () => {
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
-                        <h1 className="descriptionmachineleftdata">karton <span>bardak makinesi</span></h1>
+                        <h3 className="descriptionmachineleftdata">karton <span>bardak makinesi</span></h3>
                         <p className="descriptionmachineleftcontent">Nessco Kağıt Bardak Makinası son teknoloji, güvenilir, dayanıklı ve yüksek teknolojik ekipmanlar kullanılarak üretilir. Bardak koni takipçisi için bir çeşit kol düzeni ile oluşturulan yan kagıtlarının hareketi için iki katmanlı bir sisteme sahip en iyi kağıt bardak yapma makinesini üretip ihraç etmekteyiz.Robotik Kol, alt taban ısıtma, tırtıl açma (düzleştirme) ve Üstten kıvırma için daha fazla işlem için fincan külahlarının Kalıplara aktarılmasında hayati bir rol oynar. Ayrıca, bu makine, kağıt besleme ve bardak sayımı için fotoelektrik sensörler gibi bazı ek özelliklere sahiptir.
                             <br /><br />
                             Tek kullanımlık kağıt bardak makinelerimizdeki tüm işlemler, daha az Güç tüketimi sağlayan Tek Motorlu Güç Kaynağı ile gerçekleştirilir. Kap oluşturma işleminin tamamı, makinenin çeşitli (hareketli) mekanik parçaları arasındaki sürtünmeyi azaltmaya yardımcı olan yağlama düzenlemesi ile uygun yağlamayı sağlayan Open Cam teknolojisi (Bilgisayar Destekli Üretim) kullanılarak gerçekleştirilir.
@@ -72,7 +72,7 @@ const TurkeyKarton = () => {
                         </div>
                         <Form2/>
                         <div className="downloadbrochures">
-                            <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                            <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                             <div className="brochurecontent">
                                 <div className="brochurelogo">

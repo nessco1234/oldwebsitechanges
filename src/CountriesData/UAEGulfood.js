@@ -41,7 +41,7 @@ const UAEGulfood = () => {
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src='https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp' alt="" />
-                        <h1 className="descriptionmachineleftdata">Paper Bag Making <span>Machine In Uae</span></h1>
+                        <h3 className="descriptionmachineleftdata">Paper Bag Making <span>Machine In Uae</span></h3>
                         <p className="descriptionmachineleftcontent"> <b>Nessco India</b> would like to take the pleasure to invite you all to the Food Tech Show <b>Gulfood Manufacturing</b> in <b>Trade Centre Arena, Dubai.</b> We are exhibiting at <b>Stall NO S E-3 in Sheikh Saeed Hall (SSH)</b>. Our team will be available at the venue from <b>8th to 10th November, 2022</b> to assist you with all the details.
                             <br /><br />
                             We are showcasing our High Speed Paper Cup Machine along with various technologies associated with it which are –<br /> <br />
@@ -72,7 +72,7 @@ const UAEGulfood = () => {
                         </div>
                         <Form2 />
                         <div className="downloadbrochures">
-                            <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                            <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                             <div className="brochurecontent">
                                 <div className="brochurelogo">

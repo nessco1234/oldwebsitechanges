@@ -42,7 +42,7 @@ const BahrainPaper = () => {
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
-                        <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Bahrain</span></h1>
+                        <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Bahrain</span></h3>
                         <p className="descriptionmachineleftcontent">Nessco brings you a top-quality range of Paper Cup Making machines In Bahrain. which is a multi-station automatic, capable of producing a large number of paper cups at one time. We are the manufacturer of fully automatic, semi-automatic, high speed fully automatic paper cup making machine with different sizes of cups. Continuous automatic procedures such as sealing, oil filling, heating, knurling, curling, and unloading make our machines ideal.
                             <br /><br />
                             High-quality fully automatic Paper Cup making Machine
@@ -62,7 +62,7 @@ const BahrainPaper = () => {
                         </div>
                         <Form2/>
                         <div className="downloadbrochures">
-                            <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                            <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                             <div className="brochurecontent">
                                 <div className="brochurelogo">

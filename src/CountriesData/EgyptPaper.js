@@ -42,7 +42,7 @@ const EgyptPaper = () => {
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
-                        <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine in Egypt</span></h1>
+                        <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine in Egypt</span></h3>
                         <p className="descriptionmachineleftcontent">Nessco brings you A top quality range of Paper Cup Making Machine In Egypt. It offers continuous high speed process, including automatic paper cup wall feeding, ultrasonic wave sealing, cup top lubrication, bottom punching, heating, knurling, curling and cup stacking..
                             <br /><br />
                             <b>
@@ -71,7 +71,7 @@ const EgyptPaper = () => {
                         </div>
                         <Form2/>
                         <div className="downloadbrochures">
-                            <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                            <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                             <div className="brochurecontent">
                                 <div className="brochurelogo">

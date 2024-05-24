@@ -42,7 +42,7 @@ const IranPaper = () => {
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
-                        <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Iran</span></h1>
+                        <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Iran</span></h3>
                         <p className="descriptionmachineleftcontent">Nesscoindia is bringing you its complete range of Paper Cup Making Machine in Iran. We are the best supplier of fully automatic machines which require the least labor work and can perform a chain of functions. And these functions include paper feeding, oil filling, heating, knurling, curling, and popping up paper cups as well.
                             <br /><br /><b>
 
@@ -64,7 +64,7 @@ const IranPaper = () => {
                         </div>
                         <Form2/>
                         <div className="downloadbrochures">
-                            <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                            <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                             <div className="brochurecontent">
                                 <div className="brochurelogo">

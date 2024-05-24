@@ -6,10 +6,10 @@ const Article = () => {
         <>
             <section className="article">
                 <div className="articlecontainer">
-                    <h1 className="aboutusbtn " style={{ marginLeft: "2.5rem" }}>ARTICLE</h1>
-                    <h1 className="articleheadings" style={{ marginLeft: "2.5rem" }}>
+                    <h6 className="aboutusbtn " style={{ marginLeft: "2.5rem" }}>ARTICLE</h6>
+                    <h2 className="articleheadings" style={{ marginLeft: "2.5rem" }}>
                         Latest <span>Articles</span>
-                    </h1>
+                    </h2>
                     <div className="articlecards">
                         <div className="articlecard">
                             <Link to={'/blog/disposable-packaging-solutions-for-horeca/'} className="uppersection">

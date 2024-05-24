@@ -24,6 +24,7 @@ const MachineSpecs2 = (props) => {
                                     <td style={cellStyle}>{row.specs}</td>
                                     <td style={cellStyle}>{row.ns220}</td>
                                     <td style={cellStyle}>{row.ns330}</td>
+                                    <td style={cellStyle}>{row.ns400}</td>
                                     <td style={cellStyle}>{row.ns460}</td>
                                 </tr>
                             ))}

@@ -12,9 +12,9 @@ const SingleBlog = (props) => {
                     <img src={d.url} alt={d.heading} />
                 </div>
                 <div className="singleblogcardlower">
-                    <h1 className="singleblogcardtitle">
+                    <h2 className="singleblogcardtitle">
                         {d.heading}
-                    </h1>
+                    </h2>
                     <p className="singleblogcarddesc">
                         {d.desc}
                     </p>

@@ -11,7 +11,7 @@ const ProductCard = (props) => {
                 <img src={props.img} alt={props.heading} />
             </div>
             <div className="productpagelower">
-                <h1 className="productpageheading">{props.heading}</h1>
+                <h3 className="productpageheading">{props.heading}</h3>
                 <Link className='productpagelink' to={props.url}>View Machine <FaArrowRightLong style={{marginLeft:"1rem"}}/></Link>
             </div>
         </Link>

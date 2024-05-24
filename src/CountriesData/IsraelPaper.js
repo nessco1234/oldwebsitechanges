@@ -41,7 +41,7 @@ const IsraelPaper = () => {
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
-                        <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Israel</span></h1>
+                        <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Israel</span></h3>
                         <p className="descriptionmachineleftcontent">Nesscoindia brings to you a complete range of Paper Cup Making Machine in Israel. We are a verified supplier of fully automatic machines that require less labor and can perform a range of tasks. And these functions also include paper feeding, oil filling, heating, knurling, curling and popping up paper cups.
                             <br /><br /><b>
 
@@ -63,7 +63,7 @@ const IsraelPaper = () => {
                         </div>
                         <Form2/>
                         <div className="downloadbrochures">
-                            <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                            <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                             <div className="brochurecontent">
                                 <div className="brochurelogo">

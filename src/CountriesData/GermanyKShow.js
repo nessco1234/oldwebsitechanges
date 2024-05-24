@@ -41,7 +41,7 @@ const GermanyKShow = () => {
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
-                        <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Germany</span></h1>
+                        <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Germany</span></h3>
                         <p className="descriptionmachineleftcontent"><b>𝗡𝗲𝘀𝘀𝗰𝗼 𝗜𝗻𝗱𝗶𝗮</b> would like to take the pleasure to invite you all to The World’s No. 1 Trade Fair For Plastics And Rubber – #K2022 in <b>𝗗𝘂̈𝘀𝘀𝗲𝗹𝗱𝗼𝗿𝗳, 𝗚𝗲𝗿𝗺𝗮𝗻𝘆</b>. We are exhibiting at <b>𝗦𝘁𝗮𝗻𝗱 𝗖𝟰𝟲-𝟬𝟮 in 𝗛𝗮𝗹𝗹 𝟭𝟮.</b> Our team will be available at the venue from  <b>𝟭𝟵𝘁𝗵 𝘁𝗼 𝟮𝟲𝘁𝗵 𝗢𝗰𝘁𝗼𝗯𝗲𝗿</b> to assist you with all the details.
                             <br /><br />
                             We are showcasing our High Speed Paper Cup Machine along with various technologies associated with it which are – <br />
@@ -74,7 +74,7 @@ const GermanyKShow = () => {
                         </div>
                         <Form2/>
                         <div className="downloadbrochures">
-                            <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                            <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                             <div className="brochurecontent">
                                 <div className="brochurelogo">

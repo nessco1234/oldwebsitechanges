@@ -41,7 +41,7 @@ const JordanPaper = () => {
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
-                        <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Jordan</span></h1>
+                        <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Jordan</span></h3>
                         <p className="descriptionmachineleftcontent">Nesscoindia is bringing you its complete range of Paper Cup Making Machine In Jordan. We are supplying our fully automated machines which require the least human intervention and can perform a chain of functions. And these serial functions include paper feeding, oil filling, heating, knurling, curling, and popping up paper cups as well.
                             <br /><br /><b>
 
@@ -68,7 +68,7 @@ const JordanPaper = () => {
                         </div>
                         <Form2/>
                         <div className="downloadbrochures">
-                            <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                            <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                             <div className="brochurecontent">
                                 <div className="brochurelogo">

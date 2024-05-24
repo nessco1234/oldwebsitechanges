@@ -42,7 +42,7 @@ const SouthafricaPaper = () => {
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
-                        <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In South Africa</span></h1>
+                        <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In South Africa</span></h3>
                         <p className="descriptionmachineleftcontent">Nesscoindia brings you a top-quality range of paper cup making machine in South Africa. which is multi-station automatic, capable of producing an unbelievable number of paper cups at one time. Continuous automatic procedures such as sealing, oil filling, heating, knurling, curling, and unloading make it the ideal machine for paper cups.
                             <br /><br /><b>
 
@@ -65,7 +65,7 @@ const SouthafricaPaper = () => {
                         </div>
                         <Form2/>
                         <div className="downloadbrochures">
-                            <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                            <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                             <div className="brochurecontent">
                                 <div className="brochurelogo">

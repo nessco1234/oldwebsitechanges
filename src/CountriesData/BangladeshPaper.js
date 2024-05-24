@@ -42,7 +42,7 @@ const BangladeshPaper = () => {
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
-                        <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Bangladesh</span></h1>
+                        <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Bangladesh</span></h3>
                         <p className="descriptionmachineleftcontent">Nessco India brings you a top-quality range of disposable paper cup making machine in France. which is multi-station automatic, capable of producing an unbelievable number of paper cups at one time. Continuous automatic procedures such as sealing, oil filling, heating, knurling, curling, and unloading make it the ideal machine.
                             <br /><br /><b>
                                 High-quality Paper Cup Forming Machine
@@ -62,7 +62,7 @@ const BangladeshPaper = () => {
                         </div>
                         <Form2/>
                         <div className="downloadbrochures">
-                            <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                            <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                             <div className="brochurecontent">
                                 <div className="brochurelogo">

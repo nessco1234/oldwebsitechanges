@@ -110,7 +110,7 @@ function App() {
             </Helmet>
             <section className="breadcrum">
                 <div className="breadcrumcontainer">
-                    <Link to={'/'} className='breadcrumheading'>Home<FaAngleRight className='breadcrumicon' /></Link><Link className='breadcrumheading'><span>Product</span> </Link>
+                    <Link to={'/'} className='breadcrumheading'>Home<FaAngleRight className='breadcrumicon' /></Link><h3 className='breadcrumheading'><span>Product</span> </h3>
                 </div>
             </section>
             <div>

@@ -80,7 +80,7 @@ const Form2 = () => {
     };
     return (
         <div className="descriptionaboutaquote">
-            <h1 className="descriptionaboutaquoteheading">Get a Quote</h1>
+            <h3 className="descriptionaboutaquoteheading">Get a Quote</h3>
             <input value={formData.SingleLine} onChange={handleChange} name='SingleLine' placeholder='Full Name*' className='descriptionaboutaquoteinputs' type="text" required />
             <div className="validations" style={{ width: "100%" }}>
                 <input value={formData.Email} onChange={handleChange} name='Email' placeholder='Email' className='descriptionaboutaquoteinputs' type="text" />

@@ -42,7 +42,7 @@ const USAPaperBag = () => {
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
-                        <h1 className="descriptionmachineleftdata">Paper Shopping Bag <span>Forming Machine In Usa</span></h1>
+                        <h3 className="descriptionmachineleftdata">Paper Shopping Bag <span>Forming Machine In Usa</span></h3>
                         <p className="descriptionmachineleftcontent">Nesscoindia Leading the <Link> paper shopping bag forming machine</Link> in usa. This fully automatic machine adopts printed die-cut paper to produce a paper bag tube. It features a continuous automatic paper feeding system and suitable for the mass bag production of special paper and different papers. The machine applies a number of proprietary technologies. It uses touch screen operation and is making products with high precision, fast and convenient to adjust and control. It is the first choice for manufacturing high-grade and luxury handbags.
                             <br /><br />
                             Check Machine Video – <Link>Paper Bag Machine</Link>
@@ -61,7 +61,7 @@ const USAPaperBag = () => {
                         </div>
                         <Form2 />
                         <div className="downloadbrochures">
-                            <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                            <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                             <div className="brochurecontent">
                                 <div className="brochurelogo">

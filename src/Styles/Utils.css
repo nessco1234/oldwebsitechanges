@@ -5,10 +5,10 @@
   font-size: 5rem;
   color: white;
   background-color: #25d365d7;
-  width: 35px;
-  height: 35px;
+  width:50px;
+  height:50px;
   color: white;
-  /* padding: 1rem; */
+  padding: 1rem;
   z-index: 10;
 }
 .staticicons {
@@ -25,10 +25,22 @@
   font-size: 2rem;
   color: white;
   background-color: #483d73d5;
-  width: 35px;
-  height: 35px;
+  width:50px;
+  height:50px;
   color: white;
-  /* padding: 1rem; */
+  padding: 1rem;
+}
+.staticSocial3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  background-color: var(--redcolor);
+  width:50px;
+  height:50px;
+  color: white;
+  padding: 1rem;
 }
 .navbar {
   width: 100%;
@@ -368,14 +380,17 @@
     height: 9vh;
   }
   .staticicons {
-    display: flex;
-    bottom: 2%;
+    /* display: flex; */
+    bottom: 1.5%;
+    left: 0%;
   }
   .staticSocial1,
-  .staticSocial2 {
+  .staticSocial2 ,.staticSocial3{
     width: 50px;
-    height: 51px;
-    font-size: 7rem;
+    height: 50px;
+    font-size: 8rem;
+    /* margin: 0 0.2rem; */
+    /* border-radius: 50%; */
   }
   .staticSocial1 {
     background-color: #25d365;
@@ -383,6 +398,19 @@
   .staticSocial2 {
     background-color: #483d73;
   }
+  /* .staticSocial3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    background-color: var(--redcolor);
+    width:50px;
+    height:50px;
+    color: white;
+    border-radius: 50%;
+    padding: 1rem;
+  } */
 }
 .hamburgercontent {
   position: relative;

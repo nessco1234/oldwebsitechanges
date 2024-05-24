@@ -1,11 +1,10 @@
 {
     "Route": "paper-food-bag-making-machine",
-    "Heading": "Paper Bag Making Machine",
-    "Description": " Fully automatic Paper Bag Making Machine is able to perform a series of functions including printing tracking, cutting, bottom indentation, bottom folding, bottom gluing. One can use both plain and printed paper as raw material for bag formation. This bag making machine is equipped with German photoelectric sensors which enables precise tracking of paper movement throughout the machine whether it is alignment of paper, unwinding or rewinding of paper.",
+    "Heading": "Square Bottom Paper Bag Machine",
+    "Description": " Square Bottom Paper Bag Machines are essential tools in modern packaging industries, automating the production of various paper bags such as shopping bags, gift bags, and food bags. These machines handle functions like printing tracking, cutting, bottom indentation, folding, and gluing. Equipped with advanced technology such as German photoelectric sensors and servo motors, they ensure precise tracking, alignment, and efficient, stable operation using both plain and printed paper.",
     "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
     "Imgdesc": [
-        "Fully automatic Paper Bag Making Machine is able to perform a series of functions including printing tracking, cutting, bottom indentation, bottom folding, bottom gluing. One can use both plain and printed paper as raw material for bag formation. This bag making machine is equipped with German photoelectric sensors which enables precise tracking of paper movement throughout the machine whether it is alignment of paper, unwinding or rewinding of paper.",
-        "Servo motor is being used for the handle gluing part of the machine. The machine is more convenient, efficient and stable while in operation. One can produce paper bags of various applications like shopping bags, gift/goodies bags, carry bags, food bags and many more."
+        "Key components of the Square bottom paper bag machine include the reel feeding unit with hydraulic lift and tension control, and the forming unit with servo motors and touch screen interface. Materials used include stainless steel for tube formers and anodized aluminum for rollers. The machine features a dynamically balanced cutter roller assembly, centralized automatic cooling lubrication system, and an electrical panel with automatic fault detection and refueling systems, ensuring continuous, efficient operation."
     ],
     "Suggestions": [
         {
@@ -36,26 +35,32 @@
     ],
     "ImageComponent": true,
     "PointsComponent": true,
-    "NotPoints": true,
+    "NotPoints": false,
     "MultipleImageComp": true,
     "MultipleTable": false,
     "ExpandedTable": true,
     "PointsHeading": [
-        "Paper Bag ",
+        "Square Bottom Paper Bag  ",
         "Making Machine"
     ],
-    "PointsHeadingDesc": "Nessco High Speed paper bag making Machine has equipped with Latest Technology which results in improved Production ,Stability and product Quality. All use of standard drive parts, Production Versatility, Excellent Interchangeability, Easy Maintenance of Equipment. The machine is more convenient, efficient and stable while in operation. One can produce paper bags of various applications like shopping bags, gift/goodies bags, carry bags, food bags and many more.",
-    "PointsDescription": [],
+    "PointsHeadingDesc": "The Square Bottom Paper Bag Making Machine manufacturing process starts with the reel feeding unit, where heavy paper reels are lifted and fed automatically using a hydraulic system. An automatic tension control system maintains paper handling. The machine also features an edge correction system for accurate tube formation and an automatic glue dispensing system tailored to paper quality and speed. In the forming unit, operations like tube formation, side pasting, bottom creasing, and gluing are performed, with servo motors ensuring precise cutting and stable performance.",
+    "PointsDescription": [
+        "Advanced servo control precision",
+        "Automated efficiency systems",
+        "High-quality durable materials",
+        "User-friendly operations"
+    ],
     "ImageHeading": [
         "Products",
-        "Introduction"
+        "Usage"
     ],
-    "ImageDescription": "Nesscoindia is a leading manufacturer and Supplier & Exporter of Machinery. We Deals in Automatic paper bag machine, Brown Paper Bag Machine, Automatic Khaki Paper Bag Machine, Automatic Shopping Bag Machine, Grocery Paper Bag Machine, Paper Bag Making Machine For Bakery And Grocery, Bakery Paper Bag Making Machine, Fully Automatic grocery paper bag machine.",
+    "ImageDescription": "Square bottom paper bags are widely used in Quick Service Restaurants (QSR) and other sectors due to their versatility and eco-friendliness. In QSRs, these bags are perfect for takeout food, offering durability and a professional look. Retail businesses use them for shopping and gift bags, enhancing customer experience. The food industry uses these bags for items like bread and pastries, benefiting from their strength and sustainability.These Square bottom paper bag machines meet diverse packaging needs, promoting efficiency and eco-friendliness across industries.",
     "Imagelinkimg": "https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
     "MachineSpecsLabels": [
         "SPECIFICATIONS (Model Wise)",
         "NS 220A",
         "NS 330A",
+        "NS 400A",
         "NS 460A"
     ],
     "MachineSpecs": [
@@ -79,29 +84,29 @@
             "ns330": "150-330 mm",
             "ns400": "150-400 mm",
 
-            "ns460": "150-400 mm"
+            "ns460": "220-460 mm"
         },
         {
             "specs": "Paper Bag Bottom Width",
             "ns220": "50-120 mm",
             "ns330": "70-180 mm",
-            "ns400": "150-400 mm",
+            "ns400": "90-200 mm",
 
-            "ns460": "90-200 mm"
+            "ns460": "80-260 mm"
         },
         {
             "specs": "Tube Cutting Length",
             "ns220": "190-430 mm",
             "ns330": "280-510 mm",
-            "ns400": "150-400 mm",
+            "ns400": "280-600 mm",
 
-            "ns460": "280-600 mm"
+            "ns460": "300-780 mm"
         },
         {
             "specs": "Machine dimensions (in mm)",
             "ns220": "8200x3200x1900",
             "ns330": "9200x3700x2000",
-            "ns400": "150-400 mm",
+            "ns400": "9200x3700x2000",
 
             "ns460": "9200x3700x2000"
         },
@@ -109,23 +114,23 @@
             "specs": "Weight",
             "ns220": "7000 Kg",
             "ns330": "9000 Kg",
-            "ns400": "150-400 mm",
+            "ns400": "10000 Kg",
 
-            "ns460": "10000 Kg"
+            "ns460": "11000 Kg"
         },
         {
             "specs": "Max Paper Roll Width",
             "ns220": "620 mm",
             "ns330": "1050 mm",
-            "ns400": "150-400 mm",
+            "ns400": "1290 mm",
 
-            "ns460": "1290 mm"
+            "ns460": "1370 mm"
         },
         {
             "specs": "Max Paper Roll Diameter",
             "ns220": "1200 mm",
             "ns330": "1200 mm",
-            "ns400": "150-400 mm",
+            "ns400": "1200 mm",
 
             "ns460": "1200 mm"
         },
@@ -133,15 +138,15 @@
             "specs": "General Power",
             "ns220": "12 KW",
             "ns330": "15 kW",
-            "ns400": "150-400 mm",
+            "ns400": "16 kW",
 
-            "ns460": "16 KW"
+            "ns460": "18 KW"
         },
         {
             "specs": "Power Supply",
             "ns220": "380V 3 Phase",
             "ns330": "380V 3 Phase",
-            "ns400": "150-400 mm",
+            "ns400": "380V 3 Phase",
 
             "ns460": "380V 3 Phase"
         }
@@ -212,15 +217,15 @@
             "productlink": "/product/roll-die-cutting-machine/"
         }
     ],
-    "seotitle": "Paper Food Bag Making Machine - Food Packaging Bag Machine",
+    "seotitle": "Square Bottom Paper Bag Making Machine for Food Packaging",
     "seometa": [
         {
             "name": "description",
-            "content": "Paper food bag making machine supplier &amp; exporter in India. Fully Automatic machine for paper bag production - grocery, food, shopping."
+            "content": "Buy efficient and reliable square bottom paper bag making machine for food packaging and grocery at Nessco. High speed. Get Quote Now!"
         },
         {
             "name": "keywords",
-            "content": "Paper Food Bag Making Machine, Paper Food Bag Making Machine, grocery carry bag making, Paper Carry Bag Making Machine, Disposable Carry Bag Machine, paper bag manufacturing machine price in india"
+            "content": "square bottom paper bag making machine, paper food bag making machine, grocery bag making machine, food paper bag making machine,"
         },
         {
             "name": "State",

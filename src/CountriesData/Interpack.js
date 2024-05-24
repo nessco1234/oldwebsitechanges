@@ -41,7 +41,7 @@ const Interpack = () => {
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
-                        <h1 className="descriptionmachineleftdata">Interpack <span>Germany</span></h1>
+                        <h3 className="descriptionmachineleftdata">Interpack <span>Germany</span></h3>
                         <p className="descriptionmachineleftcontent"><b>𝗡𝗲𝘀𝘀𝗰𝗼 𝗜𝗻𝗱𝗶𝗮 </b>  would like to take the pleasure to invite you all to The World’s No. 1 Trade Fair For Processing & Packaging – Interpack in <b> 𝗗𝘂̈𝘀𝘀𝗲𝗹𝗱𝗼𝗿𝗳, 𝗚𝗲𝗿𝗺𝗮𝗻𝘆.</b> We are exhibiting at Booth F64-2 in Hall 8A. Our team will be available at the venue from 4th to 10th May to assist you with all the details.
                             <br /><b></b>
                             We are showcasing our High Speed Paper Cup Machine along with various technologies associated with it which are – <br />
@@ -79,7 +79,7 @@ const Interpack = () => {
                         </div>
                         <Form2/>
                         <div className="downloadbrochures">
-                            <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                            <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                             <div className="brochurecontent">
                                 <div className="brochurelogo">

@@ -42,7 +42,7 @@ const IraqPaper = () => {
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
-                        <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine in Egypt</span></h1>
+                        <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine in Egypt</span></h3>
                         <p className="descriptionmachineleftcontent">Nessco brings you A top quality range of one side PE coated paper cup making machine in Iraq. which are multi-station automatic, capable of producing an unbelievable number of paper cups at one time. Continuous automatic procedures such as sealing, oil filling, heating, knurling, curling, and unloading make it the ideal machine for paper cups.
                             <br /><br />
                             <b>
@@ -69,7 +69,7 @@ const IraqPaper = () => {
                         </div>
                         <Form2/>
                         <div className="downloadbrochures">
-                            <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                            <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                             <div className="brochurecontent">
                                 <div className="brochurelogo">

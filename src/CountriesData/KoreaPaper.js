@@ -42,7 +42,7 @@ const KoreaPaper = () => {
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
-                        <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Korea</span></h1>
+                        <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Korea</span></h3>
                         <p className="descriptionmachineleftcontent">IF you are looking for the best quality <b> paper cup machine in Korea</b>, you can undoubtedly profit one from a presumed manufacturer NESSCO. In the market, there are various machine manufacturers giving paper cup making machines. In any case, you ought to pick the maker that holds quite a long while of expertise in providing a wide scope of paper cup making machine. The highest machine producer gives machines, which are made and planned by profoundly very much educated experts. You should search for a machine with simple usefulness, dependable execution, and long-life administration.</p> <br /><br />
                     </div>
                     <div className="descriptionmachineright">
@@ -58,7 +58,7 @@ const KoreaPaper = () => {
                         </div>
                         <Form2/>
                         <div className="downloadbrochures">
-                            <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                            <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                             <div className="brochurecontent">
                                 <div className="brochurelogo">

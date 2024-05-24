@@ -42,7 +42,7 @@ const BrazilPaper = () => {
                         <div className="descriptionmachinecomp">
                             <div className="descriptionmachineleft">
                                 <img src={img1} alt="" />
-                                <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Brazil</span></h1>
+                                <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Brazil</span></h3>
                                 <p className="descriptionmachineleftcontent">Nessco brings a top quality range of paper cup making machine in Brazil.
 
                                     Our product range includes a wide range of automatic<Link> paper cup making machine</Link>, automatic high speed paper cup making machine, fully automatic paper cup making machine, high speed paper cup making machine and semi automatic paper cup making machine. Moreover, our clients can easily buy paper cup machine in brazil at a budget-friendly price. Fully Automatic Paper Cup Making Machine Small size, type Single PE coated Dixie cup machine is the automatic environmental machine with multi-running positions. This machine manufactured by Nessco, runs an entire procedure of paper-feeding, cup-fan-wall sealing, oiling, bottom-punching, heating, rolling, rimming, rounding, and tripping. it’s thought equipment for manufacturing Dixie cup, ice-cream cup, and other food cone-shaping containers. this sort of paper cup machine mainly won’t to making one side PE coated paper cups from 3 oz to 12 oz or above 12oz</p> <br /><br />
@@ -60,7 +60,7 @@ const BrazilPaper = () => {
                                 </div>
                                 <Form2/>
                                 <div className="downloadbrochures">
-                                    <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                                    <h3 className="downloadbrochuresheading">Download Brochures</h3>
                                     <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                                     <div className="brochurecontent">
                                         <div className="brochurelogo">

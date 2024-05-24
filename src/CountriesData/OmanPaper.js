@@ -42,7 +42,7 @@ const OmanPaper = () => {
                         <div className="descriptionmachinecomp">
                             <div className="descriptionmachineleft">
                                 <img src={img1} alt="" />
-                                <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Oman</span></h1>
+                                <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Oman</span></h3>
                                 <p className="descriptionmachineleftcontent">On the off chance that you are thinking about buying a paper cup making machine in Oman, you can undoubtedly profit one from a presumed manufacturer NESSCO. In the market, there are various machine manufacturers giving paper cup creating machines. In any case, you ought to pick the maker that holds quite a long while of expertise in providing a wide scope of paper cup making machine. A highest machine producer gives machines, which are made and planned by profoundly very much educated experts. You should search for a machine with simple usefulness, dependable execution, and long life administration.
                                     <br /><br /><b>
 
@@ -64,7 +64,7 @@ const OmanPaper = () => {
                                 </div>
                                 <Form2/>
                                 <div className="downloadbrochures">
-                                    <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                                    <h3 className="downloadbrochuresheading">Download Brochures</h3>
                                     <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                                     <div className="brochurecontent">
                                         <div className="brochurelogo">

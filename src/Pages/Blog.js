@@ -8,6 +8,8 @@ import img4 from '../Assets/images/news/use-paper-cups-it-can-be-recycled.webp'
 import img5 from '../Assets/images/news/paper-cups-for-hot-beverages.webp'
 import img6 from '../Assets/images/news/Paper-cup-Startup.webp'
 import { Helmet } from 'react-helmet'
+import { FaAngleRight } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 const data = [
     {
         "url": 'https://www.nesscoindia.com/Assets/images/news/news-1.webp',
@@ -65,6 +67,11 @@ const Blog = () => {
                 <link rel="canonical" href="https://www.nesscoindia.com/blog/" />
 
             </Helmet>
+            <section className="breadcrum">
+                <div className="breadcrumcontainer">
+                    <Link to={'/'} className='breadcrumheading'>Home<FaAngleRight className='breadcrumicon' /></Link><h3 className='breadcrumheading'><span>Blog</span> </h3>
+                </div>
+            </section>
             <section className="blogs">
                 <div className="blogcontainer">
                     {

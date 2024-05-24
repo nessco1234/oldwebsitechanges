@@ -42,7 +42,7 @@ const CanadaPaper = () => {
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
-                        <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Canada</span></h1>
+                        <h2 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Canada</span></h2>
                         <p className="descriptionmachineleftcontent">Nessco brings A top quality range of paper cup making machine in Canada. <br />
                             <Link>Nessco Machine</Link> is a multi-station automatic cup making machine. Introduced with a photoelectric sensor, flaw recognizing gadget, précised counter, and other instruments, this paper forming machine is in high demand and production of a variety of paper cups. The high-speed paper cup machine satisfies various complex systems and is noted for simple activity, stable properties, minimal involved area, and high production. Moreover, now our clients in Canada can buy paper cup making machines at a budget-friendly price. Fully Automatic Paper Cup Making Machine for Small and large size cups, Single PE coated Dixie cups.</p> <br /><br />
                     </div>
@@ -59,7 +59,7 @@ const CanadaPaper = () => {
                         </div>
                         <Form2/>
                         <div className="downloadbrochures">
-                            <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                            <h2 className="downloadbrochuresheading">Download Brochures</h2>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                             <div className="brochurecontent">
                                 <div className="brochurelogo">

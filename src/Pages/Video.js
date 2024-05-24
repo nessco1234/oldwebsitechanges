@@ -37,7 +37,7 @@ const Video = () => {
             </Helmet>
             <section className="breadcrum">
                 <div className="breadcrumcontainer">
-                    <Link to={'/'} className='breadcrumheading'>Home<FaAngleRight className='breadcrumicon' /></Link><Link className='breadcrumheading'><span>Video</span> </Link>
+                    <Link to={'/'} className='breadcrumheading'>Home<FaAngleRight className='breadcrumicon' /></Link><h3 className='breadcrumheading'><span>Video</span> </h3>
                 </div>
             </section>
             <section className="video">

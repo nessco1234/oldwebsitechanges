@@ -42,7 +42,7 @@ const CyprusPaper = () => {
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
-                        <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Cyprus</span></h1>
+                        <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Cyprus</span></h3>
                         <p className="descriptionmachineleftcontent">Nessco brings you A top quality range of paper cup making machines in Cyprus. <br />
                             Nessco <Link> high speed Paper cup making machine</Link> is one of the most latest and completely programmed open-cam-based machines accessible on the lookout. It is known for making great cups at a high speed of 85 cups each consistently. Nessco machines are made with the most latest innovation improving their speed and security. It is the best machine that can help you in the production of creative and various-type paper cups.</p> <br /><br />
                     </div>
@@ -59,7 +59,7 @@ const CyprusPaper = () => {
                         </div>
                         <Form2/>
                         <div className="downloadbrochures">
-                            <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                            <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                             <div className="brochurecontent">
                                 <div className="brochurelogo">

@@ -41,7 +41,7 @@ const TurkeyPaper = () => {
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
-                        <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Turkey</span></h1>
+                        <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Turkey</span></h3>
                         <p className="descriptionmachineleftcontent">Nessco India top-quality range of <Link>disposable paper cup making machines in turkey</Link>. Which is multi-station programmed, fit for creating a an unbelievable number of paper cups all at once. With the continuous automatic systems like fixing, oil filling, warming, knurling, twisting, and dumping make it the ideal machine.
                             <br /><br />
                             Nessco <Link> paper cup making machines</Link> is ideal for creating paper drinking cups, market cups, promoting cups, and some more. In turkey or globally it is generally utilized for hot beverages and refreshments like cold beverages and buttermilk. Additionally, our customers can have these machines at at the budget-friendly price.</p> <br /><br />
@@ -59,7 +59,7 @@ const TurkeyPaper = () => {
                         </div>
                         <Form2/>
                         <div className="downloadbrochures">
-                            <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                            <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                             <div className="brochurecontent">
                                 <div className="brochurelogo">

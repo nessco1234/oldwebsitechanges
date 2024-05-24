@@ -42,7 +42,7 @@ const USAPaper = () => {
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
-                        <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In USA</span></h1>
+                        <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In USA</span></h3>
                         <p className="descriptionmachineleftcontent">Nesscoindia brings you A top quality range of <Link>paper cup making machine </Link>in Germany. This Machine is a multi-station automatic cup making machine. Introduced with a photoelectric sensor, flaw recognizing gadget, précised counter, and other instruments, this paper forming machine is in high demand and production of a variety of paper cups. The high-speed paper cup machine satisfies various complex systems and is noted for simple activity, stable properties, minimal involved area, and high production. Moreover, our clients can have these machines at a budget-friendly price.</p> <br /><br />
                     </div>
                     <div className="descriptionmachineright">
@@ -58,7 +58,7 @@ const USAPaper = () => {
                         </div>
                         <Form2/>
                         <div className="downloadbrochures">
-                            <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                            <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                             <div className="brochurecontent">
                                 <div className="brochurelogo">

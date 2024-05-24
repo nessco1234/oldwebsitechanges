@@ -42,7 +42,7 @@ const ItalyPaper = () => {
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
                         <img src={img1} alt="" />
-                        <h1 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Italy</span></h1>
+                        <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Italy</span></h3>
                         <p className="descriptionmachineleftcontent">Nessco brings a top quality range of paper cup making machine in Italy.
 
                             As the packaging machinery is becoming high-speed and automation, we have improved the level of automation technology. In order to improve the function of the equipment, reliability of the automatic operation of the machine, as far as possible to use continuous transmission. It has simplified structure, control system and operation procedure. This machine manufactured by Nessco, runs an entire procedure of paper-feeding, cup-fan-wall sealing, oiling, bottom-punching, heating, rolling, rimming, rounding, and tripping.</p> <br /><br />
@@ -60,7 +60,7 @@ const ItalyPaper = () => {
                         </div>
                         <Form2/>
                         <div className="downloadbrochures">
-                            <h1 className="downloadbrochuresheading">Download Brochures</h1>
+                            <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>
                             <div className="brochurecontent">
                                 <div className="brochurelogo">
