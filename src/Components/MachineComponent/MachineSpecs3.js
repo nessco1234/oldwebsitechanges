@@ -74,7 +74,7 @@ const MachineSpecs3 = (props) => {
                         'Content-Type': 'application/json', // Ensure the backend handles JSON
                     },
                 });
-                navigate('/thank-you')
+                navigate('/thank-you/')
                 console.log(response)
                 props.setdown(true)
                 closeModal2()
@@ -115,8 +115,8 @@ const MachineSpecs3 = (props) => {
                                 <p className='headerbtncon'>Inquire Now !</p> <FaArrowRightLong className='headerbtnarrow ' style={{ fontSize: "1.5rem" }} /></button>
                             {isOpen2 && (
                                 <div className="modal">
-                                    <button className="close-button" onClick={closeModal2}>&times;</button>
                                     <div className="modalcard">
+                                    <button className="close-button" onClick={closeModal2}>&times;</button>
                                         <div className="leftmodal">
                                             <img src={'https://www.nesscoindia.com/Assets/images/resource/popup.webp'} alt="Popup" />
                                         </div>

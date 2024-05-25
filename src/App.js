@@ -204,7 +204,7 @@ function App() {
             <Route element={<UAEPaperBag />} exact path="/uae/paper-bag-making-machine-in-uae/" />
             <Route element={<UAEGulfood />} exact path="/uae/gulfood-manufacturing/" />
             <Route element={<EgyptPaper />} exact path="/egypt/paper-cup-making-machine-in-egypt/" />
-            <Route element={<IraqPaper />} exact path="/iraq/paper-cup-making-machine-in-iraq" />
+            <Route element={<IraqPaper />} exact path="/iraq/paper-cup-making-machine-in-iraq/" />
             <Route element={<TurkeyKarton />} exact path="/turkey/karton-bardak-makinesi/" />
             <Route element={<TurkeyPaper />} exact path="/turkey/paper-cup-making-machine-in-turkey/" />
             <Route element={<FrancePaper />} exact path="/france/paper-cup-making-machine-in-france/" />
@@ -214,7 +214,7 @@ function App() {
             <Route element={<GermanyKShow />} exact path="/germany/k-show-germany/" />
             <Route element={<Interpack />} exact path="/germany/interpack/" />
             <Route element={<NepalPaper />} exact path="/global/paper-cup-making-machine-in-nepal/" />
-            <Route element={<USAPaperBag />} exact path="global/paper-shopping-bag-forming-machine-in-usa/" />
+            <Route element={<USAPaperBag />} exact path="/global/paper-shopping-bag-forming-machine-in-usa/" />
             <Route element={<OmanPaper />} exact path="/global/paper-cup-making-machine-in-oman/" />
             <Route element={<SouthafricaPaper />} exact path="/global/paper-cup-making-machine-in-south-africa/" />
             <Route element={<SaudiarabPaper />} exact path="/global/paper-cup-making-machine-in-saudi-arab/" />
@@ -236,7 +236,7 @@ function App() {
             <Route element={<MachineComponent down={download} setdown={setdownload} img1url={img1} img2url={img2} img3url={img3} img4url={img24} imgurl={img24} data={HighSpeedPaperCup} />} exact path="/product/high-speed-paper-cup-making-machine/" />
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img1} data={PaperGlassMachine} />} exact path="/product/paper-glass-making-machine/" />
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img18} img2url={serv9} data={FlexoPrinting} />} exact path="/product/flexo-printing-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img26} img2url={serv14} data={FullyAutomaticPaperBag} />} exact path="product/paper-shopping-bag-making-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img26} img2url={serv14} data={FullyAutomaticPaperBag} />} exact path="/product/paper-shopping-bag-making-machine/" />
             <Route element={<MachineComponent imgurl={img3} data={HighSpeedPaperCup} />} exact path="/product/paper-glass-making-machine/" />
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img20} img2url={serv11} img3url={serv12} data={PECoating} />} exact path="/product/pe-coating-machine/" />
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img8} img2url={serv3} data={PaperBowl} />} exact path="/product/paper-container-bowl-making-machine/" />
@@ -260,7 +260,7 @@ function App() {
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img22} data={RippleWallCupSleeve} />} exact path="/product/ripple-wall-cup-sleeve-glueing-machine/" />
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img6} data={ServeDrivenPaperCup} />} exact path="/product/servo-driven-paper-cup-machine/" />
             <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img26} img2url={serv14} data={PaperBag} />} exact path="/product/paper-bag-making-machine/" />
-            <Route element={<Thankyou link={download} />} exact path="/thank-you" />
+            <Route element={<Thankyou link={download} />} exact path="/thank-you/" />
           </>
           <Route
             path="*"

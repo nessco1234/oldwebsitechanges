@@ -73,7 +73,7 @@ const Presence = () => {
             'Content-Type': 'application/json', // Ensure the backend handles JSON
           },
         });
-        navigate('/thank-you')
+        navigate('/thank-you/')
         console.log(response)
 
       } catch (error) {

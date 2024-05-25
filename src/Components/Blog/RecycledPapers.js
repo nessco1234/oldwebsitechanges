@@ -38,7 +38,7 @@ const RecycledPapers = () => {
                         Now for the Healthy & green environment, use paper cups instead of plastic. NESSCOINDIA Groups will take a conscious effort to make an impact on making the world a more sustainable place.
                     </p>
                     <div className="blognavigationbtns marr">
-                        <Link to={'/blog/paper-plate-making-machine-an-eco-friendly-alternative'} className='blognavbtn'><FaArrowLeftLong style={{ marginRight: "2rem" }} /> Previous</Link>
+                        <Link to={'/blog/paper-plate-making-machine-an-eco-friendly-alternative/'} className='blognavbtn'><FaArrowLeftLong style={{ marginRight: "2rem" }} /> Previous</Link>
                         <Link to={'/blog/paper-cups-for-hot-beverages/'} className='blognavbtn'>Next <FaArrowRightLong style={{ marginLeft: "2rem" }} /></Link>
                     </div>
                     <div className="blognavigationbtns marrr">

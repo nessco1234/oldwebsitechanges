@@ -52,7 +52,7 @@ const ConsumerChoice = () => {
                             </p>
                             <div className="blognavigationbtns marr">
                                 <Link to={'/blog/disposable-packaging-solutions-for-horeca/'} className='blognavbtn'><FaArrowLeftLong style={{ marginRight: "2rem" }} /> Previous</Link>
-                                <Link to={'/blog/paper-plate-making-machine-an-eco-friendly-alternative'} className='blognavbtn'>Next <FaArrowRightLong style={{ marginLeft: "2rem" }} /></Link>
+                                <Link to={'/blog/paper-plate-making-machine-an-eco-friendly-alternative/'} className='blognavbtn'>Next <FaArrowRightLong style={{ marginLeft: "2rem" }} /></Link>
                             </div>
                             <div className="blognavigationbtns marrr">
                                 <h3 className="blognavigationdesc">Disposable Packaging Solutions for HORECA</h3>

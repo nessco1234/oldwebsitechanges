@@ -83,7 +83,7 @@ export default function App(props) {
             'Content-Type': 'application/json', // Ensure the backend handles JSON
           },
         });
-        navigate('/thank-you')
+        navigate('/thank-you/')
         console.log(response)
         props.setdown(true)
         closeModal()
@@ -105,8 +105,31 @@ export default function App(props) {
           <div className="imglayer1"></div>
           <div className="imglayer3"></div>
           <div className="imglayer4"></div>
+          {/* <div className="imglayer5"></div> */}
+          {/* <div className="imglayer6">
+            <div className="imglayerleft">
+
+            </div>
+            <div className="imglayerright">
+              <h4 className="imgkey">Date 2024 </h4>
+              <h4 className="imgvalue">May 28 - June 7</h4>
+            </div>
+          </div>
+          <div className="imglayer7">
+            <div className="imglayerleft">
+            </div>
+            <div className="imglayerright">
+              <h4 className="imgkey">Booth No:</h4>
+              <h4 className="imgvalue"></h4>
+            </div>
+            <div className="imglayerseperator"></div>
+            <div className="imglayerright">
+              <h4 className="imgkey">Booth No:</h4>
+              <h4 className="imgvalue"></h4>
+            </div>
+          </div> */}
         </div>
-        <div className='bannerslide'>
+        <div className='bannerslide' >
           <BannerContent />
 
 
@@ -115,8 +138,8 @@ export default function App(props) {
             <p className='bannerbtncon'>Get A Quote</p> <FaArrowRightLong className='bannerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
           {isOpen && (
             <div className="modal">
-              <button className="close-button" onClick={closeModal}>&times;</button>
               <div className="modalcard">
+              <button className="close-button" onClick={closeModal}>&times;</button>
                 <div className="leftmodal">
                   <img src={img1} alt="Popup" />
                 </div>

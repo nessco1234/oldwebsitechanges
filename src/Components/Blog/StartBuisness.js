@@ -57,13 +57,13 @@ const StartBuisness = () => {
                         <br />
                         2. <Link className='bloglinks' to={'/product/paper-glass-making-machine/'}>Paper Glass Making Machine</Link>
                         <br />
-                        3. <Link className='bloglinks' to={'/product'}>Beer Cup Making Machine</Link>
+                        3. <Link className='bloglinks' to={'/product/'}>Beer Cup Making Machine</Link>
                         <br />
-                        4. <Link className='bloglinks' to={'/product'}>Tea Coffee Cup Making Machine</Link>
+                        4. <Link className='bloglinks' to={'/product/'}>Tea Coffee Cup Making Machine</Link>
                         <br />
                         5. <Link className='bloglinks' to={'/product/high-speed-paper-cup-making-machine/'}>High-Speed Paper Cup Making Machine</Link>
                         <br />
-                        6. <Link className='bloglinks' to={'/product'}>Fully Automatic Paper Cup Making Machine</Link>
+                        6. <Link className='bloglinks' to={'/product/'}>Fully Automatic Paper Cup Making Machine</Link>
                     </p>
                     <h2 className="blogheading">Other Paper Forming Products by Nessco India:
                     </h2>
@@ -76,7 +76,7 @@ const StartBuisness = () => {
                         <br />
                         <Link className='bloglinks' to={"/product/roll-die-cutting-machine/"}>Roll Die Cutting Machine</Link>
                         <br />
-                        <Link className='bloglinks' to={""}>Paper Shopping Bag Machine</Link>
+                        <Link className='bloglinks' to={"/product/paper-shopping-bag-making-machine/"}>Paper Shopping Bag Machine</Link>
                     </p>
                     <div className="blognavigationbtns marr">
                         <Link to={'/blog/disposable-packaging-solutions-for-horeca/'} className='blognavbtn'><FaArrowLeftLong style={{ marginRight: "2rem" }} /> Previous</Link>

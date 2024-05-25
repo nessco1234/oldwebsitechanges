@@ -225,6 +225,7 @@
   }
   .footerrights {
     padding: 2rem 1rem;
+    margin-bottom: 8rem;
   }
   .footercontainerx {
     flex-direction: column;

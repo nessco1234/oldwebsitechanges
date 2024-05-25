@@ -89,7 +89,7 @@ const DescriptionMachine = (props) => {
                         'Content-Type': 'application/json', // Ensure the backend handles JSON
                     },
                 });
-                navigate('/thank-you')
+                navigate('/thank-you/')
                 // props.setdown(true)
                 closeModal2()
                 console.log(response)
@@ -191,8 +191,8 @@ const DescriptionMachine = (props) => {
                                 <button className="brochuresubtitle" onClick={openModal}>Download Now</button>
                                 {isOpen && (
                                     <div className="modal">
-                                        <button className="close-button" onClick={closeModal}>&times;</button>
                                         <div className="modalcard">
+                                            <button className="close-button" onClick={closeModal}>&times;</button>
                                             <div className="leftmodal">
                                                 <img src={'https://www.nesscoindia.com/Assets/images/resource/popup.webp'} alt="POPUP" />
                                             </div>
@@ -202,7 +202,7 @@ const DescriptionMachine = (props) => {
                                                 <input placeholder='Enter your Name' className='modalinp' type="text" />
                                                 <input placeholder='Enter your Email' className='modalinp' type="text" />
                                                 <input placeholder='Enter your Phone' className='modalinp' type="text" />
-                                                <Link onClick={downloadlocal} to={'/thank-you'} className="headerbtn x" style={{ padding: "2rem 3rem" }}>
+                                                <Link onClick={downloadlocal} to={'/thank-you/'} className="headerbtn x" style={{ padding: "2rem 3rem" }}>
                                                     <p className='headerbtncon'>Get a Quote !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></Link>
                                             </div>
                                         </div>
@@ -219,8 +219,8 @@ const DescriptionMachine = (props) => {
                                 <button className="brochuresubtitle" onClick={openModal2}>Download Now</button>
                                 {isOpen2 && (
                                     <div className="modal">
-                                        <button className="close-button" onClick={closeModal2}>&times;</button>
                                         <div className="modalcard">
+                                            <button className="close-button" onClick={closeModal2}>&times;</button>
                                             <div className="leftmodal">
                                                 <img src={'https://www.nesscoindia.com/Assets/images/resource/popup.webp'} alt="Popup" />
                                             </div>
@@ -230,7 +230,7 @@ const DescriptionMachine = (props) => {
                                                 <input placeholder='Enter your Name' className='modalinp' type="text" />
                                                 <input placeholder='Enter your Email' className='modalinp' type="text" />
                                                 <input placeholder='Enter your Phone' className='modalinp' type="text" />
-                                                <Link onClick={downloadinternational} to={'/thank-you'} className="headerbtn x" style={{ padding: "2rem 3rem" }}>
+                                                <Link onClick={downloadinternational} to={'/thank-you/'} className="headerbtn x" style={{ padding: "2rem 3rem" }}>
                                                     <p className='headerbtncon'>Get a Quote !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></Link>
                                             </div>
                                         </div>

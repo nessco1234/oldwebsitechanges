@@ -18,10 +18,6 @@ const BannerContent = () => {
 
     return (
         <div className="home-page">
-            <div className="control-buttons">
-                {/* <button onClick={() => setCurrentComponent((prev) => (prev === 0 ? 2 : prev - 1))}>Previous</button> */}
-                {/* <button onClick={() => setCurrentComponent((prev) => (prev === 2 ? 0 : prev + 1))}>Next</button> */}
-            </div>
             {renderComponent()}
         </div>
     );
@@ -29,6 +25,9 @@ const BannerContent = () => {
 
 const ComponentA = () =>
     <>
+        {/* <h2 className="bannerslideheading"> INVITATION DRUPA <span></span></h2>
+        <h2 className="bannerslideheading">2024<span></span></h2>
+        <p className="bannerslidepara">Düsseldorf Exhibition Center, Düsseldorf, Germany</p> */}
         <h2 className="bannerslideheading"> Envision Success Through<span></span></h2>
         <h2 className="bannerslideheading">Innovation<span></span></h2>
         <p className="bannerslidepara">High Speed Machines That Are Enginnered For You</p>

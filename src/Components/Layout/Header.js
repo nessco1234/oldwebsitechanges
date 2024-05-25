@@ -252,7 +252,7 @@ const Header = (props) => {
                         'Content-Type': 'application/json', // Ensure the backend handles JSON
                     },
                 });
-                navigate('/thank-you')
+                navigate('/thank-you/')
                 console.log(response)
                 props.setdown(true)
                 closeModal()
@@ -270,9 +270,9 @@ const Header = (props) => {
                     <Link className='navbarlogolink' to={'/'}><img src={'https://www.nesscoindia.com/Assets/images/logo.webp'} alt="NesscoLogo" /></Link>
                     <ul className="navlist">
                         <Link className='navlink' to={'/'}>HOME</Link>
-                        <Link className='navlink' to={'/about-us'}>ABOUT US</Link>
+                        <Link className='navlink' to={'/about-us/'}>ABOUT US</Link>
                         <div className='navlink' onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
-                            <Link onClick={() => setIsHovered(false)} className='navlink' to={'/product'}>OUR MACHINES</Link>
+                            <Link onClick={() => setIsHovered(false)} className='navlink' to={'/product/'}>OUR MACHINES</Link>
                             {isHovered && (
                                 <ul className="menu-list">
                                     <div className="menu-list-container">
@@ -312,16 +312,16 @@ const Header = (props) => {
                                 </ul>
                             )}
                         </div>
-                        <Link className='navlink' to={'/video'}>VIDEO</Link>
-                        <Link className='navlink' to={'/blog'}>BLOG</Link>
-                        <Link className='navlink' to={'/contact'}>CONTACT US</Link>
+                        <Link className='navlink' to={'/video/'}>VIDEO</Link>
+                        <Link className='navlink' to={'/blog/'}>BLOG</Link>
+                        <Link className='navlink' to={'/contact/'}>CONTACT US</Link>
                     </ul>
                     <button onClick={openModal} className="headerbtn tt">
                         <p className='headerbtncon'>Inquire Now !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
                     {isOpen && (
                         <div className="modal">
-                            <button className="close-button" onClick={closeModal}>&times;</button>
                             <div className="modalcard">
+                                <button className="close-button" onClick={closeModal}>&times;</button>
                                 <div className="leftmodal">
                                     <img src={'https://www.nesscoindia.com/Assets/images/resource/popup.webp'} alt="POPUP" />
                                 </div>
@@ -353,11 +353,11 @@ const Header = (props) => {
                                         </div>
                                         <div className="hamburgerlinks">
                                             <Link className='hamburgerlink' to={'/'} onClick={closenavigation}>HOME</Link>
-                                            <Link className='hamburgerlink' to={'/about-us'} onClick={closenavigation} >ABOUT US</Link>
+                                            <Link className='hamburgerlink' to={'/about-us/'} onClick={closenavigation} >ABOUT US</Link>
                                             <div className="hamburgerinternallink ">
                                                 <div className="hamburgerinternalcombo">
 
-                                                    <Link className='hamburgerlink' to={'/product'} onClick={closenavigation} >
+                                                    <Link className='hamburgerlink' to={'/product/'} onClick={closenavigation} >
                                                         OUR MACHINES
                                                     </Link>
                                                     <button onClick={() => setIsOpenmain(!isOpenmain)} className={!isOpenmain ? 'hamburgertogglebtn' : ' toggled'}><FaAngleDown /></button>
@@ -468,9 +468,9 @@ const Header = (props) => {
                                                     </>
                                                 }
                                             </div>
-                                            <Link className='hamburgerlink' to={'/video'} onClick={closenavigation}>VIDEO</Link>
-                                            <Link className='hamburgerlink' to={'/blog'} onClick={closenavigation}>BLOG</Link>
-                                            <Link className='hamburgerlink' to={'/contact'} onClick={closenavigation}>CONTACT US</Link>
+                                            <Link className='hamburgerlink' to={'/video/'} onClick={closenavigation}>VIDEO</Link>
+                                            <Link className='hamburgerlink' to={'/blog/'} onClick={closenavigation}>BLOG</Link>
+                                            <Link className='hamburgerlink' to={'/contact/'} onClick={closenavigation}>CONTACT US</Link>
                                         </div>
                                         <div className="hamburgerdetails">
                                             <a href="tel:+91 95494 44484" className="hamburgercontact hh">+91 95494 44484</a>

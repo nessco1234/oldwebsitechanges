@@ -3,32 +3,56 @@
   justify-content: center;
   align-items: center;
   font-size: 5rem;
+  width: 50px;
+  height: 50px;
   color: white;
-  background-color: #25d365d7;
-  width:50px;
-  height:50px;
-  color: white;
+  /* border-radius: 50%; */
   padding: 1rem;
   z-index: 10;
+  /* border: 2px solid white; */
+  background-color: #25D366;
+  font-size: 6rem;
 }
 .staticicons {
   position: fixed;
-  /* bottom: 21.5%; */
-  bottom: 5%;
+  bottom: 13%;
   left: 0;
   z-index: 1000000;
+  /* background-color: black; */
 }
 .staticSocial2 {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  color: white;
-  background-color: #483d73d5;
-  width:50px;
-  height:50px;
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  /* border-radius: 50%; */
   color: white;
   padding: 1rem;
+  /* border: 2px solid white; */
+  background-color: var(--bluecolor);
+  font-size: 6rem;
+  
+}
+.staticSocial4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  /* border-radius: 50%; */
+  color: white;
+  padding: 1rem;
+  /* font-size: 4rem; */
+  background-color: #006aff;
+  font-size: 6rem;
+  
+
+  /* border: 2px solid white; */
 }
 .staticSocial3 {
   display: flex;
@@ -36,11 +60,15 @@
   align-items: center;
   font-size: 2rem;
   color: white;
-  background-color: var(--redcolor);
-  width:50px;
-  height:50px;
-  color: white;
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  /* border-radius: 50%; */
   padding: 1rem;
+  /* border: 2px solid white; */
+  background-color: var(--redcolor);
+  font-size: 6rem;
+  
 }
 .navbar {
   width: 100%;
@@ -381,22 +409,19 @@
   }
   .staticicons {
     /* display: flex; */
-    bottom: 1.5%;
+    /* bottom: 1.5%; */
     left: 0%;
   }
   .staticSocial1,
-  .staticSocial2 ,.staticSocial3{
+  .staticSocial2,
+  .staticSocial3,
+  .staticSocial4 {
     width: 50px;
     height: 50px;
     font-size: 8rem;
+    background-color: transparent;
     /* margin: 0 0.2rem; */
     /* border-radius: 50%; */
-  }
-  .staticSocial1 {
-    background-color: #25d365;
-  }
-  .staticSocial2 {
-    background-color: #483d73;
   }
   /* .staticSocial3 {
     display: flex;
@@ -411,12 +436,149 @@
     border-radius: 50%;
     padding: 1rem;
   } */
+  .staticicons {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    bottom: 0%;
+    left: 0%;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #e11e2410; */
+    background-color: rgba(255, 255, 255, 0.7);
+    /* opacity: 0.1; */
+  }
+  .staticiconcontainer {
+    /* display: flex; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(2px);
+  }
+  .staticcontainerpic {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: -4px;
+    bottom: 20px;
+    border-radius: 50%;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+  }
+  /* .staticontainerpic2 {
+    color: var(--redcolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    font-size: 2rem;
+    border-radius: 1000%;
+    background-color: green;
+    position: absolute;
+    top: 49%;
+    left: 85%;
+    transform: translateX(-50%) translateY(-50%);
+    border: none;
+  } */
+
+  .staticontainerpic2:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid transparent;
+  }
+  .staticontainerpic2:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid transparent;
+  }
+  .staticSocial1,
+  .staticSocial2,
+  .staticSocial3,.staticSocial4 {
+    width: 35px;
+    height: 35px;
+    font-size: 8rem;
+    margin: 0 0.2rem;
+    margin-bottom: 1rem;
+    border: none;
+    padding: 5px 0;
+    color: black;
+  }
+  .staticSocial1 {
+    font-size: 7rem;
+  }
+  .siqembed {
+    width: 82%;
+    height: 40vh;
+  }
+  .siq_bR {
+    bottom: 30px !important;
+    right: calc(50% - 30px) !important;
+  }
+  .zsiq_flt_rel {
+    background-color: transparent !important;
+  }
+  .staticicon {
+    font-size: 4rem;
+    opacity: 0.8;
+    color: black;
+  }
+  #min-window {
+    position: absolute !important;
+    right: 10px !important;
+    bottom: 70% !important;
+  }
+  #window-ribbon {
+    position: absolute !important;
+    bottom: 72px !important;
+    left: 27px !important;
+  }
+  #window-ribbon > header {
+    display: none !important;
+    height: 0 !important;
+  }
+  .win_close.sqico-larrow::before {
+    line-height: 50px;
+    margin: 0px;
+    transform: rotate(0);
+    -moz-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    font-size: 8px;
+    color: #fff;
+  }
+
+  .win_close {
+    position: absolute !important;
+    right: 0 !important;
+    bottom: 50% !important;
+  }
+  .txtarewrap {
+    height: 0px !important;
+  }
+  .msgarea {
+    height: 32px !important;
+  }
+  .zsiq_theme1 .siqicon:before {
+    margin: auto;
+    z-index: 1111;
+    font-size: 27px;
+    line-height: 60px;
+    color: white;
+  }
 }
 .hamburgercontent {
   position: relative;
-  /* padding: 1rem 2rem; */
-  /* right: 0; */
-  /* width: 100%; */
   height: 100vh;
   background-color: white;
   transition: all 1s ease;
@@ -438,7 +600,6 @@
   left: 0%;
   background-color: rgb(255, 255, 255);
   padding: 4rem 2rem;
-  /* border: 1px solid #ccc; */
   list-style-type: none;
   display: flex;
   box-shadow: 0 0 40px 0 rgba(128, 128, 128, 0.166);
@@ -485,3 +646,23 @@
 .nav-menu:hover .menu-list {
   display: block;
 }
+/* @keyframes hamburger_puls {
+  0% {
+    opacity: 1;
+    border: 1px solid white;
+  }
+  100% {
+    opacity: 0;
+    border: 15px solid white;
+  }
+}
+@keyframes hamburger_puls2 {
+  0% {
+    opacity: 1;
+    border: 1px solid white;
+  }
+  100% {
+    opacity: 0;
+    border: 15px solid white;
+  }
+} */

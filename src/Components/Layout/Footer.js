@@ -11,11 +11,11 @@ const Footer = () => {
             <div className="bgimagefooter"></div>
                 <div className="footercontainer">
                     <div className="footerlinks">
-                        <Link className='footerlink' to={'/our-gallery'}>Our Gallery</Link>
+                        <Link className='footerlink' to={'/our-gallery/'}>Our Gallery</Link>
                         <Link className='footerlink' to={'/about-us/'}>Company</Link>
-                        <Link className='footerlink' to={'/product'}>Machines</Link>
-                        <Link className='footerlink' to={'/blog'}>Blog</Link>
-                        <Link className='footerlink' to={'/contact'}>Contact</Link>
+                        <Link className='footerlink' to={'/product/'}>Machines</Link>
+                        <Link className='footerlink' to={'/blog/'}>Blog</Link>
+                        <Link className='footerlink' to={'/contact/'}>Contact</Link>
                     </div>
                     <hr className='horizontaldiv' />
                     <div className="footercontent">
@@ -48,11 +48,11 @@ const Footer = () => {
                             <h3 className="footerlistheading">Links</h3>
                             <div className="footerlistslink">
                                 <Link className='footeratags' to={'/'}>Home</Link>
-                                <Link className='footeratags' to={'/about-us'}>About us</Link>
+                                <Link className='footeratags' to={'/about-us/'}>About us</Link>
                                 <Link className='footeratags' to={'/product/'}>Machines</Link>
-                                <Link className='footeratags' to={'/video'}>Video</Link>
-                                <Link className='footeratags' to={'/contact'}>Contact</Link>
-                                <Link className='footeratags' to={'/market-area'}>Market Area</Link>
+                                <Link className='footeratags' to={'/video/'}>Video</Link>
+                                <Link className='footeratags' to={'/contact/'}>Contact</Link>
+                                <Link className='footeratags' to={'/market-area/'}>Market Area</Link>
                             </div>
 
                         </div>

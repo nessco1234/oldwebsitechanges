@@ -91,7 +91,7 @@ const AboutUs = (props) => {
             'Content-Type': 'application/json', // Ensure the backend handles JSON
           },
         });
-        navigate('/thank-you')
+        navigate('/thank-you/')
         // props.setdown(true)
         closeModal2()
         console.log(response)
@@ -145,8 +145,8 @@ const AboutUs = (props) => {
             <div className="aboutbtnsection">
               {isOpen2 && (
                 <div className="modal">
-                  <button className="close-button" onClick={closeModal2}>&times;</button>
                   <div className="modalcard">
+                  <button className="close-button" onClick={closeModal2}>&times;</button>
                     <div className="leftmodal">
                       <img src={'https://www.nesscoindia.com/Assets/images/resource/popup.webp'} alt="Popup" />
                     </div>
