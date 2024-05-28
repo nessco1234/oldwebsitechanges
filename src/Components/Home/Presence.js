@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Shape from '../../Assets/images/shape/shape-209.png'
 import Shape2 from '../../Assets/images/shape/shape-210.png'
-import Map from '../../Assets/images/resource/newmap.png'
+import Map from '../../Assets/images/resource/Nessco Map.webp'
 import { MdArrowRightAlt } from 'react-icons/md'
 import { FaArrowRightLong } from 'react-icons/fa6'
 import { Link, useNavigate } from 'react-router-dom'
@@ -93,7 +93,8 @@ const Presence = () => {
           <h2 className="presenceheading">Nessco Global <span> Presence</span>
           </h2>
           <p className="presencepara">With a strong functional position in this market for over 40 years, now Nessco India is backed by 5 Domestic Distributing Centres and 7 International Ones. Over all these years, we have spread our arms to almost every country to expand our business globally.</p>
-          <img src={'https://www.nesscoindia.com/Assets/images/resource/newmap.png'} alt="map" />
+          <img src={'https://www.nesscoindia.com/Assets/images/resource/Nessco Map.webp'} alt="map" />
+          {/* <img src={'https://www.nesscoindia.com/Assets/images/resource/newmap.png'} alt="map" /> */}
         </div>
         <div className='rightpresence'>
           <div className="presenceCard">

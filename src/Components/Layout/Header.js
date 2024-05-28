@@ -357,9 +357,9 @@ const Header = (props) => {
                                             <div className="hamburgerinternallink ">
                                                 <div className="hamburgerinternalcombo">
 
-                                                    <Link className='hamburgerlink' to={'/product/'} onClick={closenavigation} >
+                                                    <h3  className='hamburgerlink' onClick={() => setIsOpenmain(!isOpenmain)} style={{fontWeight:"400"}} >
                                                         OUR MACHINES
-                                                    </Link>
+                                                    </h3>
                                                     <button onClick={() => setIsOpenmain(!isOpenmain)} className={!isOpenmain ? 'hamburgertogglebtn' : ' toggled'}><FaAngleDown /></button>
                                                 </div>
                                                 {
@@ -367,7 +367,20 @@ const Header = (props) => {
                                                     <>
                                                         <div className="hamburgerinternallist">
                                                             <div className="hamburgerinternalcombo">
+                                                                <Link to={'product'} className='hamburgerlink' onClick={closenavigation} >
+                                                                    All Machines
+                                                                </Link>
+                                                            </div>
+                                                        </div>
+                                                        <div className="hamburgerinternallist">
+                                                            {/* <div className="hamburgerinternalcombo">
                                                                 <p className='hamburgerlink' onClick={closenavigation} >
+                                                                    Paper Cup Machines
+                                                                </p>
+                                                                <button onClick={() => setIsOpen1(!isOpen1)} className={!isOpen1 ? 'hamburgertogglebtn' : 'hamburgertogglebtn toggled'}><FaAngleDown /></button>
+                                                            </div> */}
+                                                            <div className="hamburgerinternalcombo">
+                                                                <p className='hamburgerlink' onClick={() => setIsOpen1(!isOpen1)} >
                                                                     Paper Cup Machines
                                                                 </p>
                                                                 <button onClick={() => setIsOpen1(!isOpen1)} className={!isOpen1 ? 'hamburgertogglebtn' : 'hamburgertogglebtn toggled'}><FaAngleDown /></button>
@@ -387,7 +400,7 @@ const Header = (props) => {
                                                         </div>
                                                         <div className="hamburgerinternallist">
                                                             <div className="hamburgerinternalcombo">
-                                                                <p className='hamburgerlink' onClick={closenavigation} >
+                                                                <p className='hamburgerlink' onClick={() => setIsOpen2(!isOpen2)} >
                                                                     Paper Container Machines
                                                                 </p>
                                                                 <button onClick={() => setIsOpen2(!isOpen2)} className={!isOpen2 ? 'hamburgertogglebtn' : 'hamburgertogglebtn toggled'}><FaAngleDown /></button>
@@ -407,7 +420,7 @@ const Header = (props) => {
                                                         </div>
                                                         <div className="hamburgerinternallist">
                                                             <div className="hamburgerinternalcombo">
-                                                                <p className='hamburgerlink' onClick={closenavigation} >
+                                                                <p className='hamburgerlink' onClick={() => setIsOpen3(!isOpen3)} >
                                                                     Paper Forming machines
                                                                 </p>
                                                                 <button onClick={() => setIsOpen3(!isOpen3)} className={!isOpen3 ? 'hamburgertogglebtn' : 'hamburgertogglebtn toggled'}><FaAngleDown /></button>
@@ -427,7 +440,7 @@ const Header = (props) => {
                                                         </div>
                                                         <div className="hamburgerinternallist">
                                                             <div className="hamburgerinternalcombo">
-                                                                <p className='hamburgerlink' onClick={closenavigation} >
+                                                                <p className='hamburgerlink' onClick={() => setIsOpen4(!isOpen4)} >
                                                                     Other Machines
                                                                 </p>
                                                                 <button onClick={() => setIsOpen4(!isOpen4)} className={!isOpen4 ? 'hamburgertogglebtn' : 'hamburgertogglebtn toggled'}><FaAngleDown /></button>
@@ -447,7 +460,7 @@ const Header = (props) => {
                                                         </div>
                                                         <div className="hamburgerinternallist">
                                                             <div className="hamburgerinternalcombo">
-                                                                <p className='hamburgerlink' onClick={closenavigation} >
+                                                                <p className='hamburgerlink' onClick={() => setIsOpen5(!isOpen5)} >
                                                                     Paper Bag Machines
                                                                 </p>
                                                                 <button onClick={() => setIsOpen5(!isOpen5)} className={!isOpen5 ? 'hamburgertogglebtn' : 'hamburgertogglebtn toggled'}><FaAngleDown /></button>

@@ -4,12 +4,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
 import nes1 from '../..'
-import nes2 from '../../Assets/images/resource/fooma2.png'
-import nes3 from '../../Assets/images/resource/drupa2.png'
+import nes2 from '../../Assets/images/resource/fooma.webp'
+import nes3 from '../../Assets/images/resource/drupa.webp'
 import nes4 from '../../Assets/images/resource/saudiprint.png'
 import nes5 from '../../Assets/images/resource/gulffood3.webp'
 import nes6 from '../../Assets/images/resource/plastindia.webp'
-import nes7 from '../../Assets/images/resource/paperone2.png'
+import nes7 from '../../Assets/images/resource/paperone.webp'
 import nes8 from '../../Assets/images/resource/interpack.webp'
 import { FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6';
 const WeAreNessco = () => {
@@ -67,22 +67,22 @@ const WeAreNessco = () => {
                             <>
                                 <a href='https://www.drupa.com/vis/v1/en/exhprofiles/ucAWUVDjQvuCaTPIMjGH4Q' target='_blank' className="wenesscocard">
                                     <div className="wenesscocardleft">
-                                        <img src={'https://www.nesscoindia.com/Assets/images/resource/drupa2.png'} style={{width:"70%"}} alt="Drupa Germany" />
+                                        <img src={'https://www.nesscoindia.com/Assets/images/resource/drupa2.webp'} style={{width:"70%"}} alt="Drupa Germany" />
                                     </div>
                                     <div className="wenesscocardright">
                                         <h3 className="nesscocardheading"> Drupa Germany</h3>
-                                        <p className="nesscocardpara">Join us at Printing Technologies Expo, Hall 13 / A106 & Hall 9 / D02, from May 28 to June 7, 2024.</p>
+                                        <p className="nesscocardpara">Join us at Printing Technologies Expo, <br /> Hall 13 / A106 & Hall 9 / D02,<br /> May 28 to June 7, 2024.</p>
                                     </div>
                                 </a>
                             </>
                             <>
                                 <a href='https://www.foomajapan.jp/int/exhibitor/' target={"_blank"} className="wenesscocard">
                                     <div className="wenesscocardleft">
-                                        <img src={'https://www.nesscoindia.com/Assets/images/resource/fooma2.png'} style={{width:"80%"}} alt="Fooma Japan 24" />
+                                        <img src={'https://www.nesscoindia.com/Assets/images/resource/fooma2.webp'} style={{width:"80%"}} alt="Fooma Japan 24" />
                                     </div>
                                     <div className="wenesscocardright">
                                         <h3 className="nesscocardheading"> Fooma Japan 24</h3>
-                                        <p className="nesscocardpara">Join us at the world's leading food processing and machinery expo: Booth 7C-13, June 4-7, 2024.</p>
+                                        <p className="nesscocardpara">Join us at the world's leading food processing and machinery expo: <br /> Booth 7C-13, June 4-7, 2024.</p>
                                     </div>
                                 </a>
                             </>
@@ -93,7 +93,7 @@ const WeAreNessco = () => {
                                     </div>
                                     <div className="wenesscocardright">
                                         <h3 className="nesscocardheading"> Saudi Print & Pack</h3>
-                                        <p className="nesscocardpara">Explore MENA's top industrial machinery and printing expo, Stand No: 4-216, May 6-9, 2024.</p>
+                                        <p className="nesscocardpara">Exhibited at MENA's top industrial machinery and printing expo.</p>
                                     </div>
                                 </a>
                             </>
@@ -133,7 +133,7 @@ const WeAreNessco = () => {
                             <>
                                 <a href='/' className="wenesscocard">
                                     <div className="wenesscocardleft">
-                                        <img src={'https://www.nesscoindia.com/Assets/images/resource/paperone2.png'} alt="Paper One Show" />
+                                        <img src={'https://www.nesscoindia.com/Assets/images/resource/paperone2.webp'} alt="Paper One Show" />
                                     </div>
                                     <div className="wenesscocardright">
                                         <h3 className="nesscocardheading"> Paper One Show</h3>

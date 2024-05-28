@@ -11,7 +11,21 @@ const BannerContent = () => {
 
         return () => clearInterval(interval);
     }, []);
-
+    const [slidesToShow, setSlidesToShow] = useState(false);
+    const updateSlidesToShow = () => {
+        const screenWidth = window.innerWidth;
+        if (screenWidth <= 600) {
+            setSlidesToShow(true);
+        } else {
+            setSlidesToShow(false);
+        }
+    };
+    useEffect(() => {
+        window.addEventListener('resize', updateSlidesToShow);
+        return () => {
+            window.removeEventListener('resize', updateSlidesToShow);
+        };
+    }, []);
     const renderComponent = () => {
         return components[currentComponent];
     };
@@ -33,8 +47,8 @@ const ComponentA = () =>
         <p className="bannerslidepara">High Speed Machines That Are Enginnered For You</p>
     </>
 const ComponentB = () => <>
-    <h2 className="bannerslideheading">Machineries & Equipment For<span></span></h2>
-    <h2 className="bannerslideheading">Sustainable Packaging<span></span></h2>
+    <h2 className="bannerslideheading">Machineries & Equipment For <br /> Sustainable Packaging<span></span></h2>
+    {/* <h2 className="bannerslideheading"><span></span></h2> */}
     <p className="bannerslidepara">Dive In The World Of Paper Based Packaging Container Machines</p>
 </>;
 // const ComponentC = () => <>

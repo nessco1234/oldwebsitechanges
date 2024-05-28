@@ -94,7 +94,7 @@ function App() {
     const updateSlidesToShow = () => {
         const screenWidth = window.innerWidth;
         if (screenWidth <= 600) {
-          setSlidesToShow(1);
+          setSlidesToShow(2);
         } else if (screenWidth <= 1024) {
           setSlidesToShow(2);
         } else {

@@ -30,7 +30,7 @@ const CyprusPaper = () => {
             <section className="intromachine">
                 <div className="intromachinecompo">
                     <div className="intromachineleft">
-                        <h1 className="intromachineheading">Paper Cup Making <br /><span>Machine In Bahrain</span></h1>
+                        <h1 className="intromachineheading">Paper Cup Making <br /><span>Machine In Cyprus</span></h1>
                         <p className="intromachinedescription">
                             Nessco India is known for manufacturing and globally exporting various paper product forming machineries. With a strong functional position in this market for over 40 years, now we are backed by 5 Domestic Distributing Centers and 4 International Ones. Over all these years, we have spread our arms to almost every country to expand our business globally.
                         </p>

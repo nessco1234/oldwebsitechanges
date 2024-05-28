@@ -12,39 +12,39 @@
     "section2content": [
         {
             "Name": "UAE",
-            "Link": "/uae"
+            "Link": "/uae/"
         },
         {
             "Name": "Egypt",
-            "Link": "/egypt"
+            "Link": "/egypt/"
         },
         {
             "Name": "Iraq",
-            "Link": "/iraq"
+            "Link": "/iraq/"
         },
         {
             "Name": "Turkey",
-            "Link": "/turkey"
+            "Link": "/turkey/"
         },
         {
             "Name": "France",
-            "Link": "/france"
+            "Link": "/france/"
         },
         {
             "Name": "Other Global Areas",
-            "Link": "/global"
+            "Link": "/global/"
         },
         {
             "Name": "Jordan",
-            "Link": "/jordan"
+            "Link": "/jordan/"
         },
         {
             "Name": "Bangladesh",
-            "Link": "/bangladesh"
+            "Link": "/bangladesh/"
         },
         {
             "Name": "Germany",
-            "Link": "/germany"
+            "Link": "/germany/"
         }
     ],
     "internalLinks":[

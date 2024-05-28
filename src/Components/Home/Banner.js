@@ -6,6 +6,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import img1 from '../../Assets/images/resource/popup.webp'
 import axios from 'axios';
+import Typewriter from 'typewriter-effect'
 export default function App(props) {
   const [isHovered, setIsHovered] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -131,15 +132,26 @@ export default function App(props) {
         </div>
         <div className='bannerslide' >
           <BannerContent />
+          <h1 style={{color:"white", fontSize:'4rem'}}>
 
+            {/* <Typewriter
 
+              options={{
+                autoStart: true,
+                loop: true,
+                delay: 100,
+                deleteSpeed:10,
+                strings: ["MERN Stack Development", "Compititive Programming", "Machine Learning"],
+              }} */}
+            {/* /> */}
+          </h1>
           {/* <Link to={'/'} className='bannerbtn'>Get a Quote <BiRightArrowAlt /></Link> */}
           <button onClick={openModal} className="bannerbtn" style={{ marginTop: "2rem" }}>
             <p className='bannerbtncon'>Get A Quote</p> <FaArrowRightLong className='bannerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
           {isOpen && (
             <div className="modal">
               <div className="modalcard">
-              <button className="close-button" onClick={closeModal}>&times;</button>
+                <button className="close-button" onClick={closeModal}>&times;</button>
                 <div className="leftmodal">
                   <img src={img1} alt="Popup" />
                 </div>
