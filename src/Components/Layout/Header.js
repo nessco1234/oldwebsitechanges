@@ -1,12 +1,9 @@
 import React, { useState } from 'react'
-import { MdArrowRightAlt } from 'react-icons/md'
 import { Link, useNavigate } from 'react-router-dom'
-import logo from '../../Assets/images/logo.webp'
-import { FaArrowRightLong, FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube } from 'react-icons/fa6'
-import img1 from '../../Assets/images/resource/popup.webp'
-import { IoIosMenu, IoMdMenu } from "react-icons/io";
+import { FaArrowRightLong, FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube } from 'react-icons/fa6'
+import { IoIosMenu, } from "react-icons/io";
 import { ImCross } from "react-icons/im";
-import { FaAngleDown, FaFacebookSquare, FaFcebookSquare, FaInstagramSquare } from 'react-icons/fa'
+import { FaAngleDown, FaFacebookSquare } from 'react-icons/fa'
 import axios from 'axios'
 const list1 = [
     {
@@ -268,54 +265,54 @@ const Header = (props) => {
             <nav className="navbar">
                 <div className="navbarcontainer">
                     <Link className='navbarlogolink' to={'/'}><img src={'https://www.nesscoindia.com/Assets/images/logo.webp'} alt="NesscoLogo" /></Link>
-                    <ul className="navlist">
+                    <div className="navlist">
                         <Link className='navlink' to={'/'}>HOME</Link>
                         <Link className='navlink' to={'/about-us/'}>ABOUT US</Link>
                         <div className='navlink' onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
                             <Link onClick={() => setIsHovered(false)} className='navlink' to={'/product/'}>OUR MACHINES</Link>
                             {isHovered && (
-                                <ul className="menu-list">
+                                <div className="menu-list">
                                     <div className="menu-list-container">
 
                                         <div className="menulistitems">
                                             <h3 className="menulistheading">Paper Cup Machines</h3>
-                                            {list1.map(obj => (
-                                                <Link onClick={() => setIsHovered(false)} className='menulistlinks' key={obj.id} to={obj.link}>{obj.name}</Link>
+                                            {list1.map((obj,key) => (
+                                                <Link onClick={() => setIsHovered(false)} className='menulistlinks' key={key} to={obj.link}>{obj.name}</Link>
                                             ))}
                                         </div>
                                         <div className="menulistitems">
                                             <h3 className="menulistheading">Paper Container Machines</h3>
-                                            {list2.map(obj => (
-                                                <Link onClick={() => setIsHovered(false)} className='menulistlinks' key={obj.id} to={obj.link}>{obj.name}</Link>
+                                            {list2.map((obj,key) => (
+                                                <Link onClick={() => setIsHovered(false)} className='menulistlinks' key={key} to={obj.link}>{obj.name}</Link>
                                             ))}
                                         </div>
                                         <div className="menulistitems">
                                             <h3 className="menulistheading">Paper Forming Machines</h3>
-                                            {list3.map(obj => (
-                                                <Link onClick={() => setIsHovered(false)} className='menulistlinks' key={obj.id} to={obj.link}>{obj.name}</Link>
+                                            {list3.map((obj,key) => (
+                                                <Link onClick={() => setIsHovered(false)} className='menulistlinks' key={key} to={obj.link}>{obj.name}</Link>
                                             ))}
                                         </div>
                                         <div className="menulistitems">
                                             <h3 className="menulistheading">Other Machines</h3>
-                                            {list4.map(obj => (
-                                                <Link onClick={() => setIsHovered(false)} className='menulistlinks' key={obj.id} to={obj.link}>{obj.name}</Link>
+                                            {list4.map((obj,key) => (
+                                                <Link onClick={() => setIsHovered(false)} className='menulistlinks' key={key} to={obj.link}>{obj.name}</Link>
                                             ))}
                                         </div>
                                         <div className="menulistitems">
                                             <h3 className="menulistheading">Paper Bag Machines</h3>
-                                            {list5.map(obj => (
-                                                <Link onClick={() => setIsHovered(false)} className='menulistlinks' key={obj.id} to={obj.link}>{obj.name}</Link>
+                                            {list5.map((obj,key) => (
+                                                <Link onClick={() => setIsHovered(false)} className='menulistlinks' key={key} to={obj.link}>{obj.name}</Link>
                                             ))}
                                         </div>
                                     </div>
 
-                                </ul>
+                                </div>
                             )}
                         </div>
                         <Link className='navlink' to={'/video/'}>VIDEO</Link>
                         <Link className='navlink' to={'/blog/'}>BLOG</Link>
                         <Link className='navlink' to={'/contact/'}>CONTACT US</Link>
-                    </ul>
+                    </div>
                     <button onClick={openModal} className="headerbtn tt">
                         <p className='headerbtncon'>Inquire Now !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
                     {isOpen && (
@@ -390,8 +387,8 @@ const Header = (props) => {
                                                                 <>
                                                                     <div className="hamburgerinternallist">
                                                                         {
-                                                                            list1.map(e => (
-                                                                                <Link className='hamburgerlink' to={e.link} onClick={closenavigation} >{e.name}</Link>
+                                                                            list1.map((e,key) => (
+                                                                                <Link key={key} className='hamburgerlink' to={e.link} onClick={closenavigation} >{e.name}</Link>
                                                                             ))
                                                                         }
                                                                     </div>
@@ -410,8 +407,8 @@ const Header = (props) => {
                                                                 <>
                                                                     <div className="hamburgerinternallist">
                                                                         {
-                                                                            list2.map(e => (
-                                                                                <Link className='hamburgerlink' to={e.link} onClick={closenavigation} >{e.name}</Link>
+                                                                            list2.map((e,key) => (
+                                                                                <Link key={key} className='hamburgerlink' to={e.link} onClick={closenavigation} >{e.name}</Link>
                                                                             ))
                                                                         }
                                                                     </div>
@@ -430,8 +427,8 @@ const Header = (props) => {
                                                                 <>
                                                                     <div className="hamburgerinternallist">
                                                                         {
-                                                                            list3.map(e => (
-                                                                                <Link className='hamburgerlink' to={e.link} onClick={closenavigation} >{e.name}</Link>
+                                                                            list3.map((e,key) => (
+                                                                                <Link key={key} className='hamburgerlink' to={e.link} onClick={closenavigation} >{e.name}</Link>
                                                                             ))
                                                                         }
                                                                     </div>
@@ -450,8 +447,8 @@ const Header = (props) => {
                                                                 <>
                                                                     <div className="hamburgerinternallist">
                                                                         {
-                                                                            list4.map(e => (
-                                                                                <Link className='hamburgerlink' to={e.link} onClick={closenavigation} >{e.name}</Link>
+                                                                            list4.map((e,key) => (
+                                                                                <Link key={key} className='hamburgerlink' to={e.link} onClick={closenavigation} >{e.name}</Link>
                                                                             ))
                                                                         }
                                                                     </div>
@@ -470,8 +467,8 @@ const Header = (props) => {
                                                                 <>
                                                                     <div className="hamburgerinternallist">
                                                                         {
-                                                                            list5.map(e => (
-                                                                                <Link className='hamburgerlink' to={e.link} onClick={closenavigation} >{e.name}</Link>
+                                                                            list5.map((e,key) => (
+                                                                                <Link key={key} className='hamburgerlink' to={e.link} onClick={closenavigation} >{e.name}</Link>
                                                                             ))
                                                                         }
                                                                     </div>

@@ -75,8 +75,8 @@ const Blog = () => {
             <section className="blogs">
                 <div className="blogcontainer">
                     {
-                        data.map(datax => (
-                            <SingleBlog data={datax} />
+                        data.map((datax,key) => (
+                            <SingleBlog key={key} data={datax} />
                         ))
                     }
                 </div>

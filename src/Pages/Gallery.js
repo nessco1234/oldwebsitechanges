@@ -63,17 +63,17 @@ function ProductFilter({ products }) {
                     </button>
 
                 </div>
-                <ul className='productpagelist'>
+                <div className='productpagelist'>
                     <div className="aboutexpertspic">
-                        {filteredProducts.map(product => (
+                        {filteredProducts.map((product,key) => (
                             <>
-                                <div className="imgcontainer">
+                                <div key={key} className="imgcontainer">
                                     <img src={product.url} alt={product.alt} />
                                 </div>
                             </>
                         ))}
                     </div>
-                </ul>
+                </div>
             </div>
         </section>
     );

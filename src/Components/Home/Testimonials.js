@@ -52,7 +52,7 @@ const Testimonials = () => {
             <section className="testimonials">
                 <div className="testimonialscontainer">
                     <div className="testimonialsleft">
-                        <h6 className="aboutusbtn ">TESTIMONIALS</h6>
+                        <p className="aboutusbtn ">TESTIMONIALS</p>
                         <h2 className="testimonialsheading">Trusted <span> by More Than 7k Clients.</span></h2>
                         <div className="wenesscobuttons">
                             <FaArrowLeftLong  onClick={next} className='wenesscobtn' />

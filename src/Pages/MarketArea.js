@@ -135,8 +135,8 @@ const MarketArea = (props) => {
                             <select placeholder="Select Country" className='marketareainp' id="dropdown" value={selectedValue} onChange={handleChange}>
                                 <option value="">Select Your Country</option>
                                 {
-                                    countries.map(e => (
-                                        <option value={e}>{e}</option>
+                                    countries.map((e,key) => (
+                                        <option key={key} value={e}>{e}</option>
                                     ))
                                 }
                             </select>
@@ -161,8 +161,8 @@ const MarketArea = (props) => {
                             data.section2 && <>
                                 <h1 className="marketareaheading">{data.section2heading}</h1>
                                 <div className="marketcardcontainer">
-                                    {data3.map((obj) => (
-                                        <Link to={obj.Link} className="marketlink"><FaAngleDoubleRight className="marketlinkicon" /> {obj.Name}</Link>
+                                    {data3.map((obj,key) => (
+                                        <Link key={key} to={obj.Link} className="marketlink"><FaAngleDoubleRight className="marketlinkicon" /> {obj.Name}</Link>
                                     ))}
 
                                 </div>

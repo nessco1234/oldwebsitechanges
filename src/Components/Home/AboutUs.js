@@ -113,22 +113,22 @@ const AboutUs = (props) => {
             <img className="leftaboutpic" alt="Nessco Team" src={'https://www.nesscoindia.com/Assets/images/resource/nessco-team.webp'}  />
             <div className="leftaboutpic2">
               <div className="aboutimagesection"></div>
-              <button className="playbtn" onClick={openModal}><FaPlay /></button>
+              <button className="playerbtn" aria-label="Player Button"  onClick={openModal}><FaPlay /></button>
               {isOpen && (
                 <div className="modal">
                   <button className="close-button" onClick={closeModal}>&times;</button>
-                  <iframe className="modal-content" width={1000} height={500} id="fancybox-frame1715329533515" name="fancybox-frame1715329533515" class="fancybox-iframe" frameborder="0" vspace="0" hspace="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allowtransparency="true" src="//www.youtube.com/embed/e-rwkwTE8P4?autoplay=1&amp;autohide=1&amp;fs=1&amp;rel=0&amp;hd=1&amp;wmode=transparent&amp;enablejsapi=1&amp;html5=1" scrolling="no"></iframe>
+                  <iframe  width={1000} height={500} id="fancybox-frame1715329533515" name="fancybox-frame1715329533515" className="fancybox-iframe modal-content" frameborder="0" vspace="0" hspace="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allowtransparency="true" src="//www.youtube.com/embed/e-rwkwTE8P4?autoplay=1&amp;autohide=1&amp;fs=1&amp;rel=0&amp;hd=1&amp;wmode=transparent&amp;enablejsapi=1&amp;html5=1" scrolling="no"></iframe>
                 </div>
               )}
             </div>
           </div>
           <div className="rightabout">
-            <h6 style={{ margin: "1rem 0" }} className="aboutusbtn  mm">ABOUT US</h6>
+            <p style={{ margin: "1rem 0" }} className="aboutusbtn  mm">ABOUT US</p>
             <h1 className="aboutheading">
               Paper cup machine <span> Manufacturer & Exporter</span>
             </h1>
             <p className="aboutpara">
-              Nessco India is an international <Link to={'/product/high-speed-paper-cup-making-machine/'}> paper cup machine</Link> manufacturing
+              Nessco India is an international paper cup machine manufacturing
               company with a trusted brand name since 1978 in domestic as well
               as international markets. Since then, NesscoIndia has widened its
               business globally in the whole Disposable Paper Packaging

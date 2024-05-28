@@ -45,8 +45,8 @@ const Video = () => {
                     <h1 className="videoheading">Nessco <span> Videos</span></h1>
                     <div className="videobox">
                         {
-                            vediodata && vediodata.map((row => (
-                                <VedioComponent url={row.url} />
+                            vediodata && vediodata.map(((row,key) => (
+                                <VedioComponent key={key} url={row.url} />
                             )
                             ))
                         }

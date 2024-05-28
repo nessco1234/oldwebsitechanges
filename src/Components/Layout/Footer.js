@@ -26,19 +26,19 @@ const Footer = () => {
                                 We have been focusing in the Disposable Industry since 1978, and continuously concentrating on the idea of team building by creating an R&D team of hard-working personals with self-transcendence, hard-working attitude and spirit of diligent and dedicated craftsmanship.
                             </p>
                             <div className="footersocialicons">
-                                <a href='https://www.facebook.com/NesscoPaperCupMachine' target='_blank' className="footersocialicon">
+                                <a aria-label="Footer Icon" href='https://www.facebook.com/NesscoPaperCupMachine' target='_blank' className="footersocialicon">
                                     <FaFacebookF />
                                 </a>
-                                <a href='https://twitter.com/NesscoIndia' target='_blank' className="footersocialicon">
+                                <a aria-label="Footer Icon" href='https://twitter.com/NesscoIndia' target='_blank' className="footersocialicon">
                                     <FaTwitter />
                                 </a>
-                                <a href='https://www.youtube.com/c/NesscoPaperCupMachine' target='_blank' className="footersocialicon">
+                                <a aria-label="Footer Icon" href='https://www.youtube.com/c/NesscoPaperCupMachine' target='_blank' className="footersocialicon">
                                     <FaYoutube />
                                 </a>
-                                <a href='https://www.linkedin.com/company/nesscoindia/' target='_blank' className="footersocialicon">
+                                <a aria-label="Footer Icon" href='https://www.linkedin.com/company/nesscoindia/' target='_blank' className="footersocialicon">
                                     <FaLinkedin />
                                 </a>
-                                <a href='https://www.instagram.com/nesscoindia/' target='_blank' className="footersocialicon">
+                                <a aria-label="Footer Icon" href='https://www.instagram.com/nesscoindia/' target='_blank' className="footersocialicon">
                                     <FaInstagram />
                                 </a>
 

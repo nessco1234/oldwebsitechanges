@@ -4,7 +4,7 @@ const AboutExperts = () => {
     <>
       <div className="aboutexperts">
         <div className="aboutexpertcontainer">
-          <h6 className="aboutusbtn mm">OUR EXPERTS</h6>
+          <p className="aboutusbtn mm">OUR EXPERTS</p>
           <h2 className="aboutexpertsheading">Meet Our Experienced <br /><span>Team Member</span></h2>
           <div className="aboutexpertspics">
             <div className="aboutexpertcontent">

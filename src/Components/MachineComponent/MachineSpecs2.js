@@ -12,15 +12,15 @@ const MachineSpecs2 = (props) => {
                     <table className='machinetable'>
                         <thead className='machinehead'>
                             <tr>{
-                                labels.map(obj => (
-                                    <th colSpan={1} style={cellStyle}>{obj}</th>
+                                labels.map((obj,key) => (
+                                    <th key={key} colSpan={1} style={cellStyle}>{obj}</th>
                                 ))
                             }
                             </tr>
                         </thead>
                         <tbody className='machinedata'>
-                            {data.map(row => (
-                                <tr key={row.key} className='machinetablerow'>
+                            {data.map((row,key) => (
+                                <tr key={key} className='machinetablerow'>
                                     <td style={cellStyle}>{row.specs}</td>
                                     <td style={cellStyle}>{row.ns220}</td>
                                     <td style={cellStyle}>{row.ns330}</td>

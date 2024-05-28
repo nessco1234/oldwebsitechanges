@@ -18,8 +18,8 @@ const MachineComponent = (props) => {
         <link rel="icon" type="image/x-icon" href="/logo.iso" />
         <title>{data.seotitle}</title>
         {
-          data.seometa.map(e => (
-            <meta name={e.name} content={e.content} />
+          data.seometa.map((e,key) => (
+            <meta key={key} name={e.name} content={e.content} />
           ))
         }
         <link rel={data.seolink.name} href={data.seolink.url} />

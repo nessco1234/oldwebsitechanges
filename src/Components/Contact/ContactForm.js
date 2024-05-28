@@ -150,7 +150,7 @@ const ContactForm = () => {
                             <input value={formData.SingleLine1} onChange={handleChange} name='SingleLine1' placeholder='Subject' className='contactinputfields' type="text" />
                             <textarea value={formData.MultiLine} onChange={handleChange} name='MultiLine' placeholder='Message' className='contactinputtextarea' cols="30" rows="3"></textarea>
                         </div>
-                        <button type="submit" className="contactbtn">
+                        <button aria-label='Send Message' type="submit" className="contactbtn">
                             <p className='headerbtncon'>Send Message </p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
                     </form>
                 </div>

@@ -89,7 +89,7 @@ const Presence = () => {
           <div className='staticimage2'  />
         </div>
         <div className='leftpresence'>
-          <h6 className="aboutusbtn">PRESENCE</h6>
+          <p className="aboutusbtn">PRESENCE</p>
           <h2 className="presenceheading">Nessco Global <span> Presence</span>
           </h2>
           <p className="presencepara">With a strong functional position in this market for over 40 years, now Nessco India is backed by 5 Domestic Distributing Centres and 7 International Ones. Over all these years, we have spread our arms to almost every country to expand our business globally.</p>

@@ -8,8 +8,8 @@ const RelatedProducts = (props) => {
         <h2 className="machinerelatedproductheading">Related <span>Products</span></h2>
         <div className="machineblogsection">
           {
-            data.map(obj => (
-              <ProductCard img={obj.imglink} heading={obj.heading} url={obj.productlink} />
+            data.map((obj,key) => (
+              <ProductCard key={key} img={obj.imglink} heading={obj.heading} url={obj.productlink} />
             ))
           }
         </div>

@@ -27,12 +27,12 @@
   margin-top: 5rem;
   display: flex;
   justify-content: flex-start;
-  color: grey;
+  color: black;
   align-items: center;
   flex-wrap: wrap;
 }
 .breadcrumconnectiondislink {
-  color: grey;
+  color: black;
 }
 .breadcrumconnectiondislink:hover {
   color: black;
@@ -48,7 +48,7 @@
 .intromachinedescription {
   font-size: 1.6rem;
   line-height: 2.2rem;
-  color: #595959;
+  color: black;
   word-spacing: 0.1rem;
   /* text-align: justify; */
 }
@@ -147,7 +147,7 @@
   font-size: 1.6rem;
   margin: 2rem 0;
   line-height: 2.2rem;
-  color: #595959;
+  color: black;
 }
 .descriptionaboutaquote {
   padding: 2rem;
@@ -444,7 +444,7 @@
   margin-top: 3rem;
 }
 .modaldesc {
-  color: rgba(0, 0, 0, 0.719);
+  color: black;
 }
 .modalinp {
   width: 100%;

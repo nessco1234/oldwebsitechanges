@@ -14,8 +14,8 @@ const MachineSpecs = (props) => {
                         </tr>
                     </thead>
                     <tbody className='machinedata'>
-                        {data.map(row => (
-                            <tr key={row.key} className='machinetablerow'>
+                        {data.map((row,key) => (
+                            <tr key={key} className='machinetablerow'>
                                 <td className='adjustwidth' style={cellStyle}>{row.feature}</td>
                                 <td style={cellStyle}>{row.specs}</td>
                             </tr>

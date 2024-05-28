@@ -89,7 +89,7 @@
   /* transform:scale3d(); */
 }
 
-.playbtn {
+.playerbtn {
   color: var(--redcolor);
   display: flex;
   justify-content: center;
@@ -120,7 +120,7 @@
   padding: 1rem;
   margin-right: 2rem;
 } */
-.playbtn:after {
+.playerbtn:after {
   position: absolute;
   content: "";
   height: 100%;
@@ -129,7 +129,7 @@
   border: 3px solid white;
   animation: hamburger_puls 2s ease infinite;
 }
-.playbtn:before {
+.playerbtn:before {
   position: absolute;
   content: "";
   height: 100%;
@@ -174,7 +174,7 @@
 
 .aboutpara {
   font-weight: 400;
-  color: #595959;
+  color: black;
 
   font-size: 1.4rem;
   margin-bottom: 2rem;
@@ -235,7 +235,7 @@
 .iotpara {
   font-size: 1.4rem;
   line-height: 25px;
-  color: #595959;
+  color: black;
 
   word-spacing: 1px;
   margin-top: 1rem;
@@ -260,7 +260,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   z-index: -1;
-  color: #595959;
+  color: black;
   padding-left: 1.5rem;
 }
 .iotlist li:before {
@@ -340,7 +340,7 @@
 }
 .presencepara {
   font-size: 1.4rem;
-  color: #595959;
+  color:black;
   margin-top: 2rem;
   font-weight: 400;
   line-height: 2.2rem;
@@ -566,7 +566,7 @@
 .articledescription {
   font-size: 1.3rem;
   margin: 2rem 0;
-  color: grey;
+  color: black;
 }
 .articlelink {
   color: var(--bluecolor);
@@ -1207,7 +1207,7 @@
 }
 .nesscocardpara {
   font-size: 1.2rem !important;
-  color: grey;
+  color: black;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
 }
@@ -1320,7 +1320,7 @@
 }
 .testimonialdesc {
   font-size: 1.4rem;
-  color: #595959;
+  color: black;
 
   line-height: 2rem;
   margin-top: 2rem;
@@ -1367,7 +1367,7 @@
   margin-top: 2rem;
   text-align: center;
   font-size: 1.5rem;
-  color: #595959;
+  color: black;
   width: 60%;
   font-family: "Open Sans", sans-serif;
 }
@@ -1407,10 +1407,11 @@
   align-items: center;
   font-size: 1.5rem;
   color: var(--bluecolor);
-  margin: 1rem 0;
   font-weight: 500;
   margin-bottom: 3rem;
   transition: all 0.5s ease;
+  margin: 1rem 0;
+  padding: 1rem ;
 }
 .productssslink:hover {
   cursor: pointer;

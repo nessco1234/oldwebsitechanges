@@ -19,7 +19,7 @@ const Creation = () => {
                 {isOpen && (
                     <div className="modal">
                         <button className="close-button" onClick={closeModal}>&times;</button>
-                        <iframe className="modal-content" width={1000} height={500} id="fancybox-frame1715329533515" name="fancybox-frame1715329533515" class="fancybox-iframe" frameborder="0" vspace="0" hspace="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allowtransparency="true" src="//www.youtube.com/embed/e-rwkwTE8P4?autoplay=1&amp;autohide=1&amp;fs=1&amp;rel=0&amp;hd=1&amp;wmode=transparent&amp;enablejsapi=1&amp;html5=1" scrolling="no"></iframe>
+                        <iframe width={1000} height={500} id="fancybox-frame1715329533515" name="fancybox-frame1715329533515" className="fancybox-iframe modal-content" frameborder="0" vspace="0" hspace="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allowtransparency="true" src="//www.youtube.com/embed/e-rwkwTE8P4?autoplay=1&amp;autohide=1&amp;fs=1&amp;rel=0&amp;hd=1&amp;wmode=transparent&amp;enablejsapi=1&amp;html5=1" scrolling="no"></iframe>
                     </div>
                 )}
                 <div className="creationcontainer">
@@ -32,8 +32,7 @@ const Creation = () => {
                             <p className='creationbtncon'>Play Video</p> <FaArrowRightLong className='creationbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
                     </div>
                     <div className="creationbtn">
-                        <button className="youtubebtn" onClick={openModal}><CgPlayButton /></button>
-
+                        <button className="youtubebtn" aria-label="Youtube Button" onClick={openModal}><CgPlayButton /></button>
                     </div>
                 </div>
             </section>

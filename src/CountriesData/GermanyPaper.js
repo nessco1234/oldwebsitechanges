@@ -35,7 +35,7 @@ const GermanyPaper = () => {
                             Nessco India is known for manufacturing and globally exporting various paper product forming machineries. With a strong functional position in this market for over 40 years, now we are backed by 5 Domestic Distributing Centers and 4 International Ones. Over all these years, we have spread our arms to almost every country to expand our business globally.
                         </p>
                     </div>
-                    <Form1/>
+                    <Form1 />
                 </div>
             </section>
             <section className="descriptionmachine">
@@ -48,15 +48,15 @@ const GermanyPaper = () => {
                     <div className="descriptionmachineright">
                         <div className="descriptionsuggestions">
                             {
-                                specs.Suggestions.map(obj => (
-                                    <Link to={obj.suggestionlink} className="descriptionsuggestion">
+                                specs.Suggestions.map((obj, key) => (
+                                    <Link key={key} to={obj.suggestionlink} className="descriptionsuggestion">
                                         <FaAngleDoubleRight />{obj.name}
                                     </Link>
 
                                 ))
                             }
                         </div>
-                        <Form2/>
+                        <Form2 />
                         <div className="downloadbrochures">
                             <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>

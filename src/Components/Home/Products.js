@@ -122,14 +122,14 @@ function App() {
     return (
         <section className='product'>
             <div className="productcontainer">
-                <h6 className="aboutusbtn align">OUR MACHINES</h6>
+                <p className="aboutusbtn align">OUR MACHINES</p>
                 <h2 className="productssstitle">Our Products</h2>
                 <p className="productsssdesc">We are known for manufacturing and globally exporting various paper packaging machines including
                     Cups, Glass, Straws and Plate Machines.</p>
                 <Slider {...settings} className="productbox" >
-                    {data.map((d) => (
+                    {data.map((d,key) => (
                         <>
-                            <Link to={d.link} className="productssscard" >
+                            <Link to={d.link} key={key} className="productssscard" >
                                 <div className="productsssupper">
                                     <img src={d.img} alt={d.name} />
                                 </div>
@@ -143,9 +143,9 @@ function App() {
                     ))}
                 </Slider>
                 <Slider {...settings} className="productbox" >
-                    {data2.map((d) => (
+                    {data2.map((d,key) => (
                         <>
-                            <Link to={d.link} className="productssscard">
+                            <Link to={d.link} key={key} className="productssscard">
                                 <div className="productsssupper">
                                     <img src={d.img} alt={d.name} />
                                 </div>

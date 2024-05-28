@@ -49,13 +49,13 @@ function ProductFilter({ products }) {
                         Other
                     </button>
                 </div>
-                <ul className='productpagelist'>
-                    {filteredProducts.map(product => (
+                <div className='productpagelist'>
+                    {filteredProducts.map((product,key) => (
                         <>
-                            <ProductCard key={product.id} heading={product.name} url={product.url} img={product.imglink} />
+                            <ProductCard key={key} heading={product.name} url={product.url} img={product.imglink} />
                         </>
                     ))}
-                </ul>
+                </div>
             </div>
         </section>
     );

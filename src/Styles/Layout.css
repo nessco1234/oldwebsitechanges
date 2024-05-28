@@ -62,7 +62,7 @@
 }
 .footerdesccontent {
   font-size: 1.4rem;
-  color: #595959;
+  color: black;
 }
 .footerlistslink {
   display: flex;
@@ -71,7 +71,7 @@
 .footersocialicons {
   display: flex;
   font-size: 1.5rem;
-  color: #595959;
+  color: black;
 }
 .footersocialicon {
   width: 40px;
@@ -130,16 +130,16 @@
 .footerdesccontent {
   font-size: 1.4rem;
   line-height: 2.5rem;
-  color: #595959;
+  color: black;
   margin: 2rem 0;
 }
 .footeraddress {
   font-size: 1.4rem;
-  color: #595959;
+  color: black;
 }
 .footeratags {
   font-size: 1.4rem;
-  color: #595959;
+  color: black;
   margin: 0.8rem 0;
 }
 .footeratags:hover {
@@ -157,7 +157,7 @@
 .email {
   font-size: 1.5rem;
   margin-top: 1.5rem;
-  color: #595959;
+  color: black;
 }
 .footerrights {
   width: 100%;

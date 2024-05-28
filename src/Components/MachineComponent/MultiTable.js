@@ -10,15 +10,15 @@ const MultiTable = (props) => {
                 <table className='machinetable'>
                     <thead className='machinehead'>
                         <tr>{
-                            labels.map(obj => (
-                                <th style={cellStyle}>{obj}</th>
+                            labels.map((obj,key) => (
+                                <th key={key} style={cellStyle}>{obj}</th>
                             ))
                         }
                         </tr>
                     </thead>
                     <tbody className='machinedata'>
-                        {data.map(row => (
-                            <tr key={row.key} className='machinetablerow'>
+                        {data.map((row,key) => (
+                            <tr key={key} className='machinetablerow'>
                                 <td style={cellStyle}>{row.rope}</td>
                                 <td style={cellStyle}>{row.T1}</td>
                                 <td style={cellStyle}>{row.T2}</td>

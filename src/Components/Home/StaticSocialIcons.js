@@ -13,10 +13,10 @@ function StaticSocialIcons() {
           {/* <div className="coinsep"></div> */}
         </div>
         <div className="staticiconcontainer">
-          <a href="https://api.whatsapp.com/send?phone=919982200038" className="staticSocial1">
+          <a aria-label="Static Social Icon" href="https://api.whatsapp.com/send?phone=919982200038" className="staticSocial1">
             <RiWhatsappFill className="staticicon" />
           </a>
-          <a href="tel:+91 99822 00038" className="staticSocial2">
+          <a aria-label="Static Social Icon" href="tel:+91 99822 00038" className="staticSocial2">
             <IoMdCall className="staticicon"  />
           </a>
           {/* </div> */}
@@ -24,10 +24,10 @@ function StaticSocialIcons() {
             <div className="staticontainerpic2"></div>
           </div>
           {/* <div className="staticiconcontainer"> */}
-          <a href="mailto:info@nesscoindia.com" className="staticSocial3">
+          <a aria-label="Static Social Icon" href="mailto:info@nesscoindia.com" className="staticSocial3">
             <IoMail className="staticicon" />
           </a>
-          <a href="https://m.me/NesscoPaperCupMachine" className="staticSocial4">
+          <a aria-label="Static Social Icon" href="https://m.me/NesscoPaperCupMachine" className="staticSocial4">
             <PiMessengerLogoFill className="staticicon" />
           </a>
         </div>

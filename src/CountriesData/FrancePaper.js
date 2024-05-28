@@ -51,9 +51,9 @@ const FrancePaper = () => {
                     </div>
                     <div className="descriptionmachineright">
                         <div className="descriptionsuggestions">
-                            {
-                                specs.Suggestions.map(obj => (
-                                    <Link to={obj.suggestionlink} className="descriptionsuggestion">
+                        {
+                                specs.Suggestions.map((obj,key) => (
+                                    <Link key={key} to={obj.suggestionlink} className="descriptionsuggestion">
                                         <FaAngleDoubleRight />{obj.name}
                                     </Link>
 

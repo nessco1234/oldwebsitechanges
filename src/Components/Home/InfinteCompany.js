@@ -11,8 +11,8 @@ const InfinteCompany = () => {
     return (
         <>
             <hr />
-            <section class="logos">
-                <div class="logos-slide">
+            <section className="logos">
+                <div className="logos-slide">
                     <img src={'https://www.nesscoindia.com/Assets/images/clients/Autonics.webp'} alt='Autonics' />
                     <img src={'https://www.nesscoindia.com/Assets/images/clients/Delta.webp'} alt='Delta' />
                     <img src={'https://www.nesscoindia.com/Assets/images/clients/Eura.webp'} alt='Eura' />
@@ -22,7 +22,7 @@ const InfinteCompany = () => {
                     <img src={'https://www.nesscoindia.com/Assets/images/clients/Schneider.webp'} alt='Schneider' />
                     <img src={'https://www.nesscoindia.com/Assets/images/clients/Siemens.webp'} alt='Siemens' />
                 </div>
-                <div class="logos-slide">
+                <div className="logos-slide">
                     <img src={'https://www.nesscoindia.com/Assets/images/clients/Autonics.webp'} alt='Autonics' />
                     <img src={'https://www.nesscoindia.com/Assets/images/clients/Delta.webp'} alt='Delta' />
                     <img src={'https://www.nesscoindia.com/Assets/images/clients/Eura.webp'} alt='Eura' />

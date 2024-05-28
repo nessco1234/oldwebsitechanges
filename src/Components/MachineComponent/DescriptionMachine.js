@@ -105,8 +105,8 @@ const DescriptionMachine = (props) => {
                 <div className="descriptionmachineleft">
                     <img src={props.imgurl} alt={`${data.PointsHeading[0]} ${data.PointsHeading[1]}`} />
                     {
-                        data.Imgdesc.map(obj => (
-                            <p className="descriptionmachineleftcontent">
+                        data.Imgdesc.map((obj,key) => (
+                            <p key={key} className="descriptionmachineleftcontent">
                                 {obj}
                             </p>
                         ))
@@ -156,8 +156,8 @@ const DescriptionMachine = (props) => {
                 <div className="descriptionmachineright">
                     <div className="descriptionsuggestions">
                         {
-                            data.Suggestions.map(obj => (
-                                <Link to={obj.suggestionlink} className="descriptionsuggestion">
+                            data.Suggestions.map((obj,key) => (
+                                <Link key={key} to={obj.suggestionlink} className="descriptionsuggestion">
                                     <FaAngleDoubleRight />{obj.name}
                                 </Link>
 

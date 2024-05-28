@@ -74,7 +74,7 @@
 .singleblogcarddesc{
     font-size: 1.4rem;
     margin-top: 1rem;
-    color: grey;
+    color: black;
     margin-bottom: 2rem;
 }
 .singleblogbtn{
@@ -154,7 +154,7 @@
 .blogdesc{
     font-size: 1.5rem;
     line-height: 2.3rem;
-    color: #595959;
+    color: black;
     font-family: 'Poppins', sans-serif;
     margin: 2rem 0;
 }
