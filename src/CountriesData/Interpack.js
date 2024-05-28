@@ -1,12 +1,10 @@
 import React from 'react'
 import { FaAngleDoubleRight } from 'react-icons/fa'
-import { FaArrowRightLong } from 'react-icons/fa6'
 import { SiAdobeacrobatreader } from 'react-icons/si'
 import { Link } from 'react-router-dom'
 import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
-import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
 import { Helmet } from 'react-helmet'
 import Form1 from '../Components/MarketArea/Form1'
 import Form2 from '../Components/MarketArea/Form2'
@@ -40,7 +38,7 @@ const Interpack = () => {
             <section className="descriptionmachine">
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
-                        <img src={img1} alt="" />
+                    <img src={'https://nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-machine.webp'} alt="" />
                         <h3 className="descriptionmachineleftdata">Interpack <span>Germany</span></h3>
                         <p className="descriptionmachineleftcontent"><b>𝗡𝗲𝘀𝘀𝗰𝗼 𝗜𝗻𝗱𝗶𝗮 </b>  would like to take the pleasure to invite you all to The World’s No. 1 Trade Fair For Processing & Packaging – Interpack in <b> 𝗗𝘂̈𝘀𝘀𝗲𝗹𝗱𝗼𝗿𝗳, 𝗚𝗲𝗿𝗺𝗮𝗻𝘆.</b> We are exhibiting at Booth F64-2 in Hall 8A. Our team will be available at the venue from 4th to 10th May to assist you with all the details.
                             <br /><b></b>

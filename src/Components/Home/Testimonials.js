@@ -4,11 +4,6 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
 import ReactStars from 'react-stars'
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
-import img1 from '../../Assets/images/resource/testimonial-1.webp'
-import img2 from '../../Assets/images/resource/testimonial-2.webp'
-import img3 from '../../Assets/images/resource/testimonial-3.webp'
-import img4 from '../../Assets/images/resource/testimonial-4.webp'
-import img5 from '../../Assets/images/resource/testimonial-5.webp'
 const Testimonials = () => {
     const [slider, setSlider] = useState(null);
     const [slidesToShow, setSlidesToShow] = useState(2);

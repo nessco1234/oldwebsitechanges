@@ -1,10 +1,6 @@
 import React, { useState } from 'react'
-import Shape from '../../Assets/images/shape/shape-209.png'
-import Shape2 from '../../Assets/images/shape/shape-210.png'
-import Map from '../../Assets/images/resource/Nessco Map.webp'
-import { MdArrowRightAlt } from 'react-icons/md'
 import { FaArrowRightLong } from 'react-icons/fa6'
-import { Link, useNavigate } from 'react-router-dom'
+import {  useNavigate } from 'react-router-dom'
 import axios from 'axios'
 const Presence = () => {
   const navigate = useNavigate()

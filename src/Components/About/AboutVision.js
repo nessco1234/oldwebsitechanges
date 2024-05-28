@@ -1,6 +1,4 @@
 import React from 'react'
-import img1 from '../../Assets/images/gallery/about2.webp'
-import img2 from '../../Assets/images/gallery/event3.webp'
 const AboutVision = () => {
   return (
     <>

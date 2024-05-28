@@ -1,5 +1,4 @@
 import React from 'react'
-import { BiRightArrowAlt } from 'react-icons/bi'
 import { FaArrowRightLong } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
 

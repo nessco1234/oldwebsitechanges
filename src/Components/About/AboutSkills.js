@@ -1,8 +1,4 @@
 import React from 'react'
-import img1 from '../../Assets/images/icons/f1.webp'
-import img2 from '../../Assets/images/icons/f2.webp'
-import img3 from '../../Assets/images/icons/f3.webp'
-import img4 from '../../Assets/images/icons/f4.webp'
 const AboutSkills = () => {
   return (
     <>

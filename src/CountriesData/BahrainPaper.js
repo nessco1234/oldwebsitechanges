@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom'
 import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
-import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
 import { Helmet } from 'react-helmet'
 import Form1 from '../Components/MarketArea/Form1'
 import Form2 from '../Components/MarketArea/Form2'
@@ -41,7 +40,7 @@ const BahrainPaper = () => {
             <section className="descriptionmachine">
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
-                        <img src={img1} alt="" />
+                        <img src={'https://nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-machine.webp'} alt="" />
                         <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Bahrain</span></h3>
                         <p className="descriptionmachineleftcontent">Nessco brings you a top-quality range of Paper Cup Making machines In Bahrain. which is a multi-station automatic, capable of producing a large number of paper cups at one time. We are the manufacturer of fully automatic, semi-automatic, high speed fully automatic paper cup making machine with different sizes of cups. Continuous automatic procedures such as sealing, oil filling, heating, knurling, curling, and unloading make our machines ideal.
                             <br /><br />

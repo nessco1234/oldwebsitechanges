@@ -1,12 +1,10 @@
 import React from 'react'
 import { FaAngleDoubleRight } from 'react-icons/fa'
-import { FaArrowRightLong } from 'react-icons/fa6'
 import { SiAdobeacrobatreader } from 'react-icons/si'
 import { Link } from 'react-router-dom'
 import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
-import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
 import { Helmet } from 'react-helmet'
 import Form1 from '../Components/MarketArea/Form1'
 import Form2 from '../Components/MarketArea/Form2'
@@ -40,7 +38,8 @@ const TurkeyKarton = () => {
             <section className="descriptionmachine">
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
-                        <img src={img1} alt="" />
+                    <img src={'https://nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-machine.webp'} alt="" />
+
                         <h3 className="descriptionmachineleftdata">karton <span>bardak makinesi</span></h3>
                         <p className="descriptionmachineleftcontent">Nessco Kağıt Bardak Makinası son teknoloji, güvenilir, dayanıklı ve yüksek teknolojik ekipmanlar kullanılarak üretilir. Bardak koni takipçisi için bir çeşit kol düzeni ile oluşturulan yan kagıtlarının hareketi için iki katmanlı bir sisteme sahip en iyi kağıt bardak yapma makinesini üretip ihraç etmekteyiz.Robotik Kol, alt taban ısıtma, tırtıl açma (düzleştirme) ve Üstten kıvırma için daha fazla işlem için fincan külahlarının Kalıplara aktarılmasında hayati bir rol oynar. Ayrıca, bu makine, kağıt besleme ve bardak sayımı için fotoelektrik sensörler gibi bazı ek özelliklere sahiptir.
                             <br /><br />

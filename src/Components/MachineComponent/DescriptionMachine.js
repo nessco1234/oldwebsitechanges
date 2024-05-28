@@ -3,7 +3,6 @@ import { FaAngleDoubleRight } from 'react-icons/fa'
 import { FaArrowRightLong } from 'react-icons/fa6'
 import { SiAdobeacrobatreader } from 'react-icons/si'
 import { Link, useNavigate } from 'react-router-dom'
-import img1 from '../../Assets/images/resource/popup.webp'
 import axios from 'axios'
 const DescriptionMachine = (props) => {
     const data = props.data

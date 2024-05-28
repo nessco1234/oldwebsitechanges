@@ -1,12 +1,4 @@
 import React from 'react'
-import client1 from '../../Assets/images/clients/Autonics.webp'
-import client2 from '../../Assets/images/clients/Delta.webp'
-import client3 from '../../Assets/images/clients/Eura.webp'
-import client4 from '../../Assets/images/clients/Omron.webp'
-import client5 from '../../Assets/images/clients/Panasonic.webp'
-import client6 from '../../Assets/images/clients/SMC.webp'
-import client7 from '../../Assets/images/clients/Schneider.webp'
-import client8 from '../../Assets/images/clients/Siemens.webp'
 const InfinteCompany = () => {
     return (
         <>

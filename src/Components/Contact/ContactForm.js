@@ -1,10 +1,6 @@
 import React, { useState } from 'react'
-import icon1 from '../../Assets/images/icons/marker.png'
-import icon2 from '../../Assets/images/icons/email.png'
-import icon3 from '../../Assets/images/icons/phone.png'
-import { BiLeftArrow, BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
 import { FaArrowRightLong } from 'react-icons/fa6'
-import { redirect, useNavigate } from 'react-router-dom'
+import {  useNavigate } from 'react-router-dom'
 import axios from 'axios'
 const ContactForm = () => {
     const navigate = useNavigate()

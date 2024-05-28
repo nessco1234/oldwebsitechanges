@@ -1,24 +1,10 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ProductCard from "../Product/ProductCard";
-import img1 from '../../Assets/images/resource/paper-container-bowl-making-machine.webp'
-import img2 from '../../Assets/images/resource/paper-food-bag-making-machine.webp'
-import img3 from '../../Assets/images/resource/paper-handle-cup-making-machine.webp'
-import img4 from '../../Assets/images/resource/paper-glass-machine.webp'
-import img5 from '../../Assets/images/resource/paper-bag-making-machine.webp'
-import img6 from '../../Assets/images/resource/disposable-paper-cup-making-machine.webp'
-import img7 from '../../Assets/images/resource/high-speed-paper-cup-machine.webp'
-import img8 from '../../Assets/images/resource/paper-lid-making-machine.webp'
-import img9 from '../../Assets/images/resource/paper-plate-making-machine.webp'
-import img10 from '../../Assets/images/resource/paper-bag-machine.webp'
-import img11 from '../../Assets/images/resource/flexo-printing-machine-nessco.webp'
-import img12 from '../../Assets/images/resource/paper-cutlery-making-machine.webp'
-import { BiSolidRightArrowAlt } from "react-icons/bi";
-import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { useState } from "react";
 import { useEffect } from "react";
+import {Link } from "react-router-dom"
 const data = [
     {
         name: `Paper Container Bowl Making Machine`,
@@ -126,26 +112,26 @@ function App() {
                 <h2 className="productssstitle">Our Products</h2>
                 <p className="productsssdesc">We are known for manufacturing and globally exporting various paper packaging machines including
                     Cups, Glass, Straws and Plate Machines.</p>
-                <Slider {...settings} className="productbox" >
+                <Slider {...settings} className="productbox" aria-hidden="true" >
                     {data.map((d,key) => (
                         <>
-                            <Link to={d.link} key={key} className="productssscard" >
+                            <Link to={d.link} key={key} className="productssscard" aria-hidden="true" >
                                 <div className="productsssupper">
                                     <img src={d.img} alt={d.name} />
                                 </div>
                                 <div className="productssslower">
                                     {/* <img src={img1} alt="" /> */}
-                                    <Link to={d.link} className="productsssheading">{d.name}</Link>
-                                    <Link to={d.link} className="productssslink">View Machine <FaArrowRightLong style={{ marginLeft: "1rem" }} /></Link>
+                                    <Link aria-hidden="true" to={d.link} className="productsssheading">{d.name}</Link>
+                                    <Link aria-hidden="true" to={d.link} className="productssslink">View Machine <FaArrowRightLong style={{ marginLeft: "1rem" }} /></Link>
                                 </div>
                             </Link>
                         </>
                     ))}
                 </Slider>
-                <Slider {...settings} className="productbox" >
+                <Slider {...settings} className="productbox" aria-hidden="true" >
                     {data2.map((d,key) => (
                         <>
-                            <Link to={d.link} key={key} className="productssscard">
+                            <Link to={d.link} key={key} className="productssscard" aria-hidden="true">
                                 <div className="productsssupper">
                                     <img src={d.img} alt={d.name} />
                                 </div>

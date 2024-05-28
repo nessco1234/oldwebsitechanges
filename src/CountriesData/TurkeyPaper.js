@@ -1,12 +1,10 @@
 import React from 'react'
 import { FaAngleDoubleRight } from 'react-icons/fa'
-import { FaArrowRightLong } from 'react-icons/fa6'
 import { SiAdobeacrobatreader } from 'react-icons/si'
 import { Link } from 'react-router-dom'
 import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
-import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
 import { Helmet } from 'react-helmet'
 import Form1 from '../Components/MarketArea/Form1'
 import Form2 from '../Components/MarketArea/Form2'
@@ -34,13 +32,13 @@ const TurkeyPaper = () => {
                             Nessco India is known for manufacturing and globally exporting various paper product forming machineries. With a strong functional position in this market for over 40 years, now we are backed by 5 Domestic Distributing Centers and 4 International Ones. Over all these years, we have spread our arms to almost every country to expand our business globally.
                         </p>
                     </div>
-                    <Form1/>
+                    <Form1 />
                 </div>
             </section>
             <section className="descriptionmachine">
                 <div className="descriptionmachinecomp">
-                    <div className="descriptionmachineleft">
-                        <img src={img1} alt="" />
+                    <div className="descriptionmachineleft">                    <img src={'https://nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-machine.webp'} alt="" />
+
                         <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Turkey</span></h3>
                         <p className="descriptionmachineleftcontent">Nessco India top-quality range of <Link>disposable paper cup making machines in turkey</Link>. Which is multi-station programmed, fit for creating a an unbelievable number of paper cups all at once. With the continuous automatic systems like fixing, oil filling, warming, knurling, twisting, and dumping make it the ideal machine.
                             <br /><br />
@@ -48,8 +46,8 @@ const TurkeyPaper = () => {
                     </div>
                     <div className="descriptionmachineright">
                         <div className="descriptionsuggestions">
-                        {
-                                specs.Suggestions.map((obj,key) => (
+                            {
+                                specs.Suggestions.map((obj, key) => (
                                     <Link key={key} to={obj.suggestionlink} className="descriptionsuggestion">
                                         <FaAngleDoubleRight />{obj.name}
                                     </Link>
@@ -57,7 +55,7 @@ const TurkeyPaper = () => {
                                 ))
                             }
                         </div>
-                        <Form2/>
+                        <Form2 />
                         <div className="downloadbrochures">
                             <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>

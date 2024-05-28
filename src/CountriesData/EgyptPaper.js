@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom'
 import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
-import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
 import { Helmet } from 'react-helmet'
 import Form1 from '../Components/MarketArea/Form1'
 import Form2 from '../Components/MarketArea/Form2'
@@ -41,7 +40,7 @@ const EgyptPaper = () => {
             <section className="descriptionmachine">
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
-                        <img src={img1} alt="" />
+                    <img src={'https://nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-machine.webp'} alt="" />
                         <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine in Egypt</span></h3>
                         <p className="descriptionmachineleftcontent">Nessco brings you A top quality range of Paper Cup Making Machine In Egypt. It offers continuous high speed process, including automatic paper cup wall feeding, ultrasonic wave sealing, cup top lubrication, bottom punching, heating, knurling, curling and cup stacking..
                             <br /><br />

@@ -1,12 +1,10 @@
 import React from 'react'
 import { FaAngleDoubleRight } from 'react-icons/fa'
-import { FaArrowRightLong } from 'react-icons/fa6'
 import { SiAdobeacrobatreader } from 'react-icons/si'
 import { Link } from 'react-router-dom'
 import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
-import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
 import { Helmet } from 'react-helmet'
 import Form1 from '../Components/MarketArea/Form1'
 import Form2 from '../Components/MarketArea/Form2'
@@ -41,7 +39,8 @@ const KoreaPaper = () => {
             <section className="descriptionmachine">
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
-                        <img src={img1} alt="" />
+                    <img src={'https://nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-machine.webp'} alt="" />
+
                         <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Korea</span></h3>
                         <p className="descriptionmachineleftcontent">IF you are looking for the best quality <b> paper cup machine in Korea</b>, you can undoubtedly profit one from a presumed manufacturer NESSCO. In the market, there are various machine manufacturers giving paper cup making machines. In any case, you ought to pick the maker that holds quite a long while of expertise in providing a wide scope of paper cup making machine. The highest machine producer gives machines, which are made and planned by profoundly very much educated experts. You should search for a machine with simple usefulness, dependable execution, and long-life administration.</p> <br /><br />
                     </div>

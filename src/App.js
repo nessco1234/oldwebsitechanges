@@ -97,10 +97,6 @@ import KuwaitPaper from "./CountriesData/KuwaitPaper";
 import KoreaPaper from "./CountriesData/KoreaPaper";
 
 
-// IMPORTING IMAGES 
-
-// import img26 from './Assets/images/resource/papercup'
-// import img27 from './Assets/images/resource/automatic'
 import Thankyou from "./Pages/Thankyou";
 
 import PaperBag from './Data/PaperBag.json'
@@ -110,7 +106,7 @@ import USAPaperBag from "./CountriesData/USAPaperBag";
 
 function ScrollToTopOnRouteChange() {
   const { pathname } = useLocation();
-  
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
@@ -130,32 +126,32 @@ function App() {
   const img7 = 'https://www.nesscoindia.com/Assets/images/resource/DomeLidMachine.webp'
   const img8 = 'https://www.nesscoindia.com/Assets/images/resource/paper-container-bowl-machine.webp'
   const img9 = 'https://www.nesscoindia.com/Assets/images/resource/salad-bowl-making-machine.webp'
-  const img10 ='https://www.nesscoindia.com/Assets/images/resource/paper-lid-machine.webp'
-  const img11 ='https://www.nesscoindia.com/Assets/images/resource/paper-cutlery-machine.webp'
-  const img12 ='https://www.nesscoindia.com/Assets/images/resource/pop-corn-tub-making-machine.webp'
-  const img13 ='https://www.nesscoindia.com/Assets/images/resource/paper-plate-machine.webp'
-  const img14 ='https://www.nesscoindia.com/Assets/images/resource/LunchBoxMachine.webp'
-  const img15 ='https://www.nesscoindia.com/Assets/images/resource/CartonErectingMachine.webp'
-  const img16 ='https://www.nesscoindia.com/Assets/images/resource/OctagonalMachine.webp'
-  const img17 ='https://www.nesscoindia.com/Assets/images/resource/RectangularMachine.webp'
-  const img18 ='https://www.nesscoindia.com/Assets/images/resource/flexo-printing-machine-nessco.webp'
-  const img19 ='https://www.nesscoindia.com/Assets/images/resource/roll-die-cutting-machine.webp'
-  const img20 ='https://www.nesscoindia.com/Assets/images/resource/pe-coating-machine.webp'
-  const img21 ='https://www.nesscoindia.com/Assets/images/resource/paper-straw-making-machine.webp'
-  const img22 ='https://www.nesscoindia.com/Assets/images/resource/FolderGluing.webp'
-  const img23 ='https://www.nesscoindia.com/Assets/images/resource/SleeveForming.webp'
-  const img24 ='https://www.nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-making-machine.webp'
-  const img25 ='https://www.nesscoindia.com/Assets/images/resource/paper-food-bag-making-machine.webp'
-  const img26 ='https://www.nesscoindia.com/Assets/images/service/Fully-Automatic-Paper-Bag-Machine.webp'
-  const serv1 ='https://www.nesscoindia.com/Assets/images/service/PaperHandleCup.webp'
-  const serv2 ='https://www.nesscoindia.com/Assets/images/service/Ripple-wall-paper-cup.webp'
-  const serv3 ='https://www.nesscoindia.com/Assets/images/service/Paper-Container-Making-Machine.webp'
-  const serv4 ='https://www.nesscoindia.com/Assets/images/service/PopcornTub.webp'
-  const serv5 ='https://www.nesscoindia.com/Assets/images/service/Paper-Lids.webp'
-  const serv6 ='https://www.nesscoindia.com/Assets/images/service/Paper-Cutlery.webp'
-  const serv7 ='https://www.nesscoindia.com/Assets/images/service/box.jpg'
-  const serv8 ='https://www.nesscoindia.com/Assets/images/service/paper-plates.webp'
-  const serv9 ='https://www.nesscoindia.com/Assets/images/service/Flexo-Printed-Roll.webp'
+  const img10 = 'https://www.nesscoindia.com/Assets/images/resource/paper-lid-machine.webp'
+  const img11 = 'https://www.nesscoindia.com/Assets/images/resource/paper-cutlery-machine.webp'
+  const img12 = 'https://www.nesscoindia.com/Assets/images/resource/pop-corn-tub-making-machine.webp'
+  const img13 = 'https://www.nesscoindia.com/Assets/images/resource/paper-plate-machine.webp'
+  const img14 = 'https://www.nesscoindia.com/Assets/images/resource/LunchBoxMachine.webp'
+  const img15 = 'https://www.nesscoindia.com/Assets/images/resource/CartonErectingMachine.webp'
+  const img16 = 'https://www.nesscoindia.com/Assets/images/resource/OctagonalMachine.webp'
+  const img17 = 'https://www.nesscoindia.com/Assets/images/resource/RectangularMachine.webp'
+  const img18 = 'https://www.nesscoindia.com/Assets/images/resource/flexo-printing-machine-nessco.webp'
+  const img19 = 'https://www.nesscoindia.com/Assets/images/resource/roll-die-cutting-machine.webp'
+  const img20 = 'https://www.nesscoindia.com/Assets/images/resource/pe-coating-machine.webp'
+  const img21 = 'https://www.nesscoindia.com/Assets/images/resource/paper-straw-making-machine.webp'
+  const img22 = 'https://www.nesscoindia.com/Assets/images/resource/FolderGluing.webp'
+  const img23 = 'https://www.nesscoindia.com/Assets/images/resource/SleeveForming.webp'
+  const img24 = 'https://www.nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-making-machine.webp'
+  const img25 = 'https://www.nesscoindia.com/Assets/images/resource/paper-food-bag-making-machine.webp'
+  const img26 = 'https://www.nesscoindia.com/Assets/images/service/Fully-Automatic-Paper-Bag-Machine.webp'
+  const serv1 = 'https://www.nesscoindia.com/Assets/images/service/PaperHandleCup.webp'
+  const serv2 = 'https://www.nesscoindia.com/Assets/images/service/Ripple-wall-paper-cup.webp'
+  const serv3 = 'https://www.nesscoindia.com/Assets/images/service/Paper-Container-Making-Machine.webp'
+  const serv4 = 'https://www.nesscoindia.com/Assets/images/service/PopcornTub.webp'
+  const serv5 = 'https://www.nesscoindia.com/Assets/images/service/Paper-Lids.webp'
+  const serv6 = 'https://www.nesscoindia.com/Assets/images/service/Paper-Cutlery.webp'
+  const serv7 = 'https://www.nesscoindia.com/Assets/images/service/box.jpg'
+  const serv8 = 'https://www.nesscoindia.com/Assets/images/service/paper-plates.webp'
+  const serv9 = 'https://www.nesscoindia.com/Assets/images/service/Flexo-Printed-Roll.webp'
   const serv10 = 'https://www.nesscoindia.com/Assets/images/service/roll-die-cutting.webp'
   const serv11 = 'https://www.nesscoindia.com/Assets/images/service/PE-Coating-Roll.webp'
   const serv12 = 'https://www.nesscoindia.com/Assets/images/service/PE-Coating-Machine.webp'

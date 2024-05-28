@@ -45,6 +45,9 @@ input:focus{
     html{
         font-size: 10px;
     }
+    *{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    }
 }
 p{
     font-size: 1.4rem !important;

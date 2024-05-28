@@ -1,13 +1,8 @@
 import React, { useState } from "react";
-import TeamPic from "../../Assets/images/resource/nessco-team.webp";
-import NesscoTeamPic from "../../Assets/images/resource/samplekshow2.webp";
-import Signature from "../../Assets/images/resource/signature.webp";
-import img1 from '../../Assets/images/resource/popup.webp'
 import { FaPlay } from "react-icons/fa";
-import { MdArrowRightAlt } from "react-icons/md";
 import { FaArrowRightLong } from "react-icons/fa6";
 import '../../Styles/Modal.css';  // Ensure to create this CSS file
-import { Link, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 import axios from "axios";
 const AboutUs = (props) => {
   const [isOpen, setIsOpen] = useState(false);

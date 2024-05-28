@@ -1,12 +1,10 @@
 import React from 'react'
 import { FaAngleDoubleRight } from 'react-icons/fa'
-import { FaArrowRightLong } from 'react-icons/fa6'
 import { SiAdobeacrobatreader } from 'react-icons/si'
 import { Link } from 'react-router-dom'
 import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
-import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
 import { Helmet } from 'react-helmet'
 import Form1 from '../Components/MarketArea/Form1'
 import Form2 from '../Components/MarketArea/Form2'
@@ -41,7 +39,8 @@ const RussiaPaper = () => {
             <section className="descriptionmachine">
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
-                        <img src={img1} alt="" />
+                    <img src={'https://nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-machine.webp'} alt="" />
+
                         <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Russia</span></h3>
                         <p className="descriptionmachineleftcontent">Nessco brings you A top quality range of <Link>paper cup making machines</Link> in Russia. This Machine is a multi-station automatic cup making machine. Introduced with a photoelectric sensor, flaw recognizing gadget, précised counter, and other instruments, this paper forming machine is in high demand and production of a variety of paper cups. The high-speed paper cup machine satisfies various complex systems and is noted for simple activity, stable properties, minimal involved area, and high production. Moreover, our clients can have these machines at a budget-friendly price.</p> <br /><br />
                     </div>

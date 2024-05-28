@@ -1,6 +1,4 @@
 import React from 'react'
-import location from '../../Assets/images/icons/location.png'
-import { FaMapLocationDot } from 'react-icons/fa6'
 const Branches = () => {
     return (
         <>

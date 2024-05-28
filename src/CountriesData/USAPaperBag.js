@@ -1,12 +1,10 @@
 import React from 'react'
 import { FaAngleDoubleRight } from 'react-icons/fa'
-import { FaArrowRightLong } from 'react-icons/fa6'
 import { SiAdobeacrobatreader } from 'react-icons/si'
 import { Link } from 'react-router-dom'
 import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
-import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
 import { Helmet } from 'react-helmet'
 import Form1 from '../Components/MarketArea/Form1'
 import Form2 from '../Components/MarketArea/Form2'
@@ -41,7 +39,8 @@ const USAPaperBag = () => {
             <section className="descriptionmachine">
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
-                        <img src={img1} alt="" />
+                    <img src={'https://nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-machine.webp'} alt="" />
+
                         <h3 className="descriptionmachineleftdata">Paper Shopping Bag <span>Forming Machine In Usa</span></h3>
                         <p className="descriptionmachineleftcontent">Nesscoindia Leading the <Link> paper shopping bag forming machine</Link> in usa. This fully automatic machine adopts printed die-cut paper to produce a paper bag tube. It features a continuous automatic paper feeding system and suitable for the mass bag production of special paper and different papers. The machine applies a number of proprietary technologies. It uses touch screen operation and is making products with high precision, fast and convenient to adjust and control. It is the first choice for manufacturing high-grade and luxury handbags.
                             <br /><br />

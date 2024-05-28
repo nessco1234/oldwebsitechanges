@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useState } from 'react'
 import { FaArrowRightLong } from 'react-icons/fa6';
-import { Link, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 const MachineSpecs3 = (props) => {
     const data = props.data;
     const [isOpen2, setIsOpen2] = useState(false);

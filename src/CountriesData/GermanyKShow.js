@@ -1,12 +1,10 @@
 import React from 'react'
 import { FaAngleDoubleRight } from 'react-icons/fa'
-import { FaArrowRightLong } from 'react-icons/fa6'
 import { SiAdobeacrobatreader } from 'react-icons/si'
 import { Link } from 'react-router-dom'
 import MachineSpecs from '../Components/MachineComponent/MachineSpecs'
 import specs from '../Data/UAEPaper.json'
 import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
-import img1 from '../Assets/images/resource/fully-automatic-paper-cup-machine.webp'
 import { Helmet } from 'react-helmet'
 import Form1 from '../Components/MarketArea/Form1'
 import Form2 from '../Components/MarketArea/Form2'
@@ -40,7 +38,7 @@ const GermanyKShow = () => {
             <section className="descriptionmachine">
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
-                        <img src={img1} alt="" />
+                    <img src={'https://nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-machine.webp'} alt="" />
                         <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Germany</span></h3>
                         <p className="descriptionmachineleftcontent"><b>𝗡𝗲𝘀𝘀𝗰𝗼 𝗜𝗻𝗱𝗶𝗮</b> would like to take the pleasure to invite you all to The World’s No. 1 Trade Fair For Plastics And Rubber – #K2022 in <b>𝗗𝘂̈𝘀𝘀𝗲𝗹𝗱𝗼𝗿𝗳, 𝗚𝗲𝗿𝗺𝗮𝗻𝘆</b>. We are exhibiting at <b>𝗦𝘁𝗮𝗻𝗱 𝗖𝟰𝟲-𝟬𝟮 in 𝗛𝗮𝗹𝗹 𝟭𝟮.</b> Our team will be available at the venue from  <b>𝟭𝟵𝘁𝗵 𝘁𝗼 𝟮𝟲𝘁𝗵 𝗢𝗰𝘁𝗼𝗯𝗲𝗿</b> to assist you with all the details.
                             <br /><br />

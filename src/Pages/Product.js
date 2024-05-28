@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import './ProductFilter.css'; // Import CSS file for styling
 import '../Styles/Product.css'
 import ProductCard from '../Components/Product/ProductCard';
 
@@ -51,9 +50,7 @@ function ProductFilter({ products }) {
                 </div>
                 <div className='productpagelist'>
                     {filteredProducts.map((product,key) => (
-                        <>
                             <ProductCard key={key} heading={product.name} url={product.url} img={product.imglink} />
-                        </>
                     ))}
                 </div>
             </div>

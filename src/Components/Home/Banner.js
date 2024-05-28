@@ -1,12 +1,9 @@
 import React from 'react';
-import { FaArrowRight, FaArrowRightLong } from 'react-icons/fa6';
+import {  FaArrowRightLong } from 'react-icons/fa6';
 import BannerContent from './BannerContent';
-import { BiRightArrowAlt } from 'react-icons/bi';
-import { Link, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 import { useState } from 'react';
-import img1 from '../../Assets/images/resource/popup.webp'
 import axios from 'axios';
-import Typewriter from 'typewriter-effect'
 export default function App(props) {
   const [isHovered, setIsHovered] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -106,45 +103,9 @@ export default function App(props) {
           <div className="imglayer1"></div>
           <div className="imglayer3"></div>
           <div className="imglayer4"></div>
-          {/* <div className="imglayer5"></div> */}
-          {/* <div className="imglayer6">
-            <div className="imglayerleft">
-
-            </div>
-            <div className="imglayerright">
-              <h4 className="imgkey">Date 2024 </h4>
-              <h4 className="imgvalue">May 28 - June 7</h4>
-            </div>
-          </div>
-          <div className="imglayer7">
-            <div className="imglayerleft">
-            </div>
-            <div className="imglayerright">
-              <h4 className="imgkey">Booth No:</h4>
-              <h4 className="imgvalue"></h4>
-            </div>
-            <div className="imglayerseperator"></div>
-            <div className="imglayerright">
-              <h4 className="imgkey">Booth No:</h4>
-              <h4 className="imgvalue"></h4>
-            </div>
-          </div> */}
         </div>
         <div className='bannerslide' >
           <BannerContent />
-          <h1 style={{color:"white", fontSize:'4rem'}}>
-
-            {/* <Typewriter
-
-              options={{
-                autoStart: true,
-                loop: true,
-                delay: 100,
-                deleteSpeed:10,
-                strings: ["MERN Stack Development", "Compititive Programming", "Machine Learning"],
-              }} */}
-            {/* /> */}
-          </h1>
           {/* <Link to={'/'} className='bannerbtn'>Get a Quote <BiRightArrowAlt /></Link> */}
           <button onClick={openModal} className="bannerbtn" style={{ marginTop: "2rem" }}>
             <p className='bannerbtncon'>Get A Quote</p> <FaArrowRightLong className='bannerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
@@ -153,7 +114,7 @@ export default function App(props) {
               <div className="modalcard">
                 <button className="close-button" onClick={closeModal}>&times;</button>
                 <div className="leftmodal">
-                  <img src={img1} alt="Popup" />
+                  <img src={'https://nesscoindia.com/Assets/images/resource/popup.webp'} alt="Popup" />
                 </div>
                 <div className="rightmodal">
                   <h1 className="modalheading">Request for details to receive a call back</h1>

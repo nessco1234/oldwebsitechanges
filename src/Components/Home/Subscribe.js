@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import icon1 from '../../Assets/images/icons/icon-1.png'
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 const Subscribe = () => {

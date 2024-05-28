@@ -1,6 +1,4 @@
 import React from 'react'
-import { BiSolidRightArrowAlt } from 'react-icons/bi'
-import img1 from '../../Assets/images/news/news-1.webp'
 import { Link } from 'react-router-dom'
 import { FaArrowRightLong } from 'react-icons/fa6'
 const SingleBlog = (props) => {

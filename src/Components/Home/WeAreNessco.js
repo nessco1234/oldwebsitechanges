@@ -2,15 +2,6 @@ import React, { useEffect, useState } from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
-import nes1 from '../..'
-import nes2 from '../../Assets/images/resource/fooma.webp'
-import nes3 from '../../Assets/images/resource/drupa.webp'
-import nes4 from '../../Assets/images/resource/saudiprint.png'
-import nes5 from '../../Assets/images/resource/gulffood3.webp'
-import nes6 from '../../Assets/images/resource/plastindia.webp'
-import nes7 from '../../Assets/images/resource/paperone.webp'
-import nes8 from '../../Assets/images/resource/interpack.webp'
 import { FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6';
 const WeAreNessco = () => {
     const [slider, setSlider] = useState(null);
@@ -65,7 +56,7 @@ const WeAreNessco = () => {
                     <div className="wenesscoright">
                         <Slider ref={setSlider} {...settings} className='wenesscocontainer'>
                             <>
-                                <a href='https://www.drupa.com/vis/v1/en/exhprofiles/ucAWUVDjQvuCaTPIMjGH4Q' target='_blank' className="wenesscocard">
+                                <a href='https://www.drupa.com/vis/v1/en/exhprofiles/ucAWUVDjQvuCaTPIMjGH4Q' target='_blank' className="wenesscocard" aria-hidden="true">
                                     <div className="wenesscocardleft">
                                         <img src={'https://www.nesscoindia.com/Assets/images/resource/drupa2.webp'} style={{width:"70%"}} alt="Drupa Germany" />
                                     </div>
@@ -76,7 +67,7 @@ const WeAreNessco = () => {
                                 </a>
                             </>
                             <>
-                                <a href='https://www.foomajapan.jp/int/exhibitor/' target={"_blank"} className="wenesscocard">
+                                <a href='https://www.foomajapan.jp/int/exhibitor/' target={"_blank"} className="wenesscocard" aria-hidden="true">
                                     <div className="wenesscocardleft">
                                         <img src={'https://www.nesscoindia.com/Assets/images/resource/fooma2.webp'} style={{width:"80%"}} alt="Fooma Japan 24" />
                                     </div>
@@ -87,7 +78,7 @@ const WeAreNessco = () => {
                                 </a>
                             </>
                             <>
-                                <a href='/https://saudi-pp.com/' target='_blank' className="wenesscocard">
+                                <a href='/https://saudi-pp.com/' target='_blank' className="wenesscocard" aria-hidden="true">
                                     <div className="wenesscocardleft">
                                         <img src={'https://www.nesscoindia.com/Assets/images/resource/saudiprint.png'} alt="Saudi Print & Pack" />
                                     </div>
@@ -98,7 +89,7 @@ const WeAreNessco = () => {
                                 </a>
                             </>
                             <>
-                                <a href='/' className="wenesscocard">
+                                <a href='/' className="wenesscocard" aria-hidden="true">
                                     <div className="wenesscocardleft">
                                         <img src={'https://www.nesscoindia.com/Assets/images/resource/interpack.webp'} alt="Interpack" />
                                     </div>
@@ -109,9 +100,9 @@ const WeAreNessco = () => {
                                 </a>
                             </>
                             <>
-                                <a href='/' className="wenesscocard">
+                                <a href='/' className="wenesscocard" aria-hidden="true">
                                     <div className="wenesscocardleft">
-                                        <img src={'https://www.nesscoindia.com/Assets/images/resource/kshow3.png'} style={{width:"70%"}} alt="K Show" />
+                                        <img src={'https://www.nesscoindia.com/Assets/images/resource/kshow3.webp'} style={{width:"70%"}} alt="K Show" />
                                     </div>
                                     <div className="wenesscocardright">
                                         <h3 className="nesscocardheading"> K- Show</h3>
@@ -120,7 +111,7 @@ const WeAreNessco = () => {
                                 </a>
                             </>
                             <>
-                                <a href='/' className="wenesscocard">
+                                <a href='/' className="wenesscocard" aria-hidden="true">
                                     <div className="wenesscocardleft">
                                         <img src={'https://www.nesscoindia.com/Assets/images/resource/gulffood3.webp'} alt="Gulfood 2022" />
                                     </div>
@@ -131,7 +122,7 @@ const WeAreNessco = () => {
                                 </a>
                             </>
                             <>
-                                <a href='/' className="wenesscocard">
+                                <a href='/' className="wenesscocard" aria-hidden="true">
                                     <div className="wenesscocardleft">
                                         <img src={'https://www.nesscoindia.com/Assets/images/resource/paperone2.webp'} alt="Paper One Show" />
                                     </div>
@@ -142,7 +133,7 @@ const WeAreNessco = () => {
                                 </a>
                             </>
                             <>
-                                <a href='/' className="wenesscocard">
+                                <a href='/' className="wenesscocard" aria-hidden="true">
                                     <div className="wenesscocardleft">
                                         <img src={'https://www.nesscoindia.com/Assets/images/resource/plastindia.webp'} alt="PLASTINDIA" />
                                     </div>

@@ -1,9 +1,7 @@
 import React from "react";
-import { MdOutlineCall, MdOutlineWhatsapp } from "react-icons/md";
-import { IoMail, IoMailOutline } from "react-icons/io5";
-import { PiMessengerLogo, PiMessengerLogoFill } from "react-icons/pi";
+import { IoMail } from "react-icons/io5";
+import {  PiMessengerLogoFill } from "react-icons/pi";
 import { IoMdCall } from "react-icons/io";
-import { IoLogoWhatsapp } from "react-icons/io";
 import { RiWhatsappFill } from "react-icons/ri";
 function StaticSocialIcons() {
   return (

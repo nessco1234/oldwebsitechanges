@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { CgPlayButton } from 'react-icons/cg'
 import { FaArrowRightLong } from 'react-icons/fa6'
-import { MdArrowRightAlt } from 'react-icons/md'
 import '../../Styles/Modal.css';  // Ensure to create this CSS file
 
 const Creation = () => {

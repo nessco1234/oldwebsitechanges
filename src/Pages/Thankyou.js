@@ -2,8 +2,6 @@ import React from 'react'
 import Breadcrum from '../Components/Home/Breadcrum'
 import { Link } from 'react-router-dom'
 import '../Styles/Thankyou.css'
-import file1 from '..'
-import file2 from '../Assets/images/resource/Nessco.pdf'
 const Thankyou = (props) => {
     return (
         <>

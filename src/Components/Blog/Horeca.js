@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
-import img1 from '../../Assets/images/news/news-1.webp'
 import Breadcrum from '../Home/Breadcrum'
 import { Helmet } from 'react-helmet'
 const Horeca = () => {

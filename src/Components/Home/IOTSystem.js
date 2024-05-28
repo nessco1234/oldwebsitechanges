@@ -1,9 +1,5 @@
 import React from "react";
-import { FaRegCircle } from "react-icons/fa";
-import { MdArrowRightAlt } from "react-icons/md";
-import iot from '../../Assets/images/resource/iot.webp'
 import { FaArrowRightLong } from "react-icons/fa6";
-import doc from '../../Assets/images/resource/Nessco-Machines-Control-With-Smart-IOT-Solution.pdf'
 const IOTSystem = () => {
   return (
     <>
