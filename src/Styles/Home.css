@@ -1485,7 +1485,7 @@
   position: relative;
   width: 100%;
   height: 45vh;
-  background:url('../drupabanner1.webp') center center ;
+  background:url('https://www.nesscoindia.com/Assets/images/resource/drupabanner1.png') center center ;
   background-size: contain;
   background-repeat: no-repeat;
   /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(151,41,247,1) 0%, rgba(24,22,39,1) 90% ); */
@@ -1495,7 +1495,7 @@
   position: relative;
   width: 100%;
   height: 45vh;
-  background:url('../drupabanner2.webp') center center ;
+  background:url('https://www.nesscoindia.com/Assets/images/resource/drupabanner2.png') center center ;
   background-size:contain;
   background-repeat: no-repeat;
   /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(151,41,247,1) 0%, rgba(24,22,39,1) 90% ); */
