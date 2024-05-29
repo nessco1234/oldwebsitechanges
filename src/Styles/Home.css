@@ -1480,6 +1480,114 @@
 .validations > input {
   width: 100%;
 }
+
+.drupa{
+  position: relative;
+  width: 100%;
+  height: 45vh;
+  background:url('../drupabanner1.webp') center center ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(151,41,247,1) 0%, rgba(24,22,39,1) 90% ); */
+  /* background: linear-gradient(to left, #e11e25, #483d73); */
+}
+.drupa2{
+  position: relative;
+  width: 100%;
+  height: 45vh;
+  background:url('../drupabanner2.webp') center center ;
+  background-size:contain;
+  background-repeat: no-repeat;
+  /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(151,41,247,1) 0%, rgba(24,22,39,1) 90% ); */
+  /* background: linear-gradient(to left, #e11e25, #483d73); */
+}
+.drupalayers{
+  position: absolute;
+  width: 110px;
+  /* box-shadow: 0 0 150px 0 black; */
+}
+.drupadates,.drupalocation,.drupabooth{
+  position: absolute;
+  display: flex;
+}
+.drupadates{
+  top: 25%;
+  left: 13%;
+}
+.drupalocation{
+  top: 44%;
+  left: 13%;
+}
+.drupabooth{
+  top: 62%;
+  left: 13%;
+}
+.drupalayers{
+  top: 50%;
+  left: 4%;
+  transform: translateY(-50%);
+}
+.drupaupdatesright,.drupalocationright{
+  display: flex;
+  flex-direction: column;
+}
+.drupadatesright>p,.drupalocationright >p{
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem !important;
+}
+.drupacontainer{
+  width: 90%;
+  margin: auto;
+}
+.drupadatesleft,.drupalocationleft{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.drupatablecontent{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  /* border: 1px solid white; */
+  border-collapse:separate;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.drupatable{
+  display: flex;
+  width: 100px;
+}
+.drupacontent{
+  width: 50%;
+  text-align: center;
+  /* border: 2px solid white; */
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.drupacontent:nth-child(1){
+  text-align: start;
+}
+.drupacontent:nth-child(2){
+  text-align: start;
+}
+.drupaleftlogo{
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: white;
+}
+
+@keyframes drupa {
+  0%{
+    left: 0%;
+  }
+  100%{
+    left:100%;
+  }
+}
+
 /* ////////////////////////////////// */
 /* MEDIA QUERY FOR TABLET */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
@@ -1703,13 +1811,93 @@
   } */
 }
 @media screen and (max-width: 600px) {
+  .drupasection{
+    padding-top: 0.5rem;
+    background-color: #f7f7f7;
+  }
+  .drupa{
+    position: relative;
+    width: 100%;
+    height: 45vh;
+    background:url('https://www.nesscoindia.com/Assets/images/resource/drupabanner3.webp') center center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 1rem; */
+  }
+  .drupa2{
+    position: relative;
+    width: 100%;
+    height: 45vh;
+    background:url('https://www.nesscoindia.com/Assets/images/resource/drupabanner4.webp') center center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 1rem; */
+  }
+  /* .drupalayers{
+    width: 50px;
+    left: 1%;
+  }
+  .drupaleftlogo{
+    margin-right: 0.5rem;
+  } */
+  .drupadates{
+    top: 55%;
+    left: 3%;
+  }
+  .drupalocation{
+    top: 65%;
+    left: 3%;
+  }
+  .drupalayers{
+    width: 85px;
+    top: 34%;
+    left: 3%;
+  }
+  .drupadatesright>p,.drupalocationright >p{
+    color: white;
+    font-weight: 600;
+    font-size: 1.0rem !important;
+  }
+  .drupacontent{
+    font-size: 1.0rem;
+  }
+  .drupabooth{
+    top: 75%;
+    left: 3%;
+  }
+  .drupatable{
+    width: 85px;
+  }
+  /* .drupatable{
+    width: 90px;
+  }
+  .drupadates{
+    top: 37%;
+    left: 15%;
+  }
+  .drupalocation{
+    top: 46%;
+    left: 15%;
+  }
+  .drupabooth{
+    top: 55%;
+    left: 15%;
+  }
+  .drupadatesright>p,.drupalocationright >p{
+    color: white;
+    font-weight: 600;
+    font-size: 1rem !important;
+  }
+  .drupacontent{
+    font-size: 1rem;
+  }
   .bannerslide {
     width: 90%;
     margin: auto;
     justify-content: flex-start;
     align-items: flex-start;
     text-align: start;
-  }
+  } */
   .bannerslide::after{
     animation: none;
   }

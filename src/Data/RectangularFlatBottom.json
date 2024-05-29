@@ -35,7 +35,7 @@
         }
     ],
     "ImageComponent": true,
-    "PointsComponent": true,
+    "PointsComponent": false,
     "NotPoints": false,
     "MultipleImageComp": false,
     "MultipleTable": false,

@@ -40,7 +40,7 @@ const data = [
     },
     {
         name: `High Speed Paper Cup Machine`,
-        img: 'https://www.nesscoindia.com/Assets/images/resource/high-speed-paper-cup-machine.webp',
+        img: 'https://www.nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-making-machine.webp',
         link: "/product/high-speed-paper-cup-making-machine/",
     },
 
