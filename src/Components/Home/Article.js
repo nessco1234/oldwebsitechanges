@@ -5,7 +5,7 @@ const Article = () => {
         <>
             <section className="article">
                 <div className="articlecontainer">
-                    <p className="aboutusbtn " style={{ marginLeft: "2.5rem" }}>ARTICLE</p>
+                    <p className="aboutusbtn mm" style={{ marginLeft: "2.5rem" }}>ARTICLE</p>
                     <h2 className="articleheadings" style={{ marginLeft: "2.5rem" }}>
                         Latest <span>Articles</span>
                     </h2>

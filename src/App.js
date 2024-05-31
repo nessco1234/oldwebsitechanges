@@ -103,6 +103,7 @@ import PaperBag from './Data/PaperBag.json'
 
 import ScrollToTop from "./Components/Layout/ScrollToTop";
 import USAPaperBag from "./CountriesData/USAPaperBag";
+import { RemoveTrailingSlash } from "./TrailingSlash";
 
 function ScrollToTopOnRouteChange() {
   const { pathname } = useLocation();
@@ -161,6 +162,7 @@ function App() {
   return (
     <>
       <Router>
+        <RemoveTrailingSlash/>
         <ScrollToTopOnRouteChange />
         <StaticSocialIcons />
         <Header setdown={setdownload} />

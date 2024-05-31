@@ -23,7 +23,7 @@ const Drupa = () => {
 
       <Slider {...settings} >
         <a href='https://www.drupa.com/vis/v1/en/exhprofiles/ucAWUVDjQvuCaTPIMjGH4Q' target='_blank' className='drupa'>
-          <img className="drupalayers" src={'https://www.nesscoindia.com/Assets/images/resource/druptranparent.webp'} />
+          <img className="drupalayers" src={'https://www.nesscoindia.com/Assets/images/resource/druptranparent.png'} alt='Drupa'/>
           <div className="drupadates">
             <div className="drupadatesleft">
               <FaCalendarAlt className='drupaleftlogo' />
@@ -62,7 +62,7 @@ const Drupa = () => {
           </div>
         </a>
         <a href='https://www.drupa.com/vis/v1/en/exhprofiles/ucAWUVDjQvuCaTPIMjGH4Q' target='_blank'  className='drupa2'>
-          <img className="drupalayers" src={'https://www.nesscoindia.com/Assets/images/resource/druptranparent.webp'} alt='Drupa' />
+          <img className="drupalayers" src={'https://www.nesscoindia.com/Assets/images/resource/druptranparent.png'} alt='Drupa' />
           <div className="drupadates">
             <div className="drupadatesleft">
               <FaCalendarAlt className='drupaleftlogo' />

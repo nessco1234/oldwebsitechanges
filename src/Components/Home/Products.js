@@ -8,7 +8,7 @@ import {Link } from "react-router-dom"
 const data = [
     {
         name: `Paper Container Bowl Making Machine`,
-        img: 'https://www.nesscoindia.com/Assets/images/resource/paper-container-bowl-making-machine.webp',
+        img: 'https://www.nesscoindia.com/Assets/images/resource/paper-container-bowl-machine.webp',
         link: "/product/paper-container-bowl-making-machine/",
 
 
@@ -20,7 +20,7 @@ const data = [
     },
     {
         name: `Paper Handle Cup Making Machine`,
-        img: 'https://www.nesscoindia.com/Assets/images/resource/paper-handle-cup-making-machine.webp',
+        img: 'https://www.nesscoindia.com/Assets/images/resource/paper-handle-cup-machine.webp',
         link: "/product/paper-handle-cup-making-machine/",
     },
     {
@@ -34,14 +34,19 @@ const data = [
         link: "/product/paper-shopping-bag-making-machine/",
     },
     {
-        name: `Disposable Cup Making Machine`,
-        img: 'https://www.nesscoindia.com/Assets/images/resource/disposable-paper-cup-making-machine.webp',
-        link: "/product/disposable-paper-cup-making-machine/",
+        name:"Servo Driven Paper Cup Machine ",
+        img: 'https://www.nesscoindia.com/Assets/images/resource/ServoDrivenMachine.webp',
+        link: "/product/servo-driven-paper-cup-machine/",
     },
     {
         name: `High Speed Paper Cup Machine`,
         img: 'https://www.nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-making-machine.webp',
         link: "/product/high-speed-paper-cup-making-machine/",
+    },
+    {
+        name: `Disposable Cup Making Machine`,
+        img: 'https://www.nesscoindia.com/Assets/images/resource/disposable-paper-cup-making-machine.webp',
+        link: "/product/disposable-paper-cup-making-machine/",
     },
 
 ];

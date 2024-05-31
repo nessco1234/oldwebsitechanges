@@ -59,8 +59,9 @@ function ProductFilter({ products }) {
 }
 
 const products = [
-    { id: 1, name: 'Disposable Cup Making Machine', type: 'papercup', url: '/product/disposable-paper-cup-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/disposable-paper-cup-making-machine.webp' },
+    { id: 19, name: 'Servo Driven Paper Cup Machine', type: 'papercup', url: '/product/servo-driven-paper-cup-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/ServoDrivenMachine.webp' },
     { id: 2, name: 'High Speed Paper Cup Machine', type: 'papercup', url: '/product/high-speed-paper-cup-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-making-machine.webp' },
+    { id: 1, name: 'Disposable Cup Making Machine', type: 'papercup', url: '/product/disposable-paper-cup-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/disposable-paper-cup-making-machine.webp' },
     { id: 4, name: 'Paper Bag Making Machine', type: 'paperbag', url: '/product/paper-bag-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/paper-bag-making-machine.webp' },
     { id: 5, name: 'Flexo Printing Machine', type: 'paperrelated', url: '/product/flexo-printing-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/flexo-printing-machine-nessco.webp' },
     { id: 6, name: 'Paper Cutlery Machine', type: 'other', url: '/product/paper-cutlery-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/paper-cutlery-making-machine.webp' },
@@ -76,7 +77,6 @@ const products = [
     { id: 16, name: 'Pop Corn Tub Making Machine', type: 'paperbowl', url: '/product/pop-corn-tub-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/pop-corn-tub-making-machine.webp' },
     { id: 17, name: 'Paper Shopping Bag Making Machine', type: 'paperbag', url: '/product/paper-shopping-bag-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/paper-bag-making-machine.webp' },
     { id: 18, name: 'Paper Salad Bowl Making Machine', type: 'paperbowl', url: '/product/salad-bowl-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/salad-bowl-making-machine.webp' },
-    { id: 19, name: 'Servo Driven Paper Cup Machine', type: 'papercup', url: '/product/servo-driven-paper-cup-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/ServoDrivenMachine.webp' },
     { id: 19, name: 'Roll Die Cutting Machine', type: 'paperrelated', url: '/product/roll-die-cutting-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/roll-die-cutting-machine.webp' },
     { id: 19, name: 'Rectangluar Flat Bottom Bowl Machine', type: 'paperbowl', url: '/product/rectangle-flat-bottom-bowl-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/RectangularMachine.webp' },
     { id: 20, name: 'Paper Dome Lid Machine', type: 'paperlid', url: '/product/paper-dome-lid-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/DomeLidMachine.webp' },
