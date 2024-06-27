@@ -28,7 +28,7 @@ const UAEGulfood = () => {
                 <div className="intromachinecompo">
                     <div className="intromachineleft">
 
-                        <h1 className="intromachineheading">Gulfood<span>Manufacturing</span></h1>
+                        <h1 className="intromachineheading">Gulfood<span> Manufacturing</span></h1>
                         <p className="intromachinedescription">
                             Nessco India is known for manufacturing and globally exporting various paper product forming machineries. With a strong functional position in this market for over 40 years, now we are backed by 5 Domestic Distributing Centers and 4 International Ones. Over all these years, we have spread our arms to almost every country to expand our business globally.
                         </p>
@@ -39,7 +39,7 @@ const UAEGulfood = () => {
             <section className="descriptionmachine">
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
-                        <img src='https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp' alt="" />
+                        <img src='https://www.nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-making-machine.webp' alt="" />
                         <h3 className="descriptionmachineleftdata">Paper Bag Making <span>Machine In Uae</span></h3>
                         <p className="descriptionmachineleftcontent"> <b>Nessco India</b> would like to take the pleasure to invite you all to the Food Tech Show <b>Gulfood Manufacturing</b> in <b>Trade Centre Arena, Dubai.</b> We are exhibiting at <b>Stall NO S E-3 in Sheikh Saeed Hall (SSH)</b>. Our team will be available at the venue from <b>8th to 10th November, 2022</b> to assist you with all the details.
                             <br /><br />

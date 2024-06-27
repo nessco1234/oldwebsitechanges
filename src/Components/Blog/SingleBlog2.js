@@ -17,7 +17,7 @@ const SingleBlog2 = (props) => {
                     <p className="singleblogcarddesc">
                         {d.desc}
                     </p>
-                    <Link className='articlelink' to={d.link}><img src={'https://nesscoindia.com/Assets/images/resource/readmoree.png'} alt={d.heading}/></Link>
+                    <Link className='articlelink' to={d.link}><img src={'https://www.nesscoindia.com/Assets/images/resource/readmoree.png'} alt={d.heading}/></Link>
                 </div>
             </Link>
         </>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MachineSpecs2 = (props) => {
+const MachineSpecs4 = (props) => {
     const data = props.data
     const labels = props.labels
     return (
@@ -24,7 +24,7 @@ const MachineSpecs2 = (props) => {
                                     <td style={cellStyle}>{row.specs}</td>
                                     <td style={cellStyle}>{row.ns220}</td>
                                     <td style={cellStyle}>{row.ns330}</td>
-                                    {/* <td style={cellStyle}>{row.ns400}</td> */}
+                                    <td style={cellStyle}>{row.ns400}</td>
                                     <td style={cellStyle}>{row.ns460}</td>
                                 </tr>
                             ))}
@@ -42,4 +42,4 @@ const cellStyle = {
     fontSize: "1.4rem",
     textAlign: "start"
 };
-export default MachineSpecs2
+export default MachineSpecs4

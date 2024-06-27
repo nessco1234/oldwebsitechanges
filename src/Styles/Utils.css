@@ -436,6 +436,9 @@
     border-radius: 50%;
     padding: 1rem;
   } */
+  .headerbtn{
+    height: fit-content;
+  }
   .staticicons {
     width: 100%;
     height: 60px;

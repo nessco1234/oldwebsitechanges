@@ -59,36 +59,36 @@
             "specs": "Nessco"
         },
         {
-            "feature": "Paper Cup Size Range",
-            "specs": "Up to 35 OZ (1 Ltr)"
-        },
-        {
             "feature": "Production Speed",
-            "specs": "75 pcs/min"
+            "specs": "160 Pcs/Min"
         },
         {
-            "feature": "Raw Material",
-            "specs": "Single & Double PE coated paper"
+            "feature": "Paper Cup Size Range",
+            "specs": "3oz - 16oz"
         },
         {
             "feature": "Paper Specification",
-            "specs": "140~350gsm"
-        },
-        {
-            "feature": "Weight",
-            "specs": "2500 Kg"
-        },
-        {
-            "feature": "Power Supply",
-            "specs": "380V 50Hz"
+            "specs": "190-400 gsm"
         },
         {
             "feature": "General Power",
-            "specs": "8KW"
+            "specs": "12 KW"
+        },
+        {
+            "feature": "Power Supply",
+            "specs": "380V 3 Phases"
+        },
+        {
+            "feature": "Weight",
+            "specs": "5000 kg"
         },
         {
             "feature": "Machine dimensions",
-            "specs": "(2600x1200x1700)"
+            "specs": "(2900x1380x1800) mm"
+        },
+        {
+            "feature": "Air Specification",
+            "specs": "0.5~0.8Mpa, 0.4 m³/min"
         }
     ],
     "RelatedProducts": [

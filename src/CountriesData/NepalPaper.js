@@ -43,7 +43,7 @@ const NepalPaper = () => {
                         <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Nepal</span></h3>
                         <p className="descriptionmachineleftcontent">Nesscoindia brings you a top-quality range of paper cup making machine in Nepal. It is multi-station automatic, capable of producing an unbelievable number of paper cups at one time. Continuous automatic procedures such as sealing, oil filling, heating, knurling, curling, and unloading make it the ideal machine for paper cups.
                             <br /><br />
-                            <Link>
+                            <Link to={'/product/high-speed-paper-cup-making-machine/'}>
                                 Fully Automatic Paper Cup Making Machine
                             </Link>
                             <br /><br></br>

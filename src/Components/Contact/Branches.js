@@ -5,7 +5,7 @@ const Branches = () => {
             <section className="branches">
                 <div className="branchcontainer">
                     <h2 className="branchheading">Nessco India Branches</h2>
-                    <div className="branchdesc">Nessco India has GLobal Presensel check out some of our Branches</div>
+                    <div className="branchdesc">Nessco India has Global Presence check out some of our Branches</div>
                     <div className="branchcards">
                         <div className="branchcard">
                             <img src={'https://www.nesscoindia.com/Assets/images/icons/location.png'} className='branchcardimg' alt="Location" />

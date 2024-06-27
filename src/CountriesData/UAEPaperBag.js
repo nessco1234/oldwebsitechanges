@@ -41,9 +41,9 @@ const UAEPaperBag = () => {
             <section className="descriptionmachine">
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
-                        <img src='https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp' alt="" />
+                        <img src='https://www.nesscoindia.com/Assets/images/service/Fully-Automatic-Paper-Bag-Machine.webp' alt="" />
                         <h3 className="descriptionmachineleftdata">Paper Bag Making <span>Machine In Uae</span></h3>
-                        <p className="descriptionmachineleftcontent"><Link> Nessco India </Link>brings you a top-quality range of Paper bag Making Machine. which are automatic, able to perform a series of functions including printing tracking, cutting, bottom inden-
+                        <p className="descriptionmachineleftcontent"><Link to={'/'}> Nessco India </Link>brings you a top-quality range of Paper bag Making Machine. which are automatic, able to perform a series of functions including printing tracking, cutting, bottom inden-
 tation, bottom folding, bottom gluing. One can use both plain and printed paper as raw material for bag formation. We are selling the best paper bag making machine in UAE.
                             <br /><br /><b>
                             High-quality Paper bag Machine In UAE

@@ -47,7 +47,7 @@ const ComponentA = () =>
         <p className="bannerslidepara">High Speed Machines That Are Enginnered For You</p>
     </>
 const ComponentB = () => <>
-    <h2 className="bannerslideheading">Machineries & Equipment For <br /> <span></span></h2>
+    <h2 className="bannerslideheading">Machinery & Equipment For <br /> <span></span></h2>
     <h2 className="bannerslideheading">Sustainable Packaging<span></span></h2>
     <p className="bannerslidepara">Dive In The World Of Paper Based Packaging Container Machines</p>
 </>;

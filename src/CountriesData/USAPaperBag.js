@@ -8,7 +8,7 @@ import RelatedProducts from '../Components/MachineComponent/RelatedProducts'
 import { Helmet } from 'react-helmet'
 import Form1 from '../Components/MarketArea/Form1'
 import Form2 from '../Components/MarketArea/Form2'
-
+import tablecontent from '../Data/PaperBag.json'
 const USAPaperBag = () => {
     return (
         <>
@@ -39,12 +39,12 @@ const USAPaperBag = () => {
             <section className="descriptionmachine">
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
-                    <img src={'https://nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-machine.webp'} alt="" />
+                    <img src={'https://www.nesscoindia.com/Assets/images/service/Fully-Automatic-Paper-Bag-Machine.webp'} alt="" />
 
                         <h3 className="descriptionmachineleftdata">Paper Shopping Bag <span>Forming Machine In Usa</span></h3>
-                        <p className="descriptionmachineleftcontent">Nesscoindia Leading the <Link> paper shopping bag forming machine</Link> in usa. This fully automatic machine adopts printed die-cut paper to produce a paper bag tube. It features a continuous automatic paper feeding system and suitable for the mass bag production of special paper and different papers. The machine applies a number of proprietary technologies. It uses touch screen operation and is making products with high precision, fast and convenient to adjust and control. It is the first choice for manufacturing high-grade and luxury handbags.
+                        <p className="descriptionmachineleftcontent">Nesscoindia Leading the <Link to={'/product/paper-shopping-bag-making-machine/'}> paper shopping bag forming machine</Link> in usa. This fully automatic machine adopts printed die-cut paper to produce a paper bag tube. It features a continuous automatic paper feeding system and suitable for the mass bag production of special paper and different papers. The machine applies a number of proprietary technologies. It uses touch screen operation and is making products with high precision, fast and convenient to adjust and control. It is the first choice for manufacturing high-grade and luxury handbags.
                             <br /><br />
-                            Check Machine Video – <Link>Paper Bag Machine</Link>
+                            Check Machine Video – <Link to={'/product/paper-bag-making-machine/'}>Paper Bag Machine</Link>
                             This machine features the automatic functions of compaction and delivery of bag output one by one. Its high precision, fast speed, and easy operation significantly improve your bag quality shorten delivery time and expand operational capacity.</p> <br /><br />
                     </div>
                     <div className="descriptionmachineright">
@@ -84,7 +84,7 @@ const USAPaperBag = () => {
                     </div>
                 </div>
             </section>
-            <MachineSpecs labels={specs.MachineSpecsLabels} data={specs.MachineSpecs} />
+            <MachineSpecs labels={specs.MachineSpecsLabels} data={tablecontent.MachineSpecs} />
             <RelatedProducts data={specs.RelatedProducts} />
         </>
     )

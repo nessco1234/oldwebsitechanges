@@ -228,7 +228,6 @@ function App() {
             <Route element={<KuwaitPaper />} exact path="/global/paper-cup-making-machine-in-kuwait/" />
             <Route element={<KoreaPaper />} exact path="/global/paper-cup-machine-in-korea/" />
             <Route element={<USAPaper />} exact path="/global/paper-cup-machine-in-usa/" />
-
           </>
           <>
             <Route element={<MachineComponent down={download} setdown={setdownload} img1url={img1} img2url={img2} img3url={img3} img4url={img24} imgurl={img24} data={HighSpeedPaperCup} />} exact path="/product/high-speed-paper-cup-making-machine/" />

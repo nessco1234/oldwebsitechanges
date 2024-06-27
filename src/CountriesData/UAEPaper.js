@@ -42,9 +42,9 @@ const UAEPaper = (props) => {
             <section className="descriptionmachine">
                 <div className="descriptionmachinecomp">
                     <div className="descriptionmachineleft">
-                        <img src='https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp' alt="" />
+                        <img src='https://www.nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-making-machine.webp' alt="" />
                         <h3 className="descriptionmachineleftdata">Paper Cup Making <span>Machine In Uae</span></h3>
-                        <p className="descriptionmachineleftcontent">Nesscoindia brings you a top-quality<Link> range of Paper Cup Making Machine </Link>in UAE. which are multi-station automatic, capable of producing an unbelievable number of paper cups at one time. Continuous automatic procedures such as sealing, oil filling, heating, knurling, curling, and unloading make it the ideal machine for paper cups.
+                        <p className="descriptionmachineleftcontent">Nesscoindia brings you a top-quality range of<Link to={'/product/high-speed-paper-cup-making-machine/'}> Paper Cup Making Machine </Link>in UAE. which are multi-station automatic, capable of producing an unbelievable number of paper cups at one time. Continuous automatic procedures such as sealing, oil filling, heating, knurling, curling, and unloading make it the ideal machine for paper cups.
                             <br /><br /><b>
                                 High quality paper cup forming machine in UAE
                             </b><br /><br />

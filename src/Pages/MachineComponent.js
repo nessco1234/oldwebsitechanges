@@ -9,6 +9,7 @@ import MachineSpecs2 from '../Components/MachineComponent/MachineSpecs2'
 import MultiTable from '../Components/MachineComponent/MultiTable'
 import MachineSpecs3 from '../Components/MachineComponent/MachineSpecs3'
 import { Helmet } from 'react-helmet'
+import MachineSpecs4 from '../Components/MachineComponent/MachineSpecs4'
 const MachineComponent = (props) => {
   const data = props.data
   return (
@@ -27,7 +28,7 @@ const MachineComponent = (props) => {
       <IntroMachine heading={data.Heading} route={data.Route} description={data.Description} />
       <DescriptionMachine down={props.down} setdown={props.setdown} data={data} imgurl={props.imgurl} img2url={props.img2url} img3url={props.img3url} img4url={props.img4url} />
       {
-        !data.ExpandedTable && !data.newTable &&
+        !data.ExpandedTable && !data.newTable && !data.tablenumber4 &&
         <MachineSpecs labels={data.MachineSpecsLabels} data={data.MachineSpecs} Heading={data.Table1Heading} />
       }
       {
@@ -49,6 +50,10 @@ const MachineComponent = (props) => {
       {
         data.ExpandedTable &&
         <MachineSpecs2 labels={data.MachineSpecsLabels} data={data.MachineSpecs} />
+      }
+      {
+        data.tablenumber4 &&
+        <MachineSpecs4 labels={data.MachineSpecsLabels} data={data.MachineSpecs} />
       }
       {
         data.MultipleTable &&

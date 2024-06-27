@@ -38,7 +38,8 @@
     "NotPoints": false,
     "MultipleImageComp": true,
     "MultipleTable": false,
-    "ExpandedTable": true,
+    "ExpandedTable": false,
+    "tablenumber4":true,
     "PointsHeading": [
         "Square Bottom Paper Bag  ",
         "Making Machine"

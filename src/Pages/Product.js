@@ -78,7 +78,7 @@ const products = [
     { id: 17, name: 'Paper Shopping Bag Making Machine', type: 'paperbag', url: '/product/paper-shopping-bag-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/paper-bag-making-machine.webp' },
     { id: 18, name: 'Paper Salad Bowl Making Machine', type: 'paperbowl', url: '/product/salad-bowl-making-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/salad-bowl-making-machine.webp' },
     { id: 19, name: 'Roll Die Cutting Machine', type: 'paperrelated', url: '/product/roll-die-cutting-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/roll-die-cutting-machine.webp' },
-    { id: 19, name: 'Rectangluar Flat Bottom Bowl Machine', type: 'paperbowl', url: '/product/rectangle-flat-bottom-bowl-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/RectangularMachine.webp' },
+    { id: 19, name: 'Rectangular Flat Bottom Bowl Machine', type: 'paperbowl', url: '/product/rectangle-flat-bottom-bowl-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/RectangularMachine.webp' },
     { id: 20, name: 'Paper Dome Lid Machine', type: 'paperlid', url: '/product/paper-dome-lid-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/DomeLidMachine.webp' },
     { id: 21, name: 'Octagonal Box Forming Machine', type: 'paperbox', url: '/product/octagonal-box-forming-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/OctagonalMachine.webp' },
     { id: 22, name: 'Lunch Box Forming Machine', type: 'paperbox', url: '/product/lunch-box-forming-machine/', imglink: 'https://www.nesscoindia.com/Assets/images/resource/LunchBoxMachine.webp' },

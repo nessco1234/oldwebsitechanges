@@ -19,7 +19,8 @@ const Home = () => {
     <>
       <Helmet>
         <title>Paper Cup Machine Manufacturer and Supplier - Nessco India</title>
-        <meta name="description" content="Paper Cup Machine Manufacturer &amp; Exporter. A Wide Range of Machines Pairing With The Latest Technology. Enquire Now!" />
+        <meta name="description" content="Trusted Paper Cup Machine Manufacturer since 1978. Nessco offers a wide range of paper cup making machine pairing with the latest technology. Enquire now!
+" />
         <meta name="keywords" content="Nessco India" />
         <meta name="State" content="Rajasthan" />
         <meta name="City" content="Jaipur" />
@@ -35,7 +36,7 @@ const Home = () => {
 
       </Helmet>
         <Banner />
-        <Drupa />
+        {/* <Drupa /> */}
         <WeAreNessco />
         <AboutUs />
         <Products />
