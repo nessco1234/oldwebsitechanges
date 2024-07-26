@@ -95,12 +95,8 @@ import IranPaper from "./CountriesData/IranPaper";
 import IsraelPaper from "./CountriesData/IsraelPaper";
 import KuwaitPaper from "./CountriesData/KuwaitPaper";
 import KoreaPaper from "./CountriesData/KoreaPaper";
-
-
 import Thankyou from "./Pages/Thankyou";
-
 import PaperBag from './Data/PaperBag.json'
-
 import ScrollToTop from "./Components/Layout/ScrollToTop";
 import USAPaperBag from "./CountriesData/USAPaperBag";
 import { RemoveTrailingSlash } from "./TrailingSlash";

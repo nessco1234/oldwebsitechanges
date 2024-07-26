@@ -27,11 +27,11 @@ const Home = () => {
         <meta name="address" content="186 Apparel Park, Mahal Rd, Ricco Industrial Area, Jagatpura, Jaipur, Rajasthan 302022, India" />
         <meta name="copyright" content="Copyright 2022 Nessco India" />
         <meta name="distribution" content="global" />
-        <meta property="og:image" content="https://www.nesscoindia.com/assets/images/32x32.webp" />
         <meta name="language" content="english" />
         <meta name="robots" content="index,follow" />
         <meta name="publisher" content="Nessco India" />
         <meta name="author" content="Nessco India" />
+        <meta property="og:image" content="https://www.nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-making-machine.webp" />
         <link rel="canonical" href="https://www.nesscoindia.com" />
 
       </Helmet>
