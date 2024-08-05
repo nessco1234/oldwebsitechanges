@@ -6,7 +6,7 @@ import AnalyticsHelmet from "./AnalyticsScript";
 const Thankyou = (props) => {
   return (
     <>
-    <AnalyticsHelmet/>
+      <AnalyticsHelmet />
       <Breadcrum active={"Thank You"} previous={"Home"} />
       <section className="thankyou">
         <div className="thankyoucontainer">

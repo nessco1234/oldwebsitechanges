@@ -5,7 +5,7 @@
     "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
     "Imgdesc": [
         "There are various photoelectric sensors equipped in this machine to detect any breakage in the system. This machine is ideal equipment for packaging and serving soups, noodles, and many more savories.",
-        "This Bowl machine can also be used to make Doner Boxes and Kebab Boxes with few modifications."
+        "This Bowl machine can also be used to make Doner Bowl and Kebab Bowl with few modifications."
     ],
     "Suggestions": [
         {
@@ -127,7 +127,7 @@
     "seometa": [
         {
             "name": "description",
-            "content": "Nessco Paper Container or Bowl making machine available for making Salad Container, Soup Bowl, Chicken Bucket, Noodles Box."
+            "content": "Nessco India offering paper bowl making machine equipped with photoelectric sensors . This paper container machine produces soup bowls, noodle bowls, etc. Enquire Now!"
         },
         {
             "name": "keywords",
@@ -168,11 +168,8 @@
         {
             "name": "author",
             "content": "Nessco India"
-        },
-        {
-          "name": "og:image",
-          "content": "https://www.nesscoindia.com/Assets/images/service/Fully-Automatic-Paper-Bag-Machine.webp"
         }
+        
     ],
     "seolink": {
         "name": "canonical",

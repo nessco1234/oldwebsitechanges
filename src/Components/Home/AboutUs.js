@@ -120,7 +120,7 @@ const AboutUs = (props) => {
           <div className="rightabout">
             <p style={{ margin: "1rem 0" }} className="aboutusbtn  mm">ABOUT US</p>
             <h1 className="aboutheading">
-              Paper cup machine <span> Manufacturer & Exporter</span>
+              Paper Cup Machine <span> Manufacturer & Exporter</span>
             </h1>
             <p className="aboutpara">
               Nessco India is an international paper cup machine manufacturing
