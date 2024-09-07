@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./Styles/Global.css";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import axios from 'axios'
+import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import Home from "./Pages/Home";
 import StaticSocialIcons from "./Components/Home/StaticSocialIcons";
 import './Styles/Utils.css'
@@ -11,8 +12,6 @@ import Video from "./Pages/Video";
 import Blog from "./Pages/Blog";
 import About from "./Pages/About";
 import Product from "./Pages/Product";
-import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
 import MachineComponent from "./Pages/MachineComponent";
 // IMPORTING JSON FILES 
 import PaperGlassMachine from './Data/PaperGlassMachine.json'
@@ -101,6 +100,164 @@ import ScrollToTop from "./Components/Layout/ScrollToTop";
 import USAPaperBag from "./CountriesData/USAPaperBag";
 import { RemoveTrailingSlash } from "./TrailingSlash";
 
+function useTrackUserSource() {
+  const location = useLocation();
+
+  useEffect(() => {
+    const handleBeforeUnload = () => {
+      const sessionStartTime = new Date(localStorage.getItem('session_start_time')).getTime();
+      const sessionEndTime = new Date().getTime();
+      const sessionDuration = (sessionEndTime - sessionStartTime) / 1000; // in seconds
+  
+      console.log(`Total Session Time: ${sessionDuration} seconds`);
+    };
+  
+    window.addEventListener('beforeunload', handleBeforeUnload);
+  
+    return () => {
+      window.removeEventListener('beforeunload', handleBeforeUnload);
+    };
+  }, []);
+  
+
+  useEffect(() => {
+    // Fetch IP and device details as before
+    const fetchIPData = async () => {
+      try {
+        const response = await axios.get('https://ipapi.co/json/');
+        const data = response.data;
+        
+        console.log(`IP Address: ${data.ip}`);
+        console.log(`Country: ${data.country_name}`);
+        console.log(`City: ${data.city}`);
+        console.log(`Region: ${data.region}`);
+        console.log(`Latitude: ${data.latitude}`);
+        console.log(`Longitude: ${data.longitude}`);
+        console.log(`Postal Code: ${data.postal}`);
+      } catch (error) {
+        console.error("Error fetching IP data:", error);
+      }
+    };
+
+    const getUserDeviceDetails = () => {
+      const userAgent = navigator.userAgent;
+      const language = navigator.language;
+      const platform = navigator.platform;
+
+      let browserName = "Unknown Browser";
+      let osName = "Unknown OS";
+      let deviceType = "Desktop";
+
+      if (/windows/i.test(userAgent)) {
+        osName = "Windows";
+      } else if (/mac/i.test(userAgent)) {
+        osName = "MacOS";
+      } else if (/linux/i.test(userAgent)) {
+        osName = "Linux";
+      } else if (/android/i.test(userAgent)) {
+        osName = "Android";
+        deviceType = "Mobile";
+      } else if (/iphone|ipad|ipod/i.test(userAgent)) {
+        osName = "iOS";
+        deviceType = "Mobile";
+      }
+
+      if (/edg/i.test(userAgent)) {
+        browserName = "Edge";  
+      } else if (/chrome/i.test(userAgent) && !/edg/i.test(userAgent)) {
+        browserName = "Chrome";
+      } else if (/safari/i.test(userAgent) && !/chrome/i.test(userAgent)) {
+        browserName = "Safari";
+      } else if (/firefox/i.test(userAgent)) {
+        browserName = "Firefox";
+      } else if (/msie|trident/i.test(userAgent)) {
+        browserName = "Internet Explorer";
+      }
+      
+
+      console.log(`Device Language: ${language}`);
+      console.log(`Operating System: ${osName}`);
+      console.log(`Device Type: ${deviceType}`);
+      console.log(`Browser: ${browserName}`);
+      console.log(`Platform: ${platform}`);
+    };
+
+    const trackUserSession = () => {
+      const currentPath = location.pathname;
+      const sessionStartTime = localStorage.getItem('session_start_time');
+      const lastPage = localStorage.getItem('last_page');
+      const pageVisitCount = parseInt(localStorage.getItem('page_visit_count')) || 0;
+      const totalVisitCount = parseInt(localStorage.getItem('total_visit_count')) || 0;
+      const sessionPageVisitCount = parseInt(localStorage.getItem('session_page_visit_count')) || 0;
+
+      if (!sessionStartTime) {
+        // New session
+        localStorage.setItem('session_start_time', new Date().toISOString());
+        localStorage.setItem('entry_page', currentPath);
+        localStorage.setItem('session_page_visit_count', 1);
+        localStorage.setItem('page_visit_count', pageVisitCount + 1);
+      } else {
+        // Existing session
+        localStorage.setItem('session_page_visit_count', sessionPageVisitCount + 1);
+      }
+
+      localStorage.setItem('last_page', currentPath);
+      localStorage.setItem('total_visit_count', totalVisitCount + 1);
+
+      console.log(`Current Page: ${currentPath}`);
+      console.log(`Entry Page: ${localStorage.getItem('entry_page')}`);
+      console.log(`Last Page: ${lastPage}`);
+      console.log(`Page Visit Count This Session: ${localStorage.getItem('session_page_visit_count')}`);
+      console.log(`Total Visit Count: ${localStorage.getItem('total_visit_count')}`);
+    };
+
+    const trackPageTime = () => {
+      const currentPath = location.pathname;
+      const pageStartTime = localStorage.getItem('page_start_time');
+
+      if (pageStartTime) {
+        const timeSpent = new Date().getTime() - new Date(pageStartTime).getTime();
+        console.log(`Time spent on ${location.pathname}: ${timeSpent / 1000} seconds`);
+      }
+
+      localStorage.setItem('page_start_time', new Date().toISOString());
+    };
+
+    // Track user source as before
+    const urlParams = new URLSearchParams(location.search);
+    const sourceParam = urlParams.get('source');
+    const referrer = document.referrer;
+
+    if (sourceParam) {
+      console.log(`User Source: ${sourceParam}`);
+    } else if (referrer) {
+      if (referrer.includes('google.com')) {
+        console.log('User Source: Search Engine (Google)');
+      } else if (referrer.includes('facebook.com')) {
+        console.log('User Source: Facebook');
+      } else if (referrer.includes('instagram.com')) {
+        console.log('User Source: Instagram');
+      } else if (referrer.includes('youtube.com')) {
+        console.log('User Source: YouTube');
+      } else if (referrer.includes('whatsapp.com')) {
+        console.log('User Source: WhatsApp');
+      } else {
+        console.log(`User Source: Other Referrer (${referrer})`);
+      }
+    } else {
+      console.log('User Source: Direct Source');
+    }
+
+    fetchIPData();
+    getUserDeviceDetails();
+    trackUserSession();
+    trackPageTime();
+  }, [location]);
+}
+
+
+
+
 function ScrollToTopOnRouteChange() {
   const { pathname } = useLocation();
 
@@ -113,7 +270,7 @@ function ScrollToTopOnRouteChange() {
 
 function App() {
   const [download, setdownload] = useState(true)
-  console.log(download)
+
   const img1 = 'https://www.nesscoindia.com/Assets/images/resource/paper-glass-machine.webp'
   const img2 = 'https://www.nesscoindia.com/Assets/images/resource/disposable-paper-cup-making-machine.webp'
   const img3 = 'https://www.nesscoindia.com/Assets/images/resource/High-Speed-Paper-Cup-Making-Machine.webp'
@@ -155,9 +312,10 @@ function App() {
   const serv13 = 'https://www.nesscoindia.com/Assets/images/service/PaperStraws.webp'
   const serv14 = 'https://www.nesscoindia.com/Assets/images/service/garment-paper-bag.webp'
   const serv15 = 'https://www.nesscoindia.com/Assets/images/service/Square-Bottom-Paper-Bags.webp'
+  useTrackUserSource();
   return (
     <>
-      <Router>
+      
         <RemoveTrailingSlash/>
         <ScrollToTopOnRouteChange />
         <StaticSocialIcons />
@@ -262,97 +420,8 @@ function App() {
         </Routes>
         <Footer />
         <ScrollToTop />
-      </Router>
     </>
   );
 }
 
 export default App;
-
-
-// import React, { useState } from 'react';
-
-// const ValidationForm = () => {
-//   const [phoneNumber, setPhoneNumber] = useState('');
-//   const [email, setEmail] = useState('');
-//   const [errors, setErrors] = useState({ phoneNumber: '', email: '' });
-
-//   const validatePhoneNumber = (number) => {
-//     const phoneRegex = /^\d{7,15}$/;
-//     return phoneRegex.test(number);
-//   };
-
-//   const validateEmail = (email) => {
-//     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-//     return emailRegex.test(email);
-//   };
-
-//   const handleSubmit = (event) => {
-//     event.preventDefault();
-//     let valid = true;
-
-//     if (!phoneNumber) {
-//       setErrors((prevErrors) => ({
-//         ...prevErrors,
-//         phoneNumber: 'Phone number is required',
-//       }));
-//       valid = false;
-//     } else if (!validatePhoneNumber(phoneNumber)) {
-//       setErrors((prevErrors) => ({
-//         ...prevErrors,
-//         phoneNumber: 'Phone number must be between 7 and 15 digits long',
-//       }));
-//       valid = false;
-//     } else {
-//       setErrors((prevErrors) => ({ ...prevErrors, phoneNumber: '' }));
-//     }
-
-//     if (!email) {
-//       setErrors((prevErrors) => ({
-//         ...prevErrors,
-//         email: 'Email is required',
-//       }));
-//       valid = false;
-//     } else if (!validateEmail(email)) {
-//       setErrors((prevErrors) => ({
-//         ...prevErrors,
-//         email: 'Email is not valid',
-//       }));
-//       valid = false;
-//     } else {
-//       setErrors((prevErrors) => ({ ...prevErrors, email: '' }));
-//     }
-
-//     if (valid) {
-//       alert('Form submitted successfully!');
-//     }
-//   };
-
-//   return (
-//     <form onSubmit={handleSubmit}>
-//       <div>
-//         <label>Phone Number:</label>
-//         <input
-//           type="text"
-//           value={phoneNumber}
-//           onChange={(e) => setPhoneNumber(e.target.value)}
-//           required
-//         />
-//         {errors.phoneNumber && <p style={{ color: 'red' }}>{errors.phoneNumber}</p>}
-//       </div>
-//       <div>
-//         <label>Email:</label>
-//         <input
-//           type="text"
-//           value={email}
-//           onChange={(e) => setEmail(e.target.value)}
-//           required
-//         />
-//         {errors.email && <p style={{ color: 'red' }}>{errors.email}</p>}
-//       </div>
-//       <button type="submit">Submit</button>
-//     </form>
-//   );
-// };
-
-// export default ValidationForm;
