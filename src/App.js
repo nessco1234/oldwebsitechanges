@@ -105,166 +105,118 @@ function useTrackUserSource() {
   const [visitData, setVisitData] = useState({});
 
   useEffect(() => {
-    const handleBeforeUnload = () => {
-      const sessionStartTime = new Date(localStorage.getItem('session_start_time')).getTime();
-      const sessionEndTime = new Date().getTime();
-      const sessionDuration = (sessionEndTime - sessionStartTime) / 1000; // in seconds
-
-      setVisitData(prevData => ({
-        ...prevData,
-        sessionDuration
-      }));
-    };
-
-    window.addEventListener('beforeunload', handleBeforeUnload);
-
-    return () => {
-      window.removeEventListener('beforeunload', handleBeforeUnload);
-    };
-  }, []);
-
-  useEffect(() => {
-    const fetchIPData = async () => {
-      try {
-        const response = await axios.get('https://ipapi.co/json/');
-        const data = response.data;
-
-        setVisitData(prevData => ({
-          ...prevData,
-          ip: data.ip,
-          country: data.country_name,
-          city: data.city,
-          region: data.region,
-          latitude: data.latitude,
-          longitude: data.longitude,
-          postalCode: data.postal
-        }));
-      } catch (error) {
-        console.error("Error fetching IP data:", error);
-      }
-    };
-
-    const getUserDeviceDetails = () => {
-      const userAgent = navigator.userAgent;
-      const language = navigator.language;
-      const platform = navigator.platform;
-
-      let browserName = "Unknown Browser";
-      let osName = "Unknown OS";
-      let deviceType = "Desktop";
-
-      if (/windows/i.test(userAgent)) {
-        osName = "Windows";
-      } else if (/mac/i.test(userAgent)) {
-        osName = "MacOS";
-      } else if (/linux/i.test(userAgent)) {
-        osName = "Linux";
-      } else if (/android/i.test(userAgent)) {
-        osName = "Android";
-        deviceType = "Mobile";
-      } else if (/iphone|ipad|ipod/i.test(userAgent)) {
-        osName = "iOS";
-        deviceType = "Mobile";
-      }
-
-      if (/edg/i.test(userAgent)) {
-        browserName = "Edge";
-      } else if (/chrome/i.test(userAgent) && !/edg/i.test(userAgent)) {
-        browserName = "Chrome";
-      } else if (/safari/i.test(userAgent) && !/chrome/i.test(userAgent)) {
-        browserName = "Safari";
-      } else if (/firefox/i.test(userAgent)) {
-        browserName = "Firefox";
-      } else if (/msie|trident/i.test(userAgent)) {
-        browserName = "Internet Explorer";
-      }
-
-      setVisitData(prevData => ({
-        ...prevData,
-        language,
-        osName,
-        deviceType,
-        browserName,
-        platform
-      }));
-    };
-
-    const trackUserSession = () => {
-      const currentPath = location.pathname;
+    const initializeVisitData = async () => {
       const sessionStartTime = localStorage.getItem('session_start_time');
-      const lastPage = localStorage.getItem('last_page');
-      const pageVisitCount = parseInt(localStorage.getItem('page_visit_count')) || 0;
-      const totalVisitCount = parseInt(localStorage.getItem('total_visit_count')) || 0;
-      const sessionPageVisitCount = parseInt(localStorage.getItem('session_page_visit_count')) || 0;
+      const currentPath = location.pathname;
 
       if (!sessionStartTime) {
+        // Initialize session-related data
         localStorage.setItem('session_start_time', new Date().toISOString());
         localStorage.setItem('entry_page', currentPath);
         localStorage.setItem('session_page_visit_count', 1);
-        localStorage.setItem('page_visit_count', pageVisitCount + 1);
+        localStorage.setItem('page_visit_count', 1);
+        localStorage.setItem('total_visit_count', 1);
       } else {
-        localStorage.setItem('session_page_visit_count', sessionPageVisitCount + 1);
+        // Increment visit counts
+        const sessionPageVisitCount = parseInt(localStorage.getItem('session_page_visit_count')) + 1;
+        const totalVisitCount = parseInt(localStorage.getItem('total_visit_count')) + 1;
+
+        localStorage.setItem('session_page_visit_count', sessionPageVisitCount);
+        localStorage.setItem('total_visit_count', totalVisitCount);
       }
 
-      localStorage.setItem('last_page', currentPath);
-      localStorage.setItem('total_visit_count', totalVisitCount + 1);
+      const userAgent = navigator.userAgent;
+      const Language = navigator.language;
+      const Platform = navigator.platform;
 
-      setVisitData(prevData => ({
-        ...prevData,
-        currentPage: currentPath,
-        entryPage: localStorage.getItem('entry_page'),
-        lastPage,
-        sessionPageVisitCount: localStorage.getItem('session_page_visit_count'),
-        totalVisitCount: localStorage.getItem('total_visit_count')
-      }));
-    };
+      let Browser_Name = "Unknown Browser";
+      let Os_Name = "Unknown OS";
+      let Device_Type = "Desktop";
 
-    const trackSourceAndCampaign = () => {
+      if (/windows/i.test(userAgent)) {
+        Os_Name = "Windows";
+      } else if (/mac/i.test(userAgent)) {
+        Os_Name = "MacOS";
+      } else if (/linux/i.test(userAgent)) {
+        Os_Name = "Linux";
+      } else if (/android/i.test(userAgent)) {
+        Os_Name = "Android";
+        Device_Type = "Mobile";
+      } else if (/iphone|ipad|ipod/i.test(userAgent)) {
+        Os_Name = "iOS";
+        Device_Type = "Mobile";
+      }
+
+      if (/edg/i.test(userAgent)) {
+        Browser_Name = "Edge";
+      } else if (/chrome/i.test(userAgent) && !/edg/i.test(userAgent)) {
+        Browser_Name = "Chrome";
+      } else if (/safari/i.test(userAgent) && !/chrome/i.test(userAgent)) {
+        Browser_Name = "Safari";
+      } else if (/firefox/i.test(userAgent)) {
+        Browser_Name = "Firefox";
+      } else if (/msie|trident/i.test(userAgent)) {
+        Browser_Name = "Internet Explorer";
+      }
+
       const urlParams = new URLSearchParams(location.search);
-      let source = 'Direct'; // Default to Direct
-      let sourceType = null;
+      let Lead_Source = 'Website Visit'; // Default to Website Visit
 
-      const medium = urlParams.get('medium');
-      const campaign = urlParams.get('campaignid');
-      const adGroup = urlParams.get('adgroupid');
-      const creative = urlParams.get('creative');
-      const keyword = urlParams.get('keyword');
+      const Ad_Medium = urlParams.get('medium');
+      const Ad_Campaign = urlParams.get('campaignid');
+      const Ad_AdGroup = urlParams.get('adgroupid');
+      const Ad_Adcopy = urlParams.get('creative');
+      const Ad_Keyword = urlParams.get('keyword');
 
-      if (medium || campaign || adGroup || creative || keyword) {
-        source = 'Ads';
-        sourceType = medium || campaign || 'unknown';
+      if (Ad_Medium || Ad_Campaign || Ad_AdGroup || Ad_Adcopy || Ad_Keyword) {
+        Lead_Source = 'Ads';
       } else if (document.referrer.includes('google.com') || document.referrer.includes('bing.com') || document.referrer.includes('yahoo.com')) {
-        source = 'Search Engine';
+        Lead_Source = 'Search Engine';
       }
 
-      setVisitData(prevData => ({
-        ...prevData,
-        source,
-        sourceType,
-        medium: medium || null,
-        campaign: campaign || null,
-        adGroup: adGroup || null,
-        creative: creative || null,
-        keyword: keyword || null,
-        referrer: document.referrer || null
-      }));
+      const fetchIPData = async () => {
+        try {
+          const response = await axios.get('https://ipapi.co/json/');
+          const data = response.data;
+
+          setVisitData({
+            Language,
+            Os_Name,
+            Device_Type,
+            Browser_Name,
+            Platform,
+            Current_Page: currentPath,
+            Landing_Page: localStorage.getItem('entry_page'),
+            Exit_Page: currentPath, // Update this when the user exits the page
+            Landing_Page_Visit_Count: localStorage.getItem('session_page_visit_count'),
+            Visit_Count: localStorage.getItem('total_visit_count'),
+            Lead_Source,
+            Ad_Medium: Ad_Medium || null,
+            Ad_Campaign: Ad_Campaign || null,
+            Ad_AdGroup: Ad_AdGroup || null,
+            Ad_Adcopy: Ad_Adcopy || null,
+            Ad_Keyword: Ad_Keyword || null,
+            Referrer: document.referrer || null,
+            IP_Address: data.ip,
+            Country: data.country_name,
+            City: data.city,
+            Web_Region: data.region,
+            Latitude: data.latitude,
+            Longitude: data.longitude,
+            Zip_Code: data.postal
+          });
+        } catch (error) {
+          console.error("Error fetching IP data:", error);
+        }
+      };
+
+      fetchIPData();
     };
 
-    fetchIPData();
-    getUserDeviceDetails();
-    trackUserSession();
-    trackSourceAndCampaign();
-  }, [location]);
+    initializeVisitData();
+  }, []); // Empty dependency array ensures this runs only once
 
-  useEffect(() => {
-    // Display the final JSON data
-    console.log(JSON.stringify(visitData, null, 2));
-
-    // Optionally send this data to your server for logging/analytics
-    // axios.post('your-server-endpoint', visitData)
-    //   .then(response => console.log('Data sent successfully'))
-    //   .catch(error => console.error('Error sending data:', error));
-  }, [visitData]);
+  return visitData; // Return the visitData object
 }
 
 
@@ -280,6 +232,7 @@ function ScrollToTopOnRouteChange() {
 
 function App() {
   const [download, setdownload] = useState(true)
+  const visitData = useTrackUserSource(); 
 
   const img1 = 'https://www.nesscoindia.com/Assets/images/resource/paper-glass-machine.webp'
   const img2 = 'https://www.nesscoindia.com/Assets/images/resource/disposable-paper-cup-making-machine.webp'
@@ -322,7 +275,6 @@ function App() {
   const serv13 = 'https://www.nesscoindia.com/Assets/images/service/PaperStraws.webp'
   const serv14 = 'https://www.nesscoindia.com/Assets/images/service/garment-paper-bag.webp'
   const serv15 = 'https://www.nesscoindia.com/Assets/images/service/Square-Bottom-Paper-Bags.webp'
-  useTrackUserSource();
   return (
     <>
       
@@ -332,8 +284,8 @@ function App() {
         <Header setdown={setdownload} />
         <Routes>
           <>
-            <Route element={<Home />} exact path="/" />
-            <Route element={<Contact />} exact path="/contact/" />
+            <Route element={<Home visitData={visitData} />} exact path="/" />
+            <Route exact path="/contact/" element={<Contact visitData={visitData} />} /> 
             <Route element={<Product />} exact path="/product/" />
             <Route element={<Video />} exact path="/video/" />
             <Route element={<Blog />} exact path="/blog/" />

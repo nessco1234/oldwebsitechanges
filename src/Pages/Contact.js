@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { FaAngleRight } from "react-icons/fa6";
 
-const Contact = () => {
+const Contact = (visitData) => {
   return (
     <>
       <Helmet>
@@ -45,7 +45,7 @@ const Contact = () => {
           </h3>
         </div>
       </section>
-      <ContactForm />
+      <ContactForm visitData={visitData} />
       <Branches />
     </>
   );

@@ -13,7 +13,7 @@ import Products from "../Components/Home/Products";
 import { Helmet } from 'react-helmet'
 import Drupa from "../Components/Home/Drupa";
 import Banner from "../Components/Home/Banner";
-const Home = () => {
+const Home = (visitData) => {
 
   return (
     <>
@@ -33,7 +33,7 @@ const Home = () => {
         <meta name="author" content="Nessco India" />
         <meta property="og:image" content="https://www.nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-making-machine.webp" />
         <link rel="canonical" href="https://www.nesscoindia.com" />
-
+        <script src="https://cdn.pagesense.io/js/nesscoindia/726a5bfbad6c4f5091eda44cd7ec1cb1.js"></script>
       </Helmet>
         <Banner />
         {/* <Drupa /> */}
