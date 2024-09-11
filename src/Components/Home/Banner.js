@@ -4,7 +4,7 @@ import BannerContent from './BannerContent';
 import {  useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import axios from 'axios';
-export default function App(props) {
+export default function App({ visitData, ...props }) {
   const [isHovered, setIsHovered] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const openModal = () => setIsOpen(true);
@@ -15,7 +15,7 @@ export default function App(props) {
     console.log(props.down)
   }
   const navigate = useNavigate()
-  const [errors, setErrors] = useState({ phoneNumber: '', email: '', username: '' });
+  const [errors, setErrors] = useState({ Mobile: '', Email: '' });
   const validatePhoneNumber = (number) => {
     const phoneRegex = /^\d{7,15}$/;
     return phoneRegex.test(number);
@@ -26,11 +26,11 @@ export default function App(props) {
     return emailRegex.test(email);
   };
   const [formData, setFormData] = useState({
-    SingleLine: '',
+    Last_Name: '',
     Email: '',
-    PhoneNumber_countrycode: '',
-    SingleLine1: '',
-    MultiLine: ''
+    Mobile: '',
+    Web_Subject: '',
+    Web_Message: ''
   });
   const handleChange = (e) => {
     setFormData({
@@ -42,13 +42,13 @@ export default function App(props) {
     e.preventDefault();
     // if () {
     let valid = true;
-    if (!formData.PhoneNumber_countrycode) {
+    if (!formData.Mobile) {
       setErrors((prevErrors) => ({
         ...prevErrors,
         phoneNumber: 'Phone number is required',
       }));
       valid = false;
-    } else if (!validatePhoneNumber(formData.PhoneNumber_countrycode)) {
+    } else if (!validatePhoneNumber(formData.Mobile)) {
       setErrors((prevErrors) => ({
         ...prevErrors,
         phoneNumber: 'Phone number must be between 7 and 15 digits long',
@@ -75,13 +75,21 @@ export default function App(props) {
     }
     if (valid) {
       try {
-        // const response = await axios.post('http://16.171.239.170:5000/form-submission', formData, {
-        const response = await axios.post('https://nesscobackend-sx1t.vercel.app/form-submission', formData, {
+        const payload = {
+          ...formData,
+          ...visitData
+        }
+        const response = await axios.post('http://localhost:5000/form-submission', payload, {
           headers: {
             'Content-Type': 'application/json', // Ensure the backend handles JSON
           },
         });
-        navigate('/thank-you/')
+        if (response.status === 200) {
+          navigate('/thank-you/');
+        } else {
+          console.error('Error submitting form:', response);
+        }
+
         console.log(response)
         props.setdown(true)
         closeModal()
@@ -119,10 +127,10 @@ export default function App(props) {
                 <div className="rightmodal">
                   <h1 className="modalheading">Request for details to receive a call back</h1>
                   <p className="modaldesc">Enter your details to receive a call back</p>
-                  <input value={formData.SingleLine} onChange={handleChange} name='SingleLine' type="text" required placeholder='Enter your Name' className='modalinp' />
+                  <input value={formData.Last_Name} onChange={handleChange} name='Last_Name' type="text" required placeholder='Enter your Name*' className='modalinp' />
                   <input value={formData.Email} onChange={handleChange} name='Email' placeholder='Email' className='modalinp' type="email" />
                   {errors.email && <p style={{ color: 'red' }}>{errors.email}</p>}
-                  <input value={formData.PhoneNumber_countrycode} onChange={handleChange} name='PhoneNumber_countrycode' placeholder='Phone Number*' required className='modalinp' type="text" />
+                  <input value={formData.Mobile} onChange={handleChange} name='Mobile' placeholder='Phone Number*' required className='modalinp' type="text" />
                   {errors.phoneNumber && <p style={{ color: 'red' }}>{errors.phoneNumber}</p>}
                   <button onClick={handleSubmit} className="headerbtn x" style={{ padding: "2rem 3rem" }}>
                     <p className='headerbtncon'>Get a Quote !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>

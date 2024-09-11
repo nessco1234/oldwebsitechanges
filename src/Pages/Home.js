@@ -35,14 +35,14 @@ const Home = (visitData) => {
         <link rel="canonical" href="https://www.nesscoindia.com" />
         <script src="https://cdn.pagesense.io/js/nesscoindia/726a5bfbad6c4f5091eda44cd7ec1cb1.js"></script>
       </Helmet>
-        <Banner />
+        <Banner visitData={visitData} />
         {/* <Drupa /> */}
         <WeAreNessco />
-        <AboutUs />
+        <AboutUs visitData={visitData} />
         <Products />
         <Creation />
         <IOTSystem />
-        <Presence />
+        <Presence visitData={visitData}/>
         <Testimonials />
         <InfinteCompany />
         <HomeStats />

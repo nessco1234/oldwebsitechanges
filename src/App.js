@@ -281,7 +281,7 @@ function App() {
         <RemoveTrailingSlash/>
         <ScrollToTopOnRouteChange />
         <StaticSocialIcons />
-        <Header setdown={setdownload} />
+        <Header setdown={setdownload} visitData={visitData}/>
         <Routes>
           <>
             <Route element={<Home visitData={visitData} />} exact path="/" />
@@ -337,7 +337,7 @@ function App() {
             <Route element={<CanadaPaper />} exact path="/global/paper-cup-making-machine-in-canada/" />
             <Route element={<ChinaPaper />} exact path="/global/paper-cup-making-machine-in-china/" />
             <Route element={<ItalyPaper />} exact path="/global/paper-cup-making-machine-italy/" />
-            <Route element={<BahrainPaper />} exact path="/global/paper-cup-making-machine-in-bahrain/" />
+            <Route element={<BahrainPaper visitData={visitData} />} exact path="/global/paper-cup-making-machine-in-bahrain/" />
             <Route element={<CyprusPaper />} exact path="/global/paper-cup-making-machine-in-cyprus/" />
             <Route element={<IranPaper />} exact path="/global/paper-cup-making-machine-in-iran/" />
             <Route element={<IsraelPaper />} exact path="/global/paper-cup-making-machine-in-israel/" />
@@ -346,33 +346,33 @@ function App() {
             <Route element={<USAPaper />} exact path="/global/paper-cup-machine-in-usa/" />
           </>
           <>
-            <Route element={<MachineComponent down={download} setdown={setdownload} img1url={img1} img2url={img2} img3url={img3} img4url={img24} imgurl={img24} data={HighSpeedPaperCup} />} exact path="/product/high-speed-paper-cup-making-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img1} data={PaperGlassMachine} />} exact path="/product/paper-glass-making-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img18} img2url={serv9} data={FlexoPrinting} />} exact path="/product/flexo-printing-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img26} img2url={serv14} data={FullyAutomaticPaperBag} />} exact path="/product/paper-shopping-bag-making-machine/" />
-            <Route element={<MachineComponent imgurl={img3} data={HighSpeedPaperCup} />} exact path="/product/paper-glass-making-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img20} img2url={serv11} img3url={serv12} data={PECoating} />} exact path="/product/pe-coating-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img8} img2url={serv3} data={PaperBowl} />} exact path="/product/paper-container-bowl-making-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img12} img2url={serv4} data={PaperBucket} />} exact path="/product/pop-corn-tub-making-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img11} img2url={serv6} data={PaperCultery} />} exact path="/product/paper-cutlery-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img2} data={PaperDisposalCup} />} exact path="/product/disposable-paper-cup-making-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img4} img2url={serv1} data={PaperHandleCup} />} exact path="/product/paper-handle-cup-making-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img10} img2url={serv5} data={PaperLid} />} exact path="/product/paper-lid-making-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img13} img2url={serv8} data={PaperPlate} />} exact path="/product/paper-plate-making-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img9} img2url={serv3} data={PaperSaladBowl} />} exact path="/product/salad-bowl-making-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img21} img2url={serv13} data={PaperStraw} />} exact path="/product/paper-straw-making-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img5} img2url={serv2} data={RippleWallCup} />} exact path="/product/ripple-wall-cup-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img19} img2url={serv10} data={RollDieCutting} />} exact path="/product/roll-die-cutting-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img25} img2url={serv15} data={SquareBottom} />} exact path="/product/paper-food-bag-making-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img16} data={AutomaticOctagonalBox} />} exact path="/product/octagonal-box-forming-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img15} img2url={serv7} data={CartonErecting} />} exact path="/product/carton-erecting-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img14} data={LunchBoxForming} />} exact path="/product/lunch-box-forming-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img7} data={PaperDomeLid} />} exact path="/product/paper-dome-lid-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img23} data={PaperSleeveGluing} />} exact path="/product/paper-sleeve-gluing-folding-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img17} data={RectangularFlatBottom} />} exact path="/product/rectangle-flat-bottom-bowl-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img22} data={RippleWallCupSleeve} />} exact path="/product/ripple-wall-cup-sleeve-glueing-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img6} data={ServeDrivenPaperCup} />} exact path="/product/servo-driven-paper-cup-machine/" />
-            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img26} img2url={serv14} data={PaperBag} />} exact path="/product/paper-bag-making-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} img1url={img1} img2url={img2} img3url={img3} img4url={img24} imgurl={img24} data={HighSpeedPaperCup} visitData={visitData} />} exact path="/product/high-speed-paper-cup-making-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img1} data={PaperGlassMachine} visitData={visitData} />} exact path="/product/paper-glass-making-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img18} img2url={serv9} data={FlexoPrinting} visitData={visitData} />} exact path="/product/flexo-printing-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img26} img2url={serv14} data={FullyAutomaticPaperBag} visitData={visitData} />} exact path="/product/paper-shopping-bag-making-machine/" />
+            <Route element={<MachineComponent imgurl={img3} data={HighSpeedPaperCup} visitData={visitData} />} exact path="/product/paper-glass-making-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img20} img2url={serv11} img3url={serv12} data={PECoating} visitData={visitData} />} exact path="/product/pe-coating-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img8} img2url={serv3} data={PaperBowl} visitData={visitData} />} exact path="/product/paper-container-bowl-making-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img12} img2url={serv4} data={PaperBucket} visitData={visitData} />} exact path="/product/pop-corn-tub-making-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img11} img2url={serv6} data={PaperCultery} visitData={visitData} />} exact path="/product/paper-cutlery-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img2} data={PaperDisposalCup} visitData={visitData} />} exact path="/product/disposable-paper-cup-making-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img4} img2url={serv1} data={PaperHandleCup} visitData={visitData} />} exact path="/product/paper-handle-cup-making-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img10} img2url={serv5} data={PaperLid} visitData={visitData} />} exact path="/product/paper-lid-making-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img13} img2url={serv8} data={PaperPlate} visitData={visitData} />} exact path="/product/paper-plate-making-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img9} img2url={serv3} data={PaperSaladBowl} visitData={visitData} />} exact path="/product/salad-bowl-making-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img21} img2url={serv13} data={PaperStraw} visitData={visitData} />} exact path="/product/paper-straw-making-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img5} img2url={serv2} data={RippleWallCup} visitData={visitData} />} exact path="/product/ripple-wall-cup-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img19} img2url={serv10} data={RollDieCutting} visitData={visitData} />} exact path="/product/roll-die-cutting-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img25} img2url={serv15} data={SquareBottom} visitData={visitData} />} exact path="/product/paper-food-bag-making-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img16} data={AutomaticOctagonalBox} visitData={visitData} />} exact path="/product/octagonal-box-forming-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img15} img2url={serv7} data={CartonErecting} visitData={visitData} />} exact path="/product/carton-erecting-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img14} data={LunchBoxForming} visitData={visitData} />} exact path="/product/lunch-box-forming-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img7} data={PaperDomeLid} visitData={visitData} />} exact path="/product/paper-dome-lid-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img23} data={PaperSleeveGluing} visitData={visitData} />} exact path="/product/paper-sleeve-gluing-folding-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img17} data={RectangularFlatBottom} visitData={visitData} />} exact path="/product/rectangle-flat-bottom-bowl-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img22} data={RippleWallCupSleeve} visitData={visitData} />} exact path="/product/ripple-wall-cup-sleeve-glueing-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img6} data={ServeDrivenPaperCup} visitData={visitData} />} exact path="/product/servo-driven-paper-cup-machine/" />
+            <Route element={<MachineComponent down={download} setdown={setdownload} imgurl={img26} img2url={serv14} data={PaperBag} visitData={visitData} />} exact path="/product/paper-bag-making-machine/" />
             <Route element={<Thankyou link={download} />} exact path="/thank-you/" />
           </>
           <Route

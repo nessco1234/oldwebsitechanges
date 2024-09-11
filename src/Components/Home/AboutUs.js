@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import { FaPlay } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
 import '../../Styles/Modal.css';  // Ensure to create this CSS file
-import {  useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
-const AboutUs = (props) => {
+
+const AboutUs = ({ visitData, ...props }) => {  // Correct destructuring
   const [isOpen, setIsOpen] = useState(false);
 
   const openModal = () => setIsOpen(true);
@@ -14,13 +15,16 @@ const AboutUs = (props) => {
   const [isOpen2, setIsOpen2] = useState(false);
   const openModal2 = () => setIsOpen2(true);
   const closeModal2 = () => setIsOpen2(false);
+
   function downloadlocal() {
-    props.setdown(true)
-    closeModal()
-    console.log(props.down)
+    props.setdown(true);
+    closeModal();
+    console.log(props.down);
   }
-  const navigate = useNavigate()
-  const [errors, setErrors] = useState({ phoneNumber: '', email: '', username: '' });
+
+  const navigate = useNavigate();
+  const [errors, setErrors] = useState({ Mobile: '', Email: '' });
+
   const validatePhoneNumber = (number) => {
     const phoneRegex = /^\d{7,15}$/;
     return phoneRegex.test(number);
@@ -30,30 +34,33 @@ const AboutUs = (props) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
   };
+
   const [formData, setFormData] = useState({
-    SingleLine: '',
+    Last_Name: '',
     Email: '',
-    PhoneNumber_countrycode: '',
-    SingleLine1: '',
-    MultiLine: ''
+    Mobile: '',
+    Web_Subject: '',
+    Web_Message: ''
   });
+
   const handleChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     });
   };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // if () {
     let valid = true;
-    if (!formData.PhoneNumber_countrycode) {
+
+    if (!formData.Mobile) {
       setErrors((prevErrors) => ({
         ...prevErrors,
         phoneNumber: 'Phone number is required',
       }));
       valid = false;
-    } else if (!validatePhoneNumber(formData.PhoneNumber_countrycode)) {
+    } else if (!validatePhoneNumber(formData.Mobile)) {
       setErrors((prevErrors) => ({
         ...prevErrors,
         phoneNumber: 'Phone number must be between 7 and 15 digits long',
@@ -78,28 +85,35 @@ const AboutUs = (props) => {
     } else {
       setErrors((prevErrors) => ({ ...prevErrors, email: '' }));
     }
+
     if (valid) {
       try {
-        const response = await axios.post('https://nesscobackend-sx1t.vercel.app/form-submission', formData, {
-          // const response = await axios.post('http://localhost:5000/form-submission', formData, {
+        const payload = {
+          ...formData,
+          ...visitData  // Merging visitData directly into payload
+        };
+
+        const response = await axios.post('http://localhost:5000/form-submission', payload, {
           headers: {
             'Content-Type': 'application/json', // Ensure the backend handles JSON
           },
         });
-        navigate('/thank-you/')
-        // props.setdown(true)
-        closeModal2()
-        console.log(response)
+
+        if (response.status === 200) {
+          navigate('/thank-you/');
+        } else {
+          console.error('Error submitting form:', response);
+        }
+
+        closeModal2();
+        console.log(response);
 
       } catch (error) {
         console.error('Error submitting form:', error);
       }
     }
-
-
-    // }
-    // navigate('/thank-you')
   };
+
   return (
     <>
       <section className="homeaboutus">
@@ -141,7 +155,7 @@ const AboutUs = (props) => {
               {isOpen2 && (
                 <div className="modal">
                   <div className="modalcard">
-                  <button className="close-button" onClick={closeModal2}>&times;</button>
+                    <button className="close-button" onClick={closeModal2}>&times;</button>
                     <div className="leftmodal">
                       <img src={'https://www.nesscoindia.com/Assets/images/resource/popup.webp'} alt="Popup" />
                     </div>
@@ -149,10 +163,10 @@ const AboutUs = (props) => {
                       <h3 className="modalheading">Request for details to receive a call back</h3>
                       <p className="modaldesc">Enter your details to receive a call back</p>
 
-                      <input value={formData.SingleLine} onChange={handleChange} name='SingleLine' type="text" required placeholder='Enter your Name' className='modalinp' />
+                      <input value={formData.Last_Name} onChange={handleChange} name='Last_Name' type="text" required placeholder='Enter your Name*' className='modalinp' />
                       <input value={formData.Email} onChange={handleChange} name='Email' placeholder='Email' className='modalinp' type="email" />
                       {errors.email && <p style={{ color: 'red' }}>{errors.email}</p>}
-                      <input value={formData.PhoneNumber_countrycode} onChange={handleChange} name='PhoneNumber_countrycode' placeholder='Phone Number*' required className='modalinp' type="text" />
+                      <input value={formData.Mobile} onChange={handleChange} name='Mobile' placeholder='Phone Number*' required className='modalinp' type="text" />
                       {errors.phoneNumber && <p style={{ color: 'red' }}>{errors.phoneNumber}</p>}
                       <button onClick={handleSubmit} className="headerbtn x" style={{ padding: "2rem 3rem" }}>
                         <p className='headerbtncon'>Get a Quote !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>

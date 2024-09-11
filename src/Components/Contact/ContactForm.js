@@ -5,7 +5,7 @@ import axios from 'axios';
 
 const ContactForm = ({ visitData }) => {
     const navigate = useNavigate();
-    const [errors, setErrors] = useState({ phoneNumber: '', email: '' });
+    const [errors, setErrors] = useState({ Mobile: '', Email: '' });
     const [formData, setFormData] = useState({
         Last_Name: '',
         Email: '',

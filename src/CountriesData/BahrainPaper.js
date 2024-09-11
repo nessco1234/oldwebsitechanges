@@ -10,7 +10,7 @@ import { Helmet } from 'react-helmet'
 import Form1 from '../Components/MarketArea/Form1'
 import Form2 from '../Components/MarketArea/Form2'
 
-const BahrainPaper = () => {
+const BahrainPaper = (visitData) => {
     return (
         <>
             <Helmet>
@@ -34,7 +34,7 @@ const BahrainPaper = () => {
                             Nessco India is known for manufacturing and globally exporting various paper product forming machineries. With a strong functional position in this market for over 40 years, now we are backed by 5 Domestic Distributing Centers and 4 International Ones. Over all these years, we have spread our arms to almost every country to expand our business globally.
                         </p>
                     </div>
-                    <Form1/>
+                    <Form1 visitData={visitData}/>
                 </div>
             </section>
             <section className="descriptionmachine">

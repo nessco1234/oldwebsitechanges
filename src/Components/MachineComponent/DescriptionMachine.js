@@ -1,11 +1,12 @@
-import React, { useState } from 'react'
-import { FaAngleDoubleRight } from 'react-icons/fa'
-import { FaArrowRightLong } from 'react-icons/fa6'
-import { SiAdobeacrobatreader } from 'react-icons/si'
-import { Link, useNavigate } from 'react-router-dom'
-import axios from 'axios'
-const DescriptionMachine = (props) => {
-    const data = props.data
+import React, { useState } from 'react';
+import { FaAngleDoubleRight } from 'react-icons/fa';
+import { FaArrowRightLong } from 'react-icons/fa6';
+import { SiAdobeacrobatreader } from 'react-icons/si';
+import { Link, useNavigate } from 'react-router-dom';
+import axios from 'axios';
+
+const DescriptionMachine = ({ visitData, ...props }) => {  // Correctly destructure props
+    const data = props.data;
     const [isOpen, setIsOpen] = useState(false);
     const openModal = () => setIsOpen(true);
     const closeModal = () => setIsOpen(false);
@@ -13,16 +14,10 @@ const DescriptionMachine = (props) => {
     const [isOpen2, setIsOpen2] = useState(false);
     const openModal2 = () => setIsOpen2(true);
     const closeModal2 = () => setIsOpen2(false);
-    function downloadinternational() {
-        props.setdown(false)
-        console.log(props.down)
-    }
-    function downloadlocal() {
-        props.setdown(true)
-        console.log(props.down)
-    }
-    const navigate = useNavigate()
-    const [errors, setErrors] = useState({ phoneNumber: '', email: '', username: '' });
+
+    const navigate = useNavigate();
+    const [errors, setErrors] = useState({ Mobile: '', Email: '' });
+
     const validatePhoneNumber = (number) => {
         const phoneRegex = /^\d{7,15}$/;
         return phoneRegex.test(number);
@@ -32,30 +27,33 @@ const DescriptionMachine = (props) => {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return emailRegex.test(email);
     };
+
     const [formData, setFormData] = useState({
-        SingleLine: '',
+        Last_Name: '',
         Email: '',
-        PhoneNumber_countrycode: '',
-        SingleLine1: '',
-        MultiLine: ''
+        Mobile: '',
+        Web_Subject: '',
+        Web_Message: ''
     });
+
     const handleChange = (e) => {
         setFormData({
             ...formData,
             [e.target.name]: e.target.value,
         });
     };
+
     const handleSubmit = async (e) => {
         e.preventDefault();
-        // if () {
         let valid = true;
-        if (!formData.PhoneNumber_countrycode) {
+
+        if (!formData.Mobile) {
             setErrors((prevErrors) => ({
                 ...prevErrors,
                 phoneNumber: 'Phone number is required',
             }));
             valid = false;
-        } else if (!validatePhoneNumber(formData.PhoneNumber_countrycode)) {
+        } else if (!validatePhoneNumber(formData.Mobile)) {
             setErrors((prevErrors) => ({
                 ...prevErrors,
                 phoneNumber: 'Phone number must be between 7 and 15 digits long',
@@ -80,31 +78,41 @@ const DescriptionMachine = (props) => {
         } else {
             setErrors((prevErrors) => ({ ...prevErrors, email: '' }));
         }
+
         if (valid) {
             try {
-                const response = await axios.post('https://nesscobackend-sx1t.vercel.app/form-submission', formData, {
-                    // const response = await axios.post('http://localhost:5000/form-submission', formData, {
+                const payload = {
+                    ...formData,
+                    visitData  // Include visitData in the payload
+                };
+
+                const response = await axios.post('http://localhost:5000/form-submission', payload, {
                     headers: {
-                        'Content-Type': 'application/json', // Ensure the backend handles JSON
+                        'Content-Type': 'application/json',
                     },
                 });
-                navigate('/thank-you/')
-                // props.setdown(true)
-                closeModal2()
-                console.log(response)
+
+                if (response.status === 200) {
+                    navigate('/thank-you/');
+                } else {
+                    console.error('Error submitting form:', response);
+                }
+                closeModal2();
+                console.log(response);
 
             } catch (error) {
                 console.error('Error submitting form:', error);
             }
         }
     };
+
     return (
         <section className="descriptionmachine">
             <div className="descriptionmachinecomp">
                 <div className="descriptionmachineleft">
                     <img src={props.imgurl} alt={`${data.PointsHeading[0]} ${data.PointsHeading[1]}`} />
                     {
-                        data.Imgdesc.map((obj,key) => (
+                        data.Imgdesc.map((obj, key) => (
                             <p key={key} className="descriptionmachineleftcontent">
                                 {obj}
                             </p>
@@ -113,7 +121,6 @@ const DescriptionMachine = (props) => {
                     {
                         data.PointsComponent &&
                         <>
-
                             <h2 className="descriptionmachineleftdata">{data.PointsHeading[0]} <span>{data.PointsHeading[1]}</span></h2>
                             <p className="descriptionmachineleftcontent">{data.PointsHeadingDesc}</p>
                             {
@@ -155,26 +162,25 @@ const DescriptionMachine = (props) => {
                 <div className="descriptionmachineright">
                     <div className="descriptionsuggestions">
                         {
-                            data.Suggestions.map((obj,key) => (
+                            data.Suggestions.map((obj, key) => (
                                 <Link key={key} to={obj.suggestionlink} className="descriptionsuggestion">
                                     <FaAngleDoubleRight />{obj.name}
                                 </Link>
-
                             ))
                         }
                     </div>
                     <div className="descriptionaboutaquote">
                         <h3 className="descriptionaboutaquoteheading">Get a Quote</h3>
-                        <input style={{ background: "white" }} value={formData.SingleLine} onChange={handleChange} name='SingleLine' placeholder='Full Name*' className='presenceinpfields' type="text" required />
+                        <input style={{ background: "white" }} value={formData.Last_Name} onChange={handleChange} name='Last_Name' placeholder='Full Name*' className='presenceinpfields' type="text" required />
                         <div className="validations" style={{ width: "100%" }}>
                             <input style={{ background: "white" }} value={formData.Email} onChange={handleChange} name='Email' placeholder='Email' className='presenceinpfields' type="text" />
                             {errors.email && <p style={{ color: 'red' }}>{errors.email}</p>}
                         </div>
                         <div className="validations" style={{ width: "100%" }}>
-                            <input style={{ background: "white" }} value={formData.PhoneNumber_countrycode} onChange={handleChange} name='PhoneNumber_countrycode' placeholder='Phone Number*' required className='presenceinpfields' type="text" />
+                            <input style={{ background: "white" }} value={formData.Mobile} onChange={handleChange} name='Mobile' placeholder='Phone Number*' required className='presenceinpfields' type="text" />
                             {errors.phoneNumber && <p style={{ color: 'red' }}>{errors.phoneNumber}</p>}
                         </div>
-                        <textarea style={{ background: "white" }} value={formData.MultiLine} onChange={handleChange} name='MultiLine' placeholder='Message' className='presenceinpfields' cols="30" rows="3"></textarea>
+                        <textarea style={{ background: "white" }} value={formData.Web_Message} onChange={handleChange} name='Web_Message' placeholder='Message' className='presenceinpfields' cols="30" rows="3"></textarea>
                         <button onClick={handleSubmit} type="submit" className="contactbtn" style={{ padding: "1.5rem 2rem" }}>
                             <p className='headerbtncon'>Send Message </p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
                     </div>
@@ -201,7 +207,7 @@ const DescriptionMachine = (props) => {
                                                 <input placeholder='Enter your Name' className='modalinp' type="text" />
                                                 <input placeholder='Enter your Email' className='modalinp' type="text" />
                                                 <input placeholder='Enter your Phone' className='modalinp' type="text" />
-                                                <Link onClick={downloadlocal} to={'/thank-you/'} className="headerbtn x" style={{ padding: "2rem 3rem" }}>
+                                                <Link onClick={props.downloadlocal} to={'/thank-you/'} className="headerbtn x" style={{ padding: "2rem 3rem" }}>
                                                     <p className='headerbtncon'>Get a Quote !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></Link>
                                             </div>
                                         </div>
@@ -229,7 +235,7 @@ const DescriptionMachine = (props) => {
                                                 <input placeholder='Enter your Name' className='modalinp' type="text" />
                                                 <input placeholder='Enter your Email' className='modalinp' type="text" />
                                                 <input placeholder='Enter your Phone' className='modalinp' type="text" />
-                                                <Link onClick={downloadinternational} to={'/thank-you/'} className="headerbtn x" style={{ padding: "2rem 3rem" }}>
+                                                <Link onClick={props.downloadinternational} to={'/thank-you/'} className="headerbtn x" style={{ padding: "2rem 3rem" }}>
                                                     <p className='headerbtncon'>Get a Quote !</p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></Link>
                                             </div>
                                         </div>
@@ -241,7 +247,7 @@ const DescriptionMachine = (props) => {
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
 
-export default DescriptionMachine
+export default DescriptionMachine;

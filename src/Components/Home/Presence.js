@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import { FaArrowRightLong } from 'react-icons/fa6'
 import {  useNavigate } from 'react-router-dom'
 import axios from 'axios'
-const Presence = () => {
-  const navigate = useNavigate()
-  const [errors, setErrors] = useState({ phoneNumber: '', email: '', username: '' });
+const Presence = ({visitData}) => {
+  const navigate = useNavigate();
+  const [errors, setErrors] = useState({ Mobile: '', Email: '' });
   const validatePhoneNumber = (number) => {
     const phoneRegex = /^\d{7,15}$/;
     return phoneRegex.test(number);
@@ -15,11 +15,11 @@ const Presence = () => {
     return emailRegex.test(email);
   };
   const [formData, setFormData] = useState({
-    SingleLine: '',
+    Last_Name: '',
     Email: '',
-    PhoneNumber_countrycode: '',
-    SingleLine1: '',
-    MultiLine: ''
+    Mobile: '',
+    Web_Subject: '',
+    Web_Message: ''
   });
   const handleChange = (e) => {
     setFormData({
@@ -31,13 +31,13 @@ const Presence = () => {
     e.preventDefault();
     // if () {
     let valid = true;
-    if (!formData.PhoneNumber_countrycode) {
+    if (!formData.Mobile) {
       setErrors((prevErrors) => ({
         ...prevErrors,
         phoneNumber: 'Phone number is required',
       }));
       valid = false;
-    } else if (!validatePhoneNumber(formData.PhoneNumber_countrycode)) {
+    } else if (!validatePhoneNumber(formData.Mobile)) {
       setErrors((prevErrors) => ({
         ...prevErrors,
         phoneNumber: 'Phone number must be between 7 and 15 digits long',
@@ -64,13 +64,20 @@ const Presence = () => {
     }
     if (valid) {
       try {
-        const response = await axios.post('https://nesscobackend-sx1t.vercel.app/form-submission', formData, {
+        const payload = {
+          ...formData,
+          ...visitData // Include visitData in the payload
+        };
+        const response = await axios.post('http://localhost:5000/form-submission', payload, {
           headers: {
             'Content-Type': 'application/json', // Ensure the backend handles JSON
           },
         });
-        navigate('/thank-you/')
-        console.log(response)
+        if (response.status === 200) {
+          navigate('/thank-you/');
+      } else {
+          console.error('Error submitting form:', response);
+      }
 
       } catch (error) {
         console.error('Error submitting form:', error);
@@ -95,16 +102,16 @@ const Presence = () => {
         <div className='rightpresence'>
           <div className="presenceCard">
             <h3 className="presencecardtitle">Request For A Quote</h3>
-            <input value={formData.SingleLine} onChange={handleChange} name='SingleLine' placeholder='Full Name*' className='presenceinpfields' type="text" required />
+            <input value={formData.Last_Name} onChange={handleChange} name='Last_Name' placeholder='Full Name*' className='presenceinpfields' type="text" required />
             <div className="validations" style={{width:"100%"}}>
               <input value={formData.Email} onChange={handleChange} name='Email' placeholder='Email' className='presenceinpfields' type="text" />
               {errors.email && <p style={{ color: 'red' }}>{errors.email}</p>}
             </div>
             <div className="validations" style={{width:"100%"}}>
-              <input value={formData.PhoneNumber_countrycode} onChange={handleChange} name='PhoneNumber_countrycode' placeholder='Phone Number*' required className='presenceinpfields' type="text" />
+              <input value={formData.Mobile} onChange={handleChange} name='Mobile' placeholder='Phone Number*' required className='presenceinpfields' type="text" />
               {errors.phoneNumber && <p style={{ color: 'red' }}>{errors.phoneNumber}</p>}
             </div>
-            <textarea value={formData.MultiLine} onChange={handleChange} name='MultiLine' placeholder='Message' className='presenceinpfields' cols="30" rows="3"></textarea>
+            <textarea value={formData.Web_Message} onChange={handleChange} name='Web_Message' placeholder='Message' className='presenceinpfields' cols="30" rows="3"></textarea>
             <button onClick={handleSubmit} type="submit" className="contactbtn" style={{ padding: "1.5rem 2rem" }}>
               <p className='headerbtncon'>Send Message </p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
           </div>

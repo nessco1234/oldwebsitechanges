@@ -153,7 +153,7 @@ const list5 = [
   },
 ];
 
-const Header = (props) => {
+const Header = ({visitData, ...props}) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [isOpenmain, setIsOpenmain] = useState(false);
@@ -182,7 +182,7 @@ const Header = (props) => {
     setIsOpen4(false);
     setIsOpen5(false);
     setIsOpen6(false);
-    console.log("CLosed");
+    console.log("Closed");
   }
   const mainlist = [
     "Paper Cup Machines",
@@ -193,9 +193,8 @@ const Header = (props) => {
   ];
   const navigate = useNavigate();
   const [errors, setErrors] = useState({
-    phoneNumber: "",
-    email: "",
-    username: "",
+    Mobile: "",
+    Email: ""
   });
   const validatePhoneNumber = (number) => {
     const phoneRegex = /^\d{7,15}$/;
@@ -207,12 +206,13 @@ const Header = (props) => {
     return emailRegex.test(email);
   };
   const [formData, setFormData] = useState({
-    SingleLine: "",
+    Last_Name: "",
     Email: "",
-    PhoneNumber_countrycode: "",
-    SingleLine1: "",
-    MultiLine: "",
+    Mobile: "",
+    Web_Subject: "",
+    Web_Message: "",
   });
+  console.log("visitDataCheck",visitData);
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -223,13 +223,13 @@ const Header = (props) => {
     e.preventDefault();
     // if () {
     let valid = true;
-    if (!formData.PhoneNumber_countrycode) {
+    if (!formData.Mobile) {
       setErrors((prevErrors) => ({
         ...prevErrors,
         phoneNumber: "Phone number is required",
       }));
       valid = false;
-    } else if (!validatePhoneNumber(formData.PhoneNumber_countrycode)) {
+    } else if (!validatePhoneNumber(formData.Mobile)) {
       setErrors((prevErrors) => ({
         ...prevErrors,
         phoneNumber: "Phone number must be between 7 and 15 digits long",
@@ -256,17 +256,21 @@ const Header = (props) => {
     }
     if (valid) {
       try {
-        // const response = await axios.post('http://16.171.239.170:5000/form-submission', formData, {
-        const response = await axios.post(
-          "https://nesscobackend-sx1t.vercel.app/form-submission",
-          formData,
-          {
+        const payload = {
+          ...formData,
+          visitData  // Merging visitData directly into payload
+        };
+        const response = await axios.post('http://localhost:5000/form-submission', payload, {
             headers: {
               "Content-Type": "application/json", // Ensure the backend handles JSON
             },
           }
         );
-        navigate("/thank-you/");
+        if (response.status === 200) {
+          navigate('/thank-you/');
+        } else {
+          console.error('Error submitting form:', response);
+        }
         console.log(response);
         props.setdown(true);
         closeModal();
@@ -419,12 +423,12 @@ const Header = (props) => {
                     Enter your details to receive a call back
                   </p>
                   <input
-                    value={formData.SingleLine}
+                    value={formData.Last_Name}
                     onChange={handleChange}
-                    name="SingleLine"
+                    name="Last_Name"
                     type="text"
                     required
-                    placeholder="Enter your Name"
+                    placeholder="Enter your Name*"
                     className="modalinp"
                   />
                   <input
@@ -439,9 +443,9 @@ const Header = (props) => {
                     <p style={{ color: "red" }}>{errors.email}</p>
                   )}
                   <input
-                    value={formData.PhoneNumber_countrycode}
+                    value={formData.Mobile}
                     onChange={handleChange}
-                    name="PhoneNumber_countrycode"
+                    name="Mobile"
                     placeholder="Phone Number*"
                     required
                     className="modalinp"
