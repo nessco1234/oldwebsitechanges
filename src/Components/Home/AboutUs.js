@@ -19,7 +19,6 @@ const AboutUs = ({ visitData, ...props }) => {  // Correct destructuring
   function downloadlocal() {
     props.setdown(true);
     closeModal();
-    console.log(props.down);
   }
 
   const navigate = useNavigate();
@@ -93,7 +92,7 @@ const AboutUs = ({ visitData, ...props }) => {  // Correct destructuring
           ...visitData  // Merging visitData directly into payload
         };
 
-        const response = await axios.post('http://localhost:5000/form-submission', payload, {
+        const response = await axios.post('https://server.nesscoindustries.com/form-submission', payload, {
           headers: {
             'Content-Type': 'application/json', // Ensure the backend handles JSON
           },
@@ -106,7 +105,6 @@ const AboutUs = ({ visitData, ...props }) => {  // Correct destructuring
         }
 
         closeModal2();
-        console.log(response);
 
       } catch (error) {
         console.error('Error submitting form:', error);

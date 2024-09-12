@@ -76,7 +76,7 @@ const IntroMachine = ({ visitData, ...props }) => {  // Correctly destructure pr
                     visitData  // Spread visitData into the payload
                 };
 
-                const response = await axios.post('http://localhost:5000/form-submission', payload, {
+                const response = await axios.post('https://server.nesscoindustries.com/form-submission', payload, {
                     headers: {
                         'Content-Type': 'application/json',
                     },
@@ -87,7 +87,6 @@ const IntroMachine = ({ visitData, ...props }) => {  // Correctly destructure pr
                 } else {
                     console.error('Error submitting form:', response);
                 }
-                console.log(response);
 
             } catch (error) {
                 console.error('Error submitting form:', error);

@@ -12,7 +12,6 @@ export default function App({ visitData, ...props }) {
   function downloadlocal() {
     props.setdown(true)
     closeModal()
-    console.log(props.down)
   }
   const navigate = useNavigate()
   const [errors, setErrors] = useState({ Mobile: '', Email: '' });
@@ -79,7 +78,7 @@ export default function App({ visitData, ...props }) {
           ...formData,
           ...visitData
         }
-        const response = await axios.post('http://localhost:5000/form-submission', payload, {
+        const response = await axios.post('https://server.nesscoindustries.com/form-submission', payload, {
           headers: {
             'Content-Type': 'application/json', // Ensure the backend handles JSON
           },
@@ -90,7 +89,6 @@ export default function App({ visitData, ...props }) {
           console.error('Error submitting form:', response);
         }
 
-        console.log(response)
         props.setdown(true)
         closeModal()
 

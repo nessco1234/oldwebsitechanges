@@ -67,9 +67,9 @@ const Form1 = ({visitData}) => {
       try {
         const payload = {
         ...formData,
-        visitData  // Spread visitData into the payload
+        ...visitData  // Spread visitData into the payload
         };
-        const response = await axios.post('http://localhost:5000/form-submission', payload, {
+        const response = await axios.post('https://server.nesscoindustries.com/form-submission', payload, {
           headers: {
             'Content-Type': 'application/json', // Ensure the backend handles JSON
           },
@@ -79,7 +79,6 @@ const Form1 = ({visitData}) => {
       } else {
           console.error('Error submitting form:', response);
       }
-        console.log(response)
 
       } catch (error) {
         console.error('Error submitting form:', error);

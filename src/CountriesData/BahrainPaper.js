@@ -59,7 +59,7 @@ const BahrainPaper = (visitData) => {
                                 ))
                             }
                         </div>
-                        <Form2/>
+                        <Form2 visitData={visitData}/>
                         <div className="downloadbrochures">
                             <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>

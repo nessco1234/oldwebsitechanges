@@ -71,7 +71,7 @@ const MachineComponent = ({ visitData, ...props }) => {  // Correct destructurin
         <MultiTable labels={data.MultipleLabels} data={data.MultiTabelData} />
       }
       <RelatedProducts data={data.RelatedProducts} />
-      <Presence />
+      <Presence visitData={{visitData}}/>
     </>
   );
 };

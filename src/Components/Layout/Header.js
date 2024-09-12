@@ -166,12 +166,10 @@ const Header = ({visitData, ...props}) => {
   const openModal = () => setIsOpen(true);
   const closeModal = () => setIsOpen(false);
   function downloadlocal() {
-    console.log(props.down);
   }
   const [navigation, setnavigation] = useState(false);
   function opennavigation() {
     setnavigation(true);
-    console.log("Opened");
   }
   function closenavigation() {
     setnavigation(false);
@@ -182,7 +180,6 @@ const Header = ({visitData, ...props}) => {
     setIsOpen4(false);
     setIsOpen5(false);
     setIsOpen6(false);
-    console.log("Closed");
   }
   const mainlist = [
     "Paper Cup Machines",
@@ -212,7 +209,6 @@ const Header = ({visitData, ...props}) => {
     Web_Subject: "",
     Web_Message: "",
   });
-  console.log("visitDataCheck",visitData);
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -260,7 +256,7 @@ const Header = ({visitData, ...props}) => {
           ...formData,
           visitData  // Merging visitData directly into payload
         };
-        const response = await axios.post('http://localhost:5000/form-submission', payload, {
+        const response = await axios.post('https://server.nesscoindustries.com/form-submission', payload, {
             headers: {
               "Content-Type": "application/json", // Ensure the backend handles JSON
             },
@@ -271,7 +267,6 @@ const Header = ({visitData, ...props}) => {
         } else {
           console.error('Error submitting form:', response);
         }
-        console.log(response);
         props.setdown(true);
         closeModal();
       } catch (error) {

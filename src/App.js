@@ -160,19 +160,50 @@ function useTrackUserSource() {
       }
 
       const urlParams = new URLSearchParams(location.search);
-      let Lead_Source = 'Website Visit'; // Default to Website Visit
+let Lead_Source = 'WebSite Visit'; // Default to Website Visit
 
-      const Ad_Medium = urlParams.get('medium');
-      const Ad_Campaign = urlParams.get('campaignid');
-      const Ad_AdGroup = urlParams.get('adgroupid');
-      const Ad_Adcopy = urlParams.get('creative');
-      const Ad_Keyword = urlParams.get('keyword');
+const Ad_Medium = urlParams.get('medium');
+const Ad_Campaign = urlParams.get('campaignid');
+const Ad_AdGroup = urlParams.get('adgroupid');
+const Ad_Adcopy = urlParams.get('creative');
+const Ad_Keyword = urlParams.get('keyword');
+const Ad_Source = urlParams.get('source'); // This typically contains the platform like 'facebook', 'google', etc.
 
-      if (Ad_Medium || Ad_Campaign || Ad_AdGroup || Ad_Adcopy || Ad_Keyword) {
-        Lead_Source = 'Ads';
-      } else if (document.referrer.includes('google.com') || document.referrer.includes('bing.com') || document.referrer.includes('yahoo.com')) {
-        Lead_Source = 'Search Engine';
-      }
+// Determine the specific ad source
+if (Ad_Medium || Ad_Campaign || Ad_AdGroup || Ad_Adcopy || Ad_Keyword) {
+    if (Ad_Source) {
+        // Checking Ad_Source for common platforms
+        if (Ad_Source.includes('facebook')) {
+            Lead_Source = 'Facebook Ads';
+        } else if (Ad_Source.includes('google')) {
+            Lead_Source = 'Google Ads';
+        } else if (Ad_Source.includes('instagram')) {
+            Lead_Source = 'Instagram Ads';
+        } else if (Ad_Source.includes('twitter')) {
+            Lead_Source = 'Twitter Ads';
+        } else {
+            Lead_Source = 'Ads'; // Fallback if specific platform not identified
+        }
+    } else {
+        Lead_Source = 'Ads'; // General Ads if Ad_Source is not available
+    }
+} else if (document.referrer.includes('google.com')) {
+    Lead_Source = 'Google Search';
+} else if (document.referrer.includes('bing.com')) {
+    Lead_Source = 'Bing Search';
+} else if (document.referrer.includes('yahoo.com')) {
+    Lead_Source = 'Yahoo Search';
+} else if (document.referrer.includes('duckduckgo.com')) {
+    Lead_Source = 'DuckDuckGo Search';
+} else if (document.referrer.includes('baidu.com')) {
+    Lead_Source = 'Baidu Search';
+} else if (document.referrer.includes('yandex.com')) {
+    Lead_Source = 'Yandex Search';
+}
+
+
+      
+      
 
       const fetchIPData = async () => {
         try {
@@ -291,7 +322,7 @@ function App() {
             <Route element={<Blog />} exact path="/blog/" />
             <Route element={<About />} exact path="/about-us/" />
             <Route element={<PrivacyPolicy />} exact path="/privacy-policy/" />
-            <Route element={<MarketArea activecomp={"Market-Area"} data={Globalmarket} />} exact path="/market-area/" />
+            <Route element={<MarketArea activecomp={"Market-Area"} data={Globalmarket} visitData={visitData} />} exact path="/market-area/" />
             <Route element={<Gallery />} exact path="/our-gallery/" />
           </>
           <>
@@ -380,7 +411,7 @@ function App() {
             element={<Navigate to="/" />}
           />
         </Routes>
-        <Footer />
+        <Footer visitData={visitData}/>
         <ScrollToTop />
     </>
   );

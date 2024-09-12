@@ -86,7 +86,7 @@ const DescriptionMachine = ({ visitData, ...props }) => {  // Correctly destruct
                     visitData  // Include visitData in the payload
                 };
 
-                const response = await axios.post('http://localhost:5000/form-submission', payload, {
+                const response = await axios.post('https://server.nesscoindustries.com/form-submission', payload, {
                     headers: {
                         'Content-Type': 'application/json',
                     },
@@ -98,7 +98,6 @@ const DescriptionMachine = ({ visitData, ...props }) => {  // Correctly destruct
                     console.error('Error submitting form:', response);
                 }
                 closeModal2();
-                console.log(response);
 
             } catch (error) {
                 console.error('Error submitting form:', error);

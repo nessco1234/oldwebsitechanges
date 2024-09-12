@@ -74,7 +74,7 @@ const ContactForm = ({ visitData }) => {
                     ...visitData // Include visitData in the payload
                 };
                 
-                const response = await axios.post('http://localhost:5000/form-submission', payload, {
+                const response = await axios.post('https://server.nesscoindustries.com/form-submission', payload, {
                     headers: {
                         'Content-Type': 'application/json',
                     },

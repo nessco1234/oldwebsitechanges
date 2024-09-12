@@ -3,10 +3,10 @@ import '../../Styles/Layout.css'
 import { Link } from 'react-router-dom'
 import { FaFacebookF, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
 import Subscribe from '../Home/Subscribe'
-const Footer = () => {
+const Footer = (visitData) => {
     return (
         <>
-            <Subscribe />
+            <Subscribe  visitData={visitData}/>
             <footer className="footer">
             <div className="bgimagefooter"></div>
                 <div className="footercontainer">

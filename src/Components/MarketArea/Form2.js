@@ -3,9 +3,9 @@ import React, { useState } from 'react'
 import { FaArrowRightLong } from 'react-icons/fa6'
 import { useNavigate } from 'react-router-dom';
 
-const Form2 = () => {
+const Form2 = ({visitData}) => {
     const navigate = useNavigate()
-    const [errors, setErrors] = useState({ phoneNumber: '', email: '', username: '' });
+    const [errors, setErrors] = useState({ Mobile: '', Email: '', username: '' });
     const validatePhoneNumber = (number) => {
         const phoneRegex = /^\d{7,15}$/;
         return phoneRegex.test(number);
@@ -16,11 +16,11 @@ const Form2 = () => {
         return emailRegex.test(email);
     };
     const [formData, setFormData] = useState({
-        SingleLine: '',
+        Last_Name: '',
         Email: '',
-        PhoneNumber_countrycode: '',
-        SingleLine1: '',
-        MultiLine: ''
+        Mobile: '',
+        Web_Subject: '',
+        Web_Message: ''
     });
     const handleChange = (e) => {
         setFormData({
@@ -32,13 +32,13 @@ const Form2 = () => {
         e.preventDefault();
         // if () {
         let valid = true;
-        if (!formData.PhoneNumber_countrycode) {
+        if (!formData.Mobile) {
             setErrors((prevErrors) => ({
                 ...prevErrors,
                 phoneNumber: 'Phone number is required',
             }));
             valid = false;
-        } else if (!validatePhoneNumber(formData.PhoneNumber_countrycode)) {
+        } else if (!validatePhoneNumber(formData.Mobile)) {
             setErrors((prevErrors) => ({
                 ...prevErrors,
                 phoneNumber: 'Phone number must be between 7 and 15 digits long',
@@ -65,13 +65,20 @@ const Form2 = () => {
         }
         if (valid) {
             try {
-                const response = await axios.post('https://nesscobackend-sx1t.vercel.app/form-submission', formData, {
+                const payload = {
+                    ...formData,
+                    ...visitData  // Spread visitData into the payload
+                    };
+                const response = await axios.post('https://server.nesscoindustries.com/form-submission', payload, {
                     headers: {
                         'Content-Type': 'application/json', // Ensure the backend handles JSON
                     },
                 });
-                navigate('/thank-you/')
-                console.log(response)
+                if (response.status === 200) {
+                    navigate('/thank-you/');
+                } else {
+                    console.error('Error submitting form:', response);
+                }
 
             } catch (error) {
                 console.error('Error submitting form:', error);
@@ -81,16 +88,16 @@ const Form2 = () => {
     return (
         <div className="descriptionaboutaquote">
             <h3 className="descriptionaboutaquoteheading">Get a Quote</h3>
-            <input value={formData.SingleLine} onChange={handleChange} name='SingleLine' placeholder='Full Name*' className='descriptionaboutaquoteinputs' type="text" required />
+            <input value={formData.Last_Name} onChange={handleChange} name='Last_Name' placeholder='Full Name*' className='descriptionaboutaquoteinputs' type="text" required />
             <div className="validations" style={{ width: "100%" }}>
                 <input value={formData.Email} onChange={handleChange} name='Email' placeholder='Email' className='descriptionaboutaquoteinputs' type="text" />
                 {errors.email && <p style={{ color: 'red' }}>{errors.email}</p>}
             </div>
             <div className="validations" style={{ width: "100%" }}>
-                <input value={formData.PhoneNumber_countrycode} onChange={handleChange} name='PhoneNumber_countrycode' placeholder='Phone Number*' required className='descriptionaboutaquoteinputs' type="text" />
+                <input value={formData.Mobile} onChange={handleChange} name='Mobile' placeholder='Phone Number*' required className='descriptionaboutaquoteinputs' type="text" />
                 {errors.phoneNumber && <p style={{ color: 'red' }}>{errors.phoneNumber}</p>}
             </div>
-            <textarea value={formData.MultiLine} onChange={handleChange} name='MultiLine' placeholder='Message' className='descriptionaboutaquoteinputs' cols="30" rows="3"></textarea>
+            <textarea value={formData.Web_Message} onChange={handleChange} name='Web_Message' placeholder='Message' className='descriptionaboutaquoteinputs' cols="30" rows="3"></textarea>
             <button onClick={handleSubmit} type="submit" className="contactbtn" style={{ padding: "1.5rem 2rem" }}>
                 <p className='headerbtncon'>Send Message </p> <FaArrowRightLong className='headerbtnarrow' style={{ fontSize: "1.5rem" }} /></button>
         </div>
