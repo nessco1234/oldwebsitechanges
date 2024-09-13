@@ -212,6 +212,10 @@
         {
             "name": "author",
             "content": "Nessco India"
+        },
+        {
+            "name": "og:image",
+            "content": "https://www.nesscoindia.com/Assets/images/service/Fully-Automatic-Paper-Bag-Machine.webp" 
         }
     ],
     "seolink": {

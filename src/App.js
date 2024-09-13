@@ -51,6 +51,10 @@ import MarketArea from "./Pages/MarketArea";
 
 // MARKET AREA JSON 
 
+import Algeria from './MarketData/Algeria.json'  //Added By vinay Sharma
+import Morocco from './MarketData/Morocco.json'  //Added By vinay Sharma
+import Kenya from './MarketData/Kenya.json'  //Added By vinay Sharma
+import Senegal from './MarketData/Senegal.json'  //Added By vinay Sharma
 import Globalmarket from './MarketData/Global.json'
 import UAE from './MarketData/UAE.json'
 import Bangladesh from './MarketData/Bangaldesh.json'
@@ -65,9 +69,21 @@ import MarketAreaDesc from "./Pages/MarkeAreaDesc";
 
 // COUNTRIES DATA 
 
-import UAEPaper from "./CountriesData/UAEPaper";
-import UAEPaperBag from "./CountriesData/UAEPaperBag";
-import UAEGulfood from "./CountriesData/UAEGulfood";
+import AlgeriaPaper from "./CountriesData/Algeria/AlgeriaPaper";    //Added By vinay Sharma
+import AlgeriaPaperBox from "./CountriesData/Algeria/AlgeriaPaperBox";    //Added By vinay Sharma
+import AlgeriaPaperBowls from "./CountriesData/Algeria/AlgeriaPaperBowls";    //Added By vinay Sharma
+import MoroccoPaper from "./CountriesData/Morocco/MoroccoPaper";//Added By vinay Sharma
+import MoroccoPaperBowl from "./CountriesData/Morocco/MoroccoPaperBowl";//Added By vinay Sharma
+import MoroccoCartonErecting from "./CountriesData/Morocco/MoroccoCartonErecting";//Added By vinay Sharma
+import KenyaPaper from "./CountriesData/Kenya/KenyaPaper";    //Added By vinay Sharma
+import KenyaPaperBowl from "./CountriesData/Kenya/KenyaPaperBowl";    //Added By vinay Sharma
+import KenyaCartonErecting from "./CountriesData/Kenya/KenyaCartonErecting";    //Added By vinay Sharma
+import SenegalPaper from "./CountriesData/Senegal/SenegalPaper";    //Added By vinay Sharma
+import SenegalPaperBowl from "./CountriesData/Senegal/SenegalPaperBowl";    //Added By vinay Sharma
+import SenegalCartonErecting from "./CountriesData/Senegal/SenegalCartonErecting";    //Added By vinay Sharma
+import UAEPaper from "./CountriesData/UAE/UAEPaper";
+import UAEPaperBag from "./CountriesData/UAE/UAEPaperBag";
+import UAEGulfood from "./CountriesData/UAE/UAEGulfood";
 import EgyptPaper from "./CountriesData/EgyptPaper";
 import IraqPaper from "./CountriesData/IraqPaper";
 import TurkeyKarton from "./CountriesData/TurkeyKarton";
@@ -334,6 +350,10 @@ function App() {
             <Route element={<StartBuisness />} exact path="/blog/paper-cup-business-idea/" />
           </>
           <>
+          <Route element={<MarketArea activecomp={"Algeria"} data={Algeria} />} exact path="/dz/" /> 
+          <Route element={<MarketArea activecomp={"Morocco"} data={Morocco} />} exact path="/ma/" />
+            <Route element={<MarketArea activecomp={"Kenya"} data={Kenya} />} exact path="/ke/" />
+            <Route element={<MarketArea activecomp={"Senegal"} data={Senegal} />} exact path="/sn/" /> 
             <Route element={<MarketArea activecomp={"UAE"} data={UAE} />} exact path="/uae/" />
             <Route element={<MarketArea activecomp={"Egypt"} data={Egypt} />} exact path="/egypt/" />
             <Route element={<MarketArea activecomp={"Iraq"} data={Iraq} />} exact path="/iraq/" />
@@ -345,36 +365,48 @@ function App() {
             <Route element={<MarketArea activecomp={"Germany"} data={Germany} />} exact path="/germany/" />
           </>
           <>
-            <Route element={<UAEPaper />} exact path="/uae/paper-cup-making-machine-in-uae/" />
-            <Route element={<UAEPaperBag />} exact path="/uae/paper-bag-making-machine-in-uae/" />
-            <Route element={<UAEGulfood />} exact path="/uae/gulfood-manufacturing/" />
-            <Route element={<EgyptPaper />} exact path="/egypt/paper-cup-making-machine-in-egypt/" />
-            <Route element={<IraqPaper />} exact path="/iraq/paper-cup-making-machine-in-iraq/" />
-            <Route element={<TurkeyKarton />} exact path="/turkey/karton-bardak-makinesi/" />
-            <Route element={<TurkeyPaper />} exact path="/turkey/paper-cup-making-machine-in-turkey/" />
-            <Route element={<FrancePaper />} exact path="/france/paper-cup-making-machine-in-france/" />
-            <Route element={<JordanPaper />} exact path="/jordan/paper-cup-making-machine-in-jordan/" />
-            <Route element={<BangladeshPaper />} exact path="/bangladesh/paper-cup-making-machine-in-bangladesh/" />
-            <Route element={<GermanyPaper />} exact path="/global/paper-cup-making-machine-in-germany/" />
-            <Route element={<GermanyKShow />} exact path="/germany/k-show-germany/" />
-            <Route element={<Interpack />} exact path="/germany/interpack/" />
-            <Route element={<NepalPaper />} exact path="/global/paper-cup-making-machine-in-nepal/" />
-            <Route element={<USAPaperBag />} exact path="/global/paper-shopping-bag-forming-machine-in-usa/" />
-            <Route element={<OmanPaper />} exact path="/global/paper-cup-making-machine-in-oman/" />
-            <Route element={<SouthafricaPaper />} exact path="/global/paper-cup-making-machine-in-south-africa/" />
-            <Route element={<SaudiarabPaper />} exact path="/global/paper-cup-making-machine-in-saudi-arab/" />
-            <Route element={<RussiaPaper />} exact path="/global/paper-cup-making-machine-in-russia/" />
-            <Route element={<BrazilPaper />} exact path="/global/paper-cup-making-machine-in-brazil/" />
-            <Route element={<CanadaPaper />} exact path="/global/paper-cup-making-machine-in-canada/" />
-            <Route element={<ChinaPaper />} exact path="/global/paper-cup-making-machine-in-china/" />
-            <Route element={<ItalyPaper />} exact path="/global/paper-cup-making-machine-italy/" />
+            <Route element={<AlgeriaPaper visitData={visitData} />} exact path="/dz/paper-cup-making-machine/" />
+            <Route element={<AlgeriaPaperBowls visitData={visitData}/>} exact path="/dz/paper-container-bowl-making-machine/" />
+            <Route element={<AlgeriaPaperBox visitData={visitData}/>} exact path="/dz/carton-erecting-machine/" />
+            <Route element={<MoroccoPaper visitData={visitData}/>} exact path="/ma/paper-cup-making-machine/" />
+            <Route element={<MoroccoPaperBowl visitData={visitData}/>} exact path="/ma/paper-container-bowl-making-machine/" />
+            <Route element={<MoroccoCartonErecting visitData={visitData}/>} exact path="/ma/carton-erecting-machine/" />
+            <Route element={<SenegalPaper  visitData={visitData} />} exact path="/sn/paper-cup-making-machine/" />
+            <Route element={<SenegalPaperBowl visitData={visitData}/>} exact path="/sn/paper-container-bowl-making-machine/" />
+            <Route element={<SenegalCartonErecting visitData={visitData}/>} exact path="/sn/carton-erecting-machine/" />
+            <Route element={<KenyaPaper visitData={visitData}/>} exact path="/ke/paper-cup-making-machine/" />
+            <Route element={<KenyaPaperBowl visitData={visitData}/>} exact path="/ke/paper-container-bowl-making-machine/" />
+            <Route element={<KenyaCartonErecting visitData={visitData}/>} exact path="/ke/carton-erecting-machine/" />
+            <Route element={<UAEPaper visitData={visitData}/>} exact path="/uae/paper-cup-making-machine-in-uae/" />
+            <Route element={<UAEPaperBag visitData={visitData}/>} exact path="/uae/paper-bag-making-machine-in-uae/" />
+            <Route element={<UAEGulfood visitData={visitData}/>} exact path="/uae/gulfood-manufacturing/" />
+            <Route element={<EgyptPaper visitData={visitData}/>} exact path="/egypt/paper-cup-making-machine-in-egypt/" />
+            <Route element={<IraqPaper visitData={visitData}/>} exact path="/iraq/paper-cup-making-machine-in-iraq/" />
+            <Route element={<TurkeyKarton visitData={visitData}/>} exact path="/turkey/karton-bardak-makinesi/" />
+            <Route element={<TurkeyPaper visitData={visitData}/>} exact path="/turkey/paper-cup-making-machine-in-turkey/" />
+            <Route element={<FrancePaper visitData={visitData}/>} exact path="/france/paper-cup-making-machine-in-france/" />
+            <Route element={<JordanPaper visitData={visitData}/>} exact path="/jordan/paper-cup-making-machine-in-jordan/" />
+            <Route element={<BangladeshPaper visitData={visitData}/>} exact path="/bangladesh/paper-cup-making-machine-in-bangladesh/" />
+            <Route element={<GermanyPaper visitData={visitData}/>} exact path="/global/paper-cup-making-machine-in-germany/" />
+            <Route element={<GermanyKShow visitData={visitData}/>} exact path="/germany/k-show-germany/" />
+            <Route element={<Interpack visitData={visitData}/>} exact path="/germany/interpack/" />
+            <Route element={<NepalPaper visitData={visitData}/>} exact path="/global/paper-cup-making-machine-in-nepal/" />
+            <Route element={<USAPaperBag visitData={visitData}/>} exact path="/global/paper-shopping-bag-forming-machine-in-usa/" />
+            <Route element={<OmanPaper visitData={visitData}/>} exact path="/global/paper-cup-making-machine-in-oman/" />
+            <Route element={<SouthafricaPaper visitData={visitData}/>} exact path="/global/paper-cup-making-machine-in-south-africa/" />
+            <Route element={<SaudiarabPaper visitData={visitData}/>} exact path="/global/paper-cup-making-machine-in-saudi-arab/" />
+            <Route element={<RussiaPaper visitData={visitData}/>} exact path="/global/paper-cup-making-machine-in-russia/" />
+            <Route element={<BrazilPaper visitData={visitData}/>} exact path="/global/paper-cup-making-machine-in-brazil/" />
+            <Route element={<CanadaPaper visitData={visitData}/>} exact path="/global/paper-cup-making-machine-in-canada/" />
+            <Route element={<ChinaPaper visitData={visitData}/>} exact path="/global/paper-cup-making-machine-in-china/" />
+            <Route element={<ItalyPaper visitData={visitData}/>} exact path="/global/paper-cup-making-machine-italy/" />
             <Route element={<BahrainPaper visitData={visitData} />} exact path="/global/paper-cup-making-machine-in-bahrain/" />
-            <Route element={<CyprusPaper />} exact path="/global/paper-cup-making-machine-in-cyprus/" />
-            <Route element={<IranPaper />} exact path="/global/paper-cup-making-machine-in-iran/" />
-            <Route element={<IsraelPaper />} exact path="/global/paper-cup-making-machine-in-israel/" />
-            <Route element={<KuwaitPaper />} exact path="/global/paper-cup-making-machine-in-kuwait/" />
-            <Route element={<KoreaPaper />} exact path="/global/paper-cup-machine-in-korea/" />
-            <Route element={<USAPaper />} exact path="/global/paper-cup-machine-in-usa/" />
+            <Route element={<CyprusPaper visitData={visitData}/>} exact path="/global/paper-cup-making-machine-in-cyprus/" />
+            <Route element={<IranPaper visitData={visitData}/>} exact path="/global/paper-cup-making-machine-in-iran/" />
+            <Route element={<IsraelPaper visitData={visitData}/>} exact path="/global/paper-cup-making-machine-in-israel/" />
+            <Route element={<KuwaitPaper visitData={visitData}/>} exact path="/global/paper-cup-making-machine-in-kuwait/" />
+            <Route element={<KoreaPaper visitData={visitData}/>} exact path="/global/paper-cup-machine-in-korea/" />
+            <Route element={<USAPaper visitData={visitData}/>} exact path="/global/paper-cup-machine-in-usa/" />
           </>
           <>
             <Route element={<MachineComponent down={download} setdown={setdownload} img1url={img1} img2url={img2} img3url={img3} img4url={img24} imgurl={img24} data={HighSpeedPaperCup} visitData={visitData} />} exact path="/product/high-speed-paper-cup-making-machine/" />

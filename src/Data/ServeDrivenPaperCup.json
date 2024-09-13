@@ -180,6 +180,10 @@
         {
             "name": "author",
             "content": "Nessco India"
+        },
+        {
+            "name": "og:image",
+            "content": "https://www.nesscoindia.com/Assets/images/resource/ServoDrivenMachine.webp" 
         }
     ],
     "seolink": {

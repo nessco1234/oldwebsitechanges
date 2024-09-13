@@ -1,0 +1,32 @@
+{
+    "section1": false,
+    "section1heading": "Market Area",
+    "section1content": [
+        {
+            "Name":"Supplier",
+            "Link":"/"
+        }
+    ],
+    "section2": true,
+    "section2heading": "Senegal Market",
+    "section2content": [
+        {
+            "Name": "Paper Cup Making Machine In Senegal",
+            "Link": "/sn/paper-cup-making-machine/"
+        },
+        {
+            "Name": "Paper Bowl Making Machine In Senegal",
+            "Link": "/sn/paper-container-bowl-making-machine/"
+        },
+        {
+            "Name": "Carton Erecting Machine In Senegal",
+            "Link": "/sn/carton-erecting-machine/"
+        }
+    ],
+    "internalLinks":[
+        {
+            "Name": "",
+            "Link":""
+        }
+    ]
+}

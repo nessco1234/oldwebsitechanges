@@ -158,6 +158,10 @@
         {
             "name": "author",
             "content": "Nessco India"
+        },
+        {
+             "name": "og:image",
+             "content": "https://nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-machine.webp" 
         }
     ],
     "seolink": {

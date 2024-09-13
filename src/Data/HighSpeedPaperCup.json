@@ -1,7 +1,7 @@
 {
     "Route": "high-speed-paper-cup-making-machine",
     "Heading": "Paper Cup Machine",
-    "Description": " Leading manufacturer and supplier of paper cup machines. We offer a wide range of paper cup machines from 90 cups per min to 160 cups per min. We have paper cup machine (90 speed), Automatic paper cup making machine (110 speed), High speed paper cup machine (130 speed), Fully automatic paper cup machine (160 speed).",
+    "Description": " Nessco is a leading paper cup machine manufacturer, focused on offering sustainable options for your production needs.  We offer a wide range of paper cup making machines, designed to cater to various production speeds, from 90 cups/min to 160 cups/min. Our ranges include paper cup machine (90 speed), Automatic paper cup making machine (110 speed), High speed paper cup machine (130 speed), and Fully automatic paper cup machine (160 speed).",
     "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
     "Imgdesc": [
         "This High Speed Paper Cup Making Machine adopts automatic lubrication, longitudinal axis transmission and gear drive that ensures the stability and quality of machine. This model has an additional PLC Controlled Screen (Human Machine Interface) for better User Interface and Double Curling System that works with high precision and makes cup curling a smooth procedure.",
@@ -333,7 +333,11 @@
         {
             "name": "author",
             "content": "Nessco India"
-        }
+        },
+        {
+            "name": "og:image",
+            "content": "https://www.nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-making-machine.webp" 
+       }
     ],
     "seolink": {
         "name": "canonical",

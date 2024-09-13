@@ -1,7 +1,7 @@
 {
     "Route": "paper-container-bowl-making-machine",
     "Heading": "Paper Bowl Making Machine",
-    "Description": "This paper container machine or paper bowl making machine from Nessco is designed with high level of accuracy and international standards. This machine makes paper containers and bowls for food packaging and serving. The machines runs a whole procedure of paper feeding, bowl-fan wall sealing, oil lubrication, bottom punching, heating, rolling, rimming, rounding, and discharge as well.",
+    "Description": "Nessco paper container machine or paper bowl making machine is designed with high level of accuracy and international standards. This machine makes paper containers and bowls for food packaging and serving. The machines runs a whole procedure of paper feeding, bowl-fan wall sealing, oil lubrication, bottom punching, heating, rolling, rimming, rounding, and discharge as well.",
     "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
     "Imgdesc": [
         "There are various photoelectric sensors equipped in this machine to detect any breakage in the system. This machine is ideal equipment for packaging and serving soups, noodles, and many more savories.",
@@ -53,7 +53,7 @@
         "Products",
         "Introduction"
     ],
-    "ImageDescription": "This Paper food container or Paper Bowl making machine can make containers up to 1500 ml. This machine can use both single and double-coated PE paper and has a production capacity of 75 pcs per minute. This model is most suitable for making soup bowls, noodles bowls, etc. It adopts an open cam system and a helical gear transmission system to function smoothly.",
+    "ImageDescription": "Nessco Paper food container or Paper Bowl making machine can make containers up to 1500 ml. This machine can use both single and double-coated PE paper and has a production capacity of 75 pcs per minute. This model is most suitable for making soup bowls, noodles bowls, etc. It adopts an open cam system and a helical gear transmission system to function smoothly.",
     "Imagelinkimg": "https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
     "MachineSpecsLabels": [
         "FEATURE",
@@ -168,6 +168,10 @@
         {
             "name": "author",
             "content": "Nessco India"
+        },
+        {
+            "name": "og:image",
+            "content": "https://www.nesscoindia.com/Assets/images/resource/paper-container-bowl-machine.webp" 
         }
         
     ],

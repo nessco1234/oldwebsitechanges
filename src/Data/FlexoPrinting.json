@@ -53,7 +53,7 @@
         "Products",
         "Introduction"
     ],
-    "ImageDescription": "This self-sufficient machine is capable of controlling the entire printing process. It can print up to 120 meters per minute of width up to 930 mm. The heavy frame of the machine ensures that there are minimal noise and vibration during operation. It increases the accuracy of printing and also increases the overall production capacity. It supports multi-colour printing and is equipped with ultraviolet infrared drying devices which are fixed at each print unit.",
+    "ImageDescription": "Nessco Flexo Printing Machine is capable of controlling the entire printing process. It can print up to 120 meters per minute of width up to 930 mm. The heavy frame of the machine ensures that there are minimal noise and vibration during operation. It increases the accuracy of printing and also increases the overall production capacity. It supports multi-colour printing and is equipped with ultraviolet infrared drying devices which are fixed at each print unit.",
     "Imagelinkimg": "https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
     "MachineSpecsLabels": [
         "FEATURE",
@@ -168,10 +168,16 @@
         {
             "name": "author",
             "content": "Nessco India"
+        },
+        {
+            "name": "og:image",
+            "content": "https://www.nesscoindia.com/Assets/images/resource/flexo-printing-machine-nessco.webp"
         }
     ],
     "seolink": {
         "name": "canonical",
         "url": "https://www.nesscoindia.com/product/flexo-printing-machine/"
     }
+    
+
 }

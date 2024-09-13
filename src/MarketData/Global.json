@@ -15,6 +15,22 @@
             "Link": "/uae/"
         },
         {
+            "Name": "Senegal",
+            "Link": "/sn/"
+        },
+        {
+            "Name": "Kenya",
+            "Link": "/ke/"
+        },
+        {
+            "Name": "Algeria",
+            "Link": "/dz/"
+        },
+        {
+            "Name": "Morocco",
+            "Link": "/ma/"
+        },
+        {
             "Name": "Egypt",
             "Link": "/egypt/"
         },
@@ -46,6 +62,7 @@
             "Name": "Germany",
             "Link": "/germany/"
         }
+
     ],
     "internalLinks":[
         {

@@ -10,7 +10,7 @@ import { Helmet } from 'react-helmet'
 import Form1 from '../Components/MarketArea/Form1'
 import Form2 from '../Components/MarketArea/Form2'
 
-const ChinaPaper = () => {
+const ChinaPaper = (visitData) => {
     return (
         <>
             <Helmet>
@@ -23,6 +23,7 @@ const ChinaPaper = () => {
                 <meta name="robots" content="index,follow" />
                 <meta name="publisher" content="Nessco India" />
                 <meta name="author" content="Nessco India" />
+                <meta property="og:image" content="https://nesscoindia.com/Assets/images/resource/fully-automatic-paper-cup-machine.webp" />
                 <link rel="canonical" href="https://www.nesscoindia.com/global/paper-cup-making-machine-in-china/" />
 
             </Helmet>
@@ -34,7 +35,7 @@ const ChinaPaper = () => {
                             Nessco India is known for manufacturing and globally exporting various paper product forming machineries. With a strong functional position in this market for over 40 years, now we are backed by 5 Domestic Distributing Centers and 4 International Ones. Over all these years, we have spread our arms to almost every country to expand our business globally.
                         </p>
                     </div>
-                    <Form1/>
+                    <Form1 visitData={visitData}/>
                 </div>
             </section>
             <section className="descriptionmachine">
@@ -55,7 +56,7 @@ const ChinaPaper = () => {
                                 ))
                             }
                         </div>
-                        <Form2/>
+                        <Form2 visitData={visitData}/>
                         <div className="downloadbrochures">
                             <h3 className="downloadbrochuresheading">Download Brochures</h3>
                             <p className="downloadbrochuressubheading">Download Our Catalogue to know more about machines</p>

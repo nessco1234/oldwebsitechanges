@@ -1,7 +1,7 @@
 {
     "Route": "lunch-box-forming-machine",
     "Heading": "Paper Lunch Box Forming Machine",
-    "Description": " In today’s fast-paced world, the demand for conveniently packed food is ever-increasing, making sustainable solutions a top priority for the quick-service restaurant (QSR) industry. Our Paper Lunch Box Forming Machine is designed to meet these needs by producing high-quality disposable paper lunch boxes. These boxes not only offer high structural stability but are also environmentally friendly, aligning with the growing demand for sustainable packaging solutions.",
+    "Description": " Nessco provides a fully automatic paper lunch box forming machine that produces 30-50 high-quality paper lunch boxes per minute. This machine gives sustainable solutions for quick service restaurants (QSR) or the food and packaging industry. Our Paper Lunch Box Forming Machine is designed to meet these needs by producing high-quality disposable paper lunch boxes. These boxes not only offer high structural stability but are also environmentally friendly, aligning with the growing demand for sustainable packaging solutions.",
     "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
     "Imgdesc": [
         "Our Paper Lunch Box Forming Machine is a fully automated solution designed for high-speed and convenient operation in paper forming. Equipped with a self-contained hot air generator, this machine is specifically configured to handle single PE coated paper, ideal for producing single-color disposable paper lunch boxes. It integrates automatic feeding, heating, hot press forming, and automatic point collection, all controlled by an advanced microcomputer for precise operation. The Paper Lunch Box Forming Machine boasts a PLC control panel with a user-friendly touch screen, enhancing ease of use and operational precision. The mechanical paper-feeding technology offers more stability than traditional methods, significantly reducing the rejection rate. Additionally, the machine features an automatic counting and collection system, designed to reduce labor costs significantly compared to traditional machines. Its sturdy construction ensures low noise levels and high efficiency, embodying the perfect blend of speed, energy saving, and stability."
@@ -39,10 +39,10 @@
     "MultipleImageComp": false,
     "MultipleTable": false,
     "PointsHeading": [
-        "Choose the Best Lunch",
-        "Box forming machine"
+        "Choose the Best Paper Lunch",
+        "Box Making Machine"
     ],
-    "PointsHeadingDesc": "Technical aspects of the machine include a production speed of 30-50 boxes per minute, depending on the product size, with a maximum material size capacity of 480 x 480 mm and suitability for 200-400 gsm PE coated paper. High-quality components from Schneider Electric are used throughout, including the PLC controller, touch screen, photoelectric switch, main motor, AC contactor, breaker, switch, frequency converter, and servo motor, ensuring the machine's longevity and reliability. This makes the Lunch Box Forming Machine an essential asset for businesses aiming to optimize their food packaging operations.",
+    "PointsHeadingDesc": "Technical aspects of the Paper Lunch Box Making Machine include a production speed of 30-50 boxes per minute, depending on the product size, with a maximum material size capacity of 480 x 480 mm and suitability for 200-400 gsm PE coated paper. High-quality components from Schneider Electric are used throughout, including the PLC controller, touch screen, photoelectric switch, main motor, AC contactor, breaker, switch, frequency converter, and servo motor, ensuring the machine's longevity and reliability. This makes the Lunch Box Forming Machine an essential asset for businesses aiming to optimize their food packaging operations.",
     "PointsDescription": [
         "Comprehensive Control System with PLC + HMI",
         "Servo controlled motion",
@@ -119,7 +119,7 @@
     "seometa": [
         {
             "name": "description",
-            "content": "Looking for paper lunch box forming machine? Nessco's machine is designed to automate the manufacturing process of paper lunch boxes.  Get quote now!"
+            "content": " Nessco offers a fully automatic paper lunch box forming machine that produces 30-50 paper lunch boxes per minute. Get a Quote Now!"
         },
         {
             "name": "keywords",
@@ -160,7 +160,11 @@
         {
             "name": "author",
             "content": "Nessco India"
-        }
+        },
+        {
+            "name": "og:image",
+            "content": "https://www.nesscoindia.com/Assets/images/resource/LunchBoxMachine.webp" 
+       }
     ],
     "seolink": {
         "name": "canonical",

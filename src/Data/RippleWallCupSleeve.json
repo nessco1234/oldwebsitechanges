@@ -1,6 +1,6 @@
 {
     "Route": "ripple-wall-cup-sleeve-glueing-machine/",
-    "Heading": "Ripple Wall Cup Sleeve Glueing Machine",
+    "Heading": "Folder Gluer Machine for Ripple Wall Cup Sleeve Glueing",
     "Description": "Our Folder Gluer Machine is a critical component in the production of insulated paper sleeves, specifically designed to work with craft, embossed or corrugated pre die cut sleeves that serve as raw materials for ripple wall machines. These machines are essential in the creation of sleeves that effectively insulate cups for hot beverages. The process starts at the blank feeder station where the pre die cut sleeves are fed into the system. An auto controlled conveyor system then transports these sleeves to the gluing station, where a precise application of glue is administered using a glue applicator wheel.",
     "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
     "Imgdesc": [
@@ -137,7 +137,7 @@
             "productlink": "/product/roll-die-cutting-machine/"
         }
     ],
-    "seotitle": "Ripple Wall Cup Sleeve Glueing Machine | Folder Gluer Machine",
+    "seotitle": "Folder Gluer Machine for Ripple Wall Cup Sleeve Glueing",
     "seometa": [
         {
             "name": "description",
@@ -182,6 +182,10 @@
         {
             "name": "author",
             "content": "Nessco India"
+        },
+        {
+            "name": "og:image",
+            "content": "https://www.nesscoindia.com/Assets/images/resource/FolderGluing.webp" 
         }
     ],
     "seolink": {

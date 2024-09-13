@@ -1,10 +1,10 @@
 {
     "Route": "disposable-paper-cup-making-machine",
-    "Heading": "Disposable Cup Making Machine",
-    "Description": "NS-200 Disposable Cup making Machine is manufactured using latest technology and high tech equipment which are reliable as well as durable. This is the best Disposable cup making machine which has two-layer system for movement of Paper fans which is formed by a kind of arm arrangement for cup cone tracker. Robotic Arm plays a vital role in transferring cup cone to Moulds for further process of Bottom heating, knurling and Top curling. Moreover, this machine has certain additional features like photoelectric sensors for paper feeding and cup counting.",
+    "Heading": "Disposable Paper Cup Making Machine",
+    "Description": "NS-200 Disposable Paper Cup making Machine is manufactured using the latest technology and high tech equipment which are reliable as well as durable. This is the best disposable paper cup making machine which has a two-layer system for movement of Paper fans which is formed by a kind of arm arrangement for a cup cone tracker. Robotic Arm plays a vital role in transferring cup cones to Moulds for further process of Bottom heating, knurling and Top curling. Moreover, this machine has certain additional features like photoelectric sensors for paper feeding and cup counting.",
     "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
     "Imgdesc": [
-        "All operations in our disposable cup machine is carried through Single Motor Power Supply which eventually results in less Power consumption. The whole process of cup formation is performed using Open Cam technology which ensures proper lubrication passed on by its oil bath arrangement which helps in reducing friction among various mechanical parts of the machine."
+        "All operations in our disposable paper cup making machine are carried through Single Motor Power Supply which eventually results in less Power consumption. The whole process of paper cup formation is performed using Open Cam technology which ensures proper lubrication passed on by its oil bath arrangement which helps in reducing friction among various mechanical parts of the machine."
     ],
     "Suggestions": [
         {
@@ -38,10 +38,10 @@
     "MultipleImageComp": false,
     "MultipleTable": false,
     "PointsHeading": [
-        "Disposable Cup",
-        "Making Machine"
+        "Working Process of Disposable",
+        "Paper Cup Making Machine"
     ],
-    "PointsHeadingDesc": "This machine has two-layer system for movement of Paper fans which is formed by a kind of arm arrangement for cup cone tracker. Robotic Arm plays a vital role in transferring cup cone to Molds for further process of Bottom heating, knurling and Top curling. This model is highly automated with photoelectric sensors for detecting any kind of breakage in the system. This model is designed in compact structure with an additional PLC controlled Screen (Human Machine Interface) for better User Interface and Safety doors for safety purpose.",
+    "PointsHeadingDesc": "Nessco disposable paper cup making machine has a two-layer system for movement of Paper fans which is formed by a kind of arm arrangement for a cup cone tracker. Robotic Arm plays a vital role in transferring cup cones to Molds for further process of Bottom heating, knurling and Top curling. This model is highly automated with photoelectric sensors for detecting any kind of breakage in the system. This model is designed in a compact structure with an additional PLC controlled Screen (Human Machine Interface) for better User Interface and Safety doors for safety purposes.",
     "PointsDescription": [
         "Gear Driven System",
         "Centralized Rotating System",
@@ -112,11 +112,11 @@
             "productlink": "/product/roll-die-cutting-machine/"
         }
     ],
-    "seotitle": "The Best Disposable Cup Making Machine - Nessco India",
+    "seotitle": "Best Disposable Paper Cup Making Machine - Nessco",
     "seometa": [
         {
             "name": "description",
-            "content": "Nessco India NS-200 disposable cup machine with efficiency 110 Pcs/Min. The best cup making machine in market 2023."
+            "content": "Nessco offering the best disposable paper cup making machine. Our NS-200 produces 110 paper cups, coffee cups, tea cups per minute. Get a Quote Now!"
         },
         {
             "name": "keywords",
@@ -157,6 +157,10 @@
         {
             "name": "author",
             "content": "Nessco India"
+        },
+        {
+            "name": "og:image",
+            "content": "https://www.nesscoindia.com/Assets/images/resource/disposable-paper-cup-making-machine.webp" 
         }
     ],
     "seolink": {

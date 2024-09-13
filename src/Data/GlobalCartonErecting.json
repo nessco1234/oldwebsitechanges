@@ -1,0 +1,138 @@
+{
+    "Route": "carton-erecting-machine",
+    "Heading": "Carton Erecting Machine",
+    "Description": " The Carton Erecting Machine (Paper Box Making Machine) excels in precision and stability, featuring a servo control system that allows for smooth, vibration-free operations. It comprises several units including paper feeding, adjustment, and forming units, all designed to work in harmony to produce up to 80 pieces per minute, depending on the box type. The Carton Erector machine supports a wide range of paper weights from 180 to 620 gsm, accommodating cardboard, laminated, and corrugated papers. Additionally, the innovative cam pushing system, enhanced by servo technology, ensures reduced wear, longer service life, and precise adjustments, while the auto lubrication system minimizes maintenance needs.",
+    "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
+    "Imgdesc": [
+        ""
+    ],
+    "Suggestions": [
+        {
+            "id": "1",
+            "name": "Paper Bowl Machine",
+            "suggestionlink": "/product/paper-container-bowl-making-machine/"
+        },
+        {
+            "id": "2",
+            "name": "Paper Bag Machine",
+            "suggestionlink": "/product/paper-bag-making-machine/"
+        },
+        {
+            "id": "3",
+            "name": "Paper Cutlery Machine",
+            "suggestionlink": "/product/paper-cutlery-machine/"
+        },
+        {
+            "id": "4",
+            "name": "Die Cutting Machine",
+            "suggestionlink": "/product/roll-die-cutting-machine/"
+        },
+        {
+            "id": "5",
+            "name": "Flexo Printing Machine",
+            "suggestionlink": "/product/flexo-printing-machine/"
+        }
+    ],
+    "ImageComponent": true,
+    "PointsComponent": true,
+    "NotPoints": false,
+    "MultipleImageComp": false,
+    "MultipleTable": false,
+    "PointsHeading": [
+        "",
+        ""
+    ],
+    "PointsHeadingDesc": "For gluing, the machine utilizes a water-based glue system suitable for food-grade applications, ensuring safe and reliable adhesion with high efficiency. The addition of a pneumatic air cylinder knife optimizes the handling of thicker papers necessary for robust burger boxes, ensuring flawless cutting and forming. This machine not only automates the collection and counting of finished products but also features high-grade electrical components from brands like Schneider Electric to guarantee longevity. Whether forming hamburger boxes, noodle packs, or any other packaging for quick-service foods, this machine stands as a comprehensive solution for modern packaging needs, combining speed, precision, and adaptability.",
+    "PointsDescription": [
+        "Comprehensive Control System with PLC + HMI",
+        "Servo controlled motion",
+        "High-Quality Components",
+        "High-Speed Automation"
+    ],
+    "ImageHeading": [
+        "Products",
+        "Introduction"
+    ],
+    "ImageDescription": "Discover the versatility of our Carton Erecting Machine (Paper Box Making Machine), an automatic solution specialized in crafting a wide array of paper boxes essential for the food service industry. This machine is ideal for producing various types of cartons including hamburger boxes, children's lunch boxes, French fries boxes, fried chicken boxes, triangular pizza boxes, and more, tailored for the quick-service sector. Equipped with a PLC intelligent control system, the machine ensures precise operations and efficiency, bolstered by a sturdy structure that delivers low noise levels and high operational speed.",
+    "Imagelinkimg": "https://www.nesscoindia.com/assets/images/service/PaperHandleCup.webp",
+    "MachineSpecsLabels": [
+        "FEATURE",
+        "SPECIFICATION"
+    ],
+    "MachineSpecs": [
+        {
+            "feature": "Speed",
+            "specs": "80 Pcs / min (according to box type)"
+        },
+        {
+            "feature": "Paper GSM",
+            "specs": "180 - 620 GSM"
+        },
+        {
+            "feature": "Paper Specifications",
+            "specs": "Cardboard / Laminated / Corrugated Paper"
+        },
+        {
+            "feature": "Paper Thickness",
+            "specs": "≤1.6mm"
+        },
+        {
+            "feature": "Glue Material",
+            "specs": "Water Based Glue (Food Grade)"
+        },
+        {
+            "feature": "Paper Size Max",
+            "specs": "650mm(W)*500mm(L)"
+        },
+        {
+            "feature": "Max Box Size",
+            "specs": "450mm*400mm"
+        },
+        {
+            "feature": "Min Box Size",
+            "specs": "50mm*30mm"
+        },
+        {
+            "feature": "Air Requirement",
+            "specs": "2kg/cm2"
+        },
+        {
+            "feature": "Voltage",
+            "specs": "380V 50Hz / 220V 50Hz"
+        },
+        {
+            "feature": "Total Power",
+            "specs": "4 kW"
+        },
+        {
+            "feature": "Weight",
+            "specs": "2500 Kg"
+        },
+        {
+            "feature": "Dimensions",
+            "specs": "3700 * 1350 * 1450 mm"
+        }
+    ],
+    "RelatedProducts": [
+        {
+            "imglink": "https://www.nesscoindia.com/Assets/images/service/Paper-Cup-Machine-160-Speed.webp",
+            "heading": "High Speed Paper Cup Machine ",
+            "productlink": "/product/high-speed-paper-cup-making-machine/"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/Assets/images/service/Paper-Straw-Making-Machine.webp",
+            "heading": "Paper Straw Making Machine",
+            "productlink": "/product/paper-straw-making-machine"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/Assets/images/service/Paper-Plate-Making-Machine.webp",
+            "heading": "Paper Plate Making Machine",
+            "productlink": "/product/paper-plate-making-machine"
+        },
+        {
+            "imglink": "https://www.nesscoindia.com/Assets/images/service/Flexo-Printing-Machine.webp",
+            "heading": "Flexo Printing Machine",
+            "productlink": "/product/flexo-printing-machine/"
+        }
+    ]   
+}

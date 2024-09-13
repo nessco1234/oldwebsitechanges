@@ -40,7 +40,7 @@
         "Paper Straw",
         "Machine"
     ],
-    "PointsHeadingDesc": "This machine is the most suitable and perfect alternate to the PP/PE plastic straws machines. These Paper straws are environment friendly as they are formed with bio degradable and food grade paper. This machine can make paper straws from 45 meters of paper in a minute.",
+    "PointsHeadingDesc": "Nessco paper straw making machine is the most suitable and perfect alternate to the PP/PE plastic straws machines. These Paper straws are environment friendly as they are formed with bio degradable and food grade paper. This machine can make paper straws from 45 meters of paper in a minute.",
     "PointsDescription": [],
     "ImageHeading": [
         "Products",
@@ -165,6 +165,10 @@
         {
             "name": "author",
             "content": "Nessco India"
+        },
+        {
+            "name": "og:image",
+            "content": "https://www.nesscoindia.com/Assets/images/resource/paper-straw-making-machine.webp" 
         }
     ],
     "seolink": {

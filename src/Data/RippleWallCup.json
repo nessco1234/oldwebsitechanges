@@ -151,6 +151,10 @@
         {
             "name": "author",
             "content": "Nessco India"
+        },
+        {
+            "name": "og:image",
+            "content": "https://www.nesscoindia.com/Assets/images/resource/ripple-wall-cup-machine.webp" 
         }
     ],
     "seolink": {

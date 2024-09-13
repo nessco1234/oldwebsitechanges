@@ -159,6 +159,10 @@
         {
             "name": "author",
             "content": "Nessco India"
+        },
+        {
+            "name": "og:image",
+            "content": "https://www.nesscoindia.com/Assets/images/resource/paper-lid-machine.webp" 
         }
     ],
     "seolink": {

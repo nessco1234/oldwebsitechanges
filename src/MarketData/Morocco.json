@@ -1,0 +1,32 @@
+{
+    "section1": false,
+    "section1heading": "Market Area",
+    "section1content": [
+        {
+            "Name":"Supplier",
+            "Link":"/"
+        }
+    ],
+    "section2": true,
+    "section2heading": "Morocco Market",
+    "section2content": [
+        {
+            "Name": "Paper Cup Making Machine In Morocco",
+            "Link": "/ma/paper-cup-making-machine/"
+        },
+        {
+            "Name": "Paper Bowl Making Machine In Morocco",
+            "Link": "/ma/paper-container-bowl-making-machine/"
+        },
+        {
+            "Name": "Carton Erecting Machine In Morocco",
+            "Link": "/ma/carton-erecting-machine/"
+        }
+    ],
+    "internalLinks":[
+        {
+            "Name": "",
+            "Link":""
+        }
+    ]
+}

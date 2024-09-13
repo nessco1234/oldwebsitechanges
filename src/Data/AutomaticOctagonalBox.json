@@ -1,7 +1,7 @@
 {
     "Route": "octagonal-box-forming-machine",
-    "Heading": " Octagonal Box Forming Machine",
-    "Description": " Introducing the Automatic Octagonal Box Forming Machine, a fully automated solution designed to streamline the production of disposable paper lunch boxes. This Octagonal Paper box forming machine excels in high-speed operations, making it ideal for the fast-paced demands of the food service industry. Equipped with a self-contained hot air generator, it precisely handles single PE coated paper, ensuring that each box is formed with exactness and strength.",
+    "Heading": " Octagonal Paper Box Forming Machine",
+    "Description": " Nessco Octagonal Paper Box Forming Machine, a fully automated solution designed to streamline the production of disposable paper lunch boxes. This Octagonal Paper box forming machine excels in high-speed operations, making it ideal for the fast-paced demands of the food service industry. Equipped with a self-contained hot air generator, it precisely handles single PE coated paper, ensuring that each box is formed with exactness and strength.",
     "Imglink": "https://www.nesscoindia.com/assets/images/service/Paper-Cup-Machine-90-Speed.webp",
     "Imgdesc": [
         ""
@@ -53,7 +53,7 @@
         "Products",
         "Introduction"
     ],
-    "ImageDescription": "This machine performs various functions including Die cutting, Creasing, Embossing, and full-stripping of various PE coated paper, standard paper, corrugating paper, and foam material. It is equipped with the latest modern technologies like micro-computer positioning, alternating current frequency converter, automatic counting, photoelectric rectifying, Pneumatic-lock cutting plate, electromagnetic clutch, centralized oil lubrication, overload protection, and distinctive gearing.",
+    "ImageDescription": "Nessco octagonal paper box machine performs various functions including Die cutting, Creasing, Embossing, and full-stripping of various PE coated paper, standard paper, corrugating paper, and foam material. It is equipped with the latest modern technologies like micro-computer positioning, alternating current frequency converter, automatic counting, photoelectric rectifying, Pneumatic-lock cutting plate, electromagnetic clutch, centralized oil lubrication, overload protection, and distinctive gearing.",
     "Imagelinkimg": "https://www.nesscoindia.com/Assets/images/service/PaperHandleCup.webp",
     "MachineSpecsLabels": [
         "FEATURE",
@@ -119,11 +119,11 @@
             "productlink": "/product/paper-plate-making-machine"
         }
     ],
-    "seotitle": "Automatic Octagonal Box Forming Machine | Nessco India",
+    "seotitle": "Octagonal Paper Box Forming Machine | Nessco",
     "seometa": [
         {
             "name": "description",
-            "content": "Buy fully automatic octagonal box forming machine pairing with advanced technology from Nessco India at the best price."
+            "content": "Nessco octagonal paper box forming machine pairing with advanced technology produces 13-18 paper food packaging boxes per minute. Get a Quote Now!"
         },
         {
             "name": "keywords",
@@ -164,7 +164,11 @@
         {
             "name": "author",
             "content": "Nessco India"
-        }
+        },
+        {
+            "name": "og:image",
+            "content": "https://www.nesscoindia.com/Assets/images/resource/OctagonalMachine.webp" 
+       }
     ],
     "seolink": {
         "name": "canonical",
